@@ -12,18 +12,23 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Stack(
         children: [
           Positioned.fill(
             child: Container(
-              color: Colors.white,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
-                  colors: [Color.fromRGBO(255, 251, 247, 1), Colors.white],
+                  colors: [
+                    Color.fromRGBO(255, 251, 247, 1),
+                    Color.fromRGBO(255, 251, 247, 1),
+                    Colors.white,
+                  ],
                 ),
               ),
+
             ),
           ),
           Column(children: []),
