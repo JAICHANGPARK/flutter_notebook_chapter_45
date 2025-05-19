@@ -15,7 +15,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
         children: [
           Positioned.fill(
             child: Container(
-              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [Color.fromRGBO(255, 251, 247, 1)],
+                ),
+              ),
             ),
           ),
           Column(children: []),
