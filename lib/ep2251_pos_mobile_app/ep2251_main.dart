@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 void main() {
-
+  runApp(PosMobileApp());
 }
 
 class PosMobileApp extends StatelessWidget {
