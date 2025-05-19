@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class PosHomeScreen extends StatefulWidget {
   const PosHomeScreen({super.key});
 
@@ -12,17 +11,16 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Scaffold(
+      body: Stack(
         children: [
-          Column(
-            children: [
-
-            ],
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+            ),
           ),
+          Column(children: []),
         ],
       ),
-
     );
   }
-
 }
