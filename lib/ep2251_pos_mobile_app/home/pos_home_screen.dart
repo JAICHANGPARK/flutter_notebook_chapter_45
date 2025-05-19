@@ -35,12 +35,22 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.fromLTRB(8, 24, 8,0,),
                     child: Row(
                       children: [
                         IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
-                        Expanded(child: Center(child: Text("Dream Flutter Bar"))),
-                        IconButton(onPressed: () {}, icon: Icon(Icons.notifications_none)),
+                        Expanded(
+                          child: Center(
+                            child: Text(
+                              "Dream Flutter Bar",
+                              style: TextStyle(fontSize: 19),
+                            ),
+                          ),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.notifications_none),
+                        ),
                       ],
                     ),
                   ),
