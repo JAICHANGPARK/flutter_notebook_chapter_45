@@ -28,14 +28,24 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   ],
                 ),
               ),
-
             ),
           ),
           Positioned.fill(
             child: SafeArea(
-              child: Column(children: [
-                
-              ]),
+              child: Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      children: [
+                        IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
+                        Expanded(child: Center(child: Text("Dream Flutter Bar"))),
+                        IconButton(onPressed: () {}, icon: Icon(Icons.notifications_none)),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
