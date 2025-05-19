@@ -12,7 +12,16 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bod
+      body: Scaffold(
+        children: [
+          Column(
+            children: [
+
+            ],
+          ),
+        ],
+      ),
+
     );
   }
 
