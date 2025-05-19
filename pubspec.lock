@@ -67,6 +67,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  hugeicons:
+    dependency: "direct main"
+    description:
+      name: hugeicons
+      sha256: cf172bae0c3ff2e2114324d05e79872081f4cd3c009f5979285fec73a693096a
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.11"
   leak_tracker:
     dependency: transitive
     description:
@@ -131,6 +139,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  percent_indicator:
+    dependency: "direct main"
+    description:
+      name: percent_indicator
+      sha256: "157d29133bbc6ecb11f923d36e7960a96a3f28837549a20b65e5135729f0f9fd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.5"
   sky_engine:
     dependency: transitive
     description: flutter
