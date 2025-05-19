@@ -11,6 +11,9 @@ class PosHomeScreen extends StatefulWidget {
 class _PosHomeScreenState extends State<PosHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      bod
+    );
   }
+
 }
