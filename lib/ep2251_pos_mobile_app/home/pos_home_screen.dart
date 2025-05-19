@@ -60,30 +60,34 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
           ),
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Home",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Restaurants",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Stores",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Chats",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(HugeIcons.strokeRoundedHome01),
-            label: "Profile",
-          ),
-        ],
+      bottomNavigationBar: SizedBox(
+        height: 92,
+        child: BottomNavigationBar(
+          backgroundColor: Colors.white,
+          type: BottomNavigationBarType.fixed,
+          items: [
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Home",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Restaurants",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Stores",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Chats",
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(HugeIcons.strokeRoundedHome01),
+              label: "Profile",
+            ),
+          ],
+        ),
       ),
     );
   }
