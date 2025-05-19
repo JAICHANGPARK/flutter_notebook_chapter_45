@@ -31,7 +31,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
 
             ),
           ),
-          Column(children: []),
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(children: [
+                
+              ]),
+            ),
+          ),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
