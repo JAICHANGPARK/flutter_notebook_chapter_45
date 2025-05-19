@@ -2,7 +2,7 @@
 
 ## EP2251
 
-- BNPL Online Shopping App
+- Fummo - POS Mobile App
 - Musemind Mobile for Musemind
 - https://dribbble.com/shots/26035539-BNPL-Online-Shopping-App
 
