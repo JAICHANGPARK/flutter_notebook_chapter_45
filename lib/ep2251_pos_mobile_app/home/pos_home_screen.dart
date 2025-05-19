@@ -17,7 +17,8 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color.fromRGBO(255, 251, 247, 1)],
+                  begin: Alignment.topCenter,
+                  colors: [Color.fromRGBO(255, 251, 247, 1), Colors.white],
                 ),
               ),
             ),
