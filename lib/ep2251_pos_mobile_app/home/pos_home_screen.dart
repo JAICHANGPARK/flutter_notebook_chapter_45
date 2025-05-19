@@ -14,7 +14,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
       body: Stack(
         children: [
           Positioned.fill(
+
             child: Container(
+              color: Colors.white,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                   begin: Alignment.topCenter,
