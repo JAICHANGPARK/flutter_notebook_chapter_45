@@ -81,10 +81,15 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
+
                   Container(height: 140,
 
                       padding: EdgeInsets.only(left: 16),
                       child: Placeholder()),
+
+                  Expanded(child: SingleChildScrollView(child: Column(children: [
+                    
+                  ],),))
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
@@ -98,7 +103,8 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   Container(
                     height: 200,
                     child: Placeholder(),
-                  )
+                  ),
+
                 ],
               ),
             ),
