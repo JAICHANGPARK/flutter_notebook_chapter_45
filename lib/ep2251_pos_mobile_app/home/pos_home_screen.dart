@@ -95,6 +95,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
+                  Container(
+                    height: 200,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
