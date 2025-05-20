@@ -60,7 +60,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            decoration: ShapeDecoration(shape: StadiumBorder(
+                              side: BorderSide(
+                                color: Colors.grey,
+                              )
+                            ),
+
+                            ),
                             child: TextField(),
                           ),
                         ),
