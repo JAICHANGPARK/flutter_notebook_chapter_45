@@ -112,7 +112,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                           Container(
                               padding: const EdgeInsets.all(16.0),
-                              height: 200, child: Placeholder()),
+                              height: 250, child: Placeholder()),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16.0),
                             child: GridView.builder(
