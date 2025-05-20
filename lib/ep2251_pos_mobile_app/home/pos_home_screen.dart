@@ -110,6 +110,15 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             ),
                           ),
                           Container(height: 200, child: Placeholder()),
+                          GridView.builder(
+                            gridDelegate:
+                                SliverGridDelegateWithFixedCrossAxisCount(
+                                  crossAxisCount: 2,
+                                ),
+                            itemBuilder: (context,index){
+                              return Placeholder(),
+                            },
+                          ),
                         ],
                       ),
                     ),
