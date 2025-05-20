@@ -72,6 +72,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                         ),
                         Container(
+
                           decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.white,
                           border: Border.all()),
                           padding: EdgeInsets.all(6),
@@ -80,7 +81,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 140, child: Placeholder()),
+                  Container(height: 140,
+
+                      padding: EdgeInsets.only(left: 16),
+                      child: Placeholder()),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
