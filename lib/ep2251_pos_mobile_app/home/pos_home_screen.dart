@@ -77,11 +77,15 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                     ),
                   ),
                   SizedBox(height: 140, child: Placeholder()),
-                  Row(
-                    children: [
-                      Text("Search By Category"),
-                      TextButton(onPressed: () {}, child: Text("View All")),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Search By Category"),
+                        TextButton(onPressed: () {}, child: Text("View All")),
+                      ],
+                    ),
                   ),
                 ],
               ),
