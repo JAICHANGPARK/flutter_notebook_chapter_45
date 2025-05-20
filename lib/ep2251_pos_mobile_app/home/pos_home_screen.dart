@@ -72,7 +72,8 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                         ),
                         Container(
-                          decoration: BoxDecoration(shape: BoxShape.circle),
+                          decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.white,
+                          border: Border.all()),
                           child: Icon(Icons.filter_list),
                         ),
                       ],
