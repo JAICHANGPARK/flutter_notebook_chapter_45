@@ -78,6 +78,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
+                  SizedBox(height: 140,
+                  child: Placeholder(),),
+                  Row(
+                    children: [
+                      Text("Search By Category",),
+                      
+                    ],
+                  )
                 ],
               ),
             ),
