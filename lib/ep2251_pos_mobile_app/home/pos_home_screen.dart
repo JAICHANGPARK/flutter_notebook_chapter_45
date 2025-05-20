@@ -87,7 +87,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       padding: EdgeInsets.only(left: 16),
                       child: Placeholder()),
 
-                  Expanded(child: SingleChildScrollView(child: Column(children: [
+                  Expanded(child: SingleChildScrollView(child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
