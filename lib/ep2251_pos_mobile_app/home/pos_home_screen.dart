@@ -61,12 +61,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       children: [
                         Expanded(
                           child: Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder(
-                              side: BorderSide(
-                                color: Colors.grey,
-                              )
-                            ),
-
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(
+                                side: BorderSide(color: Colors.grey),
+                              ),
                             ),
                             child: TextField(),
                           ),
@@ -78,14 +76,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 140,
-                  child: Placeholder(),),
+                  SizedBox(height: 140, child: Placeholder()),
                   Row(
                     children: [
-                      Text("Search By Category",),
-                      
+                      Text("Search By Category"),
+                      TextButton(onPressed: () {}, child: Text("View All")),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
