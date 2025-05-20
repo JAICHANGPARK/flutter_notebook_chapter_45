@@ -72,9 +72,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                         ),
                         Container(
-
-                          decoration: BoxDecoration(shape: BoxShape.circle,color: Colors.white,
-                          border: Border.all()),
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            color: Colors.white,
+                            border: Border.all(),
+                          ),
                           padding: EdgeInsets.all(6),
                           child: Icon(Icons.filter_list),
                         ),
@@ -82,31 +84,36 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                     ),
                   ),
 
-                  Container(height: 140,
+                  Container(
+                    height: 140,
 
-                      padding: EdgeInsets.only(left: 16),
-                      child: Placeholder()),
+                    padding: EdgeInsets.only(left: 16),
+                    child: Placeholder(),
+                  ),
 
-                  Expanded(child: SingleChildScrollView(child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Search By Category"),
-                          TextButton(onPressed: () {}, child: Text("View All")),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Search By Category"),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("View All"),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(height: 200, child: Placeholder()),
                         ],
                       ),
                     ),
-                    Container(
-                      height: 200,
-                      child: Placeholder(),
-                    ),
-                  ],),)),
-
-
+                  ),
                 ],
               ),
             ),
