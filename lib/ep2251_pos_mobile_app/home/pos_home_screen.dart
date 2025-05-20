@@ -55,8 +55,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  Container(
                     height: 42,
+                    margin: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       children: [
                         Expanded(
@@ -78,7 +79,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   ),
                   SizedBox(height: 140, child: Placeholder()),
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
