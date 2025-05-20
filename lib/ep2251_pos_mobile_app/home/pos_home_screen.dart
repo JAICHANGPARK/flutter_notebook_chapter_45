@@ -95,6 +95,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                     child: SingleChildScrollView(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 12,
                         children: [
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -111,12 +112,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                           Container(height: 200, child: Placeholder()),
                           GridView.builder(
+                            shrinkWrap: true,
+                            itemCount: 10,
                             gridDelegate:
                                 SliverGridDelegateWithFixedCrossAxisCount(
                                   crossAxisCount: 2,
                                 ),
                             itemBuilder: (context,index){
-                              return Placeholder(),
+                              return Placeholder();
                             },
                           ),
                         ],
