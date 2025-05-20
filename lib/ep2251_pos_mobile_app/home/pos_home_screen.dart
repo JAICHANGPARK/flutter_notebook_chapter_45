@@ -71,19 +71,19 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
               label: "Home",
             ),
             BottomNavigationBarItem(
-              icon: Icon(HugeIcons.strokeRoundedHome01),
+              icon: Icon(HugeIcons.strokeRoundedRestaurant01),
               label: "Restaurants",
             ),
             BottomNavigationBarItem(
-              icon: Icon(HugeIcons.strokeRoundedHome01),
+              icon: Icon(HugeIcons.strokeRoundedStore01),
               label: "Stores",
             ),
             BottomNavigationBarItem(
-              icon: Icon(HugeIcons.strokeRoundedHome01),
+              icon: Icon(HugeIcons.strokeRoundedChatting01),
               label: "Chats",
             ),
             BottomNavigationBarItem(
-              icon: Icon(HugeIcons.strokeRoundedHome01),
+              icon: Icon(HugeIcons.strokeRoundedUser),
               label: "Profile",
             ),
           ],
