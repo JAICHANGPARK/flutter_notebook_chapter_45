@@ -118,10 +118,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             child: GridView.builder(
                               shrinkWrap: true,
                               itemCount: 10,
+                              physics: NeverScrollableScrollPhysics(),
                               gridDelegate:
                                   SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 2,
-                                  ),
+                                    crossAxisSpacing: 12,
+                                    mainAxisSpacing: 12
+,                                  ),
                               itemBuilder: (context,index){
                                 return Placeholder();
                               },
