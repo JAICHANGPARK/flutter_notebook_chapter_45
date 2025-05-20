@@ -35,7 +35,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(8, 24, 8,0,),
+                    padding: const EdgeInsets.fromLTRB(8, 24, 8, 0),
                     child: Row(
                       children: [
                         IconButton(onPressed: () {}, icon: Icon(Icons.menu)),
@@ -50,6 +50,23 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                         IconButton(
                           onPressed: () {},
                           icon: Icon(Icons.notifications_none),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 42,
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            child: TextField(),
+                          ),
+                        ),
+                        Container(
+                          decoration: BoxDecoration(shape: BoxShape.circle),
+                          child: Icon(Icons.filter_list),
                         ),
                       ],
                     ),
