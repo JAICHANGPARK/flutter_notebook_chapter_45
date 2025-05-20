@@ -88,22 +88,22 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       child: Placeholder()),
 
                   Expanded(child: SingleChildScrollView(child: Column(children: [
-                    
-                  ],),))
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Search By Category"),
-                        TextButton(onPressed: () {}, child: Text("View All")),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Search By Category"),
+                          TextButton(onPressed: () {}, child: Text("View All")),
+                        ],
+                      ),
                     ),
-                  ),
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  ),
+                    Container(
+                      height: 200,
+                      child: Placeholder(),
+                    ),
+                  ],),)),
+
 
                 ],
               ),
