@@ -33,6 +33,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.fromLTRB(8, 24, 8, 0),
