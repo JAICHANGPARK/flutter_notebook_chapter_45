@@ -57,8 +57,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   ),
                   Container(
                     height: 42,
-                    margin: EdgeInsets.symmetric(horizontal: 12),
+                    margin: EdgeInsets.symmetric(horizontal: 16),
                     child: Row(
+                      spacing: 16,
                       children: [
                         Expanded(
                           child: Container(
