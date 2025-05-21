@@ -268,7 +268,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                     crossAxisCount: 2,
                                     crossAxisSpacing: 12,
                                     mainAxisSpacing: 12,
-                                    childAspectRatio: .8
+                                    childAspectRatio: .8,
                                   ),
                               itemBuilder: (context, index) {
                                 return Container(
@@ -287,7 +287,8 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                         padding: const EdgeInsets.all(12.0),
                                         child: Column(
                                           spacing: 6,
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Text("Special Spicy Hamburger"),
                                             Row(
@@ -301,16 +302,17 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                                       color: Colors.grey[200]!,
                                                     ),
                                                   ),
-                                                  child: Icon(Icons.remove,
-                                                    size: 12,),
+                                                  child: Icon(
+                                                    Icons.remove,
+                                                    size: 12,
+                                                  ),
                                                   padding: EdgeInsets.all(4),
                                                 ),
                                               ],
                                             ),
                                           ],
                                         ),
-                                      )
-
+                                      ),
                                     ],
                                   ),
                                 );
