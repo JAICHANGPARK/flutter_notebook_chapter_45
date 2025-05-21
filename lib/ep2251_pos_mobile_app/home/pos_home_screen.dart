@@ -292,6 +292,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           children: [
                                             Text("Special Spicy Hamburger"),
                                             Row(
+                                              spacing: 12,
                                               children: [
                                                 Text("\$9.87"),
                                                 Spacer(),
@@ -302,11 +303,25 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                                       color: Colors.grey[200]!,
                                                     ),
                                                   ),
+                                                  padding: EdgeInsets.all(4),
                                                   child: Icon(
                                                     Icons.remove,
                                                     size: 12,
                                                   ),
+                                                ),
+                                                Text("1"),
+                                                Container(
+                                                  decoration: BoxDecoration(
+                                                    shape: BoxShape.circle,
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
+                                                  ),
                                                   padding: EdgeInsets.all(4),
+                                                  child: Icon(
+                                                    Icons.add,
+                                                    size: 12,
+                                                  ),
                                                 ),
                                               ],
                                             ),
