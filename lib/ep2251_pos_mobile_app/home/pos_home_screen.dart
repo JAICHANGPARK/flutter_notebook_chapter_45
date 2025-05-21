@@ -104,7 +104,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
                       itemBuilder: (context, index) {
-                        return Container();
+                        return Container(
+                          decoration: BoxDecoration(
+                            border: Border.all(color: Colors.grey[200]!
+                            ),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        );
                       },
                     ),
                   ),
