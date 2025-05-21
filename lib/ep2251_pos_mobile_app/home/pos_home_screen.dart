@@ -65,8 +65,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(
-                                side: BorderSide(color: Colors.grey),
+                                side: BorderSide(color: Colors.grey[300]!,),
                               ),
+
                             ),
                             padding: EdgeInsets.symmetric(horizontal: 12),
                             child: TextField(
