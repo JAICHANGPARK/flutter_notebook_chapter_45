@@ -124,7 +124,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           child: Column(
                             children: [
                               Divider(),
-                              
+
                             ],
                           ),
                         );
@@ -143,7 +143,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Search By Category"),
+                                Text("Search By Category", style: TextStyle(
+                                    fontSize: 17, 
+                                ),),
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("View All"),
@@ -154,7 +156,12 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             height: 250,
-                            child: Placeholder(),
+                            child: Column(
+                              children: [
+                                Expanded(child: Row(children: [],)),
+                                Expanded(child: Row(children: [],))
+                              ],
+                            ),
                           ),
                           Padding(
                             padding: const EdgeInsets.symmetric(
@@ -165,11 +172,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               itemCount: 10,
                               physics: NeverScrollableScrollPhysics(),
                               gridDelegate:
-                                  SliverGridDelegateWithFixedCrossAxisCount(
-                                    crossAxisCount: 2,
-                                    crossAxisSpacing: 12,
-                                    mainAxisSpacing: 12,
-                                  ),
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                                crossAxisSpacing: 12,
+                                mainAxisSpacing: 12,
+                              ),
                               itemBuilder: (context, index) {
                                 return Placeholder();
                               },
