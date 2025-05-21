@@ -157,168 +157,50 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                 Expanded(
                                   child: Row(
                                     spacing: 12,
-                                    children: [
-                                      Expanded(
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(
-                                              12,
-                                            ),
-                                            border: Border.all(
-                                              color: Colors.grey[300]!,
-                                            ),
-                                          ),
-                                          child: Column(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.center,
-                                            spacing: 8,
-                                            children: [
-                                              Container(
-                                                height: 48,
-                                                width: 48,
-                                                decoration: BoxDecoration(
-                                                  color: Colors.grey[50]!,
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color:
-                                                        Colors.blueGrey[100]!,
-                                                  ),
-                                                ),
-                                                child: Center(
-                                                  child: Text(
-                                                    "🍕",
-                                                    style: TextStyle(
-                                                      fontSize: 20,
-                                                    ),
-                                                  ),
+                                    children:
+                                        List.generate(
+                                          4,
+                                          (idx) => Expanded(
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(12),
+                                                border: Border.all(
+                                                  color: Colors.grey[300]!,
                                                 ),
                                               ),
-                                              Text("Pizza"),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                      Expanded(
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(
-                                              12,
-                                            ),
-                                            border: Border.all(
-                                              color: Colors.grey[300]!,
-                                            ),
-                                          ),
-                                          child: Column(
-                                            mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                            spacing: 8,
-                                            children: [
-                                              Container(
-                                                height: 48,
-                                                width: 48,
-                                                decoration: BoxDecoration(
-                                                  color: Colors.grey[50]!,
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color:
-                                                    Colors.blueGrey[100]!,
-                                                  ),
-                                                ),
-                                                child: Center(
-                                                  child: Text(
-                                                    "🍕",
-                                                    style: TextStyle(
-                                                      fontSize: 20,
+                                              child: Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                spacing: 8,
+                                                children: [
+                                                  Container(
+                                                    height: 48,
+                                                    width: 48,
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.grey[50]!,
+                                                      shape: BoxShape.circle,
+                                                      border: Border.all(
+                                                        color:
+                                                            Colors
+                                                                .blueGrey[100]!,
+                                                      ),
+                                                    ),
+                                                    child: Center(
+                                                      child: Text(
+                                                        "🍕",
+                                                        style: TextStyle(
+                                                          fontSize: 20,
+                                                        ),
+                                                      ),
                                                     ),
                                                   ),
-                                                ),
+                                                  Text("Pizza"),
+                                                ],
                                               ),
-                                              Text("Pizza"),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                      Expanded(
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(
-                                              12,
-                                            ),
-                                            border: Border.all(
-                                              color: Colors.grey[300]!,
                                             ),
                                           ),
-                                          child: Column(
-                                            mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                            spacing: 8,
-                                            children: [
-                                              Container(
-                                                height: 48,
-                                                width: 48,
-                                                decoration: BoxDecoration(
-                                                  color: Colors.grey[50]!,
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color:
-                                                    Colors.blueGrey[100]!,
-                                                  ),
-                                                ),
-                                                child: Center(
-                                                  child: Text(
-                                                    "🍕",
-                                                    style: TextStyle(
-                                                      fontSize: 20,
-                                                    ),
-                                                  ),
-                                                ),
-                                              ),
-                                              Text("Pizza"),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                      Expanded(
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(
-                                              12,
-                                            ),
-                                            border: Border.all(
-                                              color: Colors.grey[300]!,
-                                            ),
-                                          ),
-                                          child: Column(
-                                            mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                            spacing: 8,
-                                            children: [
-                                              Container(
-                                                height: 48,
-                                                width: 48,
-                                                decoration: BoxDecoration(
-                                                  color: Colors.grey[50]!,
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color:
-                                                    Colors.blueGrey[100]!,
-                                                  ),
-                                                ),
-                                                child: Center(
-                                                  child: Text(
-                                                    "🍕",
-                                                    style: TextStyle(
-                                                      fontSize: 20,
-                                                    ),
-                                                  ),
-                                                ),
-                                              ),
-                                              Text("Pizza"),
-                                            ],
-                                          ),
-                                        ),
-                                      ),
-                                    ],
+                                        ).toList(),
                                   ),
                                 ),
                                 Expanded(
