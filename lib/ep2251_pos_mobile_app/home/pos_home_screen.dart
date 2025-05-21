@@ -70,7 +70,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             ),
                             child: TextField(
                               decoration: InputDecoration(
-                                contentPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 8),
+                                contentPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
                                 hintText: "Search Something",
                                 icon: Icon(Icons.search),
                                 iconColor: Colors.orange,
