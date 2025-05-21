@@ -65,14 +65,16 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(
-                                side: BorderSide(color: Colors.grey[300]!,),
+                                side: BorderSide(color: Colors.grey[300]!),
                               ),
-
                             ),
                             padding: EdgeInsets.symmetric(horizontal: 12),
                             child: TextField(
                               decoration: InputDecoration(
-                                contentPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
+                                contentPadding: EdgeInsets.symmetric(
+                                  horizontal: 0,
+                                  vertical: 10,
+                                ),
                                 hintText: "Search Something",
                                 icon: Icon(Icons.search),
                                 iconColor: Colors.orange,
@@ -85,7 +87,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             color: Colors.white,
-                            border: Border.all(),
+                            border: Border.all(color: Colors.grey[300]!),
                           ),
                           padding: EdgeInsets.all(6),
                           child: Icon(Icons.filter_list),
@@ -121,10 +123,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             ),
                           ),
                           Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 16),
-                              height: 250, child: Placeholder()),
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            height: 250,
+                            child: Placeholder(),
+                          ),
                           Padding(
-                            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16.0,
+                            ),
                             child: GridView.builder(
                               shrinkWrap: true,
                               itemCount: 10,
@@ -133,9 +139,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                   SliverGridDelegateWithFixedCrossAxisCount(
                                     crossAxisCount: 2,
                                     crossAxisSpacing: 12,
-                                    mainAxisSpacing: 12
-,                                  ),
-                              itemBuilder: (context,index){
+                                    mainAxisSpacing: 12,
+                                  ),
+                              itemBuilder: (context, index) {
                                 return Placeholder();
                               },
                             ),
