@@ -183,7 +183,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                                         Colors.blueGrey[100]!,
                                                   ),
                                                 ),
-                                                child: Text(""),
+                                                child: Text("🍕"),
                                               ),
                                               Text("Pizza")
                                             ],
