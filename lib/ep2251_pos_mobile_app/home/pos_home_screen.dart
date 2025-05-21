@@ -144,7 +144,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text("Search By Category", style: TextStyle(
-                                    fontSize: 17, 
+                                    fontSize: 17,
                                 ),),
                                 TextButton(
                                   onPressed: () {},
@@ -158,7 +158,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             height: 250,
                             child: Column(
                               children: [
-                                Expanded(child: Row(children: [],)),
+                                Expanded(child: Row(children: [
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder()),
+
+                                ],)),
                                 Expanded(child: Row(children: [],))
                               ],
                             ),
