@@ -90,7 +90,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             border: Border.all(color: Colors.grey[300]!),
                           ),
                           padding: EdgeInsets.all(6),
-                          child: Icon(Icons.filter_list),
+                          child: Icon(Icons.filter_list, color: Colors.orange),
                         ),
                       ],
                     ),
@@ -100,7 +100,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                     height: 140,
 
                     padding: EdgeInsets.only(left: 16),
-                    child: Placeholder(),
+                    child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: 10,
+                      itemBuilder: (context, index) {
+                        return Container();
+                      },
+                    ),
                   ),
 
                   Expanded(
