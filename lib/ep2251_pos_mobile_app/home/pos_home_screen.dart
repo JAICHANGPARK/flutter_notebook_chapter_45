@@ -73,6 +73,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                 hintText: "Search Something",
                                 icon: Icon(Icons.search),
                                 iconColor: Colors.orange,
+                                border: InputBorder.none,
                               ),
                             ),
                           ),
