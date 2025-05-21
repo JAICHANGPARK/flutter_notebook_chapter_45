@@ -207,49 +207,49 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                   child: Row(
                                     spacing: 12,
                                     children:
-                                    List.generate(
-                                      4,
+                                        List.generate(
+                                          4,
                                           (idx) => Expanded(
-                                        child: Container(
-                                          decoration: BoxDecoration(
-                                            borderRadius:
-                                            BorderRadius.circular(12),
-                                            border: Border.all(
-                                              color: Colors.grey[300]!,
-                                            ),
-                                          ),
-                                          child: Column(
-                                            mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                            spacing: 8,
-                                            children: [
-                                              Container(
-                                                height: 48,
-                                                width: 48,
-                                                decoration: BoxDecoration(
-                                                  color: Colors.grey[50]!,
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color:
-                                                    Colors
-                                                        .blueGrey[100]!,
-                                                  ),
-                                                ),
-                                                child: Center(
-                                                  child: Text(
-                                                    "🍕",
-                                                    style: TextStyle(
-                                                      fontSize: 20,
-                                                    ),
-                                                  ),
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(12),
+                                                border: Border.all(
+                                                  color: Colors.grey[300]!,
                                                 ),
                                               ),
-                                              Text("Pizza"),
-                                            ],
+                                              child: Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                spacing: 8,
+                                                children: [
+                                                  Container(
+                                                    height: 48,
+                                                    width: 48,
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.grey[50]!,
+                                                      shape: BoxShape.circle,
+                                                      border: Border.all(
+                                                        color:
+                                                            Colors
+                                                                .blueGrey[100]!,
+                                                      ),
+                                                    ),
+                                                    child: Center(
+                                                      child: Text(
+                                                        "🍕",
+                                                        style: TextStyle(
+                                                          fontSize: 20,
+                                                        ),
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Text("Pizza"),
+                                                ],
+                                              ),
+                                            ),
                                           ),
-                                        ),
-                                      ),
-                                    ).toList(),
+                                        ).toList(),
                                   ),
                                 ),
                               ],
@@ -270,7 +270,21 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                     mainAxisSpacing: 12,
                                   ),
                               itemBuilder: (context, index) {
-                                return Placeholder();
+                                return Container(
+                                  decoration: BoxDecoration(
+                                    border: Border.all(
+                                      color: Colors.grey[300]!,
+                                    ),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  child: Column(
+                                    children: [
+                                      Expanded(
+                                        child: Container(child: Placeholder()),
+                                      ),
+                                    ],
+                                  ),
+                                );
                               },
                             ),
                           ),
