@@ -171,6 +171,8 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           child: Column(
                                             children: [
                                               Container(
+                                                height: 48,
+                                                width: 48,
                                                 decoration: BoxDecoration(
                                                   shape: BoxShape.circle,
                                                   border: Border.all(
