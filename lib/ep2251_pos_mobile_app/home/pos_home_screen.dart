@@ -68,6 +68,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                 side: BorderSide(color: Colors.grey),
                               ),
                             ),
+                            padding: EdgeInsets.symmetric(horizontal: 12),
                             child: TextField(
                               decoration: InputDecoration(
                                 contentPadding: EdgeInsets.symmetric(horizontal: 0, vertical: 10),
