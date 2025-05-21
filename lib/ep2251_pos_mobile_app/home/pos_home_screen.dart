@@ -106,13 +106,16 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       itemBuilder: (context, index) {
                         return Container(
                           width: 280,
-                          margin: EdgeInsets.only(
-                            right: 16,
-                          ),
+                          margin: EdgeInsets.only(right: 16),
                           decoration: BoxDecoration(
-                            border: Border.all(color: Colors.grey[200]!
-                            ),
+                            border: Border.all(color: Colors.grey[200]!),
                             borderRadius: BorderRadius.circular(12),
+                            gradient: LinearGradient(
+                              colors: [
+                                Color.fromRGBO(255, 247, 232, 1),
+                                Colors.white,
+                              ],
+                            ),
                           ),
                         );
                       },
