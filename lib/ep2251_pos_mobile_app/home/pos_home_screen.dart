@@ -112,11 +112,20 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             borderRadius: BorderRadius.circular(12),
                             gradient: LinearGradient(
                               begin: Alignment.bottomLeft,
+                              end: Alignment.topRight,
                               colors: [
-                                Color.fromRGBO(255, 247, 232, 1),
+
                                 Colors.white,
+                                Colors.white,
+                                Color.fromRGBO(255, 247, 232, 1),
                               ],
                             ),
+                          ),
+                          child: Column(
+                            children: [
+                              Divider(),
+                              
+                            ],
                           ),
                         );
                       },
