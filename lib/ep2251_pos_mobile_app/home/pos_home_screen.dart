@@ -282,6 +282,17 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       Expanded(
                                         child: Container(child: Placeholder()),
                                       ),
+                                      Text("Special Spicy Hamburger"),
+                                      Row(
+                                        children: [
+                                          Text("\$9.87"),
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              shape: BoxShape.circle,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                     ],
                                   ),
                                 );
