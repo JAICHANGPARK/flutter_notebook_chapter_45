@@ -286,12 +286,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       Padding(
                                         padding: const EdgeInsets.all(12.0),
                                         child: Column(
+                                          spacing: 6,
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text("Special Spicy Hamburger"),
                                             Row(
                                               children: [
                                                 Text("\$9.87"),
+                                                Spacer(),
                                                 Container(
                                                   decoration: BoxDecoration(
                                                     shape: BoxShape.circle,
