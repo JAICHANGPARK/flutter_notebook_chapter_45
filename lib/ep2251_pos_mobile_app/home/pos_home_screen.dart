@@ -74,9 +74,12 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               decoration: InputDecoration(
                                 contentPadding: EdgeInsets.symmetric(
                                   horizontal: 0,
-                                  vertical: 10,
+                                  vertical: 12,
                                 ),
                                 hintText: "Search Something",
+                                hintStyle: TextStyle(
+                                  fontSize: 14,
+                                ),
                                 icon: Icon(Icons.search),
                                 iconColor: Colors.orange,
                                 border: InputBorder.none,
