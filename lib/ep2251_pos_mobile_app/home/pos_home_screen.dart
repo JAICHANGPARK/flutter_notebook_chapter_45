@@ -114,19 +114,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               begin: Alignment.bottomLeft,
                               end: Alignment.topRight,
                               colors: [
-
                                 Colors.white,
                                 Colors.white,
                                 Color.fromRGBO(255, 247, 232, 1),
                               ],
                             ),
                           ),
-                          child: Column(
-                            children: [
-                              Divider(),
-
-                            ],
-                          ),
+                          child: Column(children: [Divider()]),
                         );
                       },
                     ),
@@ -143,9 +137,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Search By Category", style: TextStyle(
-                                    fontSize: 17,
-                                ),),
+                                Text(
+                                  "Search By Category",
+                                  style: TextStyle(fontSize: 17),
+                                ),
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("View All"),
@@ -159,28 +154,52 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             child: Column(
                               spacing: 20,
                               children: [
-                                Expanded(child: Row(
-                                  spacing: 12,
-                                  children: [
-                                  Expanded(child: Container(
-                                    decoration: BoxDecoration(
-                                      borderRadius: BorderRadius.circular(12),
-                                    ),
-                                  )),
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder()),
-
-                                ],)),
-                                Expanded(child: Row(
-                                  spacing: 12,
-                                  children: [
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
-                                    Expanded(child: Placeholder()),
-
-                                  ],)),
+                                Expanded(
+                                  child: Row(
+                                    spacing: 12,
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(
+                                              12,
+                                            ),
+                                            border: Border.all(
+                                              color: Colors.grey[300]!,
+                                            ),
+                                          ),
+                                          child: Column(
+                                            children: [
+                                              Container(
+                                                decoration: BoxDecoration(
+                                                  shape: BoxShape.circle,
+                                                  border: Border.all(
+                                                    color:
+                                                        Colors.blueGrey[100]!,
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                      ),
+                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Placeholder()),
+                                    ],
+                                  ),
+                                ),
+                                Expanded(
+                                  child: Row(
+                                    spacing: 12,
+                                    children: [
+                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Placeholder()),
+                                      Expanded(child: Placeholder()),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           ),
@@ -193,11 +212,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               itemCount: 10,
                               physics: NeverScrollableScrollPhysics(),
                               gridDelegate:
-                              SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 2,
-                                crossAxisSpacing: 12,
-                                mainAxisSpacing: 12,
-                              ),
+                                  SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 2,
+                                    crossAxisSpacing: 12,
+                                    mainAxisSpacing: 12,
+                                  ),
                               itemBuilder: (context, index) {
                                 return Placeholder();
                               },
