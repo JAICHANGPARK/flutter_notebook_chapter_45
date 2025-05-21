@@ -68,7 +68,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                 side: BorderSide(color: Colors.grey),
                               ),
                             ),
-                            child: TextField(),
+                            child: TextField(
+                              decoration: InputDecoration(
+                                hintText: "Search Something",
+                                icon: Icon(Icons.search),
+                                iconColor: Colors.orange,
+                              ),
+                            ),
                           ),
                         ),
                         Container(
