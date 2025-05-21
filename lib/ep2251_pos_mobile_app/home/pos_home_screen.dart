@@ -155,14 +155,18 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                           Container(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
-                            height: 240,
+                            height: 220,
                             child: Column(
                               spacing: 20,
                               children: [
                                 Expanded(child: Row(
                                   spacing: 12,
                                   children: [
-                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(12),
+                                    ),
+                                  )),
                                   Expanded(child: Placeholder()),
                                   Expanded(child: Placeholder()),
                                   Expanded(child: Placeholder()),
