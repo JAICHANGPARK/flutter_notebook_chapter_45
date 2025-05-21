@@ -282,27 +282,30 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       Expanded(
                                         child: Container(child: Placeholder()),
                                       ),
-                                      Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
-                                        children: [
-                                          Text("Special Spicy Hamburger"),
-                                          Row(
-                                            children: [
-                                              Text("\$9.87"),
-                                              Container(
-                                                decoration: BoxDecoration(
-                                                  shape: BoxShape.circle,
-                                                  border: Border.all(
-                                                    color: Colors.grey[200]!,
+                                      Padding(
+                                        padding: const EdgeInsets.all(12.0),
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
+                                            Text("Special Spicy Hamburger"),
+                                            Row(
+                                              children: [
+                                                Text("\$9.87"),
+                                                Container(
+                                                  decoration: BoxDecoration(
+                                                    shape: BoxShape.circle,
+                                                    border: Border.all(
+                                                      color: Colors.grey[200]!,
+                                                    ),
                                                   ),
+                                                  child: Icon(Icons.remove,
+                                                    size: 12,),
+                                                  padding: EdgeInsets.all(4),
                                                 ),
-                                                child: Icon(Icons.remove,
-                                                  size: 12,),
-                                                padding: EdgeInsets.all(4),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
+                                              ],
+                                            ),
+                                          ],
+                                        ),
                                       )
 
                                     ],
