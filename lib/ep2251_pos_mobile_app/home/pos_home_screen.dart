@@ -169,7 +169,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                             ),
                                           ),
                                           child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            spacing: 8,
                                             children: [
+
                                               Container(
                                                 height: 48,
                                                 width: 48,
@@ -180,7 +183,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                                         Colors.blueGrey[100]!,
                                                   ),
                                                 ),
+                                                child: Text(""),
                                               ),
+                                              Text("Pizza")
                                             ],
                                           ),
                                         ),
