@@ -282,6 +282,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       Expanded(
                                         child: Container(child: Placeholder()),
                                       ),
+                                      
                                       Text("Special Spicy Hamburger"),
                                       Row(
                                         children: [
@@ -289,7 +290,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           Container(
                                             decoration: BoxDecoration(
                                               shape: BoxShape.circle,
+                                              border: Border.all(
+                                                color: Colors.grey[200]!,
+                                              ),
                                             ),
+                                            child: Icon(Icons.remove,
+                                            size: 12,),
+                                            padding: EdgeInsets.all(4),
                                           ),
                                         ],
                                       ),
