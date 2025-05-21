@@ -105,6 +105,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                       itemCount: 10,
                       itemBuilder: (context, index) {
                         return Container(
+                          width: 280,
                           decoration: BoxDecoration(
                             border: Border.all(color: Colors.grey[200]!
                             ),
