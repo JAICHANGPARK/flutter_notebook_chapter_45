@@ -77,9 +77,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                   vertical: 12,
                                 ),
                                 hintText: "Search Something",
-                                hintStyle: TextStyle(
-                                  fontSize: 14,
-                                ),
+                                hintStyle: TextStyle(fontSize: 14),
                                 icon: Icon(Icons.search),
                                 iconColor: Colors.orange,
                                 border: InputBorder.none,
@@ -124,14 +122,23 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               ],
                             ),
                           ),
-                          child: Column(children: [
-                            Row(
-                              children: [
-                                Text("Order #33323")
-                              ],
-                            ),
+                          child: Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Text("Order #33323"),
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.red[50]!,
+                                    ),
+                                  ),
+                                ],
+                              ),
 
-                            Divider()]),
+                              Divider(),
+                            ],
+                          ),
                         );
                       },
                     ),
