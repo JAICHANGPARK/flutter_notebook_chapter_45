@@ -192,7 +192,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
 
                               Divider(),
                               Padding(
-                                padding: const EdgeInsets.all(12.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                                 child: Row(
                                   children: [
                                     Icon(Icons.access_time_outlined,size: 16,),
