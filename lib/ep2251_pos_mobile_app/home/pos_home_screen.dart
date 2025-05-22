@@ -377,6 +377,9 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                         child: SizedBox(
                                           width: double.infinity,
                                           child: ClipRRect(
+                                            borderRadius: BorderRadius.only(
+                                              topLeft: Radius.circular(6),
+                                            ),
                                             child: Image.network(
                                               "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
                                               fit: BoxFit.cover,
