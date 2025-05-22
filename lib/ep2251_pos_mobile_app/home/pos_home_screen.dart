@@ -144,7 +144,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           ),
                                           child: Text(
                                             "Delivered",
-                                            style: TextStyle(color: Colors.red),
+                                            style: TextStyle(
+                                              color: Colors.red,
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 12,
+                                            ),
                                           ),
                                         ),
                                       ],
