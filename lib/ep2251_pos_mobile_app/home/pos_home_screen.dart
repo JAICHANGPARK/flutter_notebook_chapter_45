@@ -124,20 +124,33 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                           child: Column(
                             children: [
-                              Row(
+                              Column(
                                 children: [
-                                  Text("Order #33323"),
-                                  Container(
-                                    padding: EdgeInsets.symmetric(horizontal: 12),
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Colors.red[50]!,
-                                    ),
-                                    child: Text(
-                                      "Delivered",
-                                      style: TextStyle(color: Colors.red),
-                                    ),
+                                  Row(
+                                    children: [
+                                      Text("Order #33323"),
+                                      Container(
+                                        padding: EdgeInsets.symmetric(horizontal: 12),
+                                        decoration: ShapeDecoration(
+                                          shape: StadiumBorder(),
+                                          color: Colors.red[50]!,
+                                        ),
+                                        child: Text(
+                                          "Delivered",
+                                          style: TextStyle(color: Colors.red),
+                                        ),
+                                      ),
+                                    ],
                                   ),
+                                  Row(
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle
+                                        ),
+                                      )
+                                    ],
+                                  )
                                 ],
                               ),
 
