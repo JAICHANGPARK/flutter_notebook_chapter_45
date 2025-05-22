@@ -124,7 +124,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               ],
                             ),
                           ),
-                          child: Column(children: [Divider()]),
+                          child: Column(children: [
+
+                            
+                            Divider()]),
                         );
                       },
                     ),
