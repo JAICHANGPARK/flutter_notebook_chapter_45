@@ -193,10 +193,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               Divider(),
                               Row(
                                 children: [
-                                  Icon(Icons.access_time_outlined),
+                                  Icon(Icons.access_time_outlined,size: 12,),
                                   Text("10 Minutes Ago"),
                                   Spacer(),
-                                  Icon(Icons.grid_on_outlined),
+                                  Icon(Icons.grid_on_outlined,size: 12,),
                                   Text("Table 12"),
                                 ],
                               )
