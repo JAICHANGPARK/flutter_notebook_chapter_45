@@ -399,7 +399,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                             Row(
                                               spacing: 12,
                                               children: [
-                                                Text("\$9.87"),
+                                                Text(
+                                                  "\$9.87",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 16,
+                                                    color: Colors.orange
+                                                  ),
+                                                ),
                                                 Spacer(),
                                                 Container(
                                                   decoration: BoxDecoration(
