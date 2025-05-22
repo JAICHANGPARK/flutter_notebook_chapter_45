@@ -149,7 +149,16 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           shape: BoxShape.circle,
                                           color: Colors.grey[100]!,
                                         ),
+                                        padding: EdgeInsets.all(6),
                                         child: Text("🍔"),
+                                      ),
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          color: Colors.grey[100]!,
+                                        ),
+                                        padding: EdgeInsets.all(6),
+                                        child: Text("🍕"),
                                       )
                                     ],
                                   )
