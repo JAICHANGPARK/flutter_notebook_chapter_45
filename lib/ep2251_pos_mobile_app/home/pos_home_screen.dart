@@ -163,7 +163,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           ),
                                           padding: EdgeInsets.all(6),
                                           child: Text("🍕"),
-                                        )
+                                        ),
+                                        Text("2 Items"),
+                                        Spacer(),
+                                        Text("\$9.87")
                                       ],
                                     )
                                   ],
