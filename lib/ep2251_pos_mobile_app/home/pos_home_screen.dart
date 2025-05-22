@@ -374,7 +374,12 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                   child: Column(
                                     children: [
                                       Expanded(
-                                        child: Container(child: Placeholder()),
+                                        child: Container(
+                                          child: Image.network(
+                                            "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                            fit: BoxFit.cover,
+                                          ),
+                                        ),
                                       ),
                                       Padding(
                                         padding: const EdgeInsets.all(12.0),
