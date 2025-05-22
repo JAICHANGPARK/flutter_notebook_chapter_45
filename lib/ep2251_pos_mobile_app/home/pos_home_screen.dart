@@ -132,7 +132,11 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                     Row(
                                       spacing: 12,
                                       children: [
-                                        Text("Order #33323"),
+                                        Text("Order #33323",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 15,
+                                          ),),
                                         Container(
                                           padding: EdgeInsets.symmetric(
                                             horizontal: 12,
@@ -187,6 +191,15 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               ),
 
                               Divider(),
+                              Row(
+                                children: [
+                                  Icon(Icons.access_time_outlined),
+                                  Text("10 Minutes Ago"),
+                                  Spacer(),
+                                  Icon(Icons.grid_on_outlined),
+                                  Text("Table 12"),
+                                ],
+                              )
                             ],
                           ),
                         );
