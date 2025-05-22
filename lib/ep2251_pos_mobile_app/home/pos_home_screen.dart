@@ -125,8 +125,12 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                             ),
                           ),
                           child: Column(children: [
+                            Row(
+                              children: [
+                                Text("Order #33323")
+                              ],
+                            ),
 
-                            
                             Divider()]),
                         );
                       },
