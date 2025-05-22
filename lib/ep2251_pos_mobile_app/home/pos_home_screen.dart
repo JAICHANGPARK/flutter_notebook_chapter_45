@@ -134,7 +134,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       children: [
                                         Text("Order #33323"),
                                         Container(
-                                          padding: EdgeInsets.symmetric(horizontal: 12, vertical: 3),
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 12,
+                                            vertical: 3,
+                                          ),
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(),
                                             color: Colors.red[50]!,
@@ -147,6 +150,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       ],
                                     ),
                                     Row(
+                                      spacing: 12,
                                       children: [
                                         Container(
                                           decoration: BoxDecoration(
@@ -166,9 +170,14 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                         ),
                                         Text("2 Items"),
                                         Spacer(),
-                                        Text("\$9.87")
+                                        Text(
+                                          "\$9.87",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                       ],
-                                    )
+                                    ),
                                   ],
                                 ),
                               ),
