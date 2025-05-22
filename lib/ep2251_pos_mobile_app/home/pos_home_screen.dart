@@ -125,7 +125,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           child: Column(
                             children: [
                               Padding(
-                                padding: const EdgeInsets.all(8.0),
+                                padding: const EdgeInsets.all(12.0),
                                 child: Column(
                                   spacing: 12,
                                   children: [
