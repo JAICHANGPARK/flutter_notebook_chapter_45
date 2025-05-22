@@ -99,7 +99,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   ),
 
                   Container(
-                    height: 160,
+                    height: 150,
 
                     padding: EdgeInsets.only(left: 16),
                     child: ListView.builder(
