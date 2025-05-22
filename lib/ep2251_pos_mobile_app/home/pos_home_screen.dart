@@ -124,45 +124,49 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                           ),
                           child: Column(
                             children: [
-                              Column(
-                                children: [
-                                  Row(
-                                    children: [
-                                      Text("Order #33323"),
-                                      Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 12),
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.red[50]!,
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  spacing: 12,
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text("Order #33323"),
+                                        Container(
+                                          padding: EdgeInsets.symmetric(horizontal: 12),
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.red[50]!,
+                                          ),
+                                          child: Text(
+                                            "Delivered",
+                                            style: TextStyle(color: Colors.red),
+                                          ),
                                         ),
-                                        child: Text(
-                                          "Delivered",
-                                          style: TextStyle(color: Colors.red),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color: Colors.grey[100]!,
+                                          ),
+                                          padding: EdgeInsets.all(6),
+                                          child: Text("🍔"),
                                         ),
-                                      ),
-                                    ],
-                                  ),
-                                  Row(
-                                    children: [
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          shape: BoxShape.circle,
-                                          color: Colors.grey[100]!,
-                                        ),
-                                        padding: EdgeInsets.all(6),
-                                        child: Text("🍔"),
-                                      ),
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          shape: BoxShape.circle,
-                                          color: Colors.grey[100]!,
-                                        ),
-                                        padding: EdgeInsets.all(6),
-                                        child: Text("🍕"),
-                                      )
-                                    ],
-                                  )
-                                ],
+                                        Container(
+                                          decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color: Colors.grey[100]!,
+                                          ),
+                                          padding: EdgeInsets.all(6),
+                                          child: Text("🍕"),
+                                        )
+                                      ],
+                                    )
+                                  ],
+                                ),
                               ),
 
                               Divider(),
