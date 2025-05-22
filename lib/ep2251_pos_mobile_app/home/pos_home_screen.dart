@@ -148,6 +148,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle
                                         ),
+                                        child: Text("🍔"),
                                       )
                                     ],
                                   )
