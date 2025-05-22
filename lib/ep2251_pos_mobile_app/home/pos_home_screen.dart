@@ -132,11 +132,13 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                     Row(
                                       spacing: 12,
                                       children: [
-                                        Text("Order #33323",
+                                        Text(
+                                          "Order #33323",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             fontSize: 15,
-                                          ),),
+                                          ),
+                                        ),
                                         Container(
                                           padding: EdgeInsets.symmetric(
                                             horizontal: 12,
@@ -176,7 +178,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           padding: EdgeInsets.all(6),
                                           child: Text("🍕"),
                                         ),
-                                        Text("2 Items"),
+                                        Text(
+                                          "2 Items",
+                                          style: TextStyle(color: Colors.grey),
+                                        ),
                                         Spacer(),
                                         Text(
                                           "\$9.87",
@@ -192,18 +197,21 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
 
                               Divider(),
                               Padding(
-                                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 12,
+                                  vertical: 4,
+                                ),
                                 child: Row(
                                   spacing: 8,
                                   children: [
-                                    Icon(Icons.access_time_outlined,size: 16,),
+                                    Icon(Icons.access_time_outlined, size: 16),
                                     Text("10 Minutes Ago"),
                                     Spacer(),
-                                    Icon(Icons.grid_on_outlined,size: 16,),
+                                    Icon(Icons.grid_on_outlined, size: 16),
                                     Text("Table 12"),
                                   ],
                                 ),
-                              )
+                              ),
                             ],
                           ),
                         );
