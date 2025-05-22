@@ -128,6 +128,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                 children: [
                                   Text("Order #33323"),
                                   Container(
+                                    padding: EdgeInsets.symmetric(horizontal: 12),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.red[50]!,
