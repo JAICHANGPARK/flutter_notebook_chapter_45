@@ -99,7 +99,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                   ),
 
                   Container(
-                    height: 140,
+                    height: 160,
 
                     padding: EdgeInsets.only(left: 16),
                     child: ListView.builder(
@@ -191,14 +191,17 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                               ),
 
                               Divider(),
-                              Row(
-                                children: [
-                                  Icon(Icons.access_time_outlined,size: 16,),
-                                  Text("10 Minutes Ago"),
-                                  Spacer(),
-                                  Icon(Icons.grid_on_outlined,size: 16,),
-                                  Text("Table 12"),
-                                ],
+                              Padding(
+                                padding: const EdgeInsets.all(12.0),
+                                child: Row(
+                                  children: [
+                                    Icon(Icons.access_time_outlined,size: 16,),
+                                    Text("10 Minutes Ago"),
+                                    Spacer(),
+                                    Icon(Icons.grid_on_outlined,size: 16,),
+                                    Text("Table 12"),
+                                  ],
+                                ),
                               )
                             ],
                           ),
