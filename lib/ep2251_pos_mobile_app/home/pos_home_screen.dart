@@ -132,6 +132,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                       shape: StadiumBorder(),
                                       color: Colors.red[50]!,
                                     ),
+                                    child: Text(
+                                      "Delivered",
+                                      style: TextStyle(color: Colors.red),
+                                    ),
                                   ),
                                 ],
                               ),
