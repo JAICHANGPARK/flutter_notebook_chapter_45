@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class PosMenuScreen extends StatefulWidget {
   const PosMenuScreen({super.key});
 
@@ -13,19 +12,17 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-
-        ],
-
-      ),
+      body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: []),
       bottomNavigationBar: Container(
         height: 80,
         child: Container(
+          color: Colors.grey,
           child: Row(
             children: [
-              
+              Container(
+                decoration: BoxDecoration(shape: BoxShape.circle),
+                child: Icon(Icons.remove, color: Colors.orange),
+              ),
             ],
           ),
         ),
