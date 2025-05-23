@@ -12,6 +12,13 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        actions: [
+          IconButton(onPressed: () {}, icon: Icon(Icons.favorite_border)),
+        ],
+        title: Text("Menu Item"),
+        centerTitle: true,
+      ),
       body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: []),
       bottomNavigationBar: Container(
         height: 80,
@@ -56,7 +63,6 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6),
                   ),
-
                 ),
                 child: Text(
                   "Add to Order - \$11.00",
