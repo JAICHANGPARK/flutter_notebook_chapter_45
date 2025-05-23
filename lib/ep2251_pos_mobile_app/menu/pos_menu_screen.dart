@@ -97,7 +97,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
               Row(
                 spacing: 8,
                 children: [
-                  Text("\$9.87"),
+                  Text("\$9.87", style: TextStyle(fontWeight: FontWeight.bold)),
                   Text(
                     "\$11.00",
                     style: TextStyle(decoration: TextDecoration.lineThrough),
