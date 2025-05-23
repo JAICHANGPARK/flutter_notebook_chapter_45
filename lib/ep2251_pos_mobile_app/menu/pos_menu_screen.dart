@@ -85,7 +85,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                   ),
                 ),
               ),
-              Text("Special Spicy Hamburger"),
+              Text(
+                "Special Spicy Hamburger",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
               Text("subtitle"),
               Text("subtitle"),
               Text("Spice Level"),
