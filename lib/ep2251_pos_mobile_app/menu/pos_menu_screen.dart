@@ -214,6 +214,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                     height: 62,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(6),
+                      border: Border.all(color: Colors.grey[300]!),
                     ),
                     child: Row(
                       // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
