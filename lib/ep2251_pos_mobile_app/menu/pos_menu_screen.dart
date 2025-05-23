@@ -23,7 +23,16 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [Container(height: 320, child: Placeholder())],
+          children: [
+            Container(height: 320, child: Placeholder()),
+            Text("Special Spicy Hamburger"),
+            Text("subtitle"),
+            Text("subtitle"),
+            Text("Spice Level"),
+            SizedBox(height: 72
+              ,
+            child: Placeholder(),)
+          ],
         ),
       ),
       bottomNavigationBar: Container(
