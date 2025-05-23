@@ -39,6 +39,24 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                       fit: BoxFit.cover,
                     ),
                   ),
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [
+                          Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder(
+
+                            ),color: Colors.white),
+                            child: Row(
+                              children: [
+                                
+                              ],
+                            ),
+                          )
+                        ],
+                      )
+                    ],
+                  ),
                 ),
               ),
               Text("Special Spicy Hamburger"),
