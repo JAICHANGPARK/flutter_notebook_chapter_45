@@ -117,6 +117,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
               SizedBox(
                 height: 72,
                 child: Row(
+                  spacing: 12,
                   children: [
                     Expanded(child: Container(decoration: BoxDecoration())),
                     Expanded(child: Container(decoration: BoxDecoration())),
