@@ -26,11 +26,19 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(height: 280, child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
+              Container(
+                height: 280,
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                      ),
+                    ),
+                  ),
                 ),
-              )),
+              ),
               Text("Special Spicy Hamburger"),
               Text("subtitle"),
               Text("subtitle"),
@@ -38,9 +46,11 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
               SizedBox(height: 72, child: Placeholder()),
               Text("Extras"),
               Column(
-                children: List.generate(5, (idx)=> Container(height: 62,
-                child: Placeholder(),)),
-              )
+                children: List.generate(
+                  5,
+                  (idx) => Container(height: 62, child: Placeholder()),
+                ),
+              ),
             ],
           ),
         ),
