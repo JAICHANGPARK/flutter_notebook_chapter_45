@@ -17,6 +17,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
         height: 80,
         child: Container(
           // color: Colors.grey,
+          decoration: BoxDecoration(
+            border: Border(top: BorderSide(color: Colors.grey[300]!)),
+          ),
+          padding: EdgeInsets.symmetric(horizontal: 16),
           child: Row(
             children: [
               Container(
