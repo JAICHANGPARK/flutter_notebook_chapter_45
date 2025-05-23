@@ -133,6 +133,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.orange[300]!),
                               ),
+                              padding: EdgeInsets.all(6),
                               child: Text("😊"),
                             ),
                             Text(
