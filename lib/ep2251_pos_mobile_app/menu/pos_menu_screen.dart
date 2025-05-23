@@ -11,6 +11,6 @@ class PosMenuScreen extends StatefulWidget {
 class _PosMenuScreenState extends State<PosMenuScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
