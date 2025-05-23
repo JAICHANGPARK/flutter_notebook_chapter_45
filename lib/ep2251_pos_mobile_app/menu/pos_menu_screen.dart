@@ -54,7 +54,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                             child: Row(
                               spacing: 6,
                               children: [
-                                Icon(Icons.star, size: 12),
+                                Icon(Icons.star, size: 16),
                                 Text("4.9"),
                               ],
                             ),
