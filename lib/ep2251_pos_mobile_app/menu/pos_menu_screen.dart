@@ -20,7 +20,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
           decoration: BoxDecoration(
             border: Border(top: BorderSide(color: Colors.grey[300]!)),
           ),
-          padding: EdgeInsets.symmetric(horizontal: 16),
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
           child: Row(
             children: [
               Container(
@@ -46,7 +46,15 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                   border: Border.all(color: Colors.grey[300]!),
                 ),
                 padding: EdgeInsets.all(5),
-                child: Icon(Icons.remove, color: Colors.orange),
+                child: Icon(Icons.add, color: Colors.orange),
+              ),
+              Container(
+                decoration: ShapeDecoration(
+                  color: Colors.deepOrangeAccent,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                ),
               ),
             ],
           ),
