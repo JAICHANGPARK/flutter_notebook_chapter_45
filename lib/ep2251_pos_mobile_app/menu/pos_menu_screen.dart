@@ -20,7 +20,11 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
           child: Row(
             children: [
               Container(
-                decoration: BoxDecoration(shape: BoxShape.circle),
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  color: Colors.grey[200]!,
+                  border: Border.all(color: Colors.grey),
+                ),
                 child: Icon(Icons.remove, color: Colors.orange),
               ),
             ],
