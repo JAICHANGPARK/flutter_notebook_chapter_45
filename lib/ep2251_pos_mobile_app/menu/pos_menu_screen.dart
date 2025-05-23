@@ -31,6 +31,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
             Text("Spice Level"),
             SizedBox(height: 72, child: Placeholder()),
             Text("Extras"),
+            Column(
+              children: List.generate(5, (idx)=> Container(height: 62,
+              child: Placeholder(),)),
+            )
           ],
         ),
       ),
