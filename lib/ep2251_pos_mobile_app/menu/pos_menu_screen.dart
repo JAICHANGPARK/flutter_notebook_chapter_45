@@ -206,7 +206,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                   ],
                 ),
               ),
-              Text("Extras"),
+              Text("Extras", style: TextStyle(fontWeight: FontWeight.bold)),
               Column(
                 children: List.generate(
                   5,
