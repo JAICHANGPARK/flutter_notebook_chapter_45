@@ -55,6 +55,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                     borderRadius: BorderRadius.circular(6),
                   ),
                 ),
+                child: Text(
+                  "Add to Order - \$11.00",
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
             ],
           ),
