@@ -34,7 +34,9 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                     image: DecorationImage(
                       image: NetworkImage(
                         "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+
                       ),
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ),
