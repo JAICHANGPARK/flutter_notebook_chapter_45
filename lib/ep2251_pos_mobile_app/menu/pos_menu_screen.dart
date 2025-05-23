@@ -29,9 +29,8 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
             Text("subtitle"),
             Text("subtitle"),
             Text("Spice Level"),
-            SizedBox(height: 72
-              ,
-            child: Placeholder(),)
+            SizedBox(height: 72, child: Placeholder()),
+            Text("Extras"),
           ],
         ),
       ),
