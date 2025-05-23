@@ -175,7 +175,34 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                         ),
                       ),
                     ),
-                    Expanded(child: Container(decoration: BoxDecoration())),
+                    Expanded(
+                      child: Container(
+                        height: double.infinity,
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.grey[200]!),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        padding: EdgeInsets.symmetric(horizontal: 12),
+                        child: Row(
+                          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          spacing: 6,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.grey[300]!),
+                              ),
+                              padding: EdgeInsets.all(6),
+                              child: Text("😊"),
+                            ),
+                            Text(
+                              "Medium",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
