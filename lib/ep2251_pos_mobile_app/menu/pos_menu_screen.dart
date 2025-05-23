@@ -46,7 +46,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
-                            padding: EdgeInsets.symmetric(horizontal: 8,vertical: 3),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 3,
+                            ),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.white,
@@ -60,12 +63,18 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                             ),
                           ),
                           Container(
-                            padding: EdgeInsets.symmetric(horizontal: 8,vertical: 3),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 8,
+                              vertical: 3,
+                            ),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.white,
                             ),
-                            child:Text("4.9"),
+                            child: Text(
+                              "Out of Stock",
+                              style: TextStyle(color: Colors.deepOrangeAccent),
+                            ),
                           ),
                         ],
                       ),
