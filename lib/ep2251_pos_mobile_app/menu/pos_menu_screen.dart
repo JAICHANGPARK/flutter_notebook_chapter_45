@@ -34,7 +34,6 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                     image: DecorationImage(
                       image: NetworkImage(
                         "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
-
                       ),
                       fit: BoxFit.cover,
                     ),
@@ -44,17 +43,20 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                       Row(
                         children: [
                           Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder(
-
-                            ),color: Colors.white),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white,
+                            ),
                             child: Row(
+                              spacing: 6,
                               children: [
-                                
+                                Icon(Icons.star, size: 12),
+                                Text("4.9"),
                               ],
                             ),
-                          )
+                          ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 ),
