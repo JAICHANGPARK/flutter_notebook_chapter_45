@@ -212,10 +212,14 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                   5,
                   (idx) => Container(
                     height: 62,
+                    margin: EdgeInsets.only(
+                      bottom: 12,
+                    ),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(6),
                       border: Border.all(color: Colors.grey[300]!),
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     child: Row(
                       // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       spacing: 6,
