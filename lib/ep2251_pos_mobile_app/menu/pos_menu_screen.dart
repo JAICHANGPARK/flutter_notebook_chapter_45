@@ -151,7 +151,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                       child: Container(
                         height: double.infinity,
                         decoration: BoxDecoration(
-                          border: Border.all(color: Colors.orange[200]!),
+                          border: Border.all(color: Colors.grey[200]!),
                           borderRadius: BorderRadius.circular(8),
                         ),
                         padding: EdgeInsets.symmetric(horizontal: 12),
