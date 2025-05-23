@@ -48,6 +48,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                 padding: EdgeInsets.all(5),
                 child: Icon(Icons.add, color: Colors.orange),
               ),
+              Spacer(),
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: ShapeDecoration(
