@@ -36,7 +36,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Text(
                   "1",
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
               ),
               Container(
