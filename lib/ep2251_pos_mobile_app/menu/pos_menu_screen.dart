@@ -49,11 +49,13 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                 child: Icon(Icons.add, color: Colors.orange),
               ),
               Container(
+                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: ShapeDecoration(
                   color: Colors.deepOrangeAccent,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(6),
                   ),
+
                 ),
                 child: Text(
                   "Add to Order - \$11.00",
