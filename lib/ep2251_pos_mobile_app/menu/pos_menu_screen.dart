@@ -21,21 +21,24 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(height: 320, child: Placeholder()),
-            Text("Special Spicy Hamburger"),
-            Text("subtitle"),
-            Text("subtitle"),
-            Text("Spice Level"),
-            SizedBox(height: 72, child: Placeholder()),
-            Text("Extras"),
-            Column(
-              children: List.generate(5, (idx)=> Container(height: 62,
-              child: Placeholder(),)),
-            )
-          ],
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(height: 320, child: Placeholder()),
+              Text("Special Spicy Hamburger"),
+              Text("subtitle"),
+              Text("subtitle"),
+              Text("Spice Level"),
+              SizedBox(height: 72, child: Placeholder()),
+              Text("Extras"),
+              Column(
+                children: List.generate(5, (idx)=> Container(height: 62,
+                child: Placeholder(),)),
+              )
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: Container(
