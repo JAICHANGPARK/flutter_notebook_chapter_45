@@ -59,6 +59,14 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                               ],
                             ),
                           ),
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 8,vertical: 3),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white,
+                            ),
+                            child:Text("4.9"),
+                          ),
                         ],
                       ),
                     ],
