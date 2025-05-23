@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2251_pos_mobile_app/menu/pos_menu_screen.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class PosHomeScreen extends StatefulWidget {
@@ -364,86 +365,98 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                     childAspectRatio: .8,
                                   ),
                               itemBuilder: (context, index) {
-                                return Container(
-                                  decoration: BoxDecoration(
-                                    border: Border.all(
-                                      color: Colors.grey[300]!,
+                                return GestureDetector(
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) => PosMenuScreen(),
+                                      ),
+                                    );
+                                  },
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      border: Border.all(
+                                        color: Colors.grey[300]!,
+                                      ),
+                                      borderRadius: BorderRadius.circular(12),
                                     ),
-                                    borderRadius: BorderRadius.circular(12),
-                                  ),
-                                  child: Column(
-                                    children: [
-                                      Expanded(
-                                        child: SizedBox(
-                                          width: double.infinity,
-                                          child: ClipRRect(
-                                            borderRadius: BorderRadius.only(
-                                              topLeft: Radius.circular(6),
-                                              topRight: Radius.circular(6),
-                                            ),
-                                            child: Image.network(
-                                              "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
-                                              fit: BoxFit.cover,
+                                    child: Column(
+                                      children: [
+                                        Expanded(
+                                          child: SizedBox(
+                                            width: double.infinity,
+                                            child: ClipRRect(
+                                              borderRadius: BorderRadius.only(
+                                                topLeft: Radius.circular(6),
+                                                topRight: Radius.circular(6),
+                                              ),
+                                              child: Image.network(
+                                                "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                                fit: BoxFit.cover,
+                                              ),
                                             ),
                                           ),
                                         ),
-                                      ),
-                                      Padding(
-                                        padding: const EdgeInsets.all(12.0),
-                                        child: Column(
-                                          spacing: 6,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              "Special Spicy Hamburger",
-                                              style: TextStyle(fontSize: 13),
-                                            ),
-                                            Row(
-                                              spacing: 12,
-                                              children: [
-                                                Text(
-                                                  "\$9.87",
-                                                  style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: 16,
-                                                    color: Colors.orange,
-                                                  ),
-                                                ),
-                                                Spacer(),
-                                                Container(
-                                                  decoration: BoxDecoration(
-                                                    shape: BoxShape.circle,
-                                                    border: Border.all(
-                                                      color: Colors.grey[200]!,
+                                        Padding(
+                                          padding: const EdgeInsets.all(12.0),
+                                          child: Column(
+                                            spacing: 6,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                "Special Spicy Hamburger",
+                                                style: TextStyle(fontSize: 13),
+                                              ),
+                                              Row(
+                                                spacing: 12,
+                                                children: [
+                                                  Text(
+                                                    "\$9.87",
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: 16,
+                                                      color: Colors.orange,
                                                     ),
                                                   ),
-                                                  padding: EdgeInsets.all(4),
-                                                  child: Icon(
-                                                    Icons.remove,
-                                                    size: 12,
-                                                  ),
-                                                ),
-                                                Text("1"),
-                                                Container(
-                                                  decoration: BoxDecoration(
-                                                    shape: BoxShape.circle,
-                                                    border: Border.all(
-                                                      color: Colors.grey[200]!,
+                                                  Spacer(),
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      shape: BoxShape.circle,
+                                                      border: Border.all(
+                                                        color:
+                                                            Colors.grey[200]!,
+                                                      ),
+                                                    ),
+                                                    padding: EdgeInsets.all(4),
+                                                    child: Icon(
+                                                      Icons.remove,
+                                                      size: 12,
                                                     ),
                                                   ),
-                                                  padding: EdgeInsets.all(4),
-                                                  child: Icon(
-                                                    Icons.add,
-                                                    size: 12,
+                                                  Text("1"),
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      shape: BoxShape.circle,
+                                                      border: Border.all(
+                                                        color:
+                                                            Colors.grey[200]!,
+                                                      ),
+                                                    ),
+                                                    padding: EdgeInsets.all(4),
+                                                    child: Icon(
+                                                      Icons.add,
+                                                      size: 12,
+                                                    ),
                                                   ),
-                                                ),
-                                              ],
-                                            ),
-                                          ],
+                                                ],
+                                              ),
+                                            ],
+                                          ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 );
                               },
