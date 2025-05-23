@@ -16,7 +16,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
       bottomNavigationBar: Container(
         height: 80,
         child: Container(
-          color: Colors.grey,
+          // color: Colors.grey,
           child: Row(
             children: [
               Container(
