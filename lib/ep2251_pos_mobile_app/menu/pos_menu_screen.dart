@@ -26,7 +26,11 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(height: 320, child: Placeholder()),
+              Container(height: 280, child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+              )),
               Text("Special Spicy Hamburger"),
               Text("subtitle"),
               Text("subtitle"),
