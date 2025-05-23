@@ -119,7 +119,14 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                 child: Row(
                   spacing: 12,
                   children: [
-                    Expanded(child: Container(decoration: BoxDecoration())),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.orange[200]!),
+                        ),
+                        child: Row(children: []),
+                      ),
+                    ),
                     Expanded(child: Container(decoration: BoxDecoration())),
                     Expanded(child: Container(decoration: BoxDecoration())),
                   ],
