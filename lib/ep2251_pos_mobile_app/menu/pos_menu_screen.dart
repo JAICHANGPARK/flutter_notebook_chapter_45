@@ -27,7 +27,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
-                height: 280,
+                height: 260,
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
