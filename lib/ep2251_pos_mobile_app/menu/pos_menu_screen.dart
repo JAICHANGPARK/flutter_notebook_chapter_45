@@ -14,9 +14,21 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          
+
         ],
+
+      ),
+      bottomNavigationBar: Container(
+        height: 80,
+        child: Container(
+          child: Row(
+            children: [
+              
+            ],
+          ),
+        ),
       ),
     );
   }
