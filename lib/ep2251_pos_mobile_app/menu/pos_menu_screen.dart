@@ -115,18 +115,20 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                height: 72,
+                height: 56,
                 child: Row(
                   spacing: 12,
                   children: [
                     Expanded(
                       child: Container(
+                        height: double.infinity,
                         decoration: BoxDecoration(
                           border: Border.all(color: Colors.orange[200]!),
                           borderRadius: BorderRadius.circular(8),
                         ),
-                        padding: EdgeInsets.all(16),
+                        // padding: EdgeInsets.all(16),
                         child: Row(
+                          spacing: 6,
                           children: [
                             Container(
                               decoration: BoxDecoration(
