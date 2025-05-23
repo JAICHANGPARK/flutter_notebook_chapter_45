@@ -11,6 +11,13 @@ class PosMenuScreen extends StatefulWidget {
 class _PosMenuScreenState extends State<PosMenuScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
