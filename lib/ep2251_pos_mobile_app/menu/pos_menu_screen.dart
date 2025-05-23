@@ -215,7 +215,25 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(6),
                     ),
-                    child: Row(children: []),
+                    child: Row(
+                      // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      spacing: 6,
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.grey[300]!),
+                          ),
+                          padding: EdgeInsets.all(6),
+                          child: Text("😊"),
+                        ),
+                        Text(
+                          "Extra Meat",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        Text("+\$1.20"),
+                      ],
+                    ),
                   ),
                 ),
               ),
