@@ -210,11 +210,13 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
               Column(
                 children: List.generate(
                   5,
-                  (idx) => Container(height: 62, child: Row(
-                    children: [
-                      
-                    ],
-                  )),
+                  (idx) => Container(
+                    height: 62,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                    child: Row(children: []),
+                  ),
                 ),
               ),
             ],
