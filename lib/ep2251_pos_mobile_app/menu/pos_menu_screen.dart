@@ -20,7 +20,12 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
         title: Text("Menu Item"),
         centerTitle: true,
       ),
-      body: Column(crossAxisAlignment: CrossAxisAlignment.start, children: []),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [Container(height: 320, child: Placeholder())],
+        ),
+      ),
       bottomNavigationBar: Container(
         height: 80,
         child: Container(
