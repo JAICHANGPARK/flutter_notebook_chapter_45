@@ -196,7 +196,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                               child: Text("😊"),
                             ),
                             Text(
-                              "Medium",
+                              "Spicy",
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                           ],
