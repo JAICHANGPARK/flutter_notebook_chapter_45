@@ -22,9 +22,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
               Container(
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: Colors.grey[200]!,
-                  border: Border.all(color: Colors.grey),
+                  color: Colors.grey[50]!,
+                  border: Border.all(color: Colors.grey[300]!),
                 ),
+                padding: EdgeInsets.all(5),
                 child: Icon(Icons.remove, color: Colors.orange),
               ),
             ],
