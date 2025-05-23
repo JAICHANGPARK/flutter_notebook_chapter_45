@@ -38,11 +38,15 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                       fit: BoxFit.cover,
                     ),
                   ),
+                  padding: EdgeInsets.all(16),
+
                   child: Column(
                     children: [
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
+                            padding: EdgeInsets.symmetric(horizontal: 8,vertical: 3),
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.white,
