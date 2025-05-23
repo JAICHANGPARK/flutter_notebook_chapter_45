@@ -395,9 +395,10 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
                                           children: [
-                                            Text("Special Spicy Hamburger",style: TextStyle(
-                                              fontSize: 13,
-                                            ),),
+                                            Text(
+                                              "Special Spicy Hamburger",
+                                              style: TextStyle(fontSize: 13),
+                                            ),
                                             Row(
                                               spacing: 12,
                                               children: [
@@ -406,7 +407,7 @@ class _PosHomeScreenState extends State<PosHomeScreen> {
                                                   style: TextStyle(
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: 16,
-                                                    color: Colors.orange
+                                                    color: Colors.orange,
                                                   ),
                                                 ),
                                                 Spacer(),
