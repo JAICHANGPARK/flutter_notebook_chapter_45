@@ -13,6 +13,7 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        backgroundColor: Colors.white,
         actions: [
           IconButton(onPressed: () {}, icon: Icon(Icons.favorite_border)),
         ],
