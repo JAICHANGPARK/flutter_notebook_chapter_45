@@ -73,7 +73,10 @@ class _PosMenuScreenState extends State<PosMenuScreen> {
                             ),
                             child: Text(
                               "Out of Stock",
-                              style: TextStyle(color: Colors.deepOrangeAccent),
+                              style: TextStyle(
+                                color: Colors.deepOrangeAccent,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
                         ],
