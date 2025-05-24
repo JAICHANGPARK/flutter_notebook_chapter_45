@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_45
 
-## EP2251-2256
+## EP2257
 
-- Fummo - POS Mobile App
+- Fashion Mobile App Ui Design
 - Fanka for Korsa
 - https://dribbble.com/shots/26039984-Fummo-POS-Mobile-App
 
