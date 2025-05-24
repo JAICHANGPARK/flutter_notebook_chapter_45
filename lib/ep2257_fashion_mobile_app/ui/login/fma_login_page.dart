@@ -20,17 +20,21 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
           spacing: 12,
           children: [
             Expanded(child: Container()),
-            Text("Elevate Your Fashion Style Made Simple",style: TextStyle(
-              fontSize: 32
-            ),),
             Text(
-              'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
-              style: TextStyle(
-
-              ),
+              "Elevate Your Fashion Style Made Simple",
+              style: TextStyle(fontSize: 32),
               textAlign: TextAlign.center,
             ),
-            SmoothPageIndicator(controller: pageController, count: 3),
+            Text(
+              'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
+              style: TextStyle(),
+              textAlign: TextAlign.center,
+            ),
+            SmoothPageIndicator(
+              controller: pageController,
+              count: 3,
+              effect: ExpandingDotsEffect(dotHeight: 8, dotWidth: 12),
+            ),
             Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
