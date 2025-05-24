@@ -26,8 +26,17 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
               shape: StadiumBorder(),
               color: Color.fromRGBO(132, 104, 250, 1),
             ),
+            padding: EdgeInsets.symmetric(vertical: 12),
             width: double.infinity,
-            child: Center(child: Text("Get Started")),
+            child: Center(
+              child: Text(
+                "Get Started",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
           ),
         ],
       ),
