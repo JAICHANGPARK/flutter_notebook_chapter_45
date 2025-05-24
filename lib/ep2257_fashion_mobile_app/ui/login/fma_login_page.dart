@@ -40,7 +40,7 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(132, 104, 250, 1),
               ),
-              padding: EdgeInsets.symmetric(vertical: 12),
+              padding: EdgeInsets.symmetric(vertical: 16),
               width: double.infinity,
               child: Center(
                 child: Text(
@@ -53,7 +53,9 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
               ),
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
+
                 Text("Already have an account?"),
                 TextButton(onPressed: () {}, child: Text("Login")),
               ],
