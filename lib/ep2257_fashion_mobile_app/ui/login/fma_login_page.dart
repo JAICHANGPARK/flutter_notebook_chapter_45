@@ -9,6 +9,7 @@ class FmaLoginPage extends StatefulWidget {
 }
 
 class _FmaLoginPageState extends State<FmaLoginPage> {
+  PageController pageController = PageController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
