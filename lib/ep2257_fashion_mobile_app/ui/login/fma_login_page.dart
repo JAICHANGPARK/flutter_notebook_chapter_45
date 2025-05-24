@@ -10,6 +10,7 @@ class FmaLoginPage extends StatefulWidget {
 
 class _FmaLoginPageState extends State<FmaLoginPage> {
   PageController pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,11 +18,16 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
         children: [
           Text("Elevate Your Fashion Style Made Simple"),
           Text(
-            'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!'
+            'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
           ),
           SmoothPageIndicator(controller: pageController, count: 3),
-          Container()
-
+          Container(
+            decoration: ShapeDecoration(
+              shape: StadiumBorder(),
+              color: Color.fromRGBO(132, 104, 250, 1),
+            ),
+            child: Text(),
+          ),
         ],
       ),
     );
