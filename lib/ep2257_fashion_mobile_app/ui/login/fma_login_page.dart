@@ -17,6 +17,7 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
+          spacing: 12,
           children: [
 
             Text("Elevate Your Fashion Style Made Simple"),
@@ -41,6 +42,11 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                 ),
               ),
             ),
+            Row(
+              children: [
+                Text("Already have an account?"),
+              ],
+            )
           ],
         ),
       ),
