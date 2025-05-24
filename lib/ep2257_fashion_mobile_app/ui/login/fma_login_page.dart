@@ -19,7 +19,8 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
           Text(
             'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!'
           ),
-          SmoothPageIndicator(controller: controller, count: count)
+          SmoothPageIndicator(controller: pageController, count: 3),
+          Container()
 
         ],
       ),
