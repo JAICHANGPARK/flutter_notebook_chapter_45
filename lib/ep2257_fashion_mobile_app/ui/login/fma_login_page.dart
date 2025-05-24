@@ -15,9 +15,9 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.symmetric(horizontal: 24),
         child: Column(
-          spacing: 12,
+          spacing: 16,
           children: [
             Expanded(child: Container()),
             Text(
