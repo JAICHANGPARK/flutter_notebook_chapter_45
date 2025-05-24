@@ -14,31 +14,35 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Text("Elevate Your Fashion Style Made Simple"),
-          Text(
-            'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
-          ),
-          SmoothPageIndicator(controller: pageController, count: 3),
-          Container(
-            decoration: ShapeDecoration(
-              shape: StadiumBorder(),
-              color: Color.fromRGBO(132, 104, 250, 1),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+
+            Text("Elevate Your Fashion Style Made Simple"),
+            Text(
+              'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
             ),
-            padding: EdgeInsets.symmetric(vertical: 12),
-            width: double.infinity,
-            child: Center(
-              child: Text(
-                "Get Started",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
+            SmoothPageIndicator(controller: pageController, count: 3),
+            Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Color.fromRGBO(132, 104, 250, 1),
+              ),
+              padding: EdgeInsets.symmetric(vertical: 12),
+              width: double.infinity,
+              child: Center(
+                child: Text(
+                  "Get Started",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
