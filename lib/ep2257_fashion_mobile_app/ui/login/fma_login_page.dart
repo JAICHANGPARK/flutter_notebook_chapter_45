@@ -19,7 +19,10 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
         child: Column(
           spacing: 12,
           children: [
-            Text("Elevate Your Fashion Style Made Simple"),
+            Expanded(child: Container()),
+            Text("Elevate Your Fashion Style Made Simple",style: TextStyle(
+              fontSize: 32
+            ),),
             Text(
               'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
             ),
