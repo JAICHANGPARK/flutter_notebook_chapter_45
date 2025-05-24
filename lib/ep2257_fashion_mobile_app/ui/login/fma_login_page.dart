@@ -19,7 +19,6 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
         child: Column(
           spacing: 12,
           children: [
-
             Text("Elevate Your Fashion Style Made Simple"),
             Text(
               'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
@@ -45,8 +44,9 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
             Row(
               children: [
                 Text("Already have an account?"),
+                TextButton(onPressed: () {}, child: Text("Login")),
               ],
-            )
+            ),
           ],
         ),
       ),
