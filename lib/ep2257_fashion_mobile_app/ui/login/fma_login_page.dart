@@ -12,6 +12,13 @@ class FmaLoginPage extends StatefulWidget {
 class _FmaLoginPageState extends State<FmaLoginPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+          Text("Elevate Your Fashion Style Made Simple")
+
+        ],
+      ),
+    );
   }
 }
