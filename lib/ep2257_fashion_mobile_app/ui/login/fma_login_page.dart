@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class FmaLoginPage extends StatefulWidget {
   const FmaLoginPage({super.key});
 
@@ -15,7 +13,10 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
     return Scaffold(
       body: Column(
         children: [
-          Text("Elevate Your Fashion Style Made Simple")
+          Text("Elevate Your Fashion Style Made Simple"),
+          Text(
+            'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!'
+          ),
 
         ],
       ),
