@@ -14,53 +14,59 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
-        child: Column(
-          spacing: 16,
-          children: [
-            Expanded(child: Container()),
-            Text(
-              "Elevate Your Fashion Style Made Simple",
-              style: TextStyle(fontSize: 32),
-              textAlign: TextAlign.center,
-            ),
-            Text(
-              'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
-              style: TextStyle(),
-              textAlign: TextAlign.center,
-            ),
-            SmoothPageIndicator(
-              controller: pageController,
-              count: 3,
-              effect: ExpandingDotsEffect(dotHeight: 8, dotWidth: 12),
-            ),
-            Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Color.fromRGBO(132, 104, 250, 1),
-              ),
-              padding: EdgeInsets.symmetric(vertical: 16),
-              width: double.infinity,
-              child: Center(
-                child: Text(
-                  "Get Started",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+            child: Column(
+              spacing: 16,
+              children: [
+                Expanded(child: Container(
+
+                )),
+                Text(
+                  "Elevate Your Fashion Style Made Simple",
+                  style: TextStyle(fontSize: 32),
+                  textAlign: TextAlign.center,
+                ),
+                Text(
+                  'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
+                  style: TextStyle(),
+                  textAlign: TextAlign.center,
+                ),
+                SmoothPageIndicator(
+                  controller: pageController,
+                  count: 3,
+                  effect: ExpandingDotsEffect(dotHeight: 8, dotWidth: 12),
+                ),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Color.fromRGBO(132, 104, 250, 1),
+                  ),
+                  padding: EdgeInsets.symmetric(vertical: 16),
+                  width: double.infinity,
+                  child: Center(
+                    child: Text(
+                      "Get Started",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
                 ),
-              ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("Already have an account?"),
-                TextButton(onPressed: () {}, child: Text("Login")),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Already have an account?"),
+                    TextButton(onPressed: () {}, child: Text("Login")),
+                  ],
+                ),
               ],
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
