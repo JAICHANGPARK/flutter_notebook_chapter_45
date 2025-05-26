@@ -52,8 +52,10 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                     effect: ExpandingDotsEffect(dotHeight: 8, dotWidth: 12),
                   ),
                   GestureDetector(
-                    onTap: (){
-                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FmaHomePage()));
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(builder: (context) => FmaHomePage()),
+                      );
                     },
                     child: Container(
                       decoration: ShapeDecoration(
