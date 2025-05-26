@@ -29,6 +29,10 @@ class _FmaHomePageState extends State<FmaHomePage> {
             ),
           ),
           Positioned.fill(
+            left: 16,
+            right: 16,
+            top: 24,
+            bottom: 24,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -53,6 +57,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
 
                       CircleAvatar(
                         backgroundColor: Colors.white,
+                        radius: 24,
                       ),
                       CircleAvatar()
                     ],
