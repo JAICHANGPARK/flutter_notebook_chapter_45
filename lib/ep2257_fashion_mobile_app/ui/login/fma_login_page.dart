@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2257_fashion_mobile_app/ui/home/fma_home_page.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class FmaLoginPage extends StatefulWidget {
@@ -50,19 +51,24 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                     count: 3,
                     effect: ExpandingDotsEffect(dotHeight: 8, dotWidth: 12),
                   ),
-                  Container(
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(),
-                      color: Color.fromRGBO(132, 104, 250, 1),
-                    ),
-                    padding: EdgeInsets.symmetric(vertical: 16),
-                    width: double.infinity,
-                    child: Center(
-                      child: Text(
-                        "Get Started",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=>FmaHomePage()));
+                    },
+                    child: Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(132, 104, 250, 1),
+                      ),
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                      width: double.infinity,
+                      child: Center(
+                        child: Text(
+                          "Get Started",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
