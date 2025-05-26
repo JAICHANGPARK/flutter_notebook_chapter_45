@@ -19,6 +19,9 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
           Positioned.fill(
             child: Image.network(
               "https://cdn.pixabay.com/photo/2020/10/22/06/09/woman-5674995_1280.jpg",
+              fit: BoxFit.cover,
+              colorBlendMode: BlendMode.darken,
+              color: Colors.black.withValues(alpha: .1),
             ),
           ),
           Positioned.fill(
