@@ -61,16 +61,25 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         ),
                       ),
 
-
                       CircleAvatar(backgroundColor: Colors.white, radius: 24),
                       CircleAvatar(radius: 24),
                     ],
                   ),
-                  Gap(24),
+                  Gap(32),
 
-                  Text("Hello, Dream!"),
+                  Text(
+                    "Hello, Dream!",
+                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                  ),
+                  Gap(6),
                   Text("Explore your luxury fashion style from here."),
-                  Container(height: 160, child: Placeholder()),
+                  Gap(20),
+                  Container(
+                    height: 160,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.blue),
+                    ),
+                  ),
                   Container(height: 42, child: Placeholder()),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
