@@ -96,7 +96,10 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           );
                         }
                         return Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
                         );
                       },
                     ),
@@ -118,8 +121,16 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       itemBuilder: (context, index) {
                         return Column(
                           children: [
-                            Expanded(child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(12),
-                            color: Colors.orange),))
+                            Expanded(
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(12),
+                                  color: Colors.orange,
+                                ),
+                              ),
+                            ),
+                            Text("Celeb Approved Print"),
+                            Text("New Season"),
                           ],
                         );
                       },
@@ -128,6 +139,17 @@ class _FmaHomePageState extends State<FmaHomePage> {
                 ],
               ),
             ),
+          ),
+          Positioned(
+            child: Container(
+              decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
+              child: Row(
+                children: [
+
+                ],
+              ),
+            ),
+
           ),
         ],
       ),
