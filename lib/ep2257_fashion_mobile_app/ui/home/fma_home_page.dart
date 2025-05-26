@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FmaHomePage extends StatefulWidget {
   const FmaHomePage({super.key});
 
@@ -12,9 +11,22 @@ class _FmaHomePageState extends State<FmaHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  colors: [
+                    Color.fromRGBO(242, 242, 242, 1),
+                    Color.fromRGBO(234, 231, 248, 1),
 
+                  ],
+                ),
+              ),
+            ),
+          ),
+          Positioned.fill(child: Column(children: [])),
         ],
       ),
     );
