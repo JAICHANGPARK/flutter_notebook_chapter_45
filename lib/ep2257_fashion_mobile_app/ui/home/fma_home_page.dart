@@ -120,12 +120,20 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       ),
                       itemBuilder: (context, index) {
                         return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12),
                                   color: Colors.orange,
+                                ),
+                                child: Stack(
+                                  children: [
+                                    Positioned(
+                                      child: CircleAvatar(backgroundColor: Colors.white,),
+                                    )
+                                  ],
                                 ),
                               ),
                             ),
@@ -141,6 +149,9 @@ class _FmaHomePageState extends State<FmaHomePage> {
             ),
           ),
           Positioned(
+            left: 24,
+            right: 24,
+            bottom: 16,
             child: Container(
               decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
               child: Row(
