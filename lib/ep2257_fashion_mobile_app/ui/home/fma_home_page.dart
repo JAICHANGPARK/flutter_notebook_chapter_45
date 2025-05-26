@@ -68,11 +68,19 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Feature Brands",style: TextStyle(
-                        fontSize: 18,
-                      ),),
+                      Text("Feature Brands", style: TextStyle(fontSize: 18)),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
+                  ),
+                  Expanded(
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount: 2,
+                      ),
+                      itemBuilder: (context,index){
+                        return Placeholder();
+                      },
+                    ),
                   ),
                 ],
               ),
