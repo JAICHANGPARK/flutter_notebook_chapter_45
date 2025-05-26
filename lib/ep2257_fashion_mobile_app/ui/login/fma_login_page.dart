@@ -33,7 +33,7 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                   Expanded(child: Container()),
                   Text(
                     "Elevate Your Fashion Style Made Simple",
-                    style: TextStyle(fontSize: 32),
+                    style: TextStyle(fontSize: 32, color: Colors.white),
                     textAlign: TextAlign.center,
                   ),
                   Text(
