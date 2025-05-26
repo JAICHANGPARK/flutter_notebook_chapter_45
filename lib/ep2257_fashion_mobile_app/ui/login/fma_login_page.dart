@@ -42,9 +42,7 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                   ),
                   Text(
                     'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
-                    style: TextStyle(
-                      color: Colors.white,
-                    ),
+                    style: TextStyle(color: Colors.white),
                     textAlign: TextAlign.center,
                   ),
                   SmoothPageIndicator(
@@ -72,7 +70,10 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Already have an account?"),
+                      Text(
+                        "Already have an account?",
+                        style: TextStyle(color: Colors.white),
+                      ),
                       TextButton(onPressed: () {}, child: Text("Login")),
                     ],
                   ),
