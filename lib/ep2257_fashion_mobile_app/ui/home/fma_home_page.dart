@@ -63,20 +63,14 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Text("Hello, Dream!"),
                   Text("Explore your luxury fashion style from here."),
-                  Container(
-                    height: 160,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 42,
-                    child: Placeholder(),
-                  ),
+                  Container(height: 160, child: Placeholder()),
+                  Container(height: 42, child: Placeholder()),
                   Row(
                     children: [
-                      
+                      Text("Feature Brands"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
