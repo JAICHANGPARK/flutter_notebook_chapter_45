@@ -46,8 +46,9 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           children: [
                             Text("My Location"),
                             Row(
+                              spacing: 4,
                               children: [
-                                Icon(Icons.location_on_outlined),
+                                Icon(Icons.location_on_outlined, size: 16),
                                 Text("Seoul, South Korea"),
                               ],
                             ),
@@ -55,11 +56,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         ),
                       ),
 
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        radius: 24,
-                      ),
-                      CircleAvatar()
+                      CircleAvatar(backgroundColor: Colors.white, radius: 24),
+                      CircleAvatar(),
                     ],
                   ),
                 ],
