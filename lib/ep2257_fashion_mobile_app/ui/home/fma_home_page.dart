@@ -131,8 +131,13 @@ class _FmaHomePageState extends State<FmaHomePage> {
                                 child: Stack(
                                   children: [
                                     Positioned(
-                                      child: CircleAvatar(backgroundColor: Colors.white,),
-                                    )
+                                      right: 12,
+                                      top: 12,
+                                      child: CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        child: Icon(Icons.favorite),
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
@@ -153,14 +158,12 @@ class _FmaHomePageState extends State<FmaHomePage> {
             right: 24,
             bottom: 16,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
-              child: Row(
-                children: [
-
-                ],
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
               ),
+              child: Row(children: []),
             ),
-
           ),
         ],
       ),
