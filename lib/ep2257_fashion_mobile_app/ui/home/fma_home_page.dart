@@ -42,6 +42,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     children: [
                       Expanded(
                         child: Column(
+                          spacing: 6,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("My Location"),
