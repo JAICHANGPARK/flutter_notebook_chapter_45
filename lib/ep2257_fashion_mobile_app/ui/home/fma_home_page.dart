@@ -28,7 +28,31 @@ class _FmaHomePageState extends State<FmaHomePage> {
               ),
             ),
           ),
-          Positioned.fill(child: Column(children: [])),
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          children: [
+                            Text("My Location"),
+                            Row(
+                              children: [
+                                Icon(Icons.location_on_outlined),
+                                Text("Seoul, South Korea"),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
