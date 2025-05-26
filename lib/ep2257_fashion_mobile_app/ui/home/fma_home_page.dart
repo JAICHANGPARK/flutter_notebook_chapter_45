@@ -45,22 +45,27 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           spacing: 6,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("My Location"),
+                            Text("My Location", style: TextStyle(fontSize: 12)),
                             Row(
                               spacing: 4,
                               children: [
                                 Icon(Icons.location_on_outlined, size: 16),
-                                Text("Seoul, South Korea"),
+                                Text(
+                                  "Seoul, South Korea",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
                               ],
                             ),
                           ],
                         ),
                       ),
 
+
                       CircleAvatar(backgroundColor: Colors.white, radius: 24),
                       CircleAvatar(radius: 24),
                     ],
                   ),
+
                   Text("Hello, Dream!"),
                   Text("Explore your luxury fashion style from here."),
                   Container(height: 160, child: Placeholder()),
@@ -79,7 +84,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         mainAxisSpacing: 8,
                         crossAxisSpacing: 8,
                       ),
-                      itemBuilder: (context,index){
+                      itemBuilder: (context, index) {
                         return Placeholder();
                       },
                     ),
