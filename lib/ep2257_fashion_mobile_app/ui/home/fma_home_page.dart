@@ -84,7 +84,12 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     ),
                   ),
                   Gap(16),
-                  Container(height: 42, child: Placeholder()),
+                  Container(
+                    height: 52,
+                    child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {}),
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
