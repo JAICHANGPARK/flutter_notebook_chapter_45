@@ -66,8 +66,11 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Container(height: 160, child: Placeholder()),
                   Container(height: 42, child: Placeholder()),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Feature Brands"),
+                      Text("Feature Brands",style: TextStyle(
+                        fontSize: 18,
+                      ),),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
