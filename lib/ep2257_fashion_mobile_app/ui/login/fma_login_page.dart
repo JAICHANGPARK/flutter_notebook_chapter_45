@@ -42,7 +42,9 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
                   ),
                   Text(
                     'Explore curated trends, personalize your shopping experience and elevate your wardrobe - all in one place. Fashion made just for you!',
-                    style: TextStyle(),
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
                     textAlign: TextAlign.center,
                   ),
                   SmoothPageIndicator(
