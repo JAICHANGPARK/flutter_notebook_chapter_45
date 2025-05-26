@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FmaHomePage extends StatefulWidget {
   const FmaHomePage({super.key});
@@ -65,6 +66,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       CircleAvatar(radius: 24),
                     ],
                   ),
+                  Gap(24),
 
                   Text("Hello, Dream!"),
                   Text("Explore your luxury fashion style from here."),
