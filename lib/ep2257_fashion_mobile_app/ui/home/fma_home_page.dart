@@ -88,7 +88,15 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     height: 52,
                     child: ListView.builder(
                         scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {}),
+                        itemBuilder: (context, index) {
+                          if(index == 0){
+                            return Container(decoration: ShapeDecoration(shape: StadiumBorder(
+
+                            )),
+                            child: Center(child: Text("All")),);
+                          }
+                          return Container();
+                        }),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
