@@ -11,6 +11,12 @@ class FmaHomePage extends StatefulWidget {
 class _FmaHomePageState extends State<FmaHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
