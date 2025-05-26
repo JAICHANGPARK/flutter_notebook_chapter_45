@@ -87,16 +87,19 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Container(
                     height: 52,
                     child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          if(index == 0){
-                            return Container(decoration: ShapeDecoration(shape: StadiumBorder(
-
-                            )),
-                            child: Center(child: Text("All")),);
-                          }
-                          return Container();
-                        }),
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        if (index == 0) {
+                          return Container(
+                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            child: Center(child: Text("All")),
+                          );
+                        }
+                        return Container(
+                          decoration: ShapeDecoration(shape: StadiumBorder(),color: Colors.white),
+                        );
+                      },
+                    ),
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -113,7 +116,12 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         crossAxisSpacing: 8,
                       ),
                       itemBuilder: (context, index) {
-                        return Placeholder();
+                        return Column(
+                          children: [
+                            Expanded(child: Container(decoration: BoxDecoration(borderRadius: BorderRadius.circular(12),
+                            color: Colors.orange),))
+                          ],
+                        );
                       },
                     ),
                   ),
