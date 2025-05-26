@@ -14,16 +14,19 @@ class _FmaLoginPageState extends State<FmaLoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
+          Positioned(
+            child: Image.network(
+              "https://cdn.pixabay.com/photo/2020/10/22/06/09/woman-5674995_1280.jpg",
+            ),
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
             child: Column(
               spacing: 16,
               children: [
-                Expanded(child: Container(
-
-                )),
+                Expanded(child: Container()),
                 Text(
                   "Elevate Your Fashion Style Made Simple",
                   style: TextStyle(fontSize: 32),
