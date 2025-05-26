@@ -21,8 +21,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   end: Alignment.topRight,
                   colors: [
                     Color.fromRGBO(242, 242, 242, 1),
+                    Color.fromRGBO(242, 242, 242, 1),
                     Color.fromRGBO(234, 231, 248, 1),
-
                   ],
                 ),
               ),
