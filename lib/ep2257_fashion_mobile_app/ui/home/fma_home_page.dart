@@ -75,11 +75,15 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Text("Explore your luxury fashion style from here."),
                   Gap(20),
                   Container(
-                    height: 160,
+                    height: 140,
                     child: Container(
-                      decoration: BoxDecoration(color: Colors.blue),
+                      decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                     ),
                   ),
+                  Gap(16),
                   Container(height: 42, child: Placeholder()),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
