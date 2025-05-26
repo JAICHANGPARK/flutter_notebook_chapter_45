@@ -76,6 +76,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     child: GridView.builder(
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
+                        mainAxisSpacing: 8,
+                        crossAxisSpacing: 8,
                       ),
                       itemBuilder: (context,index){
                         return Placeholder();
