@@ -31,11 +31,14 @@ class _FmaHomePageState extends State<FmaHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    spacing: 12,
                     children: [
                       Expanded(
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("My Location"),
                             Row(
@@ -47,6 +50,11 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           ],
                         ),
                       ),
+
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                      ),
+                      CircleAvatar()
                     ],
                   ),
                 ],
