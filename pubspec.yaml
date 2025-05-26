@@ -12,6 +12,7 @@ dependencies:
   hugeicons: ^0.0.11
   percent_indicator: ^4.2.5
   smooth_page_indicator: ^1.2.1
+  gap:
 
 dev_dependencies:
   flutter_test:
