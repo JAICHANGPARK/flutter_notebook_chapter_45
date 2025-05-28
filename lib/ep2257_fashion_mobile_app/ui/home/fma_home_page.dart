@@ -61,8 +61,9 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         ),
                       ),
 
-                      CircleAvatar(backgroundColor: Colors.white, radius: 24),
-                      CircleAvatar(radius: 24),
+                      CircleAvatar(backgroundColor: Colors.white, radius: 24,
+                      child: Icon(Icons.search,),),
+                      CircleAvatar(radius: 24,),
                     ],
                   ),
                   Gap(32),
