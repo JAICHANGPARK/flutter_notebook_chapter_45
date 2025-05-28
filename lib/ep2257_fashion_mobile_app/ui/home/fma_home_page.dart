@@ -85,13 +85,13 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Gap(16),
                   Container(
-                    height: 52,
+                    height: 42,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         if (index == 0) {
                           return Container(
-                            width: 100,
+                            width: 82,
                             margin: EdgeInsets.only(
                               right: 12
                             ),
