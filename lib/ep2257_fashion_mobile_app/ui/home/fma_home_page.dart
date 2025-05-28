@@ -229,7 +229,10 @@ class _FmaHomePageState extends State<FmaHomePage> {
 
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 12),
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.blueGrey[50]!,
+                    ),
                     child: IconButton(
                       onPressed: () {},
                       icon: Icon(Icons.favorite_border),
@@ -238,9 +241,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
-                    child: IconButton(
-                      onPressed: () {},
-                      icon: Icon(Icons.favorite_border),
+                    child: Badge(
+                      child: Icon(HugeIcons.strokeRoundedShoppingCart01),
                     ),
                   ),
                   Container(
@@ -248,7 +250,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: IconButton(
                       onPressed: () {},
-                      icon: Icon(Icons.favorite_border),
+                      icon: Icon(HugeIcons.strokeRoundedUser),
                     ),
                   ),
                 ],
