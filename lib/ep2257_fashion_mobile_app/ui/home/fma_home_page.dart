@@ -113,6 +113,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Expanded(
                     child: GridView.builder(
+                      shrinkWrap: true,
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                         crossAxisCount: 2,
                         mainAxisSpacing: 8,
@@ -153,18 +154,18 @@ class _FmaHomePageState extends State<FmaHomePage> {
               ),
             ),
           ),
-          Positioned(
-            left: 24,
-            right: 24,
-            bottom: 16,
-            child: Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.white,
-              ),
-              child: Row(children: []),
-            ),
-          ),
+          // Positioned(
+          //   left: 24,
+          //   right: 24,
+          //   bottom: 16,
+          //   child: Container(
+          //     decoration: ShapeDecoration(
+          //       shape: StadiumBorder(),
+          //       color: Colors.white,
+          //     ),
+          //     child: Row(children: []),
+          //   ),
+          // ),
         ],
       ),
     );
