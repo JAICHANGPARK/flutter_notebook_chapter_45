@@ -197,10 +197,11 @@ class _FmaHomePageState extends State<FmaHomePage> {
             ),
           ),
           Positioned(
-            left: 24,
-            right: 24,
+            left: 12,
+            right: 12,
             bottom: 16,
             child: Container(
+              height: 62,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.white,
