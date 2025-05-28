@@ -61,9 +61,12 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         ),
                       ),
 
-                      CircleAvatar(backgroundColor: Colors.white, radius: 24,
-                      child: Icon(Icons.search,),),
-                      CircleAvatar(radius: 24,),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        radius: 24,
+                        child: Icon(Icons.search),
+                      ),
+                      CircleAvatar(radius: 24),
                     ],
                   ),
                   Gap(32),
@@ -107,23 +110,21 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           );
                         }
                         return Container(
-                          margin: EdgeInsets.only(
-                            right: 12
-                          ),
+                          margin: EdgeInsets.only(right: 12),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
                           padding: EdgeInsets.symmetric(horizontal: 12),
                           child: Row(
-                              spacing: 6,
-                              children: [CircleAvatar(
-                                radius: 12,
-                              ), Text("Shop")]),
+                            spacing: 6,
+                            children: [CircleAvatar(radius: 12), Text("Shop")],
+                          ),
                         );
                       },
                     ),
                   ),
+                  Gap(16),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
