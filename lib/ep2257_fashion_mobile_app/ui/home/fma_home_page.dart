@@ -214,6 +214,13 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       color: Colors.deepPurpleAccent,
                     ),
                   ),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.favorite_border),
+                    ),
+                  ),
                 ],
               ),
             ),
