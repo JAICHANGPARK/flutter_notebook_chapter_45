@@ -128,7 +128,13 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Feature Brands", style: TextStyle(fontSize: 18)),
+                      Text(
+                        "Feature Brands",
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
