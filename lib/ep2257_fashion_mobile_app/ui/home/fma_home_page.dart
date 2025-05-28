@@ -91,7 +91,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       itemBuilder: (context, index) {
                         if (index == 0) {
                           return Container(
-                            width: 62,
+                            width: 100,
                             margin: EdgeInsets.only(
                               right: 12
                             ),
