@@ -102,7 +102,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           ),
                           child: Row(
                             children: [
-                              
+                              CircleAvatar(),
+                              Text("Shop"),
                             ],
                           ),
                         );
