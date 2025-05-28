@@ -73,7 +73,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
 
                   Text(
                     "Hello, Dream!",
-                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
                   ),
                   Gap(6),
                   Text("Explore your luxury fashion style from here."),
@@ -196,18 +196,18 @@ class _FmaHomePageState extends State<FmaHomePage> {
               ),
             ),
           ),
-          // Positioned(
-          //   left: 24,
-          //   right: 24,
-          //   bottom: 16,
-          //   child: Container(
-          //     decoration: ShapeDecoration(
-          //       shape: StadiumBorder(),
-          //       color: Colors.white,
-          //     ),
-          //     child: Row(children: []),
-          //   ),
-          // ),
+          Positioned(
+            left: 24,
+            right: 24,
+            bottom: 16,
+            child: Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white,
+              ),
+              child: Row(children: []),
+            ),
+          ),
         ],
       ),
     );
