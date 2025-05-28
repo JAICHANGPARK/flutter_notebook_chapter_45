@@ -209,6 +209,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
               ),
               padding: EdgeInsets.all(8),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     decoration: ShapeDecoration(
@@ -225,7 +226,25 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       ],
                     ),
                   ),
+
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.favorite_border),
+                    ),
+                  ),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.favorite_border),
+                    ),
+                  ),
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: IconButton(
                       onPressed: () {},
