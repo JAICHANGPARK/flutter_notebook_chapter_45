@@ -231,7 +231,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.blueGrey[50]!,
+                      color: Colors.grey[100]!,
                     ),
                     child: IconButton(
                       onPressed: () {},
