@@ -142,6 +142,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                                       top: 12,
                                       child: CircleAvatar(
                                         backgroundColor: Colors.white,
+                                        foregroundColor: Colors.red,
                                         child: Icon(Icons.favorite),
                                       ),
                                     ),
