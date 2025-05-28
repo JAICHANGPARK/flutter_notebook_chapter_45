@@ -207,6 +207,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
+              padding: EdgeInsets.all(8),
               child: Row(
                 children: [
                   Container(
@@ -214,6 +215,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.deepPurpleAccent,
                     ),
+                    height: double.infinity,
+                    padding: EdgeInsets.symmetric(horizontal: 24),
                     child: Row(
                       spacing: 12,
                       children: [
