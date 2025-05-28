@@ -239,13 +239,15 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    padding: EdgeInsets.symmetric(horizontal: 24),
                     decoration: ShapeDecoration(shape: StadiumBorder(),
                       color: Colors.grey[100]!,
                     ),
                     height: double.infinity,
-                    child: Badge(
-                      child: Icon(HugeIcons.strokeRoundedShoppingCart01),
+                    child: Center(
+                      child: Badge(
+                        child: Icon(HugeIcons.strokeRoundedShoppingCart01),
+                      ),
                     ),
                   ),
                   Container(
