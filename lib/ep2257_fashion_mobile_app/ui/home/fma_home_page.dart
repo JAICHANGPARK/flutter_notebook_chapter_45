@@ -132,7 +132,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                                     image: NetworkImage(
                                       "https://cdn.pixabay.com/photo/2025/03/12/09/59/fashion-9464875_1280.jpg",
                                     ),
-                                    
+                                    fit: BoxFit.cover,
                                   ),
                                 ),
                                 child: Stack(
