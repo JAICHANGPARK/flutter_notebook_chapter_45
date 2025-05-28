@@ -240,14 +240,19 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 12),
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(shape: StadiumBorder(),
+                      color: Colors.grey[100]!,
+                    ),
+                    height: double.infinity,
                     child: Badge(
                       child: Icon(HugeIcons.strokeRoundedShoppingCart01),
                     ),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 12),
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(shape: StadiumBorder(),
+                      color: Colors.grey[100]!,
+                    ),
                     child: IconButton(
                       onPressed: () {},
                       icon: Icon(HugeIcons.strokeRoundedUser),
