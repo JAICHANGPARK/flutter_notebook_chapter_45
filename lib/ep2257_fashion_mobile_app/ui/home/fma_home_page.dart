@@ -128,6 +128,12 @@ class _FmaHomePageState extends State<FmaHomePage> {
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12),
                                   color: Colors.orange,
+                                  image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://cdn.pixabay.com/photo/2025/03/12/09/59/fashion-9464875_1280.jpg",
+                                    ),
+                                    
+                                  ),
                                 ),
                                 child: Stack(
                                   children: [
