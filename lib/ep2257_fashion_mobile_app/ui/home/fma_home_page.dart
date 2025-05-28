@@ -205,7 +205,16 @@ class _FmaHomePageState extends State<FmaHomePage> {
                 shape: StadiumBorder(),
                 color: Colors.white,
               ),
-              child: Row(children: []),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.deepPurpleAccent,
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
