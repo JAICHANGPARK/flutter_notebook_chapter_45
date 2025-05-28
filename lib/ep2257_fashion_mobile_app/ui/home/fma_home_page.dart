@@ -91,7 +91,14 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       itemBuilder: (context, index) {
                         if (index == 0) {
                           return Container(
-                            decoration: ShapeDecoration(shape: StadiumBorder()),
+                            width: 62,
+                            margin: EdgeInsets.only(
+                              right: 12
+                            ),
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.deepPurpleAccent,
+                            ),
                             child: Center(child: Text("All")),
                           );
                         }
@@ -100,12 +107,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
-                          child: Row(
-                            children: [
-                              CircleAvatar(),
-                              Text("Shop"),
-                            ],
-                          ),
+                          child: Row(children: [CircleAvatar(), Text("Shop")]),
                         );
                       },
                     ),
