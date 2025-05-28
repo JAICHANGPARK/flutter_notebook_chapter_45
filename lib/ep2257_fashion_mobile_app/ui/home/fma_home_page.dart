@@ -70,15 +70,18 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       CircleAvatar(radius: 24),
                     ],
                   ),
-                  Gap(42),
+                  Gap(32),
 
                   Text(
                     "Hello, Dream!",
                     style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
                   ),
                   Gap(6),
-                  Text("Explore your luxury fashion style from here."),
-                  Gap(20),
+                  Text(
+                    "Explore your luxury fashion style from here.",
+                    style: TextStyle(color: Colors.grey),
+                  ),
+                  Gap(28),
                   Container(
                     height: 140,
                     child: Container(
@@ -88,7 +91,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       ),
                     ),
                   ),
-                  Gap(16),
+                  Gap(28),
                   Container(
                     height: 42,
                     child: ListView.builder(
