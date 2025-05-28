@@ -32,7 +32,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
           Positioned.fill(
             left: 16,
             right: 16,
-            top: 24,
+            top: 32,
             bottom: 24,
             child: SafeArea(
               child: Column(
@@ -69,7 +69,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       CircleAvatar(radius: 24),
                     ],
                   ),
-                  Gap(32),
+                  Gap(42),
 
                   Text(
                     "Hello, Dream!",
