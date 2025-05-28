@@ -106,6 +106,9 @@ class _FmaHomePageState extends State<FmaHomePage> {
                           );
                         }
                         return Container(
+                          margin: EdgeInsets.only(
+                            right: 12
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.white,
