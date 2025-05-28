@@ -100,6 +100,11 @@ class _FmaHomePageState extends State<FmaHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          child: Row(
+                            children: [
+                              
+                            ],
+                          ),
                         );
                       },
                     ),
@@ -121,6 +126,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                       ),
                       itemBuilder: (context, index) {
                         return Column(
+                          spacing: 6,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Expanded(
@@ -150,8 +156,14 @@ class _FmaHomePageState extends State<FmaHomePage> {
                                 ),
                               ),
                             ),
-                            Text("Celeb Approved Print"),
-                            Text("New Season"),
+                            Text(
+                              "Celeb Approved Print",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              "New Season",
+                              style: TextStyle(color: Colors.grey),
+                            ),
                           ],
                         );
                       },
