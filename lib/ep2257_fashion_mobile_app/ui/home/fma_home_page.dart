@@ -145,6 +145,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                         crossAxisCount: 2,
                         mainAxisSpacing: 8,
                         crossAxisSpacing: 8,
+                        childAspectRatio: .7,
                       ),
                       itemBuilder: (context, index) {
                         return Column(
