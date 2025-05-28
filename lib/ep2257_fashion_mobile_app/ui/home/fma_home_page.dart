@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class FmaHomePage extends StatefulWidget {
   const FmaHomePage({super.key});
@@ -212,6 +213,13 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Colors.deepPurpleAccent,
+                    ),
+                    child: Row(
+                      spacing: 12,
+                      children: [
+                        Icon(HugeIcons.strokeRoundedHome01),
+                        Text("Home"),
+                      ],
                     ),
                   ),
                   Container(
