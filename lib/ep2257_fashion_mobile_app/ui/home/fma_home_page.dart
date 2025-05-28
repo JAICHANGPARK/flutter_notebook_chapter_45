@@ -221,8 +221,11 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     child: Row(
                       spacing: 12,
                       children: [
-                        Icon(HugeIcons.strokeRoundedHome01),
-                        Text("Home"),
+                        Icon(
+                          HugeIcons.strokeRoundedHome01,
+                          color: Colors.white,
+                        ),
+                        Text("Home", style: TextStyle(color: Colors.white)),
                       ],
                     ),
                   ),
@@ -240,7 +243,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 24),
-                    decoration: ShapeDecoration(shape: StadiumBorder(),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
                       color: Colors.grey[100]!,
                     ),
                     height: double.infinity,
@@ -252,7 +256,8 @@ class _FmaHomePageState extends State<FmaHomePage> {
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 12),
-                    decoration: ShapeDecoration(shape: StadiumBorder(),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
                       color: Colors.grey[100]!,
                     ),
                     child: IconButton(
