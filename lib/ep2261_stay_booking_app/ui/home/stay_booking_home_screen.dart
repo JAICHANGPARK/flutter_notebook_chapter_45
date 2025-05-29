@@ -56,7 +56,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             ),
             Container(
               margin: EdgeInsets.all(24),
-              height: 62,
+              height: 64,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.black,
