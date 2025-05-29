@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class StayBookingHomeScreen extends StatefulWidget {
   const StayBookingHomeScreen({super.key});
 
@@ -16,7 +15,15 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-        
+            Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
