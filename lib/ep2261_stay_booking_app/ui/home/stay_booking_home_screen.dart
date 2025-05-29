@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class StayBookingHomeScreen extends StatefulWidget {
   const StayBookingHomeScreen({super.key});
@@ -62,11 +63,13 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
               ),
               padding: EdgeInsets.all(3),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(
                     radius: 30,
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
+                    child: Icon(HugeIcons.strokeRoundedHome01),
                   ),
                   CircleAvatar(
                     radius: 30,
