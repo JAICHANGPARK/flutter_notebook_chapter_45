@@ -45,6 +45,8 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 ],
               ),
             ),
+            Text("Grab Your"),
+            Text("Dream Getaway")
           ],
         ),
       ),
