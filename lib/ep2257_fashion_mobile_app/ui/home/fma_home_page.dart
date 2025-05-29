@@ -92,7 +92,7 @@ class _FmaHomePageState extends State<FmaHomePage> {
                     ),
                   ),
                   Gap(28),
-                  Container(
+                  SizedBox(
                     height: 42,
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
