@@ -67,6 +67,26 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     radius: 30,
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
+                  ),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.transparent,
+                    foregroundColor: Colors.white,
+                  ),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.transparent,
+                    foregroundColor: Colors.white,
+                  ),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.transparent,
+                    foregroundColor: Colors.white,
+                  ),
+                  CircleAvatar(
+                    radius: 30,
+                    backgroundColor: Colors.transparent,
+                    foregroundColor: Colors.white,
                   )
                 ],
               ),
