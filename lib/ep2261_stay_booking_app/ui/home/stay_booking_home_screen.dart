@@ -53,6 +53,22 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             Expanded(
               child: Container(decoration: BoxDecoration(color: Colors.blue)),
             ),
+            Container(
+              margin: EdgeInsets.all(24),
+              height: 62,
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.black,
+              ),
+              padding: EdgeInsets.all(3),
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    radius: 30,
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
