@@ -8,6 +8,14 @@
 
 <img src="https://cdn.dribbble.com/userupload/43430164/file/original-635e0feea3c88369e9a9ac8db20a3754.jpg?resize=1905x1429&vertical=center">
 
+## EP2257-2260
+
+- Fashion Mobile App Ui Design
+- Mainul Islam Arafat for Arobix Design
+- https://dribbble.com/shots/26061461-Fashion-Mobile-App-Ui-Design
+
+<img src="https://cdn.dribbble.com/userupload/43430164/file/original-635e0feea3c88369e9a9ac8db20a3754.jpg?resize=1905x1429&vertical=center">
+
 ## EP2251-2256
 
 - Fummo - POS Mobile App
