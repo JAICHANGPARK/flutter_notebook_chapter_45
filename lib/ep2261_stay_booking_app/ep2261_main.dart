@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/home/stay_booking_home_screen.dart';
+
 void main() {
  runApp(StayBookingApp()) ;
 }
@@ -9,7 +11,9 @@ class StayBookingApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp()
+    return MaterialApp(
+      home: StayBookingHomeScreen(),
+    )
     ;
   }
 }
