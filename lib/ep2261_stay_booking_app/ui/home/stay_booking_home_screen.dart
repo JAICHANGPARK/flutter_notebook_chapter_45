@@ -93,6 +93,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     radius: 30,
                     backgroundColor: Colors.transparent,
                     foregroundColor: Colors.white,
+                    child: Icon(HugeIcons.strokeRoundedUser),
                   )
                 ],
               ),
