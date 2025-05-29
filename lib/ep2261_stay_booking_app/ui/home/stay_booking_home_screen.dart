@@ -14,6 +14,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
         
           ],
