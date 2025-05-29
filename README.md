@@ -3,10 +3,10 @@
 ## EP2261
 
 - Staya — Mobile Booking Experience
-- Mainul Islam Arafat for Arobix Design
+- Bato
 - https://dribbble.com/shots/26086286-Staya-Mobile-Booking-Experience
 
-<img src="https://cdn.dribbble.com/userupload/43430164/file/original-635e0feea3c88369e9a9ac8db20a3754.jpg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43507785/file/original-0560b44aa80ccaca0989c98179537fac.jpg?resize=1905x1429&vertical=center">
 
 ## EP2257-2260
 
