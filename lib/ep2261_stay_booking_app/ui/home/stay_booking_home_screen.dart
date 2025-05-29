@@ -22,7 +22,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     border: Border.all(color: Colors.grey),
                     shape: BoxShape.circle,
                   ),
-                  child: IconButton(onPressed: () {}, icon: Icon(Icons.apps)),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.apps),
+                    iconSize: 28,
+                  ),
                 ),
               ],
             ),
