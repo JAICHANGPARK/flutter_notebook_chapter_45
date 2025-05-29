@@ -45,8 +45,14 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 ],
               ),
             ),
-            Text("Grab Your"),
-            Text("Dream Getaway")
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [Text("Grab Your"), Text("Dream Getaway")],
+            ),
+            SizedBox(height: 52, child: Placeholder()),
+            Expanded(
+              child: Container(decoration: BoxDecoration(color: Colors.blue)),
+            ),
           ],
         ),
       ),
