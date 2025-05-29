@@ -11,6 +11,12 @@ class StayBookingHomeScreen extends StatefulWidget {
 class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
