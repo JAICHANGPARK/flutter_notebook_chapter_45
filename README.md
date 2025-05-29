@@ -1,10 +1,10 @@
 # flutter_notebook_chapter_45
 
-## EP2257-2260
+## EP2261
 
-- Fashion Mobile App Ui Design
+- Staya — Mobile Booking Experience
 - Mainul Islam Arafat for Arobix Design
-- https://dribbble.com/shots/26061461-Fashion-Mobile-App-Ui-Design
+- https://dribbble.com/shots/26086286-Staya-Mobile-Booking-Experience
 
 <img src="https://cdn.dribbble.com/userupload/43430164/file/original-635e0feea3c88369e9a9ac8db20a3754.jpg?resize=1905x1429&vertical=center">
 
