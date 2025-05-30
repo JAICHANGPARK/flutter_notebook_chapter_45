@@ -18,7 +18,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Gap(24),
+            Gap(16),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
