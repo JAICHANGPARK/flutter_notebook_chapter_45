@@ -48,7 +48,13 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [Text("Grab Your"), Text("Dream Getaway")],
+              children: [
+                Text(
+                  "Grab Your",
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                ),
+                Text("Dream Getaway"),
+              ],
             ),
             SizedBox(height: 52, child: Placeholder()),
             Expanded(
@@ -94,7 +100,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     backgroundColor: Colors.transparent,
                     foregroundColor: Colors.white,
                     child: Icon(HugeIcons.strokeRoundedUser),
-                  )
+                  ),
                 ],
               ),
             ),
