@@ -63,7 +63,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
               ),
             ),
             SizedBox(
-              height: 52,
+              height: 46,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
@@ -72,6 +72,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                       shape: StadiumBorder(),
                       color: index == 0 ? Colors.black : Colors.grey[200]!,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 32),
                     child: Center(
                       child: Text("Popular",style: TextStyle(
 
