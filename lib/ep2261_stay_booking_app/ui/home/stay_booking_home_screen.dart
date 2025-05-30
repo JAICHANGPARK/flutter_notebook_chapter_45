@@ -153,8 +153,8 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                   color: Colors.white,
                                 ),
                                 padding: EdgeInsets.symmetric(
-                                  horizontal: 24,
-                                  vertical: 9,
+                                  horizontal: 32,
+                                  vertical: 14,
                                 ),
                                 child: Text(
                                   "View Property",
@@ -164,7 +164,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                               CircleAvatar(
                                 backgroundColor: Colors.white,
                                 foregroundColor: Colors.black,
-                                child: Icon(Icons.favorite),
+                                child: IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.favorite),
+                                ),
                               ),
                             ],
                           ),
