@@ -72,7 +72,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                       shape: StadiumBorder(),
                       color: index == 0 ? Colors.black : Colors.grey[200]!,
                     ),
-                    child: ,
+                    child: Center(
+                      child: Text("Popular",style: TextStyle(
+
+                      ), ),
+                    ),
                   );
                 },
               ),
