@@ -62,7 +62,8 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 ],
               ),
             ),
-            SizedBox(
+            Container(
+              padding: EdgeInsets.only(left: 16),
               height: 46,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
