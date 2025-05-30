@@ -56,11 +56,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 children: [
                   Text(
                     "Grab Your",
-                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     "Dream Getaway",
-                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
