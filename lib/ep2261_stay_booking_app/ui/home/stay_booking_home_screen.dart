@@ -62,7 +62,13 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 ],
               ),
             ),
-            SizedBox(height: 52, child: Placeholder()),
+            SizedBox(height: 52,
+                child: ListView.builder(itemBuilder: (context, index) {
+                  return Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder(),
+                      color: index == 0 ? Colors.black,),
+                  );
+                })),
             Expanded(
               child: Container(decoration: BoxDecoration(color: Colors.blue)),
             ),
