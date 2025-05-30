@@ -121,7 +121,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-                                  color: Colors.grey,
+                                  color: Colors.grey[200]!,
                                 ),
                                 child: Text.rich(
                                   TextSpan(
