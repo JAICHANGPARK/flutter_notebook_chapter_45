@@ -116,7 +116,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                         ),
                       ),
 
-                      padding: EdgeInsets.all(16),
+                      padding: EdgeInsets.all(24),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
