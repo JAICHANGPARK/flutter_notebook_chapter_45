@@ -117,17 +117,20 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Home", style: TextStyle(fontSize: 18,
-
-                              )),
+                              Text("Home", style: TextStyle(fontSize: 18)),
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-
+                                  color: Colors.grey,
                                 ),
-                                child: Text.rich(TextSpan(children: [
-                                  
-                                ],)),
+                                child: Text.rich(
+                                  TextSpan(
+                                    children: [
+                                      TextSpan(text: "\$1,250"),
+                                      TextSpan(text: "/night"),
+                                    ],
+                                  ),
+                                ),
                               ),
                             ],
                           ),
