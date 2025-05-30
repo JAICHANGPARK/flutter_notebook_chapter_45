@@ -119,6 +119,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                             children: [
                               Text("Home", style: TextStyle(fontSize: 18)),
                               Container(
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 2,
+                                ),
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
                                   color: Colors.grey[200]!,
@@ -142,7 +146,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                   shape: StadiumBorder(),
                                   color: Colors.white,
                                 ),
-                                child: Text("View Property"),
+                                padding: EdgeInsets.symmetric(horizontal: 24,vertical: 9),
+                                child: Text(
+                                  "View Property",
+                                  style: TextStyle(color: Colors.black),
+                                ),
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.white,
