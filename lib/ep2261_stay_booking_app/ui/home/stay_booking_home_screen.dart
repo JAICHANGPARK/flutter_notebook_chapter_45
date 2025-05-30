@@ -158,10 +158,14 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                 ),
                                 child: Text(
                                   "View Property",
-                                  style: TextStyle(color: Colors.black),
+                                  style: TextStyle(
+                                    color: Colors.black,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
                               ),
                               CircleAvatar(
+                                radius: 24,
                                 backgroundColor: Colors.white,
                                 foregroundColor: Colors.black,
                                 child: IconButton(
