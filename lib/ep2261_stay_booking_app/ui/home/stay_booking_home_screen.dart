@@ -18,6 +18,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Gap(24),
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -91,54 +92,59 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             ),
             Gap(24),
             Expanded(
-              child: ListView.builder(
-                itemCount: 10,
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    width: 320,
-                    margin: EdgeInsets.only(right: 12),
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey),
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(24),
-                      boxShadow: [
-                        BoxShadow(color: Colors.black.withValues(alpha: .1)),
-                      ],
-                    ),
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text("Home"),
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
+              child: Padding(
+                padding: const EdgeInsets.only(left: 16),
+                child: ListView.builder(
+                  itemCount: 10,
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) {
+                    return Container(
+                      width: 320,
+                      margin: EdgeInsets.only(right: 12),
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.grey),
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(24),
+                        boxShadow: [
+                          BoxShadow(color: Colors.black.withValues(alpha: .1)),
+                        ],
+                      ),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Home"),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            Container(
-                              decoration: ShapeDecoration(
-                                shape: StadiumBorder(),
-                                color: Colors.white,
+                            ],
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.white,
+                                ),
+                                child: Text("View Property"),
                               ),
-                              child: Text("View Property"),
-                            ),
-                            CircleAvatar(
-                              backgroundColor: Colors.white,
-                              child: Icon(Icons.favorite),
-                            )
-                          ],
-                        ),
-                      ],
-                    ),
-                  );
-                },
+                              CircleAvatar(
+                                backgroundColor: Colors.white,
+                                foregroundColor: Colors.black,
+                                child: Icon(Icons.favorite),
+                              )
+                            ],
+                          ),
+                        ],
+                      ),
+                    );
+                  },
+                ),
               ),
             ),
             Container(
