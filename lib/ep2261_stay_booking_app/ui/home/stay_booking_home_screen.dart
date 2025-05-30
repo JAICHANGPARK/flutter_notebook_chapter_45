@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class StayBookingHomeScreen extends StatefulWidget {
@@ -75,14 +76,18 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 32),
                     child: Center(
-                      child: Text("Popular",style: TextStyle(
-
-                      ), ),
+                      child: Text(
+                        "Popular",
+                        style: TextStyle(
+                          color: index == 0 ? Colors.white : Colors.grey,
+                        ),
+                      ),
                     ),
                   );
                 },
               ),
             ),
+            Gap(24),
             Expanded(
               child: Container(decoration: BoxDecoration(color: Colors.blue)),
             ),
