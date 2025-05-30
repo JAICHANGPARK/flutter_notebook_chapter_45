@@ -91,7 +91,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             ),
             Gap(24),
             Expanded(
-              child: Container(decoration: BoxDecoration(color: Colors.blue)),
+              child: Container(decoration: BoxDecoration(color: Colors.blue),
+              child: ListView.builder(itemBuilder: (context,index){
+                
+              }),),
             ),
             Container(
               margin: EdgeInsets.all(24),
