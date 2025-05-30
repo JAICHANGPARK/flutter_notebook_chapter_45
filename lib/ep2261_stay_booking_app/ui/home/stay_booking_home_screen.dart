@@ -106,6 +106,20 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                         BoxShadow(color: Colors.black.withValues(alpha: .1)),
                       ],
                     ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Text("Home"),
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
