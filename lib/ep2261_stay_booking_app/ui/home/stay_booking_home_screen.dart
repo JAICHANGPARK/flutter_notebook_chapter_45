@@ -109,6 +109,8 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                           BoxShadow(color: Colors.black.withValues(alpha: .1)),
                         ],
                       ),
+
+                      padding: EdgeInsets.all(16),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -137,7 +139,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                 backgroundColor: Colors.white,
                                 foregroundColor: Colors.black,
                                 child: Icon(Icons.favorite),
-                              )
+                              ),
                             ],
                           ),
                         ],
