@@ -107,8 +107,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                       ],
                     ),
                     child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text("Home"),
                             Container(
@@ -116,6 +118,21 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                 shape: StadiumBorder(),
                               ),
                             ),
+                          ],
+                        ),
+                        Row(
+                          children: [
+                            Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.white,
+                              ),
+                              child: Text("View Property"),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.white,
+                              child: Icon(Icons.favorite),
+                            )
                           ],
                         ),
                       ],
