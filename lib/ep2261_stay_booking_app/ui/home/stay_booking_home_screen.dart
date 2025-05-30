@@ -101,6 +101,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey),
                       color: Colors.white,
+                      borderRadius: BorderRadius.circular(24),
                     ),
                   );
                 },
