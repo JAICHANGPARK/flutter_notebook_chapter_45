@@ -65,11 +65,12 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
             ),
             Container(
               padding: EdgeInsets.only(left: 16),
-              height: 46,
+              height: 42,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(right: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: index == 0 ? Colors.black : Colors.grey[200]!,
@@ -79,7 +80,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                       child: Text(
                         "Popular",
                         style: TextStyle(
-                          color: index == 0 ? Colors.white : Colors.grey,
+                          color: index == 0 ? Colors.white : Colors.black,
                         ),
                       ),
                     ),
