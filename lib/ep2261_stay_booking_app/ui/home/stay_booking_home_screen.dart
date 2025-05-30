@@ -108,6 +108,12 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                         boxShadow: [
                           BoxShadow(color: Colors.black.withValues(alpha: .1)),
                         ],
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            "https://cdn.pixabay.com/photo/2016/11/15/22/32/christmas-1827719_1280.png",
+                          ),
+                          fit: BoxFit.cover,
+                        ),
                       ),
 
                       padding: EdgeInsets.all(16),
@@ -146,7 +152,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                   shape: StadiumBorder(),
                                   color: Colors.white,
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 24,vertical: 9),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 24,
+                                  vertical: 9,
+                                ),
                                 child: Text(
                                   "View Property",
                                   style: TextStyle(color: Colors.black),
