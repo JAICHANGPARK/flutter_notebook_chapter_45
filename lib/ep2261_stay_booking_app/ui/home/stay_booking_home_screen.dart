@@ -96,8 +96,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    width: 320,
+                    margin: EdgeInsets.only(right: 12),
                     decoration: BoxDecoration(
                       border: Border.all(color: Colors.grey),
+                      color: Colors.white,
                     ),
                   );
                 },
