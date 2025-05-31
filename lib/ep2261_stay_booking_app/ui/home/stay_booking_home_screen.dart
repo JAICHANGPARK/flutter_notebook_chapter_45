@@ -151,9 +151,10 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                               InkWell(
                                 onTap: () {
                                   Navigator.of(context).push(
-                                      MaterialPageRoute(builder: (context) =>
-                                          StayDetailPage(),
-                                      ));
+                                    MaterialPageRoute(
+                                      builder: (context) => StayDetailPage(),
+                                    ),
+                                  );
                                 },
                                 child: Container(
                                   decoration: ShapeDecoration(
