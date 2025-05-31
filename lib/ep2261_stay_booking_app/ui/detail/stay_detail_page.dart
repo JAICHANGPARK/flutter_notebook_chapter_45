@@ -350,10 +350,15 @@ class _StayDetailPageState extends State<StayDetailPage> {
                 decoration: BoxDecoration(color: Colors.white),
                 height: 80,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text.rich(TextSpan(children: [
                       TextSpan(
                         text: "\$1,250",
+                        style: TextStyle(
+                          fontSize: 26,
+                          fontWeight: FontWeight.bold,
+                        )
                       ),
                       TextSpan(
                         text: "/night",
