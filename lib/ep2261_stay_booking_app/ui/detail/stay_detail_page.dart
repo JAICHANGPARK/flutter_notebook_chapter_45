@@ -27,7 +27,9 @@ class _StayDetailPageState extends State<StayDetailPage> {
                       shape: BoxShape.circle,
                     ),
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                      },
                       icon: Icon(Icons.arrow_back_ios_new),
                     ),
                   ),
