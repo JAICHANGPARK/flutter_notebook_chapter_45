@@ -16,7 +16,22 @@ class _StayDetailPageState extends State<StayDetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           spacing: 16,
-          children: [Row(children: [])],
+          children: [
+            Row(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey),
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.arrow_back_ios_new),
+                  ),
+                ),
+              ],
+            ),
+          ],
         ),
       ),
     );
