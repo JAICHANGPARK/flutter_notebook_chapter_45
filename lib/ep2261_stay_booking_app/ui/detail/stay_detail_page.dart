@@ -211,7 +211,10 @@ class _StayDetailPageState extends State<StayDetailPage> {
 
                   children: [
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -221,13 +224,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -237,13 +243,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -253,13 +262,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -269,13 +281,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -285,13 +300,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -301,13 +319,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 8,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -317,24 +338,36 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center,size: 18,),
-                          Text("Gym Access")
+                          Icon(Icons.fitness_center, size: 18),
+                          Text("Gym Access"),
                         ],
                       ),
                     ),
                   ],
-
                 ),
               ),
               Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white
-                  ),
-                  height: 80, child: Row(
-                children: [
-                  Text.rich(TextSpan(children: [],))
-                ],
-              )),
+                decoration: BoxDecoration(color: Colors.white),
+                height: 80,
+                child: Row(
+                  children: [
+                    Text.rich(TextSpan(children: [])),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+
+                        color: Colors.black,
+                      ),
+                      child: Row(
+                        children: [
+                          Text("Check Now"),
+                          CircleAvatar(),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
