@@ -29,6 +29,15 @@ class _StayDetailPageState extends State<StayDetailPage> {
                     icon: Icon(Icons.arrow_back_ios_new),
                   ),
                 ),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Text("Dream Villas"),
+                      Text("Seoul, Republic of Korea"),
+                    ],
+                  ),
+                ),
+                
               ],
             ),
           ],
