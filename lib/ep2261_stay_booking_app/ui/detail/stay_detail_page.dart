@@ -351,7 +351,14 @@ class _StayDetailPageState extends State<StayDetailPage> {
                 height: 80,
                 child: Row(
                   children: [
-                    Text.rich(TextSpan(children: [])),
+                    Text.rich(TextSpan(children: [
+                      TextSpan(
+                        text: "\$1,250",
+                      ),
+                      TextSpan(
+                        text: "/night",
+                      ),
+                    ])),
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
