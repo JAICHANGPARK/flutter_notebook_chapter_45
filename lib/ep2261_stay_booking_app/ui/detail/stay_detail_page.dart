@@ -130,11 +130,14 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             side: BorderSide(color: Colors.grey),
                           ),
                         ),
-                        padding: EdgeInsets.all(8),
+                        padding: EdgeInsets.all(12),
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [Icon(Icons.star),
-                        Text("4.8"),
+                        Text("4.8",style: TextStyle(
+                          fontSize: 32,
+                        ),),
                         Text("Average rating")]),
                       ),
                     ),
