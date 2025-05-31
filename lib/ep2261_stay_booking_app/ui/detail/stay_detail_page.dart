@@ -11,6 +11,12 @@ class StayDetailPage extends StatefulWidget {
 class _StayDetailPageState extends State<StayDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
