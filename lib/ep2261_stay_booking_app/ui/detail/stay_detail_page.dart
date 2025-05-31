@@ -75,15 +75,28 @@ class _StayDetailPageState extends State<StayDetailPage> {
                     ),
                     Expanded(
                       child: Container(
-                        decoration: ShapeDecoration(
-                          shape: RoundedSuperellipseBorder(
-                            borderRadius: BorderRadius.circular(16),
-                          ),
-                          color: Colors.brown,
-                        ),
                         child: Column(
                           children: [
-                            
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                  color: Colors.brown,
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                  color: Colors.brown,
+                                ),
+                              ),
+                            ),
                           ],
                         ),
                       ),
