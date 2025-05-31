@@ -153,7 +153,7 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                                   Navigator.of(context).push(
                                       MaterialPageRoute(builder: (context) =>
                                           StayDetailPage(),
-                                      ))
+                                      ));
                                 },
                                 child: Container(
                                   decoration: ShapeDecoration(
