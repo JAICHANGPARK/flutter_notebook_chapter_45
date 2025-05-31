@@ -118,8 +118,9 @@ class _StayDetailPageState extends State<StayDetailPage> {
                 ],
               ),
               Container(
-                height: 140,
+                height: 130,
                 child: Row(
+                  spacing: 4,
                   children: [
                     Expanded(
                       child: Container(
@@ -129,6 +130,7 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             side: BorderSide(color: Colors.grey),
                           ),
                         ),
+                        child: Column(children: [Icon(Icons.star)]),
                       ),
                     ),
                     Expanded(
