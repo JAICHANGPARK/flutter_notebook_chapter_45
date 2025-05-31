@@ -374,7 +374,7 @@ class _StayDetailPageState extends State<StayDetailPage> {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.only(left: 24, right: 24),
                             child: Text("Check Now",style: TextStyle(
                               color: Colors.white,
                             ),),
