@@ -326,7 +326,11 @@ class _StayDetailPageState extends State<StayDetailPage> {
 
                 ),
               ),
-              Container(height: 80, child: Placeholder()),
+              Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white
+                  ),
+                  height: 80, child: Placeholder()),
             ],
           ),
         ),
