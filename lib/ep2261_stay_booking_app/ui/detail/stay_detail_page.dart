@@ -330,7 +330,11 @@ class _StayDetailPageState extends State<StayDetailPage> {
                   decoration: BoxDecoration(
                     color: Colors.white
                   ),
-                  height: 80, child: Placeholder()),
+                  height: 80, child: Row(
+                children: [
+                  Text.rich(TextSpan(children: [],))
+                ],
+              )),
             ],
           ),
         ),
