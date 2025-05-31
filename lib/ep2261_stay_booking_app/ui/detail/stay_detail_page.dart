@@ -37,7 +37,16 @@ class _StayDetailPageState extends State<StayDetailPage> {
                     ],
                   ),
                 ),
-                
+                Container(
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey),
+                    shape: BoxShape.circle,
+                  ),
+                  child: IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.favorite),
+                  ),
+                ),
               ],
             ),
           ],
