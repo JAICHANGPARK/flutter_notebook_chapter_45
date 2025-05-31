@@ -156,6 +156,22 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             side: BorderSide(color: Colors.grey),
                           ),
                         ),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.star),
+                            Text(
+                              "4.8",
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("Average rating"),
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
@@ -166,13 +182,112 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             side: BorderSide(color: Colors.grey),
                           ),
                         ),
+                        padding: EdgeInsets.all(12),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.star),
+                            Text(
+                              "4.8",
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("Average rating"),
+                          ],
+                        ),
                       ),
                     ),
                   ],
                 ),
               ),
               Divider(),
-              Expanded(child: Placeholder()),
+              Expanded(
+                child: OverflowBar(
+                  spacing: 8,
+
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                  ],
+
+                ),
+              ),
               Container(height: 80, child: Placeholder()),
             ],
           ),
