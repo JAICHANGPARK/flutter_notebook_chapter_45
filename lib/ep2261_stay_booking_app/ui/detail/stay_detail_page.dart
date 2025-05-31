@@ -373,7 +373,12 @@ class _StayDetailPageState extends State<StayDetailPage> {
                       padding: EdgeInsets.all(4),
                       child: Row(
                         children: [
-                          Text("Check Now"),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Text("Check Now",style: TextStyle(
+                              
+                            ),),
+                          ),
                           CircleAvatar(
                             radius: 26,
                             backgroundColor: Colors.white,
