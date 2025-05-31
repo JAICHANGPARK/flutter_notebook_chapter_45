@@ -290,6 +290,38 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         ],
                       ),
                     ),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center,size: 18,),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(
+                          side: BorderSide(color: Colors.grey),
+                        ),
+                      ),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        spacing: 8,
+                        children: [
+                          Icon(Icons.fitness_center,size: 18,),
+                          Text("Gym Access")
+                        ],
+                      ),
+                    ),
                   ],
 
                 ),
