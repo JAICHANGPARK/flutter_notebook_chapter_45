@@ -12,10 +12,13 @@ class _StayDetailPageState extends State<StayDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          
-        ],
+      backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+
+          ],
+        ),
       ),
     );
   }
