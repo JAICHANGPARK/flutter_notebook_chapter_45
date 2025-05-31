@@ -66,7 +66,9 @@ class _StayDetailPageState extends State<StayDetailPage> {
                     Expanded(
                       child: Container(
                         decoration: ShapeDecoration(
-                          shape: RoundedSuperellipseBorder(),
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
                           color: Colors.brown,
                         ),
                       ),
