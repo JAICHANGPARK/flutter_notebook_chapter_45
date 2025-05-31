@@ -373,7 +373,11 @@ class _StayDetailPageState extends State<StayDetailPage> {
                       child: Row(
                         children: [
                           Text("Check Now"),
-                          CircleAvatar(),
+                          CircleAvatar(
+                            radius: 26,
+                            backgroundColor: Colors.white,
+                            child: Icon(Icons.calendar_month),
+                          ),
                         ],
                       ),
                     ),
