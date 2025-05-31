@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class StayDetailPage extends StatefulWidget {
   const StayDetailPage({super.key});
 
@@ -15,9 +14,9 @@ class _StayDetailPageState extends State<StayDetailPage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          children: [
-
-          ],
+          crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 16,
+          children: [Row(children: [])],
         ),
       ),
     );
