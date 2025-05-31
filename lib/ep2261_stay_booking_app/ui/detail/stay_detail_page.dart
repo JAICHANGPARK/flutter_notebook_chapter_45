@@ -133,12 +133,19 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         padding: EdgeInsets.all(12),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [Icon(Icons.star),
-                        Text("4.8",style: TextStyle(
-                          fontSize: 32,
-                        ),),
-                        Text("Average rating")]),
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Icon(Icons.star),
+                            Text(
+                              "4.8",
+                              style: TextStyle(
+                                fontSize: 28,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("Average rating"),
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
