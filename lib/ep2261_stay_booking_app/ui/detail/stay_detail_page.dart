@@ -205,11 +205,13 @@ class _StayDetailPageState extends State<StayDetailPage> {
               ),
               Divider(),
               Expanded(
-                child: OverflowBar(
+                child: Wrap(
+                  runSpacing: 8,
                   spacing: 8,
 
                   children: [
                     Container(
+                      padding: EdgeInsets.symmetric(horizontal: 8,vertical: 4),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(
                           side: BorderSide(color: Colors.grey),
@@ -219,7 +221,7 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         mainAxisSize: MainAxisSize.min,
                         spacing: 8,
                         children: [
-                          Icon(Icons.fitness_center),
+                          Icon(Icons.fitness_center,size: 16,),
                           Text("Gym Access")
                         ],
                       ),
