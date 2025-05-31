@@ -61,8 +61,10 @@ class _StayDetailPageState extends State<StayDetailPage> {
               ],
             ),
             Container(
-              height: 160,
-            )
+              height: 140,
+              child: Placeholder(),
+            ),
+            Divider(),
           ],
         ),
       ),
