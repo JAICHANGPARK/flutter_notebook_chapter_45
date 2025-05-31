@@ -130,7 +130,9 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             side: BorderSide(color: Colors.grey),
                           ),
                         ),
-                        child: Column(children: [Icon(Icons.star)]),
+                        child: Column(children: [Icon(Icons.star),
+                        Text("4.8"),
+                        Text("Average rating")]),
                       ),
                     ),
                     Expanded(
