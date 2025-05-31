@@ -34,10 +34,13 @@ class _StayDetailPageState extends State<StayDetailPage> {
                   Expanded(
                     child: Column(
                       children: [
-                        Text("Dream Villas",style: TextStyle(
-                          fontSize: 26,
-                          
-                        ),),
+                        Text(
+                          "Dream Villas",
+                          style: TextStyle(
+                            fontSize: 26,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Text("Seoul, Republic of Korea"),
                       ],
                     ),
