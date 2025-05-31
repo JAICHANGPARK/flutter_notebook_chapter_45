@@ -377,7 +377,7 @@ class _StayDetailPageState extends State<StayDetailPage> {
                             padding: const EdgeInsets.only(left: 24 ,right: 12),
                             child: Text("Check Now",style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 16,
                             ),),
                           ),
                           CircleAvatar(
