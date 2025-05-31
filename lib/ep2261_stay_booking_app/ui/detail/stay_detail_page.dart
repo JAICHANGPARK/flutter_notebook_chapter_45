@@ -131,6 +131,26 @@ class _StayDetailPageState extends State<StayDetailPage> {
                         ),
                       ),
                     ),
+                    Expanded(
+                      child: Container(
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: BorderRadius.circular(16),
+                            side: BorderSide(color: Colors.grey),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        decoration: ShapeDecoration(
+                          shape: RoundedSuperellipseBorder(
+                            borderRadius: BorderRadius.circular(16),
+                            side: BorderSide(color: Colors.grey),
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
