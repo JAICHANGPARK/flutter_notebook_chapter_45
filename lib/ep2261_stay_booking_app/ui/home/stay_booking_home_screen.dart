@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2261_stay_booking_app/ui/detail/stay_detail_page.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
@@ -148,8 +149,11 @@ class _StayBookingHomeScreenState extends State<StayBookingHomeScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               InkWell(
-                                onTap: (){
-                                  
+                                onTap: () {
+                                  Navigator.of(context).push(
+                                      MaterialPageRoute(builder: (context) =>
+                                          StayDetailPage(),
+                                      ))
                                 },
                                 child: Container(
                                   decoration: ShapeDecoration(
