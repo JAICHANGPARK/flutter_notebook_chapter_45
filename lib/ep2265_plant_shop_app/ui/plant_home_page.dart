@@ -33,12 +33,15 @@ class _PlantHomePageState extends State<PlantHomePage> {
                           children: [
                             Text(
                               "Hi, Dream 👋",
-                              style: TextStyle(fontWeight: FontWeight.bold,
-                              fontSize: 18,),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
                             ),
-                            Text("Good Morning",style: TextStyle(
-                              fontSize: 12,
-                            ),),
+                            Text(
+                              "Good Morning",
+                              style: TextStyle(fontSize: 12),
+                            ),
                           ],
                         ),
                       ),
@@ -49,7 +52,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       ),
                     ],
                   ),
-                  Text("Nature Plants."),
+                  Text(
+                    "Nature Plants.",
+                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                  ),
                   Container(height: 200, child: Placeholder()),
                 ],
               ),
