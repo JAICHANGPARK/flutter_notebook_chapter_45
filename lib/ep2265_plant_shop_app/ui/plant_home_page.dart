@@ -123,7 +123,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
 
-            Container(height: 72, child: ListView.builder(itemBuilder: (context,index){
+            Container(height: 72, child: ListView.builder(
+              itemCount: 10,
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context,index){
               return Container(
                 decoration: ShapeDecoration(shape: StadiumBorder(),
 
