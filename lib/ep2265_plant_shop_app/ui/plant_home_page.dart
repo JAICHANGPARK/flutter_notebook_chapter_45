@@ -36,11 +36,14 @@ class _PlantHomePageState extends State<PlantHomePage> {
             Text("Nature Plants."),
             Container(height: 200, child: Placeholder()),
             Container(height: 72, child: Placeholder()),
-            Row(
-              children: [
-                Text("Featured plant"),
-                TextButton(onPressed: () {}, child: Text('View All')),
-              ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                children: [
+                  Text("Featured plant"),
+                  TextButton(onPressed: () {}, child: Text('View All')),
+                ],
+              ),
             ),
           ],
         ),
