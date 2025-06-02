@@ -1,5 +1,14 @@
 # flutter_notebook_chapter_45
 
+## EP2265
+
+- Staya — Mobile Booking Experience
+- Bato
+- https://dribbble.com/shots/26086286-Staya-Mobile-Booking-Experience
+
+<img src="https://cdn.dribbble.com/userupload/43507785/file/original-0560b44aa80ccaca0989c98179537fac.jpg?resize=1905x1429&vertical=center">
+
+
 ## EP2261-2264
 
 - Staya — Mobile Booking Experience
