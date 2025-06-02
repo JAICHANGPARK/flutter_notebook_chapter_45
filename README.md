@@ -6,7 +6,7 @@
 - Harunur Rashid
 - https://dribbble.com/shots/26097162-Plant-Shop-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/43507785/file/original-0560b44aa80ccaca0989c98179537fac.jpg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43541558/file/original-d221954b51a00e14578fbc50c15fd487.png?resize=1600x1200&vertical=center">
 
 
 ## EP2261-2264
