@@ -59,6 +59,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                   Container(
                     height: 200,
                     child: Row(
+                      spacing: 12,
                       children: [
                         Container(
                           // height: double.infinity,
@@ -82,6 +83,20 @@ class _PlantHomePageState extends State<PlantHomePage> {
 
                               ),
                               color: Colors.green,
+                            ),
+                            child: Stack(
+                              children: [
+                                Positioned.fill(child: Column(children: [
+                                  Text("25% Off"),
+                                  Text("All Kind of Plants"),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(6),
+                                    ),
+                                  )
+                                ],))
+                              ],
                             ),
                           ),
                         ),
