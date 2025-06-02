@@ -30,7 +30,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [Text("Hi, Jaxon👋"), Text("Good Morning")],
+                          children: [Text("Hi, Dream👋"), Text("Good Morning")],
                         ),
                       ),
                       CircleAvatar(
