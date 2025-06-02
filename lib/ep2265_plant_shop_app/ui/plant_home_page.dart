@@ -62,7 +62,11 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 child: ListView.builder(
                   itemCount: 10,
                   itemBuilder: (context,index){
-                    return Container(height: 170, child: Placeholder());
+                    return Container(
+                        margin: EdgeInsets.only(
+                          bottom: 12
+                        ),
+                        height: 170, child: Placeholder());
                   },
 
                 ),
@@ -75,8 +79,20 @@ class _PlantHomePageState extends State<PlantHomePage> {
       bottomNavigationBar: Container(
         height: 80,
         child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
-            
+            CircleAvatar(
+              radius: 26,
+            ),
+            CircleAvatar(
+              radius: 26,
+            ),
+            CircleAvatar(
+              radius: 26,
+            ),
+            CircleAvatar(
+              radius: 26,
+            )
           ],
         ),
       ),
