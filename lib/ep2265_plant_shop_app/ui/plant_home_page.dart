@@ -76,10 +76,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
         ),
 
       ),
-      bottomNavigationBar: Container(
+      bottomNavigationBar: Container(padding: EdgeInsets.symmetric(horizontal: 16),
         height: 80,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             CircleAvatar(
               radius: 26,
