@@ -98,6 +98,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                     children: [
                                       Text("25% Off"),
                                       Text("All Kind of Plants"),
+                                      Spacer(),
                                       Container(
                                         decoration: BoxDecoration(
                                           color: Colors.white,
@@ -122,7 +123,20 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
 
-            Container(height: 72, child: Placeholder()),
+            Container(height: 72, child: ListView.builder(itemBuilder: (context,index){
+              return Container(
+                decoration: ShapeDecoration(shape: StadiumBorder(),
+
+
+                ),
+                child: Row(
+                  children: [
+                    CircleAvatar(),
+                    Text("Spider Plant")
+                  ],
+                ),
+              );
+            })),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
