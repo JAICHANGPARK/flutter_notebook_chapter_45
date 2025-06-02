@@ -80,22 +80,35 @@ class _PlantHomePageState extends State<PlantHomePage> {
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: BorderRadiusGeometry.circular(32),
-
                               ),
                               color: Colors.green,
                             ),
                             child: Stack(
                               children: [
-                                Positioned.fill(child: Column(children: [
-                                  Text("25% Off"),
-                                  Text("All Kind of Plants"),
-                                  Container(
-                                    decoration: BoxDecoration(
-                                      color: Colors.white,
-                                      borderRadius: BorderRadius.circular(6),
-                                    ),
-                                  )
-                                ],))
+                                Positioned(
+                                  left: 16,
+                                  top: 24,
+                                  bottom: 24,
+                                  right: 16,
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+
+                                    children: [
+                                      Text("25% Off"),
+                                      Text("All Kind of Plants"),
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          color: Colors.white,
+                                          borderRadius: BorderRadius.circular(
+                                            6,
+                                          ),
+                                        ),
+                                        child: Text("Buy Now"),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ],
                             ),
                           ),
