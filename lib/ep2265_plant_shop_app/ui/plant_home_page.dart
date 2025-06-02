@@ -10,6 +10,12 @@ class PlantHomePage extends StatefulWidget {
 class _PlantHomePageState extends State<PlantHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
