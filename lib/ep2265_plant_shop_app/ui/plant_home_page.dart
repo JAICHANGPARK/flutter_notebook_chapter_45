@@ -30,7 +30,16 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [Text("Hi, Dream👋"), Text("Good Morning")],
+                          children: [
+                            Text(
+                              "Hi, Dream 👋",
+                              style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 18,),
+                            ),
+                            Text("Good Morning",style: TextStyle(
+                              fontSize: 12,
+                            ),),
+                          ],
                         ),
                       ),
                       CircleAvatar(
@@ -61,38 +70,29 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: ListView.builder(
                   itemCount: 10,
-                  itemBuilder: (context,index){
+                  itemBuilder: (context, index) {
                     return Container(
-                        margin: EdgeInsets.only(
-                          bottom: 12
-                        ),
-                        height: 170, child: Placeholder());
+                      margin: EdgeInsets.only(bottom: 12),
+                      height: 170,
+                      child: Placeholder(),
+                    );
                   },
-
                 ),
               ),
             ),
           ],
         ),
-
       ),
-      bottomNavigationBar: Container(padding: EdgeInsets.symmetric(horizontal: 16),
+      bottomNavigationBar: Container(
+        padding: EdgeInsets.symmetric(horizontal: 16),
         height: 80,
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            CircleAvatar(
-              radius: 26,
-            ),
-            CircleAvatar(
-              radius: 26,
-            ),
-            CircleAvatar(
-              radius: 26,
-            ),
-            CircleAvatar(
-              radius: 26,
-            )
+            CircleAvatar(radius: 26),
+            CircleAvatar(radius: 26),
+            CircleAvatar(radius: 26),
+            CircleAvatar(radius: 26),
           ],
         ),
       ),
