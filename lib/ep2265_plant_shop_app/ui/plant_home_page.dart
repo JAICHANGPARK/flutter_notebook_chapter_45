@@ -16,17 +16,25 @@ class _PlantHomePageState extends State<PlantHomePage> {
         child: Column(
           children: [
             Row(
+              spacing: 12,
               children: [
-                CircleAvatar(),
-                Expanded(child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    
-        
-                ],))
+                CircleAvatar(
+                  radius: 24,
+                ),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [Text("Hi, Jaxon👋"), Text("Good Morning")],
+                  ),
+                ),
+                CircleAvatar(
+                  radius: 24,
+                  child: Badge(
+                    child: Icon(Icons.notifications_none),
+                  ),
+                )
               ],
-            )
-        
+            ),
           ],
         ),
       ),
