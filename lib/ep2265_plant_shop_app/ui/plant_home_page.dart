@@ -56,20 +56,38 @@ class _PlantHomePageState extends State<PlantHomePage> {
                     "Nature Plants.",
                     style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                   ),
-                  Container(height: 200, child: Row(
-                    children: [
-                      Container(
-                        // height: double.infinity,
-                        decoration: ShapeDecoration(shape: StadiumBorder(
-                          side: BorderSide(
-                            color: Colors.green,
-                          )
+                  Container(
+                    height: 200,
+                    child: Row(
+                      children: [
+                        Container(
+                          // height: double.infinity,
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.green),
+                            ),
+                          ),
+                          child: Center(
+                            child: IconButton(
+                              onPressed: () {},
+                              icon: Icon(Icons.add),
+                            ),
+                          ),
                         ),
+                        Expanded(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadiusGeometry.circular(32),
+
+                              ),
+                              color: Colors.green,
+                            ),
+                          ),
                         ),
-                        child: Center(child: IconButton(onPressed: (){}, icon: Icon(Icons.add))),
-                      )
-                    ],
-                  )),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
