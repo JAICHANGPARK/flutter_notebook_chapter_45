@@ -57,6 +57,15 @@ class _PlantHomePageState extends State<PlantHomePage> {
             ),
           ],
         ),
+
+      ),
+      bottomNavigationBar: Container(
+        height: 80,
+        child: Row(
+          children: [
+            
+          ],
+        ),
       ),
     );
   }
