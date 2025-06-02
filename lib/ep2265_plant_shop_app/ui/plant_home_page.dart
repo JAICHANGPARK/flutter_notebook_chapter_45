@@ -39,9 +39,18 @@ class _PlantHomePageState extends State<PlantHomePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Featured plant"),
                   TextButton(onPressed: () {}, child: Text('View All')),
+                ],
+              ),
+            ),
+            Expanded(
+              child: ListView(
+                children: [
+                  Container(height: 170, child: Placeholder()),
+                  Container(height: 170, child: Placeholder()),
                 ],
               ),
             ),
