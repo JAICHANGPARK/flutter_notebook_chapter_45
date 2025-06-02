@@ -54,9 +54,17 @@ class _PlantHomePageState extends State<PlantHomePage> {
                   ),
                   Text(
                     "Nature Plants.",
-                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                   ),
-                  Container(height: 200, child: Placeholder()),
+                  Container(height: 200, child: Row(
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder(),
+                        ),
+                        child: IconButton(onPressed: (){}, icon: Icon(Icons.add)),
+                      )
+                    ],
+                  )),
                 ],
               ),
             ),
