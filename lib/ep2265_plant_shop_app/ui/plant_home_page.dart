@@ -14,13 +14,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 16,
           children: [
             Row(
               spacing: 12,
               children: [
-                CircleAvatar(
-                  radius: 24,
-                ),
+                CircleAvatar(radius: 24),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -29,12 +29,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 ),
                 CircleAvatar(
                   radius: 24,
-                  child: Badge(
-                    child: Icon(Icons.notifications_none),
-                  ),
-                )
+                  child: Badge(child: Icon(Icons.notifications_none)),
+                ),
               ],
             ),
+            Text("Nature Plants."),
+            Container(height: 200, child: Placeholder()),
+
           ],
         ),
       ),
