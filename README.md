@@ -2,9 +2,9 @@
 
 ## EP2265
 
-- Staya — Mobile Booking Experience
-- Bato
-- https://dribbble.com/shots/26086286-Staya-Mobile-Booking-Experience
+- Plant Shop Mobile App
+- Harunur Rashid
+- https://dribbble.com/shots/26097162-Plant-Shop-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43507785/file/original-0560b44aa80ccaca0989c98179537fac.jpg?resize=1905x1429&vertical=center">
 
