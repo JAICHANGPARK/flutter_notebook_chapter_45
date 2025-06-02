@@ -44,6 +44,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       ),
                       CircleAvatar(
                         radius: 24,
+                        backgroundColor: Colors.grey[300]!,
                         child: Badge(child: Icon(Icons.notifications_none)),
                       ),
                     ],
