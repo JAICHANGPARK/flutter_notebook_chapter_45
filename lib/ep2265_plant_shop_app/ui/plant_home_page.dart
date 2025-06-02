@@ -91,6 +91,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                   bottom: 24,
                                   right: 16,
                                   child: Column(
+                                    spacing: 12,
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
 
@@ -104,6 +105,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             6,
                                           ),
                                         ),
+                                        padding: EdgeInsets.all(8),
                                         child: Text("Buy Now"),
                                       ),
                                     ],
