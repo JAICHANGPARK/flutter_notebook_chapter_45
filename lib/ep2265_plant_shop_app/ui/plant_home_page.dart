@@ -17,24 +17,29 @@ class _PlantHomePageState extends State<PlantHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           spacing: 16,
           children: [
-            Row(
-              spacing: 12,
+            Column(
               children: [
-                CircleAvatar(radius: 24),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [Text("Hi, Jaxon👋"), Text("Good Morning")],
-                  ),
+                Row(
+                  spacing: 12,
+                  children: [
+                    CircleAvatar(radius: 24),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [Text("Hi, Jaxon👋"), Text("Good Morning")],
+                      ),
+                    ),
+                    CircleAvatar(
+                      radius: 24,
+                      child: Badge(child: Icon(Icons.notifications_none)),
+                    ),
+                  ],
                 ),
-                CircleAvatar(
-                  radius: 24,
-                  child: Badge(child: Icon(Icons.notifications_none)),
-                ),
+                Text("Nature Plants."),
+                Container(height: 200, child: Placeholder()),
               ],
             ),
-            Text("Nature Plants."),
-            Container(height: 200, child: Placeholder()),
+
             Container(height: 72, child: Placeholder()),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
