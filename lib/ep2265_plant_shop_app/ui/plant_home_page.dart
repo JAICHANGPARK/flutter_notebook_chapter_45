@@ -47,11 +47,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
             Expanded(
-              child: ListView(
-                children: [
-                  Container(height: 170, child: Placeholder()),
-                  Container(height: 170, child: Placeholder()),
-                ],
+              child: ListView.builder(
+                itemCount: 10,
+                itemBuilder: (context,index){
+                  return Container(height: 170, child: Placeholder());
+                },
+
               ),
             ),
           ],
