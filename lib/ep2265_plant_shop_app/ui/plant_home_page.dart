@@ -59,9 +59,14 @@ class _PlantHomePageState extends State<PlantHomePage> {
                   Container(height: 200, child: Row(
                     children: [
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),
+                        // height: double.infinity,
+                        decoration: ShapeDecoration(shape: StadiumBorder(
+                          side: BorderSide(
+                            color: Colors.green,
+                          )
                         ),
-                        child: IconButton(onPressed: (){}, icon: Icon(Icons.add)),
+                        ),
+                        child: Center(child: IconButton(onPressed: (){}, icon: Icon(Icons.add))),
                       )
                     ],
                   )),
