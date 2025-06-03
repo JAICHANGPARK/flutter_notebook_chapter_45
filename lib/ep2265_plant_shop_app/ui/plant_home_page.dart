@@ -181,8 +181,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
                             child: Container(
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
-                                  borderRadius: BorderRadius.circular(16),
+                                  borderRadius: BorderRadius.circular(20),
+                                  side: BorderSide(
+                                    color: Colors.green,
+                                  )
                                 ),
+
                               ),
                             ),
                           ),
