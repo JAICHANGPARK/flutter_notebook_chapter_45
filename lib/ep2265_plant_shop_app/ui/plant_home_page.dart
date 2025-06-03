@@ -188,7 +188,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               ),
                               child: Row(
                                 children: [
-                                  Container(width: 120, child: Placeholder()),
+                                  Container(width: 120, ),
                                   Expanded(
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),
