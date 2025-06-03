@@ -125,17 +125,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
 
             Container(
               height: 48,
-              padding: EdgeInsets.only(
-                left: 16
-              ),
+              padding: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 itemCount: 10,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
-                    margin: EdgeInsets.only(
-                      right: 12
-                    ),
+                    margin: EdgeInsets.only(right: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
                         side: BorderSide(color: Colors.grey),
@@ -144,9 +140,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
                     padding: EdgeInsets.only(right: 12),
                     child: Row(
                       spacing: 8,
-                      children: [CircleAvatar(
-                        radius: 22,
-                      ), Text("Spider Plant"),],
+                      children: [
+                        CircleAvatar(
+                          radius: 22,
+                          backgroundColor: Colors.grey[200]!,
+                        ),
+                        Text("Spider Plant"),
+                      ],
                     ),
                   );
                 },
