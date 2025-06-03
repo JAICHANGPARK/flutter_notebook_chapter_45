@@ -125,11 +125,17 @@ class _PlantHomePageState extends State<PlantHomePage> {
 
             Container(
               height: 52,
+              padding: EdgeInsets.only(
+                left: 12
+              ),
               child: ListView.builder(
                 itemCount: 10,
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(
+                      right: 12
+                    ),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
                         side: BorderSide(color: Colors.grey),
