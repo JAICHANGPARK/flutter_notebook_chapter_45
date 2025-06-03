@@ -190,26 +190,29 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                 children: [
                                   Container(width: 120, child: Placeholder()),
                                   Expanded(
-                                    child: Column(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      spacing: 12,
-                                      children: [
-                                        Text("Dracaena Fragrans"),
-                                        Text(
-                                          "Dracaena fragrans (cornstalk dracaena), is a flowering plant species that is native to tropical Africa, from Sudan south to Mozambique, west to Côte d'Ivoire and southwest to Angola, growing in upland regions at 600–2,250 m (1,970–7,380 ft) altitude",
-                                          maxLines: 2,
-                                        ),
-                                        Row(
-                                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                          children: [
-                                            Text("\$20.00"),
-                                            CircleAvatar(
-                                              child: Icon(Icons.add),
-                                            )
-                                          ],
-                                        )
-                                        
-                                      ],
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        spacing: 12,
+                                        children: [
+                                          Text("Dracaena Fragrans"),
+                                          Text(
+                                            "Dracaena fragrans (cornstalk dracaena), is a flowering plant species that is native to tropical Africa, from Sudan south to Mozambique, west to Côte d'Ivoire and southwest to Angola, growing in upland regions at 600–2,250 m (1,970–7,380 ft) altitude",
+                                            maxLines: 2,
+                                          ),
+                                          Row(
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Text("\$20.00"),
+                                              CircleAvatar(
+                                                child: Icon(Icons.add),
+                                              )
+                                            ],
+                                          )
+
+                                        ],
+                                      ),
                                     ),
                                   ),
                                 ],
