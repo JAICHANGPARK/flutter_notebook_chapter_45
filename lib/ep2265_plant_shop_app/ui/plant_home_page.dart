@@ -226,7 +226,8 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               bottom: 12,
                               child: Container(
                                 width: 100,
-                                child: Placeholder(),
+                                child: Image.network("https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
+                                fit: BoxFit.fitHeight,),
                               )),
                         ],
                       ),
