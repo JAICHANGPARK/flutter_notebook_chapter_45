@@ -123,23 +123,25 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
 
-            Container(height: 72, child: ListView.builder(
-              itemCount: 10,
+            Container(
+              height: 52,
+              child: ListView.builder(
+                itemCount: 10,
                 scrollDirection: Axis.horizontal,
-                itemBuilder: (context,index){
-              return Container(
-                decoration: ShapeDecoration(shape: StadiumBorder(),
-
-
-                ),
-                child: Row(
-                  children: [
-                    CircleAvatar(),
-                    Text("Spider Plant")
-                  ],
-                ),
-              );
-            })),
+                itemBuilder: (context, index) {
+                  return Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                    child: Row(
+                      children: [CircleAvatar(), Text("Spider Plant")],
+                    ),
+                  );
+                },
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
