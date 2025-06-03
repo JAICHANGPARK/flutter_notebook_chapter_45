@@ -193,7 +193,8 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),
                                       child: Column(
-                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
                                         spacing: 12,
                                         children: [
                                           Text("Dracaena Fragrans"),
@@ -202,15 +203,15 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             maxLines: 2,
                                           ),
                                           Row(
-                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text("\$20.00"),
                                               CircleAvatar(
                                                 child: Icon(Icons.add),
-                                              )
+                                              ),
                                             ],
-                                          )
-
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -219,6 +220,14 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               ),
                             ),
                           ),
+                          Positioned(
+                              top: 0,
+                              left: 16,
+                              bottom: 12,
+                              child: Container(
+                                width: 100,
+                                child: Placeholder(),
+                              )),
                         ],
                       ),
                     );
