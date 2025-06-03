@@ -153,11 +153,17 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
+              padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Featured plant"),
+                  Text(
+                    "Featured plant",
+                    style: TextStyle(fontWeight: FontWeight.bold
+                    ,
+                      fontSize: 22,
+                    ),
+                  ),
                   TextButton(onPressed: () {}, child: Text('View All')),
                 ],
               ),
