@@ -177,7 +177,15 @@ class _PlantHomePageState extends State<PlantHomePage> {
                     return Container(
                       margin: EdgeInsets.only(bottom: 12),
                       height: 170,
-                      child: Placeholder(),
+                      child: Stack(
+                        children: [
+                          Positioned.fill(
+                              top: 16,
+                              child: Container(decoration: BoxDecoration(
+
+                          ),))
+                        ],
+                      ),
                     );
                   },
                 ),
