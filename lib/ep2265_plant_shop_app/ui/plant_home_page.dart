@@ -173,7 +173,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                   itemBuilder: (context, index) {
                     return Container(
                       margin: EdgeInsets.only(bottom: 12),
-                      height: 170,
+                      height: 160,
                       child: Stack(
                         children: [
                           Positioned.fill(
@@ -182,11 +182,17 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: BorderRadius.circular(20),
-                                  side: BorderSide(
-                                    color: Colors.green,
-                                  )
+                                  side: BorderSide(color: Colors.green),
                                 ),
-
+                                color: Colors.green[50]!,
+                              ),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    width: 160,
+                                    child: Placeholder(),
+                                  )
+                                ],
                               ),
                             ),
                           ),
