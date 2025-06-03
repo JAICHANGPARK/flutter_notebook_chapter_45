@@ -159,10 +159,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 children: [
                   Text(
                     "Featured plant",
-                    style: TextStyle(fontWeight: FontWeight.bold
-                    ,
-                      fontSize: 22,
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
                   ),
                   TextButton(onPressed: () {}, child: Text('View All')),
                 ],
@@ -180,10 +177,15 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       child: Stack(
                         children: [
                           Positioned.fill(
-                              top: 16,
-                              child: Container(decoration: BoxDecoration(
-
-                          ),))
+                            top: 16,
+                            child: Container(
+                              decoration: ShapeDecoration(
+                                shape: RoundedSuperellipseBorder(
+                                  borderRadius: BorderRadius.circular(16),
+                                ),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     );
