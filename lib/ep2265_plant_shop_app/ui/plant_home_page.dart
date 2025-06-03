@@ -126,7 +126,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
             Container(
               height: 52,
               padding: EdgeInsets.only(
-                left: 12
+                left: 16
               ),
               child: ListView.builder(
                 itemCount: 10,
