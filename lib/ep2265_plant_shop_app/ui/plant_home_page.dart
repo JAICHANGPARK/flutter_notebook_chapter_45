@@ -141,8 +141,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
                         side: BorderSide(color: Colors.grey),
                       ),
                     ),
+                    padding: EdgeInsets.only(right: 12),
                     child: Row(
-                      children: [CircleAvatar(), Text("Spider Plant")],
+                      spacing: 8,
+                      children: [CircleAvatar(
+                        radius: 22,
+                      ), Text("Spider Plant"),],
                     ),
                   );
                 },
