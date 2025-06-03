@@ -124,7 +124,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
             ),
 
             Container(
-              height: 52,
+              height: 48,
               padding: EdgeInsets.only(
                 left: 16
               ),
