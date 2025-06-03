@@ -189,8 +189,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               child: Row(
                                 children: [
                                   Container(
-                                    width: 160,
+                                    width: 120,
                                     child: Placeholder(),
+                                  ),
+                                  Column(
+                                    children: [
+                                      
+                                    ],
                                   )
                                 ],
                               ),
