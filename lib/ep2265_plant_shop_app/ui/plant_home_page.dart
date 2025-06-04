@@ -286,13 +286,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             Container(
-              decoration: ShapeDecoration(shape: StadiumBorder(),),
-              padding: EdgeInsets.all(4),
-              child: Row(
-                children: [
-                  CircleAvatar(radius: 26),
-                ],
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Color.fromRGBO(92, 208, 33, 1),
               ),
+              padding: EdgeInsets.all(4),
+              child: Row(children: [CircleAvatar(radius: 26)]),
             ),
 
             CircleAvatar(radius: 26),
