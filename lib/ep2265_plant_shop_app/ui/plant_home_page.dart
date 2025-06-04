@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class PlantHomePage extends StatefulWidget {
@@ -291,8 +292,9 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(92, 208, 33, 1),
               ),
-              padding: EdgeInsets.all(4),
+              padding: EdgeInsets.symmetric(horizontal: 8,vertical: 8 ),
               child: Row(
+                spacing: 12,
                 children: [
                   CircleAvatar(
                     radius: 20,
@@ -300,6 +302,8 @@ class _PlantHomePageState extends State<PlantHomePage> {
                     foregroundColor: Colors.black,
                     child: Icon(HugeIcons.strokeRoundedHome01),
                   ),
+                  Text("Home"),
+                  Gap(8),
                 ],
               ),
             ),
