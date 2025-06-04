@@ -49,7 +49,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                       ),
                       CircleAvatar(
                         radius: 24,
-                        backgroundColor: Colors.grey[200]!,
+                        backgroundColor: Colors.grey[100]!,
                         child: Badge(child: Icon(Icons.notifications_none)),
                       ),
                     ],
@@ -303,7 +303,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                     child: Icon(HugeIcons.strokeRoundedHome01),
                   ),
                   Text("Home", style: TextStyle(fontWeight: FontWeight.bold)),
-                  Gap(8),
+                  Gap(4),
                 ],
               ),
             ),
