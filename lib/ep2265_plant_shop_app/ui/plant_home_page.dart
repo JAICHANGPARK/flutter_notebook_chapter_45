@@ -231,7 +231,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             mainAxisAlignment:
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
-                                              Text("\$20.00"),
+                                              Text(
+                                                "\$20.00",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 24,
+                                                ),
+                                              ),
                                               CircleAvatar(
                                                 child: Icon(Icons.add),
                                               ),
