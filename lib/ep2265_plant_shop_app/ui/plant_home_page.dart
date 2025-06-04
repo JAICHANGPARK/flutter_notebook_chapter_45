@@ -285,7 +285,16 @@ class _PlantHomePageState extends State<PlantHomePage> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            CircleAvatar(radius: 26),
+            Container(
+              decoration: ShapeDecoration(shape: StadiumBorder(),),
+              padding: EdgeInsets.all(4),
+              child: Row(
+                children: [
+                  CircleAvatar(radius: 26),
+                ],
+              ),
+            ),
+
             CircleAvatar(radius: 26),
             CircleAvatar(radius: 26),
             CircleAvatar(radius: 26),
