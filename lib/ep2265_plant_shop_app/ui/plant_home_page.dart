@@ -113,7 +113,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                           ),
                                         ),
                                         padding: EdgeInsets.all(8),
-                                        child: Text("Buy Now"),
+                                        child: Text(
+                                          "Buy Now",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                       ),
                                     ],
                                   ),
