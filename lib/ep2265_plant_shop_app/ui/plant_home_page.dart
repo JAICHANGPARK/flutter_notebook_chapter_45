@@ -81,7 +81,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: BorderRadiusGeometry.circular(32),
                               ),
-                              color: Colors.green,
+                              color: Color.fromRGBO(185, 248, 154, 1),
                             ),
                             child: Stack(
                               children: [
@@ -188,7 +188,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               ),
                               child: Row(
                                 children: [
-                                  Container(width: 120, ),
+                                  Container(width: 120),
                                   Expanded(
                                     child: Padding(
                                       padding: const EdgeInsets.all(8.0),
@@ -221,14 +221,17 @@ class _PlantHomePageState extends State<PlantHomePage> {
                             ),
                           ),
                           Positioned(
-                              top: 0,
-                              left: 16,
-                              bottom: 12,
-                              child: Container(
-                                width: 100,
-                                child: Image.network("https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
-                                fit: BoxFit.fitHeight,),
-                              )),
+                            top: 0,
+                            left: 16,
+                            bottom: 12,
+                            child: Container(
+                              width: 100,
+                              child: Image.network(
+                                "https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
+                                fit: BoxFit.fitHeight,
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     );
