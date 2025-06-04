@@ -67,7 +67,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                             shape: StadiumBorder(
                               side: BorderSide(
                                 color: Color.fromRGBO(185, 248, 154, 1),
-
+                                width: 2,
                               ),
                             ),
                           ),
@@ -115,7 +115,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             6,
                                           ),
                                         ),
-                                        padding: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 16,
+                                          vertical: 8,
+                                        ),
                                         child: Text(
                                           "Buy Now",
                                           style: TextStyle(
