@@ -112,7 +112,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             6,
                                           ),
                                         ),
-                                        padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
+                                        padding: EdgeInsets.symmetric(horizontal: 16,vertical: 8),
                                         child: Text(
                                           "Buy Now",
                                           style: TextStyle(
