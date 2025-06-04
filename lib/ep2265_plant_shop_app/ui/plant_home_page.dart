@@ -292,7 +292,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(92, 208, 33, 1),
               ),
-              padding: EdgeInsets.symmetric(horizontal: 8,vertical: 8 ),
+              padding: EdgeInsets.symmetric(horizontal: 6,vertical: 6 ),
               child: Row(
                 spacing: 12,
                 children: [
