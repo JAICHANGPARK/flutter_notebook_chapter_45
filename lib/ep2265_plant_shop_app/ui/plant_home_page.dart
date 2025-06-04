@@ -65,7 +65,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
                           // height: double.infinity,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
-                              side: BorderSide(color: Colors.green),
+                              side: BorderSide(
+                                color: Color.fromRGBO(185, 248, 154, 1),
+
+                              ),
                             ),
                           ),
                           child: Center(
