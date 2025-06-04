@@ -201,7 +201,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                   borderRadius: BorderRadius.circular(20),
                                   side: BorderSide(
                                     color: Color.fromRGBO(185, 248, 154, 1),
-
+                                    width: 2,
                                   ),
                                 ),
                                 color: Colors.green[50]!,
