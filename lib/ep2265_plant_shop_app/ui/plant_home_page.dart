@@ -292,7 +292,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 shape: StadiumBorder(),
                 color: Color.fromRGBO(92, 208, 33, 1),
               ),
-              padding: EdgeInsets.symmetric(horizontal: 6,vertical: 6 ),
+              padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
               child: Row(
                 spacing: 12,
                 children: [
@@ -308,7 +308,7 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
 
-            CircleAvatar(radius: 26),
+            CircleAvatar(radius: 26, backgroundColor: Colors.grey[100]!),
             CircleAvatar(radius: 26),
             CircleAvatar(radius: 26),
           ],
