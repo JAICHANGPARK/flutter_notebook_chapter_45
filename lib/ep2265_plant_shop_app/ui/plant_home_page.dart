@@ -239,6 +239,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                                 ),
                                               ),
                                               CircleAvatar(
+                                                backgroundColor: Color.fromRGBO(
+                                                  92,
+                                                  208,
+                                                  33,
+                                                  1,
+                                                ),
                                                 child: Icon(Icons.add),
                                               ),
                                             ],
