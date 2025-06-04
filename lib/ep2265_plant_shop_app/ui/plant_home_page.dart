@@ -217,7 +217,12 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                             CrossAxisAlignment.start,
                                         spacing: 12,
                                         children: [
-                                          Text("Dracaena Fragrans"),
+                                          Text(
+                                            "Dracaena Fragrans",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
                                           Text(
                                             "Dracaena fragrans (cornstalk dracaena), is a flowering plant species that is native to tropical Africa, from Sudan south to Mozambique, west to Côte d'Ivoire and southwest to Angola, growing in upland regions at 600–2,250 m (1,970–7,380 ft) altitude",
                                             maxLines: 2,
