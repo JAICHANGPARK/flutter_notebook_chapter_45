@@ -11,6 +11,6 @@ class PlantDetailPage extends StatefulWidget {
 class _PlantDetailPageState extends State<PlantDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
