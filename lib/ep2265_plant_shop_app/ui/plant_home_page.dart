@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class PlantHomePage extends StatefulWidget {
   const PlantHomePage({super.key});
@@ -291,7 +292,16 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 color: Color.fromRGBO(92, 208, 33, 1),
               ),
               padding: EdgeInsets.all(4),
-              child: Row(children: [CircleAvatar(radius: 26)]),
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    radius: 20,
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                    child: Icon(HugeIcons.strokeRoundedHome01),
+                  ),
+                ],
+              ),
             ),
 
             CircleAvatar(radius: 26),
