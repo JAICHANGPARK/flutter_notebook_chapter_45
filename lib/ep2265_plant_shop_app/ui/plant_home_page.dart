@@ -308,7 +308,11 @@ class _PlantHomePageState extends State<PlantHomePage> {
               ),
             ),
 
-            CircleAvatar(radius: 26, backgroundColor: Colors.grey[100]!),
+            CircleAvatar(
+              radius: 26,
+              backgroundColor: Colors.grey[100]!,
+              child: Icon(HugeIcons.strokeRoundedBubbleChatAdd),
+            ),
             CircleAvatar(radius: 26),
             CircleAvatar(radius: 26),
           ],
