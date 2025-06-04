@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/43541558/file/original-d221954b51a00e14578fbc50c15fd487.png?resize=1600x1200&vertical=center">
 
-
 ## EP2261-2264
 
 - Staya — Mobile Booking Experience
