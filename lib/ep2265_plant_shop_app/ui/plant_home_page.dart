@@ -199,7 +199,10 @@ class _PlantHomePageState extends State<PlantHomePage> {
                               decoration: ShapeDecoration(
                                 shape: RoundedSuperellipseBorder(
                                   borderRadius: BorderRadius.circular(20),
-                                  side: BorderSide(color: Colors.green),
+                                  side: BorderSide(
+                                    color: Color.fromRGBO(185, 248, 154, 1),
+
+                                  ),
                                 ),
                                 color: Colors.green[50]!,
                               ),
