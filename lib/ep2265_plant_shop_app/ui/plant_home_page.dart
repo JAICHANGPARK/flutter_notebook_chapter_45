@@ -96,7 +96,13 @@ class _PlantHomePageState extends State<PlantHomePage> {
                                         CrossAxisAlignment.start,
 
                                     children: [
-                                      Text("25% Off"),
+                                      Text(
+                                        "25% Off",
+                                        style: TextStyle(
+                                          fontSize: 25,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Text("All Kind of Plants"),
                                       Spacer(),
                                       Container(
