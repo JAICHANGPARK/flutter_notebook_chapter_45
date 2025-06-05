@@ -86,17 +86,25 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
 
                             ),
                             child: Row(
+                              spacing: 6,
                               children: [
                                 IconButton(onPressed: (){}, icon: Icon(Icons.add)),
                                 Text("3"),
-                                Icon(Icons.remo)
+                                IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
                               ],
                             ),
-                          )
+                          ),
+
 
 
                         ],
                       ),
+                      Container(
+                        width: 200,
+                        height: 200,
+                        child: Placeholder(),
+                      )
+
                     ],
                   )
                 ],
