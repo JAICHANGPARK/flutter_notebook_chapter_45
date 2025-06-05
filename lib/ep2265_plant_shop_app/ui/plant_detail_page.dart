@@ -156,16 +156,28 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                   Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [Text("Monstera"), Text("\$240")],
+                          children: [
+                            Text(
+                              "Monstera",
+                              style: TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("\$240"),
+                          ],
                         ),
                         Row(
                           children: List.generate(
                             5,
-                            (idx) =>
-                                Icon(Icons.star, color: Colors.deepOrangeAccent),
+                            (idx) => Icon(
+                              Icons.star,
+                              color: Colors.deepOrangeAccent,
+                            ),
                           ),
                         ),
                       ],
