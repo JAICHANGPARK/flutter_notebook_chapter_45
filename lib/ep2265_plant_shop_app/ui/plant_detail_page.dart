@@ -54,9 +54,11 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                 children: [
                   CircleAvatar(
                     backgroundColor: Colors.white,
+                    radius: 26,
                   ),
                   CircleAvatar(
                     backgroundColor: Colors.white,
+                    radius: 26,
                   ),
                 ],
                             )
