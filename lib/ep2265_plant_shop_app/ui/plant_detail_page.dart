@@ -67,7 +67,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 24, top: 24),
+                            padding: const EdgeInsets.only(left: 24, top: 24, bottom: 24),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
