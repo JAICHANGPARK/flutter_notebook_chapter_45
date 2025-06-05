@@ -67,6 +67,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text("Size"),
                               Text("Small"),
@@ -77,6 +78,20 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                               Text("Temperature"),
                               Text("18-24 c"),
                             ],
+                          ),
+                          Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(6),
+                              color: Colors.green,
+
+                            ),
+                            child: Row(
+                              children: [
+                                IconButton(onPressed: (){}, icon: Icon(Icons.add)),
+                                Text("3"),
+                                Icon(Icons.remo)
+                              ],
+                            ),
                           )
 
 
