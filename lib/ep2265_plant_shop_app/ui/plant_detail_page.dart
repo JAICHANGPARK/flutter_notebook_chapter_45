@@ -52,7 +52,7 @@ top: 16,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                             Padding(
-                              padding: const EdgeInsets.all(8.0),
+                              padding: const EdgeInsets.symmetric(horizontal: 16),
                               child: Row(
 
                                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
