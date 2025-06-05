@@ -100,7 +100,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),s),
+                                  ),),
                               ],
                             ),
                           ),
