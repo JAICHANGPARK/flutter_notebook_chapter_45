@@ -63,13 +63,14 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                     ),
                   ),
                   Row(
+                    spacing: 16,
                     children: [
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
                             padding: const EdgeInsets.only(
-                              left: 32,
+                              left: 42,
                               top: 24,
                               bottom: 24,
                             ),
