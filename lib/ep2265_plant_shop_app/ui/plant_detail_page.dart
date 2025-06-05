@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class PlantDetailPage extends StatefulWidget {
   const PlantDetailPage({super.key});
@@ -133,13 +134,17 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         radius: 24,
                         backgroundColor: Colors.grey[100]!,
                       ),
+                      Gap(32),
                       Expanded(
                         child: Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder()),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.green,
+                          ),
                           child: Row(
                             children: [
                               Icon(Icons.calendar_month),
-                              Text("Buy Now")
+                              Text("Buy Now"),
                             ],
                           ),
                         ),
