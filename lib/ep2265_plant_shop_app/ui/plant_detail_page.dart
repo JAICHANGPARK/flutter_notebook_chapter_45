@@ -87,23 +87,31 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                 ),
                                 Gap(12),
                                 Text("Humidity"),
-                                Text("6-4%",
+                                Text(
+                                  "6-4%",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),),  Gap(12),
+                                  ),
+                                ),
+                                Gap(12),
                                 Text("Light"),
-                                Text("Diffused",
+                                Text(
+                                  "Diffused",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),),  Gap(12),
+                                  ),
+                                ),
+                                Gap(12),
                                 Text("Temperature"),
-                                Text("18-24 c",
+                                Text(
+                                  "18-24 c",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),),
+                                  ),
+                                ),
                               ],
                             ),
                           ),
@@ -120,10 +128,13 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                   onPressed: () {},
                                   icon: Icon(Icons.add),
                                 ),
-                                Text("3",style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 19,
-                                ),),
+                                Text(
+                                  "3",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 19,
+                                  ),
+                                ),
                                 IconButton(
                                   onPressed: () {},
                                   icon: Icon(Icons.remove),
@@ -133,7 +144,13 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                           ),
                         ],
                       ),
-                      Expanded(child: Container(width: 200, child: Placeholder())),
+                      Expanded(
+                        child: Container(
+                          width: 200,
+                          height: 280,
+                          child: Placeholder(),
+                        ),
+                      ),
                     ],
                   ),
                   Row(
