@@ -134,19 +134,21 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         radius: 24,
                         backgroundColor: Colors.grey[100]!,
                       ),
-                      Gap(32),
-                      Expanded(
-                        child: Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Colors.green,
-                          ),
-                          child: Row(
-                            children: [
-                              Icon(Icons.calendar_month),
-                              Text("Buy Now"),
-                            ],
-                          ),
+                     Spacer(),
+                      Container(
+                        width: 240,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.green,
+                        ),
+                        padding: EdgeInsets.symmetric(vertical: 12),
+                        child: Row(
+                          spacing: 8,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Icon(Icons.calendar_month),
+                            Text("Buy Now"),
+                          ],
                         ),
                       ),
                     ],
