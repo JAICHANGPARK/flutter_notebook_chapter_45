@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2265_plant_shop_app/ui/plant_detail_page.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
@@ -191,7 +192,11 @@ class _PlantHomePageState extends State<PlantHomePage> {
                   itemCount: 10,
                   itemBuilder: (context, index) {
                     return InkWell(
-                      
+                      onTap: (){
+                        Navigator.of(context).push(MaterialPageRoute(builder: (context)=>
+                        PlantDetailPage()
+                        ));
+                      },
                       child: Container(
                         margin: EdgeInsets.only(bottom: 12),
                         height: 160,
