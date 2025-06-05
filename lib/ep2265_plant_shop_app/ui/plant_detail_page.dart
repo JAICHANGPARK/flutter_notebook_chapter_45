@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class PlantDetailPage extends StatefulWidget {
   const PlantDetailPage({super.key});
@@ -83,18 +84,19 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                     fontWeight: FontWeight.bold,
                                   ),
                                 ),
+                                Gap(12),
                                 Text("Humidity"),
                                 Text("6-4%",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),),
+                                  ),),  Gap(12),
                                 Text("Light"),
                                 Text("Diffused",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold,
-                                  ),),
+                                  ),),  Gap(12),
                                 Text("Temperature"),
                                 Text("18-24 c",
                                   style: TextStyle(
