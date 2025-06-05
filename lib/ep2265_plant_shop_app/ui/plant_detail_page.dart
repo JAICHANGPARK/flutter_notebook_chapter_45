@@ -239,7 +239,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                     child: Row(
                       children: [
                         CircleAvatar(
-                          radius: 24,
+                          radius: 28,
                           backgroundColor: Colors.grey[100]!,
                         ),
                         Spacer(),
