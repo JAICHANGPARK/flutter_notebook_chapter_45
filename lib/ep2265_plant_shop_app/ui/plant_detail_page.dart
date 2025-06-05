@@ -170,11 +170,13 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
-                            Text("\$240",
+                            Text(
+                              "\$240",
                               style: TextStyle(
                                 fontSize: 16,
                                 fontWeight: FontWeight.bold,
-                              ),),
+                              ),
+                            ),
                           ],
                         ),
                         Row(
@@ -198,12 +200,22 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  Gap(16),
+                  Gap(24),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Text("Monstera Leaves"),
+                    child: Text(
+                      "Monstera Leaves",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                   ),
-                  SizedBox(height: 120, child: Placeholder()),
+                  Container(
+                    margin: EdgeInsets.symmetric(vertical: 16),
+                    height: 120,
+                    child: Placeholder(),
+                  ),
                   Row(
                     children: [
                       CircleAvatar(
