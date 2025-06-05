@@ -22,7 +22,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
           ),
           Positioned(
             top: -24,
-            right: -200,
+            right: -220,
 
             child: CircleAvatar(
               radius: 220,
@@ -42,6 +42,26 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
               decoration: BoxDecoration(color: Colors.white),
             ),
           ),
+          Positioned(
+
+              child: SafeArea(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                            Row(
+
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                  ),
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                  ),
+                ],
+                            )
+                          ],),
+              ))
         ],
       ),
     );
