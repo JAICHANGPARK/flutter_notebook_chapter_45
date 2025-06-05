@@ -22,11 +22,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
           ),
           Positioned(
             top: -24,
-            right: -120,
+            right: -200,
 
             child: CircleAvatar(
-
-radius: 120,
+              radius: 200,
               // decoration: BoxDecoration(
               //   borderRadius: BorderRadius.circular(100),
               //   color: Color.fromRGBO(185, 248, 154, 1),
