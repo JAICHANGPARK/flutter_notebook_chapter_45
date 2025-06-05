@@ -83,30 +83,39 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(6),
                               color: Colors.green,
-
                             ),
                             child: Row(
                               spacing: 6,
                               children: [
-                                IconButton(onPressed: (){}, icon: Icon(Icons.add)),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.add),
+                                ),
                                 Text("3"),
-                                IconButton(onPressed: (){}, icon: Icon(Icons.remove)),
+                                IconButton(
+                                  onPressed: () {},
+                                  icon: Icon(Icons.remove),
+                                ),
                               ],
                             ),
                           ),
-
-
-
                         ],
                       ),
-                      Container(
-                        width: 200,
-                        height: 200,
-                        child: Placeholder(),
-                      )
-
+                      Container(width: 200, height: 200, child: Placeholder()),
                     ],
-                  )
+                  ),
+                  Row(
+                    children: [
+                      Column(children: [Text("Monstera"), Text("\$240")]),
+                      Row(
+                        children: List.generate(
+                          5,
+                          (idx) =>
+                              Icon(Icons.star, color: Colors.deepOrangeAccent),
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
