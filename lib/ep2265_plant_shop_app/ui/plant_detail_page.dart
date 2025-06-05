@@ -24,13 +24,13 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             top: -24,
             right: -120,
 
-            child: Container(
-              height: 320,
-              width: 320,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(100),
-                color: Color.fromRGBO(185, 248, 154, 1),
-              ),
+            child: CircleAvatar(
+
+radius: 120,
+              // decoration: BoxDecoration(
+              //   borderRadius: BorderRadius.circular(100),
+              //   color: Color.fromRGBO(185, 248, 154, 1),
+              // ),
             ),
           ),
         ],
