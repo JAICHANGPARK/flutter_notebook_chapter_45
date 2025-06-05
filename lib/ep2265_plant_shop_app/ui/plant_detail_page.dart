@@ -214,10 +214,14 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 16),
                     height: 120,
+                    padding: EdgeInsets.only(
+                      left: 16,
+                    ),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
+                          width: 120,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(color: Colors.green,
