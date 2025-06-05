@@ -62,6 +62,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       ],
                     ),
                   ),
+                  Gap(12),
                   Row(
                     spacing: 16,
                     children: [
@@ -153,6 +154,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       ),
                     ],
                   ),
+                  Gap(32),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
