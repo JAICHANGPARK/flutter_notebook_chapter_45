@@ -214,7 +214,9 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 16),
                     height: 120,
-                    child: Placeholder(),
+                    child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context,index){})
                   ),
                   Row(
                     children: [
