@@ -25,7 +25,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             right: -200,
 
             child: CircleAvatar(
-              radius: 200,
+              radius: 220,
               backgroundColor: Color.fromRGBO(185, 248, 154, 1),
               // decoration: BoxDecoration(
               //   borderRadius: BorderRadius.circular(100),
@@ -37,7 +37,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(decoration: BoxDecoration(color: Colors.white)),
+            child: Container(
+              height: MediaQuery.sizeOf(context).height / 1.8,
+              decoration: BoxDecoration(color: Colors.white),
+            ),
           ),
         ],
       ),
