@@ -43,33 +43,28 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             ),
           ),
           Positioned(
-top: 16,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              child: SafeArea(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                            Padding(
-                              padding: const EdgeInsets.symmetric(horizontal: 16),
-                              child: Row(
-
-                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                              children: [
-                                                CircleAvatar(
-                                                  backgroundColor: Colors.white,
-                                                  radius: 26,
-                                                ),
-                                                CircleAvatar(
-                                                  backgroundColor: Colors.white,
-                                                  radius: 26,
-                                                ),
-                                              ],
-                              ),
-                            )
-                          ],),
-              ))
+            top: 16,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        CircleAvatar(backgroundColor: Colors.white, radius: 26),
+                        CircleAvatar(backgroundColor: Colors.white, radius: 26),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
