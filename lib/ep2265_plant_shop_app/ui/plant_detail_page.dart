@@ -72,6 +72,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                               Text("Small"),
                               Text("Humidity"),
                               Text("6-4%"),
+                              Text("Light"),
+                              Text("Diffused"),
+                              Text("Temperature"),
+                              Text("18-24 c"),
                             ],
                           )
 
