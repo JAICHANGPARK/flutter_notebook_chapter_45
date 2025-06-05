@@ -108,6 +108,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                             ),
                           ),
                           Container(
+                            margin: EdgeInsets.symmetric(horizontal: 16),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(6),
                               color: Colors.green,
@@ -119,7 +120,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                                   onPressed: () {},
                                   icon: Icon(Icons.add),
                                 ),
-                                Text("3"),
+                                Text("3",style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 19,
+                                ),),
                                 IconButton(
                                   onPressed: () {},
                                   icon: Icon(Icons.remove),
