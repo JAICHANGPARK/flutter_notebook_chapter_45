@@ -43,24 +43,30 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             ),
           ),
           Positioned(
-
+top: 16,
+              left: 0,
+              right: 0,
+              bottom: 0,
               child: SafeArea(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                            Row(
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Row(
 
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  CircleAvatar(
-                    backgroundColor: Colors.white,
-                    radius: 26,
-                  ),
-                  CircleAvatar(
-                    backgroundColor: Colors.white,
-                    radius: 26,
-                  ),
-                ],
+                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                              children: [
+                                                CircleAvatar(
+                                                  backgroundColor: Colors.white,
+                                                  radius: 26,
+                                                ),
+                                                CircleAvatar(
+                                                  backgroundColor: Colors.white,
+                                                  radius: 26,
+                                                ),
+                                              ],
+                              ),
                             )
                           ],),
               ))
