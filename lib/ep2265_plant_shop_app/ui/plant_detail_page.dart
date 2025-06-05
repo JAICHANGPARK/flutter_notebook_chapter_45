@@ -133,7 +133,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                           ),
                         ],
                       ),
-                      Container(width: 200, height: 200, child: Placeholder()),
+                      Expanded(child: Container(width: 200, child: Placeholder())),
                     ],
                   ),
                   Row(
