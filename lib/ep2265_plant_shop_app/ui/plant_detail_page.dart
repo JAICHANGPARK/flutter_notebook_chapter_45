@@ -222,6 +222,9 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       itemBuilder: (context, index) {
                         return Container(
                           width: 120,
+                          margin: EdgeInsets.only(
+                            right: 16,
+                          ),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(color: Colors.green,
