@@ -164,7 +164,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                             Text(
                               "Monstera",
                               style: TextStyle(
-                                fontSize: 24,
+                                fontSize: 28,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
