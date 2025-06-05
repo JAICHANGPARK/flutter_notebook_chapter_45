@@ -61,6 +61,25 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       ],
                     ),
                   ),
+                  Row(
+                    children: [
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Column(
+                            children: [
+                              Text("Size"),
+                              Text("Small"),
+                              Text("Humidity"),
+                              Text("6-4%"),
+                            ],
+                          )
+
+
+                        ],
+                      ),
+                    ],
+                  )
                 ],
               ),
             ),
