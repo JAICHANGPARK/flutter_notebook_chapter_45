@@ -20,6 +20,17 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
               ),
             ),
           ),
+          Positioned(
+              top: -24,
+              right: -120,
+              
+              child: Container(
+                height: 320,
+                width: 320,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                ),
+              ))
         ],
       ),
     );
