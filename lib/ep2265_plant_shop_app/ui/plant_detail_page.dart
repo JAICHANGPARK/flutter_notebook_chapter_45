@@ -69,7 +69,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         children: [
                           Padding(
                             padding: const EdgeInsets.only(
-                              left: 24,
+                              left: 32,
                               top: 24,
                               bottom: 24,
                             ),
