@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
 
 class PlantDetailPage extends StatefulWidget {
   const PlantDetailPage({super.key});
@@ -67,18 +66,23 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("Size"),
-                              Text("Small"),
-                              Text("Humidity"),
-                              Text("6-4%"),
-                              Text("Light"),
-                              Text("Diffused"),
-                              Text("Temperature"),
-                              Text("18-24 c"),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.only(
+                              left: 24,
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text("Size"),
+                                Text("Small"),
+                                Text("Humidity"),
+                                Text("6-4%"),
+                                Text("Light"),
+                                Text("Diffused"),
+                                Text("Temperature"),
+                                Text("18-24 c"),
+                              ],
+                            ),
                           ),
                           Container(
                             decoration: BoxDecoration(
@@ -134,7 +138,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         radius: 24,
                         backgroundColor: Colors.grey[100]!,
                       ),
-                     Spacer(),
+                      Spacer(),
                       Container(
                         width: 240,
                         decoration: ShapeDecoration(
