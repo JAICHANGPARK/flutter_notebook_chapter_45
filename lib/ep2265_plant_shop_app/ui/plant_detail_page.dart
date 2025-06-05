@@ -197,7 +197,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                     ),
                   ),
                   Gap(16),
-                  Text("Monstera Leaves"),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Text("Monstera Leaves"),
+                  ),
                   SizedBox(height: 120, child: Placeholder()),
                   Row(
                     children: [
