@@ -215,8 +215,17 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                     margin: EdgeInsets.symmetric(vertical: 16),
                     height: 120,
                     child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context,index){})
+                      scrollDirection: Axis.horizontal,
+                      itemBuilder: (context, index) {
+                        return Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            border: Border.all(color: Colors.green,
+                            width: 2),
+                          ),
+                        );
+                      },
+                    ),
                   ),
                   Row(
                     children: [
