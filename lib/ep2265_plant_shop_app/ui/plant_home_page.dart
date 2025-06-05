@@ -190,88 +190,91 @@ class _PlantHomePageState extends State<PlantHomePage> {
                 child: ListView.builder(
                   itemCount: 10,
                   itemBuilder: (context, index) {
-                    return Container(
-                      margin: EdgeInsets.only(bottom: 12),
-                      height: 160,
-                      child: Stack(
-                        children: [
-                          Positioned.fill(
-                            top: 16,
-                            child: Container(
-                              decoration: ShapeDecoration(
-                                shape: RoundedSuperellipseBorder(
-                                  borderRadius: BorderRadius.circular(20),
-                                  side: BorderSide(
-                                    color: Color.fromRGBO(185, 248, 154, 1),
-                                    width: 2,
-                                  ),
-                                ),
-                                color: Colors.green[50]!,
-                              ),
-                              child: Row(
-                                children: [
-                                  Container(width: 120),
-                                  Expanded(
-                                    child: Padding(
-                                      padding: const EdgeInsets.all(8.0),
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        spacing: 12,
-                                        children: [
-                                          Text(
-                                            "Dracaena Fragrans",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                            ),
-                                          ),
-                                          Text(
-                                            "Dracaena fragrans (cornstalk dracaena), is a flowering plant species that is native to tropical Africa, from Sudan south to Mozambique, west to Côte d'Ivoire and southwest to Angola, growing in upland regions at 600–2,250 m (1,970–7,380 ft) altitude",
-                                            maxLines: 2,
-                                          ),
-                                          Row(
-                                            mainAxisAlignment:
-                                                MainAxisAlignment.spaceBetween,
-                                            children: [
-                                              Text(
-                                                "\$20.00",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 24,
-                                                ),
-                                              ),
-                                              CircleAvatar(
-                                                backgroundColor: Color.fromRGBO(
-                                                  92,
-                                                  208,
-                                                  33,
-                                                  1,
-                                                ),
-                                                child: Icon(Icons.add),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
-                                      ),
+                    return InkWell(
+                      
+                      child: Container(
+                        margin: EdgeInsets.only(bottom: 12),
+                        height: 160,
+                        child: Stack(
+                          children: [
+                            Positioned.fill(
+                              top: 16,
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: BorderRadius.circular(20),
+                                    side: BorderSide(
+                                      color: Color.fromRGBO(185, 248, 154, 1),
+                                      width: 2,
                                     ),
                                   ),
-                                ],
+                                  color: Colors.green[50]!,
+                                ),
+                                child: Row(
+                                  children: [
+                                    Container(width: 120),
+                                    Expanded(
+                                      child: Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          spacing: 12,
+                                          children: [
+                                            Text(
+                                              "Dracaena Fragrans",
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Dracaena fragrans (cornstalk dracaena), is a flowering plant species that is native to tropical Africa, from Sudan south to Mozambique, west to Côte d'Ivoire and southwest to Angola, growing in upland regions at 600–2,250 m (1,970–7,380 ft) altitude",
+                                              maxLines: 2,
+                                            ),
+                                            Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment.spaceBetween,
+                                              children: [
+                                                Text(
+                                                  "\$20.00",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 24,
+                                                  ),
+                                                ),
+                                                CircleAvatar(
+                                                  backgroundColor: Color.fromRGBO(
+                                                    92,
+                                                    208,
+                                                    33,
+                                                    1,
+                                                  ),
+                                                  child: Icon(Icons.add),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
-                          ),
-                          Positioned(
-                            top: 0,
-                            left: 16,
-                            bottom: 12,
-                            child: Container(
-                              width: 100,
-                              child: Image.network(
-                                "https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
-                                fit: BoxFit.fitHeight,
+                            Positioned(
+                              top: 0,
+                              left: 16,
+                              bottom: 12,
+                              child: Container(
+                                width: 100,
+                                child: Image.network(
+                                  "https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
+                                  fit: BoxFit.fitHeight,
+                                ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     );
                   },
