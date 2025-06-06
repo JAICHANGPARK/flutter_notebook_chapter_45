@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-class WaveClipper extends CustomClipper<Path>{
+class WaveClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     print(size);
     var path = Path();
-    path.lineTo(0, 0);
+
     path.lineTo(size.width, size.height);
+    var firstControlPoint = Offset(size.width * .25, 0);
+    var firstEndPoint = Offset(size.width * .5, size.height * .4);
+    path.quadraticBezierTo(firstControlPoint.dx, firstControlPoint.dy, firstEndPoint.dx, firstEndPoint.dy);
+
     path.lineTo(0, size.height);
     path.close();
     return path;
@@ -16,9 +20,8 @@ class WaveClipper extends CustomClipper<Path>{
   @override
   bool shouldReclip(covariant CustomClipper oldClipper) {
     // TODO: implement shouldReclip
-   return false;
+    return false;
   }
-
 }
 
 class PlantDetailPage extends StatefulWidget {
