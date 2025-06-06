@@ -128,7 +128,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                             margin: EdgeInsets.symmetric(horizontal: 16),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(6),
-                              color: Colors.green,
+                              color: Color.fromRGBO(93, 208, 35, 1),
                             ),
                             child: Row(
                               spacing: 6,
