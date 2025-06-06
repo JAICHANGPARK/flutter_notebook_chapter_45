@@ -73,7 +73,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             right: -220,
 
             child: CircleAvatar(
-              radius: 220,
+              radius: 230,
               backgroundColor: Color.fromRGBO(185, 248, 154, 1),
               // decoration: BoxDecoration(
               //   borderRadius: BorderRadius.circular(100),
