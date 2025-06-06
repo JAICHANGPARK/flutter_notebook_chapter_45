@@ -242,7 +242,10 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                   ),
                   Spacer(),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
                     child: Row(
                       children: [
                         CircleAvatar(
@@ -256,7 +259,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                           width: 240,
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
-                            color: Colors.green,
+                            color: Color.fromRGBO(93, 208, 35, 1),
                           ),
                           padding: EdgeInsets.symmetric(vertical: 12),
                           child: Row(
