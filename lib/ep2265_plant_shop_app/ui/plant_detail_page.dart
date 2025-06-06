@@ -88,7 +88,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             child: ClipPath(
               clipper: WaveClipper(),
               child: Container(
-                height: MediaQuery.sizeOf(context).height / 1.3,
+                height: MediaQuery.sizeOf(context).height / 1.25,
                 decoration: BoxDecoration(color: Colors.white),
               ),
             ),
