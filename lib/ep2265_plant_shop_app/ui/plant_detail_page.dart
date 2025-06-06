@@ -27,7 +27,7 @@ class WaveClipper extends CustomClipper<Path> {
       secondEndPoint.dy,
     );
 
-    var thridControlPoint = Offset(size.width / .05, size.height * .45);
+    var thridControlPoint = Offset(size.width / 1.3, size.height * .3);
     var thridEndPoint = Offset(size.width, size.height * .35);
     path.quadraticBezierTo(
       thridControlPoint.dx,
