@@ -1,8 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-class WaveClipper{
-  
+class WaveClipper extends CustomClipper{
+  @override
+  getClip(Size size) {
+    // TODO: implement getClip
+    throw UnimplementedError();
+  }
+
+  @override
+  bool shouldReclip(covariant CustomClipper oldClipper) {
+    // TODO: implement shouldReclip
+    throw UnimplementedError();
+  }
+
 }
 
 class PlantDetailPage extends StatefulWidget {
