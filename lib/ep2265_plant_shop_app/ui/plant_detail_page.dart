@@ -4,8 +4,9 @@ import 'package:gap/gap.dart';
 class WaveClipper extends CustomClipper<Path>{
   @override
   Path getClip(Size size) {
+    print(size);
     var path = Path();
-    path.lineTo(0, size.height * .8);
+    path.lineTo(0, 0);
     path.lineTo(size.width, size.height);
     path.lineTo(0, size.height);
     path.close();
