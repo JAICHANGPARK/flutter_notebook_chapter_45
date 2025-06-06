@@ -57,8 +57,16 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        CircleAvatar(backgroundColor: Colors.white, radius: 26),
-                        CircleAvatar(backgroundColor: Colors.white, radius: 26),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          radius: 26,
+                          child: Icon(Icons.keyboard_arrow_left),
+                        ),
+                        CircleAvatar(
+                          backgroundColor: Colors.white,
+                          radius: 26,
+                          child: Icon(Icons.more_horiz),
+                        ),
                       ],
                     ),
                   ),
@@ -217,21 +225,16 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                   Container(
                     margin: EdgeInsets.symmetric(vertical: 16),
                     height: 120,
-                    padding: EdgeInsets.only(
-                      left: 16,
-                    ),
+                    padding: EdgeInsets.only(left: 16),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (context, index) {
                         return Container(
                           width: 120,
-                          margin: EdgeInsets.only(
-                            right: 16,
-                          ),
+                          margin: EdgeInsets.only(right: 16),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
-                            border: Border.all(color: Colors.green,
-                            width: 2),
+                            border: Border.all(color: Colors.green, width: 2),
                           ),
                         );
                       },
