@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
+class WaveClipper{
+  
+}
+
 class PlantDetailPage extends StatefulWidget {
   const PlantDetailPage({super.key});
 
@@ -38,9 +42,12 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(
-              height: MediaQuery.sizeOf(context).height / 1.8,
-              decoration: BoxDecoration(color: Colors.white),
+            child: ClipPath(
+
+              child: Container(
+                height: MediaQuery.sizeOf(context).height / 1.8,
+                decoration: BoxDecoration(color: Colors.white),
+              ),
             ),
           ),
           Positioned(
@@ -235,6 +242,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(8),
                             border: Border.all(color: Colors.green, width: 2),
+                            color: Color.fromRGBO(237, 249, 233, 1),
                           ),
                         );
                       },
