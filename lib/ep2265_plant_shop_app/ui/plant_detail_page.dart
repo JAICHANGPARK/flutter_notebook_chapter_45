@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-class WaveClipper extends CustomClipper{
+class WaveClipper extends CustomClipper<Path>{
   @override
-  getClip(Size size) {
-    // TODO: implement getClip
-    throw UnimplementedError();
+  Path getClip(Size size) {
+    var path = Path();
+    return path;
   }
 
   @override
   bool shouldReclip(covariant CustomClipper oldClipper) {
     // TODO: implement shouldReclip
-    throw UnimplementedError();
+   return false;
   }
 
 }
@@ -54,7 +54,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             left: 0,
             right: 0,
             child: ClipPath(
-
+              clipper: WaveClipper(),
               child: Container(
                 height: MediaQuery.sizeOf(context).height / 1.8,
                 decoration: BoxDecoration(color: Colors.white),
