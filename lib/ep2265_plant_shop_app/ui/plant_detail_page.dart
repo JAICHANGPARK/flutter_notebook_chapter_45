@@ -26,7 +26,7 @@ class WaveClipper extends CustomClipper<Path> {
       secondEndPoint.dx,
       secondEndPoint.dy,
     );
-
+    path.lineTo(size.width, size.height);
     path.lineTo(0, size.height);
     path.close();
     return path;
