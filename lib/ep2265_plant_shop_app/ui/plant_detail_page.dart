@@ -10,7 +10,7 @@ class WaveClipper extends CustomClipper<Path> {
 
     // path.lineTo(size.width, size.height);
     var firstControlPoint = Offset(size.width / 5, size.height * .3);
-    var firstEndPoint = Offset(size.width / 2.5, size.height * .35);
+    var firstEndPoint = Offset(size.width / 2.5, size.height * .4);
     path.quadraticBezierTo(
       firstControlPoint.dx,
       firstControlPoint.dy,
@@ -18,8 +18,8 @@ class WaveClipper extends CustomClipper<Path> {
       firstEndPoint.dy,
     );
 
-    var secondControlPoint = Offset(size.width / 2, size.height * .35);
-    var secondEndPoint = Offset(size.width / 1.5, size.height * .3);
+    var secondControlPoint = Offset(size.width / 1.8, size.height * .45);
+    var secondEndPoint = Offset(size.width / 1.5, size.height * .35);
     path.quadraticBezierTo(
       secondControlPoint.dx,
       secondControlPoint.dy,
@@ -88,7 +88,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
             child: ClipPath(
               clipper: WaveClipper(),
               child: Container(
-                height: MediaQuery.sizeOf(context).height / 1.2,
+                height: MediaQuery.sizeOf(context).height / 1.25,
                 decoration: BoxDecoration(color: Colors.white),
               ),
             ),
