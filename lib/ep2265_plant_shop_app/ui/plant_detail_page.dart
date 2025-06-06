@@ -148,8 +148,11 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       Expanded(
                         child: Container(
                           width: 200,
-                          height: 280,
-                          child: Placeholder(),
+                          height: 320,
+                          child: Image.network(
+                            "https://cdn.pixabay.com/photo/2017/01/31/23/03/plant-2027989_1280.png",
+                            fit: BoxFit.fitHeight,
+                          ),
                         ),
                       ),
                     ],
