@@ -240,8 +240,9 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                       },
                     ),
                   ),
+                  Spacer(),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                     child: Row(
                       children: [
                         CircleAvatar(
