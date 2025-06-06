@@ -9,9 +9,23 @@ class WaveClipper extends CustomClipper<Path> {
     path.lineTo(0, 0);
 
     path.lineTo(size.width, size.height);
-    var firstControlPoint = Offset(size.width * .25, size.height * .9);
-    var firstEndPoint = Offset(size.width * .5, size.height * .4);
-    path.quadraticBezierTo(firstControlPoint.dx, firstControlPoint.dy, firstEndPoint.dx, firstEndPoint.dy);
+    var firstControlPoint = Offset(size.width * .25, size.height * .7);
+    var firstEndPoint = Offset(size.width * .5, size.height * .9);
+    path.quadraticBezierTo(
+      firstControlPoint.dx,
+      firstControlPoint.dy,
+      firstEndPoint.dx,
+      firstEndPoint.dy,
+    );
+
+    var secondControlPoint = Offset(size.width * .6, size.height * .8);
+    var secondEndPoint = Offset(size.width, size.height * .6);
+    path.quadraticBezierTo(
+      secondControlPoint.dx,
+      secondControlPoint.dy,
+      secondEndPoint.dx,
+      secondEndPoint.dy,
+    );
 
     path.lineTo(0, size.height);
     path.close();
