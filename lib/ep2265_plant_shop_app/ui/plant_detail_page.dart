@@ -247,7 +247,7 @@ class _PlantDetailPageState extends State<PlantDetailPage> {
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[100]!,
-                          
+                          foregroundColor: Colors.grey,
                           child: Icon(Icons.shopping_cart_outlined),
                         ),
                         Spacer(),
