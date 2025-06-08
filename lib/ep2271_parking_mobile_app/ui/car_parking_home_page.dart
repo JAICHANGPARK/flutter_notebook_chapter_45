@@ -56,7 +56,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     Column(
                       children: List.generate(5, (idx){
                         return Container(
-                          height: 160,
+                          height: 140,
+                          margin: EdgeInsets.only(bottom: 12),
                           child: Placeholder(),
                         );
                       }),
