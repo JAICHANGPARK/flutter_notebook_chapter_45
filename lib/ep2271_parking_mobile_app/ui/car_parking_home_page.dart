@@ -42,6 +42,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   ),
                   Text("Parking Nearby"),
                   Container(height: 48, child: Placeholder()),
+                  Expanded(child: SingleChildScrollView(child: Column(children: [
+
+                  ],),)),
                   Container(
                     height: 240,
                     child: Placeholder(),
