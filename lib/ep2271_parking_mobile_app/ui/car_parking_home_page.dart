@@ -51,6 +51,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Parking Nearby"),
+                        Gap(16),
                         Container(height: 48, child: Placeholder()),
                       ],
                     ),
@@ -67,15 +68,23 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                             child: Placeholder(),
                           ),
 
-                          Row(
+                          Gap(16),
+
+                          Column(
                             children: [
-                              Text("Favorite Space"),
-                              TextButton(
-                                onPressed: () {},
-                                child: Text("See All"),
+                              Row(
+                                children: [
+                                  Text("Favorite Space"),
+                                  TextButton(
+                                    onPressed: () {},
+                                    child: Text("See All"),
+                                  ),
+                                ],
                               ),
                             ],
-                          ),
+                          )
+
+
                           Column(
                             children: List.generate(5, (idx) {
                               return Container(
