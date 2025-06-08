@@ -45,6 +45,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   Container(
                     height: 240,
                     child: Placeholder(),
+                  ),
+                  Row(
+                    children: [
+                      Text("Favorite Space"),
+                      TextButton(onPressed: (){}, child: Text("See All"))
+                    ],
                   )
                 ],
               ),
