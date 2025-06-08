@@ -5,7 +5,7 @@
 - Md Rahamat Hawlader
 - https://dribbble.com/shots/26106534-Car-Parking-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/43541558/file/original-d221954b51a00e14578fbc50c15fd487.png?resize=1600x1200&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43570896/file/original-e4287707b775539f0ff8508e830178e3.png?resize=2048x1536&vertical=center">
 
 
 ## EP2265-2270
