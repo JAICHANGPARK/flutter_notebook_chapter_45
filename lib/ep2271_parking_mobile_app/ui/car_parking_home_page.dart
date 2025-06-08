@@ -12,6 +12,14 @@ class CarParkingHomePage extends StatefulWidget {
 class _CarParkingHomePageState extends State<CarParkingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Stack(
+      children: [
+        Positioned(
+            bottom: 24,
+            left: 42,
+            right: 42,
+            child: Container()),
+      ],
+    );
   }
 }
