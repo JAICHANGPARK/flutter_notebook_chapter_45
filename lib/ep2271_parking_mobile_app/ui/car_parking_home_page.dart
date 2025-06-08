@@ -59,7 +59,11 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     child: SingleChildScrollView(
                       child: Column(
                         children: [
-                          Container(height: 240, child: Placeholder()),
+                          Container(
+                            margin: EdgeInsets.only(left: 16),
+                            height: 240,
+                            child: Placeholder(),
+                          ),
                           Row(
                             children: [
                               Text("Favorite Space"),
