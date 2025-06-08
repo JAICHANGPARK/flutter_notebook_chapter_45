@@ -49,7 +49,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   Row(
                     children: [
                       Text("Favorite Space"),
-                      TextButton(onPressed: (){}, child: Text("See All"))
+                      TextButton(onPressed: (){}, child: Text("See All")),
                     ],
                   )
                 ],
