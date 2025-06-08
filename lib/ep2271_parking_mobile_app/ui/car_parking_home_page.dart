@@ -21,8 +21,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),
-                        color: Colors.white),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white,
+                        ),
                         child: Row(
                           children: [
                             CircleAvatar(radius: 28),
@@ -38,7 +40,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       CircleAvatar(radius: 28),
                     ],
                   ),
-
+                  Text("Parking Nearby"),
+                  Container(height: 48, child: Placeholder()),
+                  Container(
+                    height: 240,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
