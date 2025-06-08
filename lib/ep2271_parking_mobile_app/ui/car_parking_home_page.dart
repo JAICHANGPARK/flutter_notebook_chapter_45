@@ -78,6 +78,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text("Favorite Space"),
                                     TextButton(
