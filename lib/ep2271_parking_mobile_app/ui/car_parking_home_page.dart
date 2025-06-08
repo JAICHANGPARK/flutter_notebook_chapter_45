@@ -44,35 +44,43 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       ],
                     ),
                   ),
-                  Column(
-                    children: [
-                      Text("Parking Nearby"),
-                      Container(height: 48, child: Placeholder()),
-                    ],
-                  ),
-
-                  Expanded(child: SingleChildScrollView(child: Column(children: [
-                    Container(
-                      height: 240,
-                      child: Placeholder(),
-                    ),
-                    Row(
+                  Padding(
+                    padding: const EdgeInsets.only(left: 16),
+                    child: Column(
                       children: [
-                        Text("Favorite Space"),
-                        TextButton(onPressed: (){}, child: Text("See All")),
+                        Text("Parking Nearby"),
+                        Container(height: 48, child: Placeholder()),
                       ],
                     ),
-                    Column(
-                      children: List.generate(5, (idx){
-                        return Container(
-                          height: 140,
-                          margin: EdgeInsets.only(bottom: 16),
-                          child: Placeholder(),
-                        );
-                      }),
-                    )
-                  ],),)),
+                  ),
 
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Container(height: 240, child: Placeholder()),
+                          Row(
+                            children: [
+                              Text("Favorite Space"),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See All"),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: List.generate(5, (idx) {
+                              return Container(
+                                height: 140,
+                                margin: EdgeInsets.only(bottom: 16),
+                                child: Placeholder(),
+                              );
+                            }),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
