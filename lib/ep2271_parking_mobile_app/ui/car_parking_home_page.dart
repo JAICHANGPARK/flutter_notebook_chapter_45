@@ -47,6 +47,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 16),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Parking Nearby"),
                         Container(height: 48, child: Placeholder()),
