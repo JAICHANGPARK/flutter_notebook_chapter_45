@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class CarParkingHomePage extends StatefulWidget {
   const CarParkingHomePage({super.key});
@@ -54,16 +55,18 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       ],
                     ),
                   ),
-
+                  Gap(16),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
+
                         children: [
                           Container(
                             margin: EdgeInsets.only(left: 16),
                             height: 240,
                             child: Placeholder(),
                           ),
+
                           Row(
                             children: [
                               Text("Favorite Space"),
