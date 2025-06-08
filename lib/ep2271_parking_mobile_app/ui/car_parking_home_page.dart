@@ -70,30 +70,37 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
 
                           Gap(16),
 
-                          Column(
-                            children: [
-                              Row(
-                                children: [
-                                  Text("Favorite Space"),
-                                  TextButton(
-                                    onPressed: () {},
-                                    child: Text("See All"),
-                                  ),
-                                ],
-                              ),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Row(
+                                  children: [
+                                    Text("Favorite Space"),
+                                    TextButton(
+                                      onPressed: () {},
+                                      child: Text("See All"),
+                                    ),
+                                  ],
+                                ),
+                                Column(
+                                  children: List.generate(5, (idx) {
+                                    return Container(
+                                      height: 140,
+                                      margin: EdgeInsets.only(bottom: 16),
+                                      child: Placeholder(),
+                                    );
+                                  }),
+                                ),
+                              ],
+                            ),
                           )
 
 
-                          Column(
-                            children: List.generate(5, (idx) {
-                              return Container(
-                                height: 140,
-                                margin: EdgeInsets.only(bottom: 16),
-                                child: Placeholder(),
-                              );
-                            }),
-                          ),
+
                         ],
                       ),
                     ),
