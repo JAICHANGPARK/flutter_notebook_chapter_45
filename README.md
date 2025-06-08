@@ -2,8 +2,8 @@
 
 ## EP2271
 - Car Parking Mobile App
-- Harunur Rashid
-- https://dribbble.com/shots/26097162-Plant-Shop-Mobile-App
+- Md Rahamat Hawlader
+- https://dribbble.com/shots/26106534-Car-Parking-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43541558/file/original-d221954b51a00e14578fbc50c15fd487.png?resize=1600x1200&vertical=center">
 
