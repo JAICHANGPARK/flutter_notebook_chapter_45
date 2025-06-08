@@ -12,7 +12,6 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        
         children: [
           Positioned.fill(
             child: SafeArea(
@@ -22,7 +21,17 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     children: [
                       Container(
                         decoration: ShapeDecoration(shape: StadiumBorder()),
-                        child: Row(children: [CircleAvatar(radius: 30)]),
+                        child: Row(
+                          children: [
+                            CircleAvatar(radius: 28),
+                            Column(
+                              children: [
+                                Text("Welcome Back"),
+                                Text("Dreamwalker"),
+                              ],
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
