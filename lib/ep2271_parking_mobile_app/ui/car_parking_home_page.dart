@@ -16,32 +16,41 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(radius: 28),
+                              Column(
+                                children: [
+                                  Text("Welcome Back"),
+                                  Text("Dreamwalker"),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        CircleAvatar(radius: 28),
+                      ],
+                    ),
+                  ),
+                  Column(
                     children: [
-                      Container(
-                        decoration: ShapeDecoration(
-                          shape: StadiumBorder(),
-                          color: Colors.white,
-                        ),
-                        child: Row(
-                          children: [
-                            CircleAvatar(radius: 28),
-                            Column(
-                              children: [
-                                Text("Welcome Back"),
-                                Text("Dreamwalker"),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ),
-                      CircleAvatar(radius: 28),
+                      Text("Parking Nearby"),
+                      Container(height: 48, child: Placeholder()),
                     ],
                   ),
-                  Text("Parking Nearby"),
-                  Container(height: 48, child: Placeholder()),
+
                   Expanded(child: SingleChildScrollView(child: Column(children: [
                     Container(
                       height: 240,
