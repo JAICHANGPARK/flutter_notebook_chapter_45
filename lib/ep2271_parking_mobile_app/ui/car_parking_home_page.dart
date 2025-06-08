@@ -43,18 +43,26 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   Text("Parking Nearby"),
                   Container(height: 48, child: Placeholder()),
                   Expanded(child: SingleChildScrollView(child: Column(children: [
-
+                    Container(
+                      height: 240,
+                      child: Placeholder(),
+                    ),
+                    Row(
+                      children: [
+                        Text("Favorite Space"),
+                        TextButton(onPressed: (){}, child: Text("See All")),
+                      ],
+                    ),
+                    Column(
+                      children: List.generate(5, (idx){
+                        return Container(
+                          height: 160,
+                          child: Placeholder(),
+                        );
+                      }),
+                    )
                   ],),)),
-                  Container(
-                    height: 240,
-                    child: Placeholder(),
-                  ),
-                  Row(
-                    children: [
-                      Text("Favorite Space"),
-                      TextButton(onPressed: (){}, child: Text("See All")),
-                    ],
-                  )
+
                 ],
               ),
             ),
