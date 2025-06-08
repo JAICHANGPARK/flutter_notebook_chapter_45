@@ -10,19 +10,29 @@ class CarParkingHomePage extends StatefulWidget {
 class _CarParkingHomePageState extends State<CarParkingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Positioned.fill(child: SafeArea(
-          child: Column(children: [
-          
-          ],),
-        )),
-        Positioned(bottom: 24, left: 42, right: 42, child: Container()
-
-        ),
-
-
-      ],
+    return Scaffold(
+      body: Stack(
+        
+        children: [
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        child: Row(children: [CircleAvatar(radius: 30)]),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(bottom: 24, left: 42, right: 42, child: Container()),
+        ],
+      ),
     );
   }
 }
