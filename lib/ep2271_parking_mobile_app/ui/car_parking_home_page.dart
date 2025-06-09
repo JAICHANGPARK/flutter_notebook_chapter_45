@@ -69,19 +69,30 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 16,top: 16),
+                    padding: const EdgeInsets.only(left: 16, top: 12),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           "Parking Nearby",
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
                         Gap(16),
-                        Container(height: 48, child: Placeholder()),
+                        Container(
+                          height: 52,
+                          child: ListView(
+                            children: [
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
