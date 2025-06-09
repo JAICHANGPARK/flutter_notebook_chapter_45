@@ -110,7 +110,49 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                 child: Center(
                                   child: Text(
                                     "Zone A",
-                                    style: TextStyle(color: Colors.grey),
+                                    style: TextStyle(color: Colors.black),
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Color.fromRGBO(220, 220, 220, 1),
+                                ),
+                                margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.symmetric(horizontal: 18),
+                                child: Center(
+                                  child: Text(
+                                    "Zone B",
+                                    style: TextStyle(color: Colors.black),
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Color.fromRGBO(220, 220, 220, 1),
+                                ),
+                                margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.symmetric(horizontal: 18),
+                                child: Center(
+                                  child: Text(
+                                    "Zone C",
+                                    style: TextStyle(color: Colors.black),
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Color.fromRGBO(220, 220, 220, 1),
+                                ),
+                                margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.symmetric(horizontal: 18),
+                                child: Center(
+                                  child: Text(
+                                    "Zone D",
+                                    style: TextStyle(color: Colors.black),
                                   ),
                                 ),
                               ),
