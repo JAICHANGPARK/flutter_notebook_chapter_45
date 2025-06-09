@@ -212,6 +212,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                       1,
                                                     ),
                                                   ),
+                                                  child: Text("35 free spaces"),
                                                 ),
                                               ),
                                             ],
