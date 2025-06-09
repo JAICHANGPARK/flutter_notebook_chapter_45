@@ -178,7 +178,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   width: 240,
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
-                                      borderRadius: BorderRadius.circular(16),
+                                      borderRadius: BorderRadius.circular(24),
                                     ),
                                     color: Colors.white,
                                   ),
@@ -193,7 +193,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       Expanded(
                                         child: Container(
                                           decoration: ShapeDecoration(
-                                            shape: RoundedSuperellipseBorder(),
+                                            shape: RoundedSuperellipseBorder(
+                                              borderRadius:
+                                                  BorderRadius.circular(24),
+                                            ),
                                             color: Colors.grey,
                                           ),
                                         ),
@@ -206,11 +209,13 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                         ),
                                       ),
                                       Text("Gangnam Tower"),
-                                      Text("\$9.99/hour",
+                                      Text(
+                                        "\$9.99/hour",
                                         style: TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.bold,
-                                        ),),
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 );
