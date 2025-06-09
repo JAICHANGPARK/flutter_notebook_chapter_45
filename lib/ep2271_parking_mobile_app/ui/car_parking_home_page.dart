@@ -89,7 +89,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
-                                  color: Colors.black,
+                                  color: Color.fromRGBO(49, 49, 49, 1),
                                 ),
                                 padding: EdgeInsets.symmetric(horizontal: 18),
                                 child: Center(
