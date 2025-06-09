@@ -12,6 +12,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(235, 235, 235, 1),
       body: Stack(
         children: [
           Positioned.fill(
