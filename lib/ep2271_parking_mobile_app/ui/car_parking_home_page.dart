@@ -42,7 +42,13 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("Welcome Back"),
+                                  Text(
+                                    "Welcome Back",
+                                    style: TextStyle(
+                                      fontSize: 13,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
                                   Text("Dreamwalker"),
                                 ],
                               ),
