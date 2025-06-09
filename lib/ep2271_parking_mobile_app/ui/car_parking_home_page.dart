@@ -202,6 +202,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                           child: Stack(
                                             children: [
                                               Positioned(
+                                                right: 8,
+                                                top: 8,
                                                 child: Container(
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
