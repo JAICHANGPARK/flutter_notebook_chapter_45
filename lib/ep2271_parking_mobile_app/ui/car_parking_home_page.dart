@@ -199,6 +199,23 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                             ),
                                             color: Colors.grey,
                                           ),
+                                          child: Stack(
+                                            children: [
+                                              Positioned(
+                                                child: Container(
+                                                  decoration: ShapeDecoration(
+                                                    shape: StadiumBorder(),
+                                                    color: Color.fromRGBO(
+                                                      214,
+                                                      237,
+                                                      77,
+                                                      1,
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            ],
+                                          ),
                                         ),
                                       ),
                                       Text(
