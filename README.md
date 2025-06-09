@@ -7,7 +7,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/43570896/file/original-e4287707b775539f0ff8508e830178e3.png?resize=2048x1536&vertical=center">
 
-
 ## EP2265-2270
 
 - Plant Shop Mobile App
