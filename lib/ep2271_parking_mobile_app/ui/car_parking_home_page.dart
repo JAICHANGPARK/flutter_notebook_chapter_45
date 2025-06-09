@@ -49,7 +49,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       color: Colors.grey,
                                     ),
                                   ),
-                                  Text("Dreamwalker"),
+                                  Text(
+                                    "Dreamwalker",
+                                    style: TextStyle(fontSize: 15),
+                                  ),
                                 ],
                               ),
                             ],
