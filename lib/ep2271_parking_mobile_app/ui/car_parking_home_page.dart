@@ -198,9 +198,19 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                           ),
                                         ),
                                       ),
-                                      Text("Seoul Gangnam Parking"),
+                                      Text(
+                                        "Seoul Gangnam Parking",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Text("Gangnam Tower"),
-                                      Text("\$9.99/hour"),
+                                      Text("\$9.99/hour",
+                                        style: TextStyle(
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.bold,
+                                        ),),
                                     ],
                                   ),
                                 );
