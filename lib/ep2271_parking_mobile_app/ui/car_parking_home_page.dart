@@ -183,10 +183,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                     color: Colors.white,
                                   ),
                                   margin: EdgeInsets.only(right: 12),
+                                  padding: EdgeInsets.all(12),
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     spacing: 8,
+                                    
                                     children: [
                                       Expanded(
                                         child: Container(
