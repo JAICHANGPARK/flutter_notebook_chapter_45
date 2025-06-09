@@ -186,7 +186,17 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
-                                    children: [],
+                                    spacing: 8,
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          decoration: ShapeDecoration(
+                                            shape: RoundedSuperellipseBorder(),
+                                            color: Colors.grey,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 );
                               },
