@@ -60,7 +60,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                           ),
                         ),
                         CircleAvatar(
-                          radius: 26,
+                          radius: 28,
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                           child: Icon(Icons.search),
