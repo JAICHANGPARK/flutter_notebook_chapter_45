@@ -29,10 +29,15 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.only(
+                            right: 32,
+                          ),
                           child: Row(
+                            spacing: 12,
                             children: [
                               CircleAvatar(radius: 28),
                               Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text("Welcome Back"),
                                   Text("Dreamwalker"),
