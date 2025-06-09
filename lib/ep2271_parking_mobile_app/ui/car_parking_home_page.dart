@@ -88,6 +88,11 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(),
+                                  color: Colors.black,
+                                ),
+                                child: Text(
+                                  "All Zones",
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ),
                             ],
