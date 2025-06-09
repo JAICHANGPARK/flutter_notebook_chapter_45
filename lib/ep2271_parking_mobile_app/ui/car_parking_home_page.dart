@@ -82,7 +82,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                         ),
                         Gap(16),
                         Container(
-                          height: 52,
+                          height: 44,
                           child: ListView(
                             scrollDirection: Axis.horizontal,
                             children: [
@@ -91,6 +91,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   shape: StadiumBorder(),
                                   color: Colors.black,
                                 ),
+                                padding: EdgeInsets.symmetric(horizontal: 18),
                                 child: Center(
                                   child: Text(
                                     "All Zones",
