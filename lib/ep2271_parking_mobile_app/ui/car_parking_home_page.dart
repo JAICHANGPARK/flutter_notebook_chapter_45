@@ -59,10 +59,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                             ],
                           ),
                         ),
-                        CircleAvatar(radius: 26,
-                        backgroundColor: Colors.white,
-                        foregroundColor: Colors.black,
-                        child: Icon(Icons.search),),
+                        CircleAvatar(
+                          radius: 26,
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          child: Icon(Icons.search),
+                        ),
                       ],
                     ),
                   ),
@@ -71,7 +73,13 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Parking Nearby"),
+                        Text(
+                          "Parking Nearby",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Gap(16),
                         Container(height: 48, child: Placeholder()),
                       ],
