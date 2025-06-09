@@ -188,7 +188,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     spacing: 8,
-                                    
+
                                     children: [
                                       Expanded(
                                         child: Container(
@@ -198,6 +198,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                           ),
                                         ),
                                       ),
+                                      Text("Seoul Gangnam Parking"),
+                                      Text("Gangnam Tower"),
+                                      Text("\$9.99/hour"),
                                     ],
                                   ),
                                 );
