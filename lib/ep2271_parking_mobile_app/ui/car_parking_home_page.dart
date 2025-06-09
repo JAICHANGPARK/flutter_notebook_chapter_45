@@ -173,6 +173,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                             child: ListView.builder(
                               itemBuilder: (context, index) {
                                 return Container(
+                                  width: 240,
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: BorderRadius.circular(16),
