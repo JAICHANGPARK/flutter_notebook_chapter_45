@@ -179,17 +179,14 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: BorderRadius.circular(16),
-
                                     ),
                                     color: Colors.white,
                                   ),
+                                  margin: EdgeInsets.only(right: 12),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-
-
-
-                                    ],
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [],
                                   ),
                                 );
                               },
