@@ -31,11 +31,14 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                           ),
                           padding: EdgeInsets.only(
                             right: 32,
+                            left: 2,
+                            bottom: 2,
+                            top: 2,
                           ),
                           child: Row(
                             spacing: 12,
                             children: [
-                              CircleAvatar(radius: 28),
+                              CircleAvatar(radius: 26),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -65,7 +68,6 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
-
                         children: [
                           Container(
                             margin: EdgeInsets.only(left: 16),
@@ -76,14 +78,13 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                           Gap(16),
 
                           Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 16
-                            ),
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text("Favorite Space"),
                                     TextButton(
@@ -103,10 +104,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                 ),
                               ],
                             ),
-                          )
-
-
-
+                          ),
                         ],
                       ),
                     ),
