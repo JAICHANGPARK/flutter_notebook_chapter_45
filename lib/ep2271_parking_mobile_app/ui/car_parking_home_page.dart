@@ -91,12 +91,26 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   shape: StadiumBorder(),
                                   color: Color.fromRGBO(49, 49, 49, 1),
                                 ),
-                                margin: EdgeInsets.only(right: 16),
+                                margin: EdgeInsets.only(right: 12),
                                 padding: EdgeInsets.symmetric(horizontal: 18),
                                 child: Center(
                                   child: Text(
                                     "All Zones",
                                     style: TextStyle(color: Colors.white),
+                                  ),
+                                ),
+                              ),
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Color.fromRGBO(220, 220, 220, 1),
+                                ),
+                                margin: EdgeInsets.only(right: 12),
+                                padding: EdgeInsets.symmetric(horizontal: 18),
+                                child: Center(
+                                  child: Text(
+                                    "Zone A",
+                                    style: TextStyle(color: Colors.grey),
                                   ),
                                 ),
                               ),
