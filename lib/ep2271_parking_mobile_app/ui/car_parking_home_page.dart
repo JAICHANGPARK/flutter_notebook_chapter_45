@@ -181,6 +181,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                     ),
                                     color: Colors.white,
                                   ),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+
+                                    ],
+                                  ),
                                 );
                               },
                             ),
