@@ -171,6 +171,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                             margin: EdgeInsets.only(left: 16),
                             height: 240,
                             child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemCount: 10,
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 240,
@@ -184,6 +186,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
+
+
 
                                     ],
                                   ),
