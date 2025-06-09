@@ -170,7 +170,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                           Container(
                             margin: EdgeInsets.only(left: 16),
                             height: 240,
-                            child: Placeholder(),
+                            child: ListView.builder(itemBuilder: (context,index){
+                              
+                            }),
                           ),
 
                           Gap(16),
