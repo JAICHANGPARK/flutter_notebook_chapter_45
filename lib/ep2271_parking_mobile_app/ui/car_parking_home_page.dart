@@ -306,11 +306,20 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                 Row(
                                                   children: [
                                                     Container(
-                                                      decoration:
-                                                          ShapeDecoration(
-                                                            shape:
-                                                                StadiumBorder(),
-                                                          ),
+                                                      padding: EdgeInsets.symmetric(
+                                                        horizontal: 12,
+                                                        vertical: 8,
+                                                      ),
+                                                      decoration: ShapeDecoration(
+                                                        shape: StadiumBorder(),
+                                                        color: Color.fromRGBO(
+                                                          214,
+                                                          237,
+                                                          77,
+                                                          1,
+                                                        ),
+                                                      ),
+                                                      child: Text("35 free spaces"),
                                                     ),
                                                   ],
                                                 ),
