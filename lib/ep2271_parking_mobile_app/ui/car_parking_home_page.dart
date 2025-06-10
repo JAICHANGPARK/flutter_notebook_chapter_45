@@ -271,6 +271,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                     ),
                                   ],
                                 ),
+                                Gap(12),
                                 Column(
                                   children: List.generate(5, (idx) {
                                     return Container(
