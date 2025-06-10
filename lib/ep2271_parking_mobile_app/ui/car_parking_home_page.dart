@@ -355,6 +355,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                         backgroundColor:
                                                             Colors
                                                                 .limeAccent[100],
+                                                        foregroundColor: Colors.black,
                                                         child: Icon(
                                                           Icons.favorite_border,
                                                           size: 18,
