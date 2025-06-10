@@ -205,7 +205,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                 right: 12,
                                                 top: 12,
                                                 child: Container(
-                                                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                                                  padding: EdgeInsets.symmetric(
+                                                    horizontal: 12,
+                                                    vertical: 8,
+                                                  ),
                                                   decoration: ShapeDecoration(
                                                     shape: StadiumBorder(),
                                                     color: Color.fromRGBO(
@@ -255,7 +258,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Text("Favorite Space"),
+                                    Text(
+                                      "Favorite Space",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     TextButton(
                                       onPressed: () {},
                                       child: Text("See All"),
