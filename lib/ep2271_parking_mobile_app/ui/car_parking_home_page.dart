@@ -287,6 +287,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       ),
                                       padding: EdgeInsets.all(8),
                                       child: Row(
+                                        spacing: 12,
                                         children: [
                                           Container(
                                             width: 110,
@@ -298,6 +299,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                               color: Colors.grey,
                                             ),
                                           ),
+
                                           Expanded(
                                             child: Padding(
                                               padding: const EdgeInsets.all(8.0),
