@@ -276,7 +276,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                     return Container(
                                       height: 140,
                                       margin: EdgeInsets.only(bottom: 16),
-                                      child: Placeholder(),
+                                      decoration: ShapeDecoration(
+                                        shape: RoundedSuperellipseBorder(),
+                                      ),
+                                      child: Row(children: []),
                                     );
                                   }),
                                 ),
