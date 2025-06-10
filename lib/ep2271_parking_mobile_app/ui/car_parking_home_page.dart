@@ -285,7 +285,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                         ),
                                         color: Colors.white,
                                       ),
-                                      child: Row(children: []),
+                                      child: Row(children: [
+                                        Container(
+                                          width: 120,
+                                          decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),),
+                                        )
+                                      ]),
                                     );
                                   }),
                                 ),
