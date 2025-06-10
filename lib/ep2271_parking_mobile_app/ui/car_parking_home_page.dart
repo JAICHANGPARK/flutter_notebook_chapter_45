@@ -277,7 +277,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       height: 140,
                                       margin: EdgeInsets.only(bottom: 16),
                                       decoration: ShapeDecoration(
-                                        shape: RoundedSuperellipseBorder(),
+                                        shape: RoundedSuperellipseBorder(
+                                          borderRadius: BorderRadius.circular(
+                                            24,
+                                          ),
+                                        ),
+                                        color: Colors.white,
                                       ),
                                       child: Row(children: []),
                                     );
