@@ -357,6 +357,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                                 .limeAccent[100],
                                                         child: Icon(
                                                           Icons.favorite_border,
+                                                          size: 18,
                                                         ),
                                                       ),
                                                     ],
