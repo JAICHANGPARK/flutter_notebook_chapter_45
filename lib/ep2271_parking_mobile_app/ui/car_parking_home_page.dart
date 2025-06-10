@@ -324,7 +324,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                     "1235-12321 Dream Streat",
                                                   ),
                                                   Row(
-                                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .spaceBetween,
                                                     children: [
                                                       Container(
                                                         padding:
@@ -350,6 +352,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                       ),
                                                       CircleAvatar(
                                                         radius: 18,
+                                                        backgroundColor:
+                                                            Colors
+                                                                .limeAccent[100],
                                                         child: Icon(
                                                           Icons.favorite_border,
                                                         ),
