@@ -285,6 +285,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                         ),
                                         color: Colors.white,
                                       ),
+                                      padding: EdgeInsets.all(8),
                                       child: Row(
                                         children: [
                                           Container(
