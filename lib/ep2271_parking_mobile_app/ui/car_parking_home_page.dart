@@ -302,30 +302,56 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
 
                                           Expanded(
                                             child: Padding(
-                                              padding: const EdgeInsets.all(8.0),
+                                              padding: const EdgeInsets.all(
+                                                8.0,
+                                              ),
                                               child: Column(
-                                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                                crossAxisAlignment: CrossAxisAlignment.start,
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
                                                 children: [
-                                                  Text("Dream Square"),
-                                                  Text("1235-12321 Dream Streat"),
+                                                  Text(
+                                                    "Dream Square",
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      fontSize: 18,
+                                                    ),
+                                                  ),
+                                                  Text(
+                                                    "1235-12321 Dream Streat",
+                                                  ),
                                                   Row(
                                                     children: [
                                                       Container(
-                                                        padding: EdgeInsets.symmetric(
-                                                          horizontal: 12,
-                                                          vertical: 8,
+                                                        padding:
+                                                            EdgeInsets.symmetric(
+                                                              horizontal: 12,
+                                                              vertical: 8,
+                                                            ),
+                                                        decoration:
+                                                            ShapeDecoration(
+                                                              shape:
+                                                                  StadiumBorder(),
+                                                              color:
+                                                                  Color.fromRGBO(
+                                                                    214,
+                                                                    237,
+                                                                    77,
+                                                                    1,
+                                                                  ),
+                                                            ),
+                                                        child: Text(
+                                                          "35 free spaces",
                                                         ),
-                                                        decoration: ShapeDecoration(
-                                                          shape: StadiumBorder(),
-                                                          color: Color.fromRGBO(
-                                                            214,
-                                                            237,
-                                                            77,
-                                                            1,
-                                                          ),
+                                                      ),
+                                                      CircleAvatar(
+                                                        radius: 18,
+                                                        child: Icon(
+                                                          Icons.favorite_border,
                                                         ),
-                                                        child: Text("35 free spaces"),
                                                       ),
                                                     ],
                                                   ),
