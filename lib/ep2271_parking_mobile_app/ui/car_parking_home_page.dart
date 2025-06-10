@@ -324,6 +324,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                     "1235-12321 Dream Streat",
                                                   ),
                                                   Row(
+                                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                     children: [
                                                       Container(
                                                         padding:
