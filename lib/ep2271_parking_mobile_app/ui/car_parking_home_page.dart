@@ -262,6 +262,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       "Favorite Space",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 18,
                                       ),
                                     ),
                                     TextButton(
