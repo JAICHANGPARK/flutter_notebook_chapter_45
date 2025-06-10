@@ -289,13 +289,32 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                       child: Row(
                                         children: [
                                           Container(
-                                            width: 120,
+                                            width: 110,
                                             decoration: ShapeDecoration(
-                                              shape:
-                                                  RoundedSuperellipseBorder(
-                                                    borderRadius: BorderRadius.circular(24),
-                                                  ),
+                                              shape: RoundedSuperellipseBorder(
+                                                borderRadius:
+                                                    BorderRadius.circular(24),
+                                              ),
                                               color: Colors.grey,
+                                            ),
+                                          ),
+                                          Expanded(
+                                            child: Column(
+                                              children: [
+                                                Text("Dream Square"),
+                                                Text("1235-12321 Dream Streat"),
+                                                Row(
+                                                  children: [
+                                                    Container(
+                                                      decoration:
+                                                          ShapeDecoration(
+                                                            shape:
+                                                                StadiumBorder(),
+                                                          ),
+                                                    ),
+                                                  ],
+                                                ),
+                                              ],
                                             ),
                                           ),
                                         ],
