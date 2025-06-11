@@ -355,7 +355,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                         backgroundColor:
                                                             Colors
                                                                 .limeAccent[100],
-                                                        foregroundColor: Colors.black,
+                                                        foregroundColor:
+                                                            Colors.black,
                                                         child: Icon(
                                                           Icons.favorite_border,
                                                           size: 18,
@@ -383,7 +384,14 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
               ),
             ),
           ),
-          Positioned(bottom: 24, left: 42, right: 42, child: Container()),
+          Positioned(
+            bottom: 24,
+            left: 42,
+            right: 42,
+            child: Container(
+              decoration: ShapeDecoration(shape: StadiumBorder()),
+            ),
+          ),
         ],
       ),
     );
