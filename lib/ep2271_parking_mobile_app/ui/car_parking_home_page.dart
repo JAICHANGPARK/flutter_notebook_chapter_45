@@ -405,7 +405,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(214, 237, 77, 1),
                     ),
-                    padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                     child: Row(
                       spacing: 8,
                       children: [
