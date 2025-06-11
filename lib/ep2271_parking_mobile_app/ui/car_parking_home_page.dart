@@ -198,6 +198,11 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                               borderRadius:
                                                   BorderRadius.circular(24),
                                             ),
+                                            image: DecorationImage(
+                                              image: NetworkImage(
+                                                "https://cdn.pixabay.com/photo/2023/05/15/19/50/multi-storey-car-park-7995856_1280.jpg",
+                                              ),
+                                            ),
                                             color: Colors.grey,
                                           ),
                                           child: Stack(
