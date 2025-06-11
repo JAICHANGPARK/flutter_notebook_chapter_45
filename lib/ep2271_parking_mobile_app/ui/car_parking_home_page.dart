@@ -398,6 +398,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
               child: Row(
                 children: [
                   Container(
+                    height: double.infinity,
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(214, 237, 77, 1),
