@@ -431,7 +431,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     radius: 32,
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
-                    child: Icon(HugeIcons.strokeRoundedMaping),
+                    child: Icon(HugeIcons.strokeRoundedUser),
                   ),
                 ],
               ),
