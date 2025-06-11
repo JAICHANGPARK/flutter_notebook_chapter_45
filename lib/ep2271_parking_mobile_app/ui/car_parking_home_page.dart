@@ -395,7 +395,9 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                 color: Colors.black,
               ),
               height: 64,
+              padding: EdgeInsets.all(8),
               child: Row(
+                spacing: 12,
                 children: [
                   Container(
                     height: double.infinity,
