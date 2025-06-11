@@ -202,6 +202,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                               image: NetworkImage(
                                                 "https://cdn.pixabay.com/photo/2023/05/15/19/50/multi-storey-car-park-7995856_1280.jpg",
                                               ),
+                                              fit: BoxFit.cover,
                                             ),
                                             color: Colors.grey,
                                           ),
