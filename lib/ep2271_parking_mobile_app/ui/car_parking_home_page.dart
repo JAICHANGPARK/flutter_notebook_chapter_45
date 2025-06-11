@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class CarParkingHomePage extends StatefulWidget {
   const CarParkingHomePage({super.key});
@@ -399,6 +400,12 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
                       color: Color.fromRGBO(214, 237, 77, 1),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(HugeIcons.strokeRoundedHome02),
+                        Text("Home"),
+                      ],
                     ),
                   ),
                 ],
