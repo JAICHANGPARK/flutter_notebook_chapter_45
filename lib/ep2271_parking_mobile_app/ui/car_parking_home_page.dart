@@ -397,7 +397,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
               height: 72,
               padding: EdgeInsets.all(6),
               child: Row(
-                spacing: 12,
+                spacing: 8,
                 children: [
                   Container(
                     height: double.infinity,
@@ -417,8 +417,21 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                   CircleAvatar(
                     radius: 32,
                     backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                     child: Icon(HugeIcons.strokeRoundedMaping),
-                  )
+                  ),
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                    child: Icon(HugeIcons.strokeRoundedHeartCheck),
+                  ),
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                    child: Icon(HugeIcons.strokeRoundedMaping),
+                  ),
                 ],
               ),
             ),
