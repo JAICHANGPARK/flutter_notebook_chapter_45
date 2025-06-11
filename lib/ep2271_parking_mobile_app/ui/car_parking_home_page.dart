@@ -405,9 +405,10 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                     child: Row(
+                      spacing: 8,
                       children: [
                         Icon(HugeIcons.strokeRoundedHome02),
-                        Text("Home"),
+                        Text("Home", style: TextStyle(fontSize: 16)),
                       ],
                     ),
                   ),
