@@ -398,6 +398,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
               padding: EdgeInsets.all(6),
               child: Row(
                 spacing: 8,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     height: double.infinity,
