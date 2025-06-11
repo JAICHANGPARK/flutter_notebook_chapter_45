@@ -386,7 +386,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
             ),
           ),
           Positioned(
-            bottom: 24,
+            bottom: 16,
             left: 32,
             right: 32,
             child: Container(
@@ -414,6 +414,11 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                       ],
                     ),
                   ),
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: Colors.white,
+                    child: Icon(HugeIcons.strokeRoundedMaping),
+                  )
                 ],
               ),
             ),
