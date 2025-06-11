@@ -387,8 +387,8 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
           ),
           Positioned(
             bottom: 24,
-            left: 42,
-            right: 42,
+            left: 32,
+            right: 32,
             child: Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
