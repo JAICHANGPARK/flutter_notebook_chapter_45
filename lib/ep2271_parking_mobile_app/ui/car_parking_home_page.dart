@@ -17,6 +17,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
+            top: 16,
             child: SafeArea(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -47,13 +48,13 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                   Text(
                                     "Welcome Back",
                                     style: TextStyle(
-                                      fontSize: 13,
+                                      fontSize: 12,
                                       color: Colors.grey,
                                     ),
                                   ),
                                   Text(
                                     "Dreamwalker",
-                                    style: TextStyle(fontSize: 15),
+                                    style: TextStyle(fontSize: 16),
                                   ),
                                 ],
                               ),
@@ -64,7 +65,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                           radius: 28,
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
-                          child: Icon(Icons.search),
+                          child: Icon(HugeIcons.strokeRoundedSearch01),
                         ),
                       ],
                     ),
@@ -308,6 +309,7 @@ class _CarParkingHomePageState extends State<CarParkingHomePage> {
                                                 image: NetworkImage(
                                                   "https://cdn.pixabay.com/photo/2018/04/04/22/53/autos-3291379_1280.jpg",
                                                 ),
+                                                fit: BoxFit.cover,
                                               ),
                                             ),
                                           ),
