@@ -52,8 +52,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     child: Text("Hi, Dream👋"),
                   ),
                   SizedBox(height: 52, child: Placeholder()),
-                  Expanded(child: Container(
-                    color: Colors.blue,
+                  Expanded(child: Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Container(color: Colors.blue),
                   )),
                 ],
               ),
@@ -73,7 +74,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     shape: StadiumBorder(),
                     color: Colors.grey.withValues(alpha: .8),
                   ),
-                  padding: EdgeInsets.symmetric(horizontal: 4,vertical: 4),
+                  padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
