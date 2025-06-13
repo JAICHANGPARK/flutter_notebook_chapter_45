@@ -21,6 +21,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
+                      spacing: 2,
                       children: [
                         CircleAvatar(
                           radius: 28,
