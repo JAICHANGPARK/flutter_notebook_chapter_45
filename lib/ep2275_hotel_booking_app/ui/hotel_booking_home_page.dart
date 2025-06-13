@@ -81,7 +81,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             children: [CircleAvatar(), Text("Hiking")],
                           ),
                         ),
-                        Container(
+                        Container(margin: EdgeInsets.only(right: 15),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               // side: BorderSide(color: Colors.orange, width: 2),
@@ -94,7 +94,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             children: [CircleAvatar(), Text("Sky Tours")],
                           ),
                         ),
-                        Container(
+                        Container(margin: EdgeInsets.only(right: 15),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               // side: BorderSide(color: Colors.orange, width: 2),
