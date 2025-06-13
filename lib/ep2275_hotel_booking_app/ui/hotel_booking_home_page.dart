@@ -63,6 +63,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   ),
                   Container(
                     height: 48,
+                    padding: EdgeInsets.only(left: 16),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
