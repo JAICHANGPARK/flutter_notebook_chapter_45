@@ -57,8 +57,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           ),
           Positioned(
             bottom: 8,
-            left: 32,
-            right: 32,
+            left: 42,
+            right: 42,
             child: Container(
               // height: 70,
               decoration: ShapeDecoration(
