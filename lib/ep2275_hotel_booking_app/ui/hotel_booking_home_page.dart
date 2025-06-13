@@ -10,6 +10,8 @@ class HotelBookingHomePage extends StatefulWidget {
 class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(children: [Positioned.fill(child: Column(children: []))]),
+    );
   }
 }
