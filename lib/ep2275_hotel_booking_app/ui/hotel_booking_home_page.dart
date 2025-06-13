@@ -58,9 +58,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 12),
                     child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
+
                   Container(
                     height: 48,
                     padding: EdgeInsets.only(left: 16),
@@ -130,7 +131,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Positioned(
                             left: 54,
                             right: 54,
-                            top: 32,
+                            top: 40,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.red,
@@ -140,7 +141,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Positioned(
                             left: 24,
                             right: 24,
-                            top: 64,
+                            top: 80,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.orange,
@@ -148,9 +149,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             ),
                           ),
                           Positioned(
-                            left: 0,
-                            right: 0,
-                            top: 120,
+                            left: 8,
+                            right: 8,
+                            top: 130,
                             bottom: 32,
                             child: Container(
                               height: 240,
