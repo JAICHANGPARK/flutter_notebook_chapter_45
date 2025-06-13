@@ -31,16 +31,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           radius: 28,
                           backgroundColor: Colors.grey[200],
                           child: Icon(Icons.menu),
+                          foregroundColor: Colors.black,
                         ),
                         Spacer(),
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          foregroundColor: Colors.black,
                           child: Icon(HugeIcons.strokeRoundedSearch01),
                         ),
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          foregroundColor: Colors.black,
                           child: Icon(HugeIcons.strokeRoundedNotification01),
                         ),
                         CircleAvatar(
