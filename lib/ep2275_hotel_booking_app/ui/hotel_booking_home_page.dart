@@ -125,7 +125,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.grey,
-                              borderRadius: BorderRadius.circular(16)),
+                              borderRadius: BorderRadius.circular(24)),
                             ),
                           ),
                           Positioned(
@@ -135,7 +135,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.red,
-                                  borderRadius: BorderRadius.circular(16)),
+                                  borderRadius: BorderRadius.circular(24)),
                             ),
                           ),
                           Positioned(
@@ -145,7 +145,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.orange,
-                                  borderRadius: BorderRadius.circular(16)),
+                                  borderRadius: BorderRadius.circular(24)),
                             ),
                           ),
                           Positioned(
@@ -156,7 +156,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(color: Colors.brown,
-                                  borderRadius: BorderRadius.circular(16)),
+                                  borderRadius: BorderRadius.circular(24)),
                             ),
                           ),
                         ],
