@@ -13,7 +13,17 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned.fill(child: Column(children: [])),
+          Positioned.fill(child: SafeArea(child: Column(children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Spacer(),
+                CircleAvatar(),
+                CircleAvatar(),
+                CircleAvatar(),
+              ],
+            )
+          ]))),
           Positioned(
             bottom: 8,
             left: 24,
