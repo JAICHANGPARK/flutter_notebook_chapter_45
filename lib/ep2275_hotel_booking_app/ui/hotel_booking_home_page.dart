@@ -10,6 +10,6 @@ class HotelBookingHomePage extends StatefulWidget {
 class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold();
   }
 }
