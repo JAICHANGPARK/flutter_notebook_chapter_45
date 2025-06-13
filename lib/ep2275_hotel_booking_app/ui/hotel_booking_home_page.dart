@@ -58,7 +58,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   ),
                   Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Text("Hi, Dream👋", style: TextStyle(fontSize: 24)),
+                    child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
                   SizedBox(height: 52, child: Placeholder()),
                   Expanded(
