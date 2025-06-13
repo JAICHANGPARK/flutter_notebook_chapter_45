@@ -81,7 +81,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             children: [CircleAvatar(), Text("Hiking")],
                           ),
                         ),
-                        Container(margin: EdgeInsets.only(right: 15),
+                        Container(
+                          margin: EdgeInsets.only(right: 15),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               // side: BorderSide(color: Colors.orange, width: 2),
@@ -94,7 +95,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             children: [CircleAvatar(), Text("Sky Tours")],
                           ),
                         ),
-                        Container(margin: EdgeInsets.only(right: 15),
+                        Container(
+                          margin: EdgeInsets.only(right: 15),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               // side: BorderSide(color: Colors.orange, width: 2),
@@ -113,7 +115,15 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(16.0),
-                      child: Container(color: Colors.blue),
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            child: Container(
+                              decoration: BoxDecoration(color: Colors.grey),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
