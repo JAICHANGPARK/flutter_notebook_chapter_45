@@ -122,6 +122,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             right: 64,
                             top: 0,
                             child: Container(
+                              height: 320,
                               decoration: BoxDecoration(color: Colors.grey,
                               borderRadius: BorderRadius.circular(16)),
                             ),
