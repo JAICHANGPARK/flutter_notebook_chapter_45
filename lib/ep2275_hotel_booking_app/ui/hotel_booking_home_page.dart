@@ -62,8 +62,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           ),
           Positioned(
             bottom: 8,
-            left: 42,
-            right: 42,
+            left: 52,
+            right: 52,
             child: ClipRSuperellipse(
               borderRadius: BorderRadius.circular(42),
               child: BackdropFilter(
