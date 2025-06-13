@@ -75,7 +75,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             ),
                             color: Color.fromRGBO(236, 232, 229, 1),
                           ),
-                          padding: EdgeInsets.only(right: 12),
+                          padding: EdgeInsets.only(left: 2, right: 12),
                           child: Row(
                             spacing: 12,
                             children: [CircleAvatar(), Text("Hiking")],
@@ -84,11 +84,24 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
-                              side: BorderSide(color: Colors.orange, width: 2),
+                              // side: BorderSide(color: Colors.orange, width: 2),
                             ),
-                            // color: Color.fromRGBO(236, 232, 229, 1),
+                            color: Color.fromRGBO(236, 232, 229, 1),
                           ),
-                          padding: EdgeInsets.only(right: 12),
+                          padding: EdgeInsets.only(left: 2, right: 12),
+                          child: Row(
+                            spacing: 12,
+                            children: [CircleAvatar(), Text("Sky Tours")],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              // side: BorderSide(color: Colors.orange, width: 2),
+                            ),
+                            color: Color.fromRGBO(236, 232, 229, 1),
+                          ),
+                          padding: EdgeInsets.only(left: 2, right: 12),
                           child: Row(
                             spacing: 12,
                             children: [CircleAvatar(), Text("Sky Tours")],
