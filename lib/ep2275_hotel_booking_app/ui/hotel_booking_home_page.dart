@@ -49,7 +49,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         ),
                         CircleAvatar(
                           radius: 28,
-                          backgroundColor: Colors.grey[200],
+                          backgroundColor: Color.fromRGBO(236, 232, 229, 1),
                           backgroundImage: NetworkImage(
                             "https://thispersondoesnotexist.com/",
                           ),
