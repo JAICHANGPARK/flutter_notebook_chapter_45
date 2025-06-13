@@ -61,43 +61,46 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             bottom: 8,
             left: 42,
             right: 42,
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 20, sigmaY: 30),
-              child: Container(
-                // height: 70,
-                decoration: ShapeDecoration(
-                  shape: StadiumBorder(),
-                  color: Colors.black,
-                ),
-                padding: EdgeInsets.symmetric(horizontal: 4,vertical: 4),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    CircleAvatar(
-                      radius: 32,
-                      child: Icon(HugeIcons.strokeRoundedHome01),
-                      backgroundColor: Colors.orange,
-                      foregroundColor: Colors.grey,
-                    ),
-                    CircleAvatar(
-                      radius: 32,
-                      child: Icon(HugeIcons.strokeRoundedCalendar01),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.grey,
-                    ),
-                    CircleAvatar(
-                      radius: 32,
-                      child: Icon(HugeIcons.strokeRoundedFavourite),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.grey,
-                    ),
-                    CircleAvatar(
-                      radius: 32,
-                      child: Icon(HugeIcons.strokeRoundedMail01),
-                      backgroundColor: Colors.black,
-                      foregroundColor: Colors.grey,
-                    ),
-                  ],
+            child: ClipRSuperellipse(
+              borderRadius: BorderRadius.circular(42),
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 20, sigmaY: 30),
+                child: Container(
+                  // height: 70,
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.black,
+                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 4,vertical: 4),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      CircleAvatar(
+                        radius: 32,
+                        child: Icon(HugeIcons.strokeRoundedHome01),
+                        backgroundColor: Colors.orange,
+                        foregroundColor: Colors.grey,
+                      ),
+                      CircleAvatar(
+                        radius: 32,
+                        child: Icon(HugeIcons.strokeRoundedCalendar01),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.grey,
+                      ),
+                      CircleAvatar(
+                        radius: 32,
+                        child: Icon(HugeIcons.strokeRoundedFavourite),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.grey,
+                      ),
+                      CircleAvatar(
+                        radius: 32,
+                        child: Icon(HugeIcons.strokeRoundedMail01),
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.grey,
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),
