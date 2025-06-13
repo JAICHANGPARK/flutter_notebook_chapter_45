@@ -118,8 +118,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       child: Stack(
                         children: [
                           Positioned(
+                            left: 64,
+                            right: 64,
+                            top: 0,
                             child: Container(
-                              decoration: BoxDecoration(color: Colors.grey),
+                              decoration: BoxDecoration(color: Colors.grey,
+                              borderRadius: BorderRadius.circular(16)),
                             ),
                           ),
                         ],
