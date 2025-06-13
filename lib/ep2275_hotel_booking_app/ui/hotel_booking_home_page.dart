@@ -72,10 +72,14 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   CircleAvatar(
                     radius: 32,
                     child: Icon(HugeIcons.strokeRoundedHome01),
+                    backgroundColor: Colors.orange,
+                    foregroundColor: Colors.grey,
                   ),
                   CircleAvatar(
                     radius: 32,
                     child: Icon(HugeIcons.strokeRoundedCalendar01),
+                    backgroundColor: Colors.black,
+                    foregroundColor: Colors.grey,
                   ),
                   CircleAvatar(
                     radius: 32,
