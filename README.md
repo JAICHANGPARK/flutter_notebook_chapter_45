@@ -2,10 +2,10 @@
 
 ## EP2275
 - Hotel Booking App Design
-- Md Rahamat Hawlader
-- https://dribbble.com/shots/26106534-Car-Parking-Mobile-App
+- Sujon Hossain for Oripio
+- https://dribbble.com/shots/26143203-Hotel-Booking-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/43570896/file/original-e4287707b775539f0ff8508e830178e3.png?resize=2048x1536&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43685314/file/original-c8a9ffb88904a0f9aadc2324c1115fce.jpg?resize=2048x1536&vertical=center">
 
 
 ## EP2271-2274
