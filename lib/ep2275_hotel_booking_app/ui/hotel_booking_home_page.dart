@@ -52,7 +52,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     child: Text("Hi, Dream👋"),
                   ),
                   SizedBox(height: 52, child: Placeholder()),
-                  Expanded(child: Placeholder()),
+                  Expanded(child: Container(
+                    color: Colors.blue,
+                  )),
                 ],
               ),
             ),
@@ -64,12 +66,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             child: ClipRSuperellipse(
               borderRadius: BorderRadius.circular(42),
               child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 20, sigmaY: 30),
+                filter: ImageFilter.blur(sigmaX: 4, sigmaY: 4),
                 child: Container(
                   // height: 70,
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
-                    color: Colors.black,
+                    color: Colors.grey.withValues(alpha: .8),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 4,vertical: 4),
                   child: Row(
