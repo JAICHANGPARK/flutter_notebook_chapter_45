@@ -31,8 +31,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Color.fromRGBO(236, 232, 229, 1),
-                          child: Icon(Icons.menu),
                           foregroundColor: Colors.black,
+                          child: Icon(Icons.menu),
                         ),
                         Spacer(),
                         CircleAvatar(
