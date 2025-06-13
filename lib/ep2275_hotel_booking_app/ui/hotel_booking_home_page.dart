@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class HotelBookingHomePage extends StatefulWidget {
   const HotelBookingHomePage({super.key});
@@ -48,8 +49,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Text("Hi, Dream👋"),
                   ),
-                  SizedBox(height: 52,
-                  child: Placeholder(),),
+                  SizedBox(height: 52, child: Placeholder()),
+                  Expanded(child: Placeholder()),
                 ],
               ),
             ),
@@ -59,7 +60,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             left: 24,
             right: 24,
             child: Container(
-              decoration: ShapeDecoration(shape: StadiumBorder()),
+              height: 80,
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.black,
+              ),
+              child: Row(
+                children: [
+                  CircleAvatar(
+                    radius: 32,
+                    child: Icon(HugeIcons.strokeRoundedHome01),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
