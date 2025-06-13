@@ -14,6 +14,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(250, 244, 240, 1),
       body: Stack(
         children: [
           Positioned.fill(
