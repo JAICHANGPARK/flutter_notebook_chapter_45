@@ -67,12 +67,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             child: ClipRSuperellipse(
               borderRadius: BorderRadius.circular(42),
               child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 4, sigmaY: 4),
+                filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
                 child: Container(
                   // height: 70,
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
-                    color: Colors.grey.withValues(alpha: .8),
+                    color: Colors.grey.withValues(alpha: .6),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                   child: Row(
