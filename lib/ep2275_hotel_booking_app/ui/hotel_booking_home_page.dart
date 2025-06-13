@@ -104,7 +104,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           padding: EdgeInsets.only(left: 2, right: 12),
                           child: Row(
                             spacing: 12,
-                            children: [CircleAvatar(), Text("Sky Tours")],
+                            children: [CircleAvatar(), Text("Boat Tours")],
                           ),
                         ),
                       ],
