@@ -57,8 +57,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           ),
           Positioned(
             bottom: 8,
-            left: 24,
-            right: 24,
+            left: 32,
+            right: 32,
             child: Container(
               height: 70,
               decoration: ShapeDecoration(
@@ -66,6 +66,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                 color: Colors.black,
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(
                     radius: 32,
