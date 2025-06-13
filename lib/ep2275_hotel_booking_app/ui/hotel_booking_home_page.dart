@@ -57,7 +57,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
                   SizedBox(
@@ -70,6 +70,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.orange, width: 2),
                             ),
+                          ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(),
+                              Text("Hiking")
+                            ],
                           ),
                         ),
                       ],
