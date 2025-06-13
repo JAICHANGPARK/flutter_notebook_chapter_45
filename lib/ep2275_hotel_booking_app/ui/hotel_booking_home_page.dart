@@ -68,6 +68,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       scrollDirection: Axis.horizontal,
                       children: [
                         Container(
+                          margin: EdgeInsets.only(right: 15),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.orange, width: 2),
@@ -78,6 +79,19 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           child: Row(
                             spacing: 12,
                             children: [CircleAvatar(), Text("Hiking")],
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.orange, width: 2),
+                            ),
+                            // color: Color.fromRGBO(236, 232, 229, 1),
+                          ),
+                          padding: EdgeInsets.only(right: 12),
+                          child: Row(
+                            spacing: 12,
+                            children: [CircleAvatar(), Text("Sky Tours")],
                           ),
                         ),
                       ],
