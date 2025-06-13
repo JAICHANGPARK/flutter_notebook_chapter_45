@@ -71,11 +71,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               side: BorderSide(color: Colors.orange, width: 2),
                             ),
                           ),
+                          padding: EdgeInsets.only(right: 12),
                           child: Row(
-                            children: [
-                              CircleAvatar(),
-                              Text("Hiking")
-                            ],
+                            spacing: 12,
+                            children: [CircleAvatar(), Text("Hiking")],
                           ),
                         ),
                       ],
