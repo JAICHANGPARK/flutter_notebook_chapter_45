@@ -15,7 +15,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
         children: [
           Positioned.fill(child: Column(children: [])),
           Positioned(
-            bottom: 0,
+            bottom: 8,
+            left: 24,
+            right: 24,
             child: Container(
               decoration: ShapeDecoration(shape: StadiumBorder()),
             ),
