@@ -81,7 +81,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   ),
                   CircleAvatar(
                     radius: 32,
-                    child: Icon(HugeIcons.strokeRoundedHome01),
+                    child: Icon(HugeIcons.strokeRoundedMail01),
                   ),
                 ],
               ),
