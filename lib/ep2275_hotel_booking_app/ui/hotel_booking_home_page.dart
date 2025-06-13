@@ -16,6 +16,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 16,
                 children: [
                   Padding(
@@ -43,8 +44,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                       ],
                     ),
                   ),
-                  Text("Hi, Dream👋"),
-                  SizedBox(height: 52),
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Text("Hi, Dream👋"),
+                  ),
+                  SizedBox(height: 52,
+                  child: Placeholder(),),
                 ],
               ),
             ),
