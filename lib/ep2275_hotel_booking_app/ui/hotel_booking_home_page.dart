@@ -17,21 +17,25 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      CircleAvatar(
-                        radius: 26,
-                        backgroundColor: Colors.grey[100],
-                      ),
-                      Spacer(),
-                      CircleAvatar(radius: 26,
-                        backgroundColor: Colors.grey[100],),
-                      CircleAvatar(radius: 26,
-                        backgroundColor: Colors.grey[100],),
-                      CircleAvatar(radius: 26,
-                        backgroundColor: Colors.grey[100],),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        CircleAvatar(
+                          radius: 26,
+                          backgroundColor: Colors.grey[200],
+                        ),
+                        Spacer(),
+                        CircleAvatar(radius: 26,
+                          backgroundColor: Colors.grey[200],),
+                        CircleAvatar(radius: 26,
+                          backgroundColor: Colors.grey[200],),
+                        CircleAvatar(radius: 26,
+                          backgroundColor: Colors.grey[200],),
+                      ],
+                    ),
                   ),
+                  Text("Hi, Dream👋"),
                 ],
               ),
             ),
