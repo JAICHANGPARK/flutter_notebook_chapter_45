@@ -30,19 +30,25 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          child: Icon(Icons.menu),
                         ),
                         Spacer(),
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          child: Icon(HugeIcons.strokeRoundedSearch01),
                         ),
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          child: Icon(HugeIcons.strokeRoundedNotification01),
                         ),
                         CircleAvatar(
                           radius: 28,
                           backgroundColor: Colors.grey[200],
+                          backgroundImage: NetworkImage(
+                            "https://thispersondoesnotexist.com/",
+                          ),
                         ),
                       ],
                     ),
@@ -52,10 +58,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     child: Text("Hi, Dream👋"),
                   ),
                   SizedBox(height: 52, child: Placeholder()),
-                  Expanded(child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Container(color: Colors.blue),
-                  )),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Container(color: Colors.blue),
+                    ),
+                  ),
                 ],
               ),
             ),
