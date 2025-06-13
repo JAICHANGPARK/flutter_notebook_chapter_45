@@ -16,26 +16,34 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
                     child: Row(
                       children: [
                         CircleAvatar(
-                          radius: 26,
+                          radius: 28,
                           backgroundColor: Colors.grey[200],
                         ),
                         Spacer(),
-                        CircleAvatar(radius: 26,
-                          backgroundColor: Colors.grey[200],),
-                        CircleAvatar(radius: 26,
-                          backgroundColor: Colors.grey[200],),
-                        CircleAvatar(radius: 26,
-                          backgroundColor: Colors.grey[200],),
+                        CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.grey[200],
+                        ),
+                        CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.grey[200],
+                        ),
+                        CircleAvatar(
+                          radius: 28,
+                          backgroundColor: Colors.grey[200],
+                        ),
                       ],
                     ),
                   ),
                   Text("Hi, Dream👋"),
+                  SizedBox(height: 52),
                 ],
               ),
             ),
