@@ -60,13 +60,25 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             left: 24,
             right: 24,
             child: Container(
-              height: 80,
+              height: 70,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.black,
               ),
               child: Row(
                 children: [
+                  CircleAvatar(
+                    radius: 32,
+                    child: Icon(HugeIcons.strokeRoundedHome01),
+                  ),
+                  CircleAvatar(
+                    radius: 32,
+                    child: Icon(HugeIcons.strokeRoundedCalendar01),
+                  ),
+                  CircleAvatar(
+                    radius: 32,
+                    child: Icon(HugeIcons.strokeRoundedFavourite),
+                  ),
                   CircleAvatar(
                     radius: 32,
                     child: Icon(HugeIcons.strokeRoundedHome01),
