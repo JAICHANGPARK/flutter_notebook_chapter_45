@@ -61,7 +61,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
                   SizedBox(
-                    height: 52,
+                    height: 48,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
