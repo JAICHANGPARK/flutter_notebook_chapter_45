@@ -60,10 +60,21 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     padding: const EdgeInsets.all(16.0),
                     child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
-                  SizedBox(height: 52, child: ListView(
-scrollDirection: Axis.horizontal,
-                    children: [],
-                  )),
+                  SizedBox(
+                    height: 52,
+                    child: ListView(
+                      scrollDirection: Axis.horizontal,
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.orange, width: 2),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.all(16.0),
