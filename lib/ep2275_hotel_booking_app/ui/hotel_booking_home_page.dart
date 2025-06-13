@@ -70,6 +70,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             shape: StadiumBorder(
                               side: BorderSide(color: Colors.orange, width: 2),
                             ),
+                            color: Colors.grey[100]!,
                           ),
                           padding: EdgeInsets.only(right: 12),
                           child: Row(
