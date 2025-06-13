@@ -150,11 +150,11 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Positioned(
                             left: 0,
                             right: 0,
-                            top: 128,
+                            top: 120,
                             bottom: 32,
                             child: Container(
                               height: 240,
-                              decoration: BoxDecoration(color: Colors.orange,
+                              decoration: BoxDecoration(color: Colors.brown,
                                   borderRadius: BorderRadius.circular(16)),
                             ),
                           ),
