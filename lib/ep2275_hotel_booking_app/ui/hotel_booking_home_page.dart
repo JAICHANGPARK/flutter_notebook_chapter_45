@@ -60,11 +60,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
             left: 32,
             right: 32,
             child: Container(
-              height: 70,
+              // height: 70,
               decoration: ShapeDecoration(
                 shape: StadiumBorder(),
                 color: Colors.black,
               ),
+              padding: EdgeInsets.symmetric(horizontal: 4,vertical: 4),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
