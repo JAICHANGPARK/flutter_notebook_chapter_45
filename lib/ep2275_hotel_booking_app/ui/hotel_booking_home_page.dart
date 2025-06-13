@@ -72,7 +72,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                   // height: 70,
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(),
-                    color: Colors.grey.withValues(alpha: .6),
+                    color: Colors.grey.withValues(alpha: .9),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                   child: Row(
