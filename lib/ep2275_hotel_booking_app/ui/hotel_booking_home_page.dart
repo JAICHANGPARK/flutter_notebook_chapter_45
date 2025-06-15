@@ -171,6 +171,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   image: NetworkImage(
                                     "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg",
                                   ),
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),
