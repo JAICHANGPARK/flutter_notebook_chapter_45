@@ -192,22 +192,37 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   fit: BoxFit.cover,
                                 ),
                               ),
+                              padding: EdgeInsets.all(16),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
 
                                 children: [
                                   Row(
                                     children: [
-                                      Container(
-                                        decoration: BoxDecoration(
-                                          borderRadius: BorderRadius.circular(
-                                            24,
+                                      ClipRRect(
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(sigmaX: 3, sigmaY: 5),
+                                          child: Container(
+                                        
+                                            decoration: BoxDecoration(color: Colors.black.withValues(alpha: .2),
+                                        
+                                              borderRadius: BorderRadius.circular(
+                                                24,
+                                              ),
+                                            ),
+                                            child: Text(
+                                              "Recommended",
+                                              style: TextStyle(color: Colors.white),
+                                            ),
                                           ),
-
                                         ),
-                                        child: Text("Recommended",style: TextStyle(
-                                          color: Colors.white
-                                        ),),
+                                      ),
+                                      Container(
+                                        height: 32,
+                                        width: 32,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                        ),
                                       ),
                                     ],
                                   ),
