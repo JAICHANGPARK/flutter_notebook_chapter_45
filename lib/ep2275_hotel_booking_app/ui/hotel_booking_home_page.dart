@@ -192,6 +192,11 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   fit: BoxFit.cover,
                                 ),
                               ),
+                              child: Column(
+                                children: [
+                                  
+                                ],
+                              ),
                             ),
                           ),
                         ],
