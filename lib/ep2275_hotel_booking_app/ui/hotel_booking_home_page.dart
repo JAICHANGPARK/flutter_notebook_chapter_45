@@ -130,6 +130,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               decoration: BoxDecoration(
                                 color: Colors.grey,
                                 borderRadius: BorderRadius.circular(24),
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2020/01/20/10/33/room-4779953_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
                               ),
                             ),
                           ),
