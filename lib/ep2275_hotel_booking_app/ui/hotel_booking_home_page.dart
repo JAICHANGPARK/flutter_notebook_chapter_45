@@ -137,12 +137,155 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   fit: BoxFit.cover,
                                 ),
                               ),
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+
+                                children: [
+                                  Row(
+                                    mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Text(
+                                              "Recommended",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 8,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedFavourite,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(12),
+                                    child: BackdropFilter(
+                                      filter: ImageFilter.blur(
+                                        sigmaX: 10,
+                                        sigmaY: 10,
+                                      ),
+                                      child: Container(
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 8,
+                                        ),
+                                        decoration: BoxDecoration(
+                                          color: Colors.black.withValues(
+                                            alpha: .2,
+                                          ),
+
+                                          borderRadius: BorderRadius.circular(
+                                            12,
+                                          ),
+                                        ),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                          spacing: 8,
+                                          children: [
+                                            Text(
+                                              "Forest Modern Estate - Modern Villa",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Earth",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.star_border,
+                                                  color: Colors.white,
+                                                ),
+                                                Text(
+                                                  "4.2 Rating",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Spacer(),
+                                                Text(
+                                                  "\$120",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "/night",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                           Positioned(
                             left: 50,
                             right: 50,
-                            top: 48 + 8,
+                            top: 48 + 16,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(
@@ -155,12 +298,155 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   fit: BoxFit.cover,
                                 ),
                               ),
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+
+                                children: [
+                                  Row(
+                                    mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Text(
+                                              "Recommended",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 8,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedFavourite,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(12),
+                                    child: BackdropFilter(
+                                      filter: ImageFilter.blur(
+                                        sigmaX: 10,
+                                        sigmaY: 10,
+                                      ),
+                                      child: Container(
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 8,
+                                        ),
+                                        decoration: BoxDecoration(
+                                          color: Colors.black.withValues(
+                                            alpha: .2,
+                                          ),
+
+                                          borderRadius: BorderRadius.circular(
+                                            12,
+                                          ),
+                                        ),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                          spacing: 8,
+                                          children: [
+                                            Text(
+                                              "Forest Modern Estate - Modern Villa",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Earth",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.star_border,
+                                                  color: Colors.white,
+                                                ),
+                                                Text(
+                                                  "4.2 Rating",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Spacer(),
+                                                Text(
+                                                  "\$120",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "/night",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                           Positioned(
                             left: 24,
                             right: 24,
-                            top: 96 + 8,
+                            top: 96 + 24,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(
@@ -173,12 +459,155 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   fit: BoxFit.cover,
                                 ),
                               ),
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment:
+                                MainAxisAlignment.spaceBetween,
+
+                                children: [
+                                  Row(
+                                    mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Text(
+                                              "Recommended",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 8,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedFavourite,
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(12),
+                                    child: BackdropFilter(
+                                      filter: ImageFilter.blur(
+                                        sigmaX: 10,
+                                        sigmaY: 10,
+                                      ),
+                                      child: Container(
+                                        padding: EdgeInsets.symmetric(
+                                          horizontal: 12,
+                                          vertical: 8,
+                                        ),
+                                        decoration: BoxDecoration(
+                                          color: Colors.black.withValues(
+                                            alpha: .2,
+                                          ),
+
+                                          borderRadius: BorderRadius.circular(
+                                            12,
+                                          ),
+                                        ),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                          spacing: 8,
+                                          children: [
+                                            Text(
+                                              "Forest Modern Estate - Modern Villa",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Earth",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.star_border,
+                                                  color: Colors.white,
+                                                ),
+                                                Text(
+                                                  "4.2 Rating",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Spacer(),
+                                                Text(
+                                                  "\$120",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "/night",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                           Positioned(
                             left: 8,
                             right: 8,
-                            top: 48 * 3 + 8,
+                            top: 48 * 3 + 32,
                             bottom: 32,
                             child: Container(
                               height: 240,
