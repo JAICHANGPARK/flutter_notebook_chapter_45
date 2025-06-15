@@ -198,6 +198,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
 
                                 children: [
                                   Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
                                       ClipRRect(
                                         borderRadius: BorderRadius.circular(24),
