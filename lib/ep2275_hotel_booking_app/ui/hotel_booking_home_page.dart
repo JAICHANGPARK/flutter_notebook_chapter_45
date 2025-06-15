@@ -58,7 +58,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 12),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
                     child: Text("Hi, Dream👋", style: TextStyle(fontSize: 28)),
                   ),
 
@@ -124,8 +127,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             top: 8,
                             child: Container(
                               height: 240,
-                              decoration: BoxDecoration(color: Colors.grey,
-                              borderRadius: BorderRadius.circular(24)),
+                              decoration: BoxDecoration(
+                                color: Colors.grey,
+                                borderRadius: BorderRadius.circular(24),
+                              ),
                             ),
                           ),
                           Positioned(
@@ -134,8 +139,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             top: 40,
                             child: Container(
                               height: 240,
-                              decoration: BoxDecoration(color: Colors.red,
-                                  borderRadius: BorderRadius.circular(24)),
+                              decoration: BoxDecoration(
+                                color: Colors.red,
+                                borderRadius: BorderRadius.circular(24),
+                              ),
                             ),
                           ),
                           Positioned(
@@ -144,8 +151,10 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             top: 80,
                             child: Container(
                               height: 240,
-                              decoration: BoxDecoration(color: Colors.orange,
-                                  borderRadius: BorderRadius.circular(24)),
+                              decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(24),
+                              ),
                             ),
                           ),
                           Positioned(
@@ -155,8 +164,15 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             bottom: 32,
                             child: Container(
                               height: 240,
-                              decoration: BoxDecoration(color: Colors.brown,
-                                  borderRadius: BorderRadius.circular(24)),
+                              decoration: BoxDecoration(
+                                color: Colors.brown,
+                                borderRadius: BorderRadius.circular(24),
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2015/10/20/18/57/furniture-998265_1280.jpg",
+                                  ),
+                                ),
+                              ),
                             ),
                           ),
                         ],
