@@ -265,8 +265,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                     borderRadius: BorderRadius.circular(12),
                                     child: BackdropFilter(
                                       filter: ImageFilter.blur(
-                                        sigmaX: 30,
-                                        sigmaY: 40,
+                                        sigmaX: 10,
+                                        sigmaY: 10,
                                       ),
                                       child: Container(
                                         padding: EdgeInsets.symmetric(
