@@ -200,29 +200,56 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   Row(
                                     children: [
                                       ClipRRect(
-                                        
+                                        borderRadius: BorderRadius.circular(24),
                                         child: BackdropFilter(
-                                          filter: ImageFilter.blur(sigmaX: 30, sigmaY: 40),
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
                                           child: Container(
-                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                                            decoration: BoxDecoration(color: Colors.black.withValues(alpha: .2),
-
-                                              borderRadius: BorderRadius.circular(
-                                                24,
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
                                               ),
+
+                                              borderRadius:
+                                                  BorderRadius.circular(24),
                                             ),
                                             child: Text(
                                               "Recommended",
-                                              style: TextStyle(color: Colors.white),
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
                                             ),
                                           ),
                                         ),
                                       ),
-                                      Container(
-                                        height: 32,
-                                        width: 32,
-                                        decoration: BoxDecoration(
-                                          shape: BoxShape.circle,
+                                      ClipRRect(
+                                        borderRadius: BorderRadius.circular(24),
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 30,
+                                            sigmaY: 40,
+                                          ),
+                                          child: Container(
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 8,
+                                              vertical: 8,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Colors.black.withValues(
+                                                alpha: .2,
+                                              ),
+
+                                              borderRadius:
+                                              BorderRadius.circular(24),
+                                            ),
+                                            child: Icon(HugeIcons.strokeRoundedFavourite)
+                                          ),
                                         ),
                                       ),
                                     ],
