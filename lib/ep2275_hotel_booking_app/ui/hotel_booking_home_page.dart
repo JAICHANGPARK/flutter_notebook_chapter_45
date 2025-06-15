@@ -200,12 +200,13 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                   Row(
                                     children: [
                                       ClipRRect(
+                                        
                                         child: BackdropFilter(
-                                          filter: ImageFilter.blur(sigmaX: 3, sigmaY: 5),
+                                          filter: ImageFilter.blur(sigmaX: 30, sigmaY: 40),
                                           child: Container(
-                                        
+                                        padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
                                             decoration: BoxDecoration(color: Colors.black.withValues(alpha: .2),
-                                        
+
                                               borderRadius: BorderRadius.circular(
                                                 24,
                                               ),
