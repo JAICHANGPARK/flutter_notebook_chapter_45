@@ -284,6 +284,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                         child: Column(
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
+                                          spacing: 8,
                                           children: [
                                             Text(
                                               "Forest Modern Estate - Modern Villa",
@@ -291,6 +292,21 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                                 color: Colors.white,
                                               ),
                                             ),
+                                            Text(
+                                              "Earth",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(Icons.star_border),
+                                                Text("4.2 Rating"),
+                                                Spacer(),
+                                                Text("\$120"),
+                                                Text("/night")
+                                              ],
+                                            )
                                           ],
                                         ),
                                       ),
