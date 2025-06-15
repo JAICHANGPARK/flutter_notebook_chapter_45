@@ -195,7 +195,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               padding: EdgeInsets.all(16),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
 
                                 children: [
                                   Row(
@@ -300,13 +301,31 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                             ),
                                             Row(
                                               children: [
-                                                Icon(Icons.star_border),
-                                                Text("4.2 Rating"),
+                                                Icon(
+                                                  Icons.star_border,
+                                                  color: Colors.white,
+                                                ),
+                                                Text(
+                                                  "4.2 Rating",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
                                                 Spacer(),
-                                                Text("\$120"),
-                                                Text("/night")
+                                                Text(
+                                                  "\$120",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
+                                                Text(
+                                                  "/night",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
                                               ],
-                                            )
+                                            ),
                                           ],
                                         ),
                                       ),
