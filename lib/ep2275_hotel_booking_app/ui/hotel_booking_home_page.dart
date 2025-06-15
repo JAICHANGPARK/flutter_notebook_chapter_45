@@ -193,8 +193,24 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                 ),
                               ),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
                                 children: [
-                                  
+                                  Row(
+                                    children: [
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          borderRadius: BorderRadius.circular(
+                                            24,
+                                          ),
+
+                                        ),
+                                        child: Text("Recommended",style: TextStyle(
+                                          color: Colors.white
+                                        ),),
+                                      ),
+                                    ],
+                                  ),
                                 ],
                               ),
                             ),
