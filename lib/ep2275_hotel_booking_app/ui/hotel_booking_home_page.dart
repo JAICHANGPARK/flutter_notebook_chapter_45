@@ -291,6 +291,8 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                               "Forest Modern Estate - Modern Villa",
                                               style: TextStyle(
                                                 color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
                                               ),
                                             ),
                                             Text(
