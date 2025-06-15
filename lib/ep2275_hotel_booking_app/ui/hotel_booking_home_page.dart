@@ -140,9 +140,9 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                             ),
                           ),
                           Positioned(
-                            left: 54,
-                            right: 54,
-                            top: 40,
+                            left: 50,
+                            right: 50,
+                            top: 48 + 8,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(
@@ -160,7 +160,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Positioned(
                             left: 24,
                             right: 24,
-                            top: 80,
+                            top: 96 + 8,
                             child: Container(
                               height: 240,
                               decoration: BoxDecoration(
@@ -178,7 +178,7 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                           Positioned(
                             left: 8,
                             right: 8,
-                            top: 130,
+                            top: 48 * 3 + 8,
                             bottom: 32,
                             child: Container(
                               height: 240,
