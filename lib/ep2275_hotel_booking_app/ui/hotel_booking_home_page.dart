@@ -195,10 +195,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                               padding: EdgeInsets.all(16),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
 
                                 children: [
                                   Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
                                     children: [
                                       ClipRRect(
                                         borderRadius: BorderRadius.circular(24),
@@ -247,9 +249,12 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                               ),
 
                                               borderRadius:
-                                              BorderRadius.circular(24),
+                                                  BorderRadius.circular(24),
                                             ),
-                                            child: Icon(HugeIcons.strokeRoundedFavourite,color: Colors.white,)
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedFavourite,
+                                              color: Colors.white,
+                                            ),
                                           ),
                                         ),
                                       ),
@@ -272,15 +277,22 @@ class _HotelBookingHomePageState extends State<HotelBookingHomePage> {
                                             alpha: .2,
                                           ),
 
-                                          borderRadius:
-                                          BorderRadius.circular(12),
+                                          borderRadius: BorderRadius.circular(
+                                            12,
+                                          ),
                                         ),
-                                       child: Column(
-                                         crossAxisAlignment: CrossAxisAlignment.start,
-                                         children: [
-Text("Forest Modern Estate - Modern Villa")
-                                         ],
-                                       ),
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "Forest Modern Estate - Modern Villa",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                     ),
                                   ),
