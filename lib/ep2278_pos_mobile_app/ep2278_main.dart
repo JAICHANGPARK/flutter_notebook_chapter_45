@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'ui/pos_marketing_tools_screen.dart';
 
 void main() {
-  runApp(PosMarketingToolsScreen());
+  runApp(PosMobileApp());
 }
 
 
