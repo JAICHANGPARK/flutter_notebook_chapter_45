@@ -17,6 +17,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 16,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
@@ -39,6 +40,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
               ),
               Text("Campaign Builder", style: TextStyle(color: Colors.white)),
               Container(height: 200, child: Row(
+                spacing: 16,
                 children: [
                   Expanded(child: Placeholder()),
                   Expanded(child: Placeholder()),
