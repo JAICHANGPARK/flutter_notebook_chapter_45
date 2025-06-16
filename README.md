@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_45
 
-## EP2275
+## EP2275-2277
 - Hotel Booking App Design
 - Sujon Hossain for Oripio
 - https://dribbble.com/shots/26143203-Hotel-Booking-App-Design
