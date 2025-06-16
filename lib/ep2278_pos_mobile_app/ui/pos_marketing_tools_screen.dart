@@ -65,8 +65,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   ),
                   TextButton(
                     onPressed: () {},
-                    child: Text("See All"),
                     style: TextButton.styleFrom(foregroundColor: Colors.white),
+                    child: Text("See All"),
                   ),
                 ],
               ),
