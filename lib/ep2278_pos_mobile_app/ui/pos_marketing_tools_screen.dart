@@ -22,7 +22,12 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
             children: [
               Row(
                 children: [
-                  CircleAvatar(radius: 24),
+                  CircleAvatar(
+                    radius: 24,
+                    backgroundColor: Colors.grey,
+                    foregroundColor: Colors.white,
+                    child: Icon(Icons.keyboard_arrow_left),
+                  ),
                   Expanded(
                     child: Center(
                       child: Text(
