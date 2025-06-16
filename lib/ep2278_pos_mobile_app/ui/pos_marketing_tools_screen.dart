@@ -47,6 +47,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 ],
               )),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text('Recent Campaign'),
                   TextButton(onPressed: (){}, child: Text("See All",),),
