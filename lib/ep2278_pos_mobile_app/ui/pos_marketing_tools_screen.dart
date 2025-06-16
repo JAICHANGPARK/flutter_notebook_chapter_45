@@ -60,6 +60,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                     style: TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.bold,
+                      fontSize: 18,
                     ),
                   ),
                   TextButton(
