@@ -16,27 +16,29 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  CircleAvatar(),
-                  Expanded(
-                    child: Center(
-                      child: Text(
-                        "Marketing Tools",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 18,
-                        ),
+            Row(
+              children: [
+                CircleAvatar(
+                  radius: 24,
+                ),
+                Expanded(
+                  child: Center(
+                    child: Text(
+                      "Marketing Tools",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
                       ),
                     ),
                   ),
-                  CircleAvatar(),
-                ],
-              ),
+                ),
+                CircleAvatar(
+                  radius: 24,
+                ),
+              ],
             ),
+
           ],
         ),
       ),
