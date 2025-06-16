@@ -1,7 +1,7 @@
 # flutter_notebook_chapter_45
 
 ## EP2278
-- Hotel Booking App Design
+- POS App - UI/UX Design
 - Sujon Hossain for Oripio
 - https://dribbble.com/shots/26143203-Hotel-Booking-App-Design
 
