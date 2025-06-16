@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-
 class PosMarketingToolsScreen extends StatefulWidget {
   const PosMarketingToolsScreen({super.key});
 
   @override
-  State<PosMarketingToolsScreen> createState() => _PosMarketingToolsScreenState();
+  State<PosMarketingToolsScreen> createState() =>
+      _PosMarketingToolsScreenState();
 }
 
 class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
@@ -16,8 +16,23 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
       body: SafeArea(
         child: Column(
           children: [
-            
-        
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Center(
+                    child: Text(
+                      "Marketing Tools",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ),
+                CircleAvatar(),
+              ],
+            ),
           ],
         ),
       ),
