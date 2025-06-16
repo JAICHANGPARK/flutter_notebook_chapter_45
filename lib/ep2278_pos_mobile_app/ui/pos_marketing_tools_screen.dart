@@ -24,7 +24,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 children: [
                   CircleAvatar(
                     radius: 24,
-                    backgroundColor: Colors.grey,
+                    backgroundColor: Colors.white.withValues(alpha: .2),
                     foregroundColor: Colors.white,
                     child: Icon(Icons.keyboard_arrow_left, size: 24),
                   ),
@@ -42,7 +42,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   ),
                   CircleAvatar(
                     radius: 24,
-                    backgroundColor: Colors.white.withValues(alpha: .3),
+                    backgroundColor: Colors.white.withValues(alpha: .2),
                     foregroundColor: Colors.white,
                     child: Icon(Icons.add, size: 24),
                   ),
