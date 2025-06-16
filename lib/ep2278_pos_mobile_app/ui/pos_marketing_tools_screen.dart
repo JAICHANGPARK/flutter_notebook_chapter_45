@@ -17,7 +17,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            spacing: 16,
+            spacing: 20,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Row(
@@ -38,7 +38,10 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   CircleAvatar(radius: 24),
                 ],
               ),
-              Text("Campaign Builder", style: TextStyle(color: Colors.white)),
+              Text(
+                "Campaign Builder",
+                style: TextStyle(color: Colors.white, fontSize: 18),
+              ),
               Container(
                 height: 200,
                 child: Row(
@@ -67,22 +70,13 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 ],
               ),
               Column(
+                spacing: 16,
                 children: [
-                  Container(
-                    height: 80,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 80,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 80,
-                    child: Placeholder(),
-                  )
+                  Container(height: 80, child: Placeholder()),
+                  Container(height: 80, child: Placeholder()),
+                  Container(height: 80, child: Placeholder()),
                 ],
-              )
-
+              ),
             ],
           ),
         ),
