@@ -39,20 +39,50 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 ],
               ),
               Text("Campaign Builder", style: TextStyle(color: Colors.white)),
-              Container(height: 200, child: Row(
-                spacing: 16,
-                children: [
-                  Expanded(child: Placeholder()),
-                  Expanded(child: Placeholder()),
-                ],
-              )),
+              Container(
+                height: 200,
+                child: Row(
+                  spacing: 16,
+                  children: [
+                    Expanded(child: Placeholder()),
+                    Expanded(child: Placeholder()),
+                  ],
+                ),
+              ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('Recent Campaign'),
-                  TextButton(onPressed: (){}, child: Text("See All",),),
+                  Text(
+                    'Recent Campaign',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("See All"),
+                    style: TextButton.styleFrom(foregroundColor: Colors.white),
+                  ),
+                ],
+              ),
+              Column(
+                children: [
+                  Container(
+                    height: 80,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 80,
+                    child: Placeholder(),
+                  ),
+                  Container(
+                    height: 80,
+                    child: Placeholder(),
+                  )
                 ],
               )
+
             ],
           ),
         ),
