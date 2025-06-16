@@ -14,32 +14,35 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
     return Scaffold(
       backgroundColor: Colors.black,
       body: SafeArea(
-        child: Column(
-          children: [
-            Row(
-              children: [
-                CircleAvatar(
-                  radius: 24,
-                ),
-                Expanded(
-                  child: Center(
-                    child: Text(
-                      "Marketing Tools",
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white,
-                        fontSize: 18,
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  CircleAvatar(
+                    radius: 24,
+                  ),
+                  Expanded(
+                    child: Center(
+                      child: Text(
+                        "Marketing Tools",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          fontSize: 18,
+                        ),
                       ),
                     ),
                   ),
-                ),
-                CircleAvatar(
-                  radius: 24,
-                ),
-              ],
-            ),
+                  CircleAvatar(
+                    radius: 24,
+                  ),
+                ],
+              ),
 
-          ],
+            ],
+          ),
         ),
       ),
     );
