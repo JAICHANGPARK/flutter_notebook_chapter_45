@@ -3,7 +3,7 @@
 ## EP2278
 - POS App - UI/UX Design
 - Sujon Hossain for Oripio
-- https://dribbble.com/shots/26143203-Hotel-Booking-App-Design
+- https://dribbble.com/shots/26150107-POS-App-UI-UX-Design
 
 <img src="https://cdn.dribbble.com/userupload/43685314/file/original-c8a9ffb88904a0f9aadc2324c1115fce.jpg?resize=2048x1536&vertical=center">
 
