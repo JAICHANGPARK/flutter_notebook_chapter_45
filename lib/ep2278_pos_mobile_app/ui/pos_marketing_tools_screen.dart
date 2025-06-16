@@ -46,6 +46,12 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   Expanded(child: Placeholder()),
                 ],
               )),
+              Row(
+                children: [
+                  Text('Recent Campaign'),
+                  TextButton(onPressed: (){}, child: Text("See All",),),
+                ],
+              )
             ],
           ),
         ),
