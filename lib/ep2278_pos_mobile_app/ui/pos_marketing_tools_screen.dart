@@ -11,6 +11,16 @@ class PosMarketingToolsScreen extends StatefulWidget {
 class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: SafeArea(
+        child: Column(
+          children: [
+            
+        
+          ],
+        ),
+      ),
+    );
   }
 }
