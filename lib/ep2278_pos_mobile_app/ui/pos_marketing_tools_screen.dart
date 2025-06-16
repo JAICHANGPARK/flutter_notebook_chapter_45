@@ -20,9 +20,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
             children: [
               Row(
                 children: [
-                  CircleAvatar(
-                    radius: 24,
-                  ),
+                  CircleAvatar(radius: 24),
                   Expanded(
                     child: Center(
                       child: Text(
@@ -35,12 +33,11 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                       ),
                     ),
                   ),
-                  CircleAvatar(
-                    radius: 24,
-                  ),
+                  CircleAvatar(radius: 24),
                 ],
               ),
-
+              Text("Campaign Builder", style: TextStyle(color: Colors.white)),
+              Container(height: 240, child: Placeholder()),
             ],
           ),
         ),
