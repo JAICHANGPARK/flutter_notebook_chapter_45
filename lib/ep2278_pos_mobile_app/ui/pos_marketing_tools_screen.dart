@@ -90,7 +90,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
                                 Container(
-                                  height: 82,
+                                  height: 88,
                                   width: 54,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
@@ -112,7 +112,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   ),
                                 ),
                                 Container(
-                                  height: 82,
+                                  height: 88,
                                   width: 54,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
