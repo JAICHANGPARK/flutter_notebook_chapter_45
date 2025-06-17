@@ -49,7 +49,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   ),
                 ],
               ),
-              Gap(4),
+              Gap(2),
               Text(
                 "Campaign Builder",
                 style: TextStyle(color: Colors.white, fontSize: 18),
@@ -59,7 +59,13 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 child: Row(
                   spacing: 16,
                   children: [
-                    Expanded(child: Placeholder()),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                    ),
                     Expanded(child: Placeholder()),
                   ],
                 ),
