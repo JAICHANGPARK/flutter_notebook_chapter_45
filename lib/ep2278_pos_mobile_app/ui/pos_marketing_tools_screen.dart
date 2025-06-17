@@ -183,7 +183,9 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             ),
 
                             Gap(12),
-                            Slider(value: 1, onChanged: (value) {}),
+                            Slider(value: 1, onChanged: (value) {},
+                            padding: EdgeInsets.zero,
+                            ),
                             Row(
                               spacing: 12,
                               children: [
