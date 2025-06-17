@@ -87,6 +87,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             ),
                             Gap(12),
                             Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
                                 Container(
                                   height: 82,
@@ -95,7 +96,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                     shape: StadiumBorder(),
                                     color: Colors.black,
                                   ),
-                                  padding: EdgeInsets.all(2),
+                                  padding: EdgeInsets.all(3),
                                   child: Stack(
                                     children: [
                                       AnimatedPositioned(
