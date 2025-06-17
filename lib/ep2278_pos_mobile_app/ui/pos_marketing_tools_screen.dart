@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class PosMarketingToolsScreen extends StatefulWidget {
   const PosMarketingToolsScreen({super.key});
@@ -48,6 +49,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                   ),
                 ],
               ),
+              Gap(4),
               Text(
                 "Campaign Builder",
                 style: TextStyle(color: Colors.white, fontSize: 18),
