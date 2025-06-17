@@ -64,7 +64,17 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
                           color: Colors.white.withValues(alpha: .3),
-                          
+                        ),
+                        child: Column(
+                          children: [
+                            Text(
+                              "10% Off",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ),
