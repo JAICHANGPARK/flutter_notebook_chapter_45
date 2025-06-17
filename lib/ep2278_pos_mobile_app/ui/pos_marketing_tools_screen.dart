@@ -77,7 +77,13 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 fontSize: 18,
                               ),
                             ),
-                            Text("Holiday Sale!"),
+                            Text("Holiday Sale!",
+                              style: TextStyle(
+                                color: Colors.white,
+                                // fontWeight: FontWeight.bold,
+                                // fontSize: 18,
+                              ),),
+                            Gap(12),
                             Row(
                               children: [
                                 Container(
