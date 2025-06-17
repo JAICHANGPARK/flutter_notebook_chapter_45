@@ -183,7 +183,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             ),
 
                             Gap(12),
-                            Slider(value: 1, onChanged: (value) {},
+                            Slider(value: .7, onChanged: (value) {},
                             padding: EdgeInsets.zero,
                             ),
                             Gap(16),
@@ -207,11 +207,17 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 ),
                                 Expanded(
                                   child: Container(
+                                    padding: EdgeInsets.symmetric(vertical: 8),
                                     decoration: ShapeDecoration(
                                       shape: StadiumBorder(),
                                       color: Colors.black,
                                     ),
-                                    child: Text("Email"),
+                                    child: Center(
+                                      child: Text(
+                                        "Email",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ],
