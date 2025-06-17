@@ -74,7 +74,21 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                               style: TextStyle(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
+                                fontSize: 18,
                               ),
+                            ),
+                            Text("Holiday Sale!"),
+                            Row(
+                              children: [
+                                Container(
+                                  height: 100,
+                                  width: 42,
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.black,
+                                  ),
+                                ),
+                              ],
                             ),
                           ],
                         ),
