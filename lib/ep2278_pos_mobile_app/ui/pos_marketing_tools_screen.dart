@@ -176,7 +176,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 ),
                               ],
                             ),
-                            Gap(12),
+                            Gap(16),
                             Text(
                               "All Customer",
                               style: TextStyle(color: Colors.white),
@@ -186,6 +186,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             Slider(value: 1, onChanged: (value) {},
                             padding: EdgeInsets.zero,
                             ),
+                            Gap(16),
                             Row(
                               spacing: 12,
                               children: [
