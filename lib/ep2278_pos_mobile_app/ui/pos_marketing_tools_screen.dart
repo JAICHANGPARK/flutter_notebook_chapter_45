@@ -77,34 +77,42 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 fontSize: 18,
                               ),
                             ),
-                            Text("Holiday Sale!",
+                            Text(
+                              "Holiday Sale!",
                               style: TextStyle(
                                 color: Colors.white,
                                 // fontWeight: FontWeight.bold,
                                 // fontSize: 18,
-                              ),),
+                              ),
+                            ),
                             Gap(12),
                             Row(
                               children: [
                                 Container(
                                   height: 82,
-                                  width:54,
+                                  width: 54,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.black,
                                   ),
-                                  child: Column(
+                                  padding: EdgeInsets.all(2),
+                                  child: Stack(
                                     children: [
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                      )
+                                      AnimatedPositioned(
+                                        top: 0,left: 0,
+                                        right: 0,
+                                        child: CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.white,
+                                        ),
+                                        duration: Duration(milliseconds: 250),
+                                      ),
                                     ],
                                   ),
                                 ),
                                 Container(
                                   height: 82,
-                                  width:54,
+                                  width: 54,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.black,
