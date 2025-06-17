@@ -102,11 +102,11 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                       AnimatedPositioned(
                                         top: 0,left: 0,
                                         right: 0,
+                                        duration: Duration(milliseconds: 250),
                                         child: CircleAvatar(
                                           radius: 24,
                                           backgroundColor: Colors.white.withValues(alpha: .3),
                                         ),
-                                        duration: Duration(milliseconds: 250),
                                       ),
                                     ],
                                   ),
@@ -117,6 +117,20 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.black,
+                                  ),
+                                  padding: EdgeInsets.all(3),
+                                  child: Stack(
+                                    children: [
+                                      AnimatedPositioned(
+                                        top: 0,left: 0,
+                                        right: 0,
+                                        duration: Duration(milliseconds: 250),
+                                        child: CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.white.withValues(alpha: .3),
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ],
