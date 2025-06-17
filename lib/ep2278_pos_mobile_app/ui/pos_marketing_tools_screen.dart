@@ -194,7 +194,12 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                       shape: StadiumBorder(),
                                       color: Colors.black,
                                     ),
-                                    child: Text("Sms"),
+                                    child: Center(
+                                      child: Text(
+                                        "Sms",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                    ),
                                   ),
                                 ),
                                 Expanded(
