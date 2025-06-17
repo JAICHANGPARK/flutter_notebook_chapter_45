@@ -81,8 +81,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             Row(
                               children: [
                                 Container(
-                                  height: 100,
-                                  width: 42,
+                                  height: 82,
+                                  width:54,
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.black,
