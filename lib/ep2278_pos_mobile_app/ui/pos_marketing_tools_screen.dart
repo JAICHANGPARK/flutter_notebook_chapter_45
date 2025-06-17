@@ -104,7 +104,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                         right: 0,
                                         child: CircleAvatar(
                                           radius: 24,
-                                          backgroundColor: Colors.white,
+                                          backgroundColor: Colors.white.withValues(alpha: .3),
                                         ),
                                         duration: Duration(milliseconds: 250),
                                       ),
