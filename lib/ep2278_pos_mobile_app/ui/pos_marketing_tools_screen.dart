@@ -100,12 +100,14 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   child: Stack(
                                     children: [
                                       AnimatedPositioned(
-                                        top: 0,left: 0,
+                                        top: 0,
+                                        left: 0,
                                         right: 0,
                                         duration: Duration(milliseconds: 250),
                                         child: CircleAvatar(
                                           radius: 24,
-                                          backgroundColor: Colors.white.withValues(alpha: .3),
+                                          backgroundColor: Colors.white
+                                              .withValues(alpha: .3),
                                         ),
                                       ),
                                     ],
@@ -122,12 +124,14 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   child: Stack(
                                     children: [
                                       AnimatedPositioned(
-                                        top: 0,left: 0,
+                                        top: 0,
+                                        left: 0,
                                         right: 0,
                                         duration: Duration(milliseconds: 250),
                                         child: CircleAvatar(
                                           radius: 24,
-                                          backgroundColor: Colors.white.withValues(alpha: .3),
+                                          backgroundColor: Colors.white
+                                              .withValues(alpha: .3),
                                         ),
                                       ),
                                     ],
@@ -139,7 +143,74 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                         ),
                       ),
                     ),
-                    Expanded(child: Placeholder()),
+                    Expanded(child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.white.withValues(alpha: .3),
+                      ),
+                      padding: EdgeInsets.all(16),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+
+                            ],
+                          ),
+
+                          Gap(12),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceAround,
+                            children: [
+                              Container(
+                                height: 88,
+                                width: 54,
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.black,
+                                ),
+                                padding: EdgeInsets.all(3),
+                                child: Stack(
+                                  children: [
+                                    AnimatedPositioned(
+                                      top: 0,left: 0,
+                                      right: 0,
+                                      duration: Duration(milliseconds: 250),
+                                      child: CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white.withValues(alpha: .3),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                height: 88,
+                                width: 54,
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(),
+                                  color: Colors.black,
+                                ),
+                                padding: EdgeInsets.all(3),
+                                child: Stack(
+                                  children: [
+                                    AnimatedPositioned(
+                                      top: 0,left: 0,
+                                      right: 0,
+                                      duration: Duration(milliseconds: 250),
+                                      child: CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white.withValues(alpha: .3),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    )),
                   ],
                 ),
               ),
