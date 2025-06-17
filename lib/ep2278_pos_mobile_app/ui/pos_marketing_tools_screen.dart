@@ -185,17 +185,25 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             Gap(12),
                             Slider(value: 1, onChanged: (value) {}),
                             Row(
+                              spacing: 12,
                               children: [
-                                Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.black,
+                                Expanded(
+                                  child: Container(
+                                    padding: EdgeInsets.symmetric(vertical: 8),
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.black,
+                                    ),
+                                    child: Text("Sms"),
                                   ),
                                 ),
-                                Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.black,
+                                Expanded(
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.black,
+                                    ),
+                                    child: Text("Email"),
                                   ),
                                 ),
                               ],
