@@ -63,7 +63,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
-                          color: Colors.white.withValues(alpha: .3),
+                          color: Colors.white.withValues(alpha: .2),
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
@@ -85,7 +85,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 // fontSize: 18,
                               ),
                             ),
-                            Gap(12),
+                            Gap(16),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
@@ -147,7 +147,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
-                          color: Colors.white.withValues(alpha: .3),
+                          color: Colors.white.withValues(alpha: .2),
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
@@ -183,8 +183,10 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             ),
 
                             Gap(12),
-                            Slider(value: .7, onChanged: (value) {},
-                            padding: EdgeInsets.zero,
+                            Slider(
+                              value: .7,
+                              onChanged: (value) {},
+                              padding: EdgeInsets.zero,
                             ),
                             Gap(16),
                             Row(
@@ -250,7 +252,15 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
               Column(
                 spacing: 16,
                 children: [
-                  Container(height: 80, child: Placeholder()),
+                  Container(
+                    height: 80,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: Colors.white.withValues(alpha: .2)
+                      ),
+                    ),
+                  ),
                   Container(height: 80, child: Placeholder()),
                   Container(height: 80, child: Placeholder()),
                 ],
