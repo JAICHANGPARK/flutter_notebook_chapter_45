@@ -65,7 +65,9 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                           borderRadius: BorderRadius.circular(12),
                           color: Colors.white.withValues(alpha: .3),
                         ),
+                        padding: EdgeInsets.all(16),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
                               "10% Off",
