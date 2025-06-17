@@ -93,6 +93,22 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                     shape: StadiumBorder(),
                                     color: Colors.black,
                                   ),
+                                  child: Column(
+                                    children: [
+                                      CircleAvatar(
+                                        radius: 24,
+                                        backgroundColor: Colors.white,
+                                      )
+                                    ],
+                                  ),
+                                ),
+                                Container(
+                                  height: 82,
+                                  width:54,
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.black,
+                                  ),
                                 ),
                               ],
                             ),
