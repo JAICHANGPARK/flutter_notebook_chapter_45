@@ -277,11 +277,16 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   children: [
                                     Text(
                                       "Discount Coupons",
-                                      style: TextStyle(color: Colors.white),
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                     Text(
                                       "25 Dec 2022",
-                                      style: TextStyle(color: Colors.white),
+                                      style: TextStyle(color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 12),
                                     ),
                                   ],
                                 ),
