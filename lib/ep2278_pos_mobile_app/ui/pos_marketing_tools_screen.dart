@@ -251,18 +251,18 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
               ),
               Column(
                 spacing: 16,
-                children: List.generate(3, (idx){
-                  return Container(
-                    height: 80,
-                    child: Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: Colors.white.withValues(alpha: .2)
-                      ),
-                    ),
-                  );
-                }).toList();
-
+                children:
+                    List.generate(3, (idx) {
+                      return Container(
+                        height: 80,
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            color: Colors.white.withValues(alpha: .2),
+                          ),
+                        ),
+                      );
+                    }).toList(),
               ),
             ],
           ),
