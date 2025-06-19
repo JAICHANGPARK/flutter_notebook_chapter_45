@@ -122,8 +122,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                                 radius: 24,
                                                 backgroundColor: Colors.white
                                                     .withValues(alpha: .3),
-                                                child: Icon(Icons.chat_outlined),
                                                 foregroundColor: Colors.white,
+                                                child: Icon(Icons.chat_outlined),
 
                                               ),
                                             ),
@@ -166,6 +166,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                           radius: 24,
                                           backgroundColor: Colors.white
                                               .withValues(alpha: .3),
+                                          foregroundColor: Colors.white,
+                                          child: Icon(Icons.email_outlined),
                                         ),
                                       ),
                                     ],
