@@ -110,10 +110,15 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                             left: 0,
                                             right: 0,
                                             duration: Duration(milliseconds: 250),
-                                            child: CircleAvatar(
-                                              radius: 24,
-                                              backgroundColor: Colors.white
-                                                  .withValues(alpha: .3),
+                                            child: GestureDetector(
+                                              onTap: (){
+                                                enableSms.value = !value;
+                                              },
+                                              child: CircleAvatar(
+                                                radius: 24,
+                                                backgroundColor: Colors.white
+                                                    .withValues(alpha: .3),
+                                              ),
                                             ),
                                           ),
                                         ],
