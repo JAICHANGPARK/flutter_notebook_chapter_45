@@ -67,7 +67,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
-                          color: Colors.white.withValues(alpha: .2),
+                          color: Colors.white.withValues(alpha: .18),
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
@@ -210,7 +210,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(12),
-                          color: Colors.white.withValues(alpha: .2),
+                          color: Colors.white.withValues(alpha: .18),
                         ),
                         padding: EdgeInsets.all(16),
                         child: Column(
