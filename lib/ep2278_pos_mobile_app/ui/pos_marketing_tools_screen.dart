@@ -284,14 +284,22 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                     ),
                                     Text(
                                       "25 Dec 2022",
-                                      style: TextStyle(color: Colors.white,
-                                      // fontWeight: FontWeight.bold,
-                                      fontSize: 12),
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        // fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
                                     ),
                                   ],
                                 ),
                               ),
-                              Text("Active"),
+                              Text(
+                                "Active",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  // fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
                         ),
