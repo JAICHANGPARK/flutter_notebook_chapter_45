@@ -168,7 +168,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                             duration: Duration(milliseconds: 250),
                                             child: InkWell(
                                               onTap: () {
-                                                enableSms.value = !value;
+                                                enableEmail.value = !value;
                                               },
                                               child: CircleAvatar(
                                                 radius: 24,
