@@ -262,6 +262,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                           ),
                           padding: EdgeInsets.all(16),
                           child: Row(
+                            spacing: 12,
                             children: [
                               CircleAvatar(
                                 radius: 28,
