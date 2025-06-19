@@ -12,6 +12,7 @@ class PosMarketingToolsScreen extends StatefulWidget {
 class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
   ValueNotifier<bool> enableSms = ValueNotifier(false);
   ValueNotifier<bool> enableEmail = ValueNotifier(false);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -106,14 +107,15 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                         children: [
                                           AnimatedPositioned(
                                             top: value ? null : 0,
-                                            bottom: value ? 0: null,
-
+                                            bottom: value ? 0 : null,
                                             left: 0,
                                             right: 0,
-                                            duration: Duration(milliseconds: 1000),
+                                            duration: Duration(
+                                              milliseconds: 2000,
+                                            ),
                                             curve: Curves.linear,
                                             child: GestureDetector(
-                                              onTap: (){
+                                              onTap: () {
                                                 enableSms.value = !value;
                                               },
                                               child: CircleAvatar(
@@ -123,10 +125,24 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                               ),
                                             ),
                                           ),
+                                          Positioned(
+                                            bottom: 8,
+                                            left: 0,
+                                            right: 0,
+                                            child: Center(
+                                              child: Text(
+                                                "Sms",
+                                                style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     );
-                                  }
+                                  },
                                 ),
                                 Container(
                                   height: 88,
