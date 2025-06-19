@@ -260,6 +260,17 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             borderRadius: BorderRadius.circular(8),
                             color: Colors.white.withValues(alpha: .2),
                           ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(),
+                              Expanded(child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                spacing: 6,
+                                children: [
+
+                              ],))
+                            ],
+                          ),
                         ),
 
                       );
