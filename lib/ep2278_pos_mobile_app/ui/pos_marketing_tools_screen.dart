@@ -91,29 +91,34 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: [
-                                Container(
-                                  height: 88,
-                                  width: 54,
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.black,
-                                  ),
-                                  padding: EdgeInsets.all(3),
-                                  child: Stack(
-                                    children: [
-                                      AnimatedPositioned(
-                                        top: 0,
-                                        left: 0,
-                                        right: 0,
-                                        duration: Duration(milliseconds: 250),
-                                        child: CircleAvatar(
-                                          radius: 24,
-                                          backgroundColor: Colors.white
-                                              .withValues(alpha: .3),
-                                        ),
+                                ValueListenableBuilder(
+                                  valueListenable: enableSms,
+                                  builder: (context, value, child) {
+                                    return Container(
+                                      height: 88,
+                                      width: 54,
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.black,
                                       ),
-                                    ],
-                                  ),
+                                      padding: EdgeInsets.all(3),
+                                      child: Stack(
+                                        children: [
+                                          AnimatedPositioned(
+                                            top: 0,
+                                            left: 0,
+                                            right: 0,
+                                            duration: Duration(milliseconds: 250),
+                                            child: CircleAvatar(
+                                              radius: 24,
+                                              backgroundColor: Colors.white
+                                                  .withValues(alpha: .3),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    );
+                                  }
                                 ),
                                 Container(
                                   height: 88,
