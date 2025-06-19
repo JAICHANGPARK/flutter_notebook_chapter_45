@@ -262,17 +262,23 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                           ),
                           child: Row(
                             children: [
-                              CircleAvatar(),
-                              Expanded(child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                spacing: 6,
-                                children: [
-
-                              ],))
+                              CircleAvatar(
+                                radius: 28,
+                                backgroundColor: Colors.black,
+                                foregroundColor: Colors.white,
+                                child: Icon(Icons.percent),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  spacing: 6,
+                                  children: [],
+                                ),
+                              ),
+                              Text("Active")
                             ],
                           ),
                         ),
-
                       );
                     }).toList(),
               ),
