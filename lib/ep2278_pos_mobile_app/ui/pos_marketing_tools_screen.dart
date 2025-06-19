@@ -253,7 +253,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 spacing: 16,
                 children:
                     List.generate(3, (idx) {
-                      return Container(
+                      return SizedBox(
                         height: 80,
                         child: Container(
                           decoration: BoxDecoration(
@@ -261,6 +261,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             color: Colors.white.withValues(alpha: .2),
                           ),
                         ),
+
                       );
                     }).toList(),
               ),
