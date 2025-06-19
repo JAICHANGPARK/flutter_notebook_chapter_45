@@ -110,7 +110,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
 
                                             left: 0,
                                             right: 0,
-                                            duration: Duration(milliseconds: 250),
+                                            duration: Duration(milliseconds: 1000),
+                                            curve: Curves.linear,
                                             child: GestureDetector(
                                               onTap: (){
                                                 enableSms.value = !value;
