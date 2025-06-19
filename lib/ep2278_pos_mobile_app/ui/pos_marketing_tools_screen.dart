@@ -10,6 +10,8 @@ class PosMarketingToolsScreen extends StatefulWidget {
 }
 
 class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
+  ValueNotifier<bool> enableSms = ValueNotifier(false);
+  ValueNotifier<bool> enableEmail = ValueNotifier(false);
   @override
   Widget build(BuildContext context) {
     return Scaffold(
