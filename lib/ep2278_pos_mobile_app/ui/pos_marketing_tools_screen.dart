@@ -273,10 +273,19 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   spacing: 6,
-                                  children: [],
+                                  children: [
+                                    Text(
+                                      "Discount Coupons",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                    Text(
+                                      "25 Dec 2022",
+                                      style: TextStyle(color: Colors.white),
+                                    ),
+                                  ],
                                 ),
                               ),
-                              Text("Active")
+                              Text("Active"),
                             ],
                           ),
                         ),
