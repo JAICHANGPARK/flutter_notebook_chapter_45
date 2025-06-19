@@ -246,13 +246,20 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                             ),
 
                             Gap(12),
-                            Slider(
-                              value: .7,
-                              onChanged: (value) {},
-                              padding: EdgeInsets.zero,
-                              activeColor: Colors.yellow,
-                              thumbColor: Colors.lightGreenAccent,
-                              inactiveColor: Colors.black,
+                            ValueListenableBuilder(
+                              valueListenable: sliderValue,
+                              builder: (context, value, child) {
+                                return Slider(
+                                  value:value,
+                                  onChanged: (value) {
+                                    sliderValue.value = value;
+                                  },
+                                  padding: EdgeInsets.zero,
+                                  activeColor: Colors.yellow,
+                                  thumbColor: Colors.lightGreenAccent,
+                                  inactiveColor: Colors.black,
+                                );
+                              }
                             ),
                             Gap(16),
                             Row(
