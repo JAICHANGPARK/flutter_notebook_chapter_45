@@ -128,6 +128,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                               ),
                                             ),
                                           ),
+                                          if(!value)
                                           Positioned(
                                             bottom: 8,
                                             left: 0,
