@@ -254,12 +254,13 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                 children:
                     List.generate(3, (idx) {
                       return SizedBox(
-                        height: 80,
+                        // height: 80,
                         child: Container(
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12),
                             color: Colors.white.withValues(alpha: .2),
                           ),
+                          padding: EdgeInsets.all(16),
                           child: Row(
                             children: [
                               CircleAvatar(
