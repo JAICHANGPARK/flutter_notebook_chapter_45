@@ -155,12 +155,12 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                     color: Colors.black,
                                   ),
                                   padding: EdgeInsets.all(3),
-                                  child: Stack(
-                                    children: [
-                                      ValueListenableBuilder(
-                                        valueListenable: enableEmail,
-                                        builder: (context, value, child) {
-                                          return AnimatedPositioned(
+                                  child: ValueListenableBuilder(
+                                    valueListenable: enableEmail,
+                                    builder: (context, value, child) {
+                                      return Stack(
+                                        children: [
+                                          AnimatedPositioned(
                                             top: value ? null : 0,
                                             bottom: value ? 0 : null,
                                             left: 0,
@@ -178,24 +178,24 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                                 child: Icon(Icons.email_outlined),
                                               ),
                                             ),
-                                          );
-                                        }
-                                      ),
-                                      Positioned(
-                                        bottom: 8,
-                                        left: 0,
-                                        right: 0,
-                                        child: Center(
-                                          child: Text(
-                                            "Email",
-                                            style: TextStyle(
-                                              fontSize: 12,
-                                              color: Colors.white,
+                                          ),
+                                          if(!value) Positioned(
+                                            bottom: 8,
+                                            left: 0,
+                                            right: 0,
+                                            child: Center(
+                                              child: Text(
+                                                "Email",
+                                                style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Colors.white,
+                                                ),
+                                              ),
                                             ),
                                           ),
-                                        ),
-                                      ),
-                                    ],
+                                        ],
+                                      );
+                                    }
                                   ),
                                 ),
                               ],
