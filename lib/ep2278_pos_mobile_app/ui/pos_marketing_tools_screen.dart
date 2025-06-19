@@ -257,7 +257,7 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                         height: 80,
                         child: Container(
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(8),
+                            borderRadius: BorderRadius.circular(12),
                             color: Colors.white.withValues(alpha: .2),
                           ),
                           child: Row(
