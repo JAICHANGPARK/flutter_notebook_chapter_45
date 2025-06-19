@@ -105,7 +105,8 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                       child: Stack(
                                         children: [
                                           AnimatedPositioned(
-                                            top: 0,
+                                            top: value ? 0 : 88,
+                                            bottom: value ? 88 : 0,
                                             left: 0,
                                             right: 0,
                                             duration: Duration(milliseconds: 250),
