@@ -249,6 +249,9 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                               value: .7,
                               onChanged: (value) {},
                               padding: EdgeInsets.zero,
+                              activeColor: Colors.yellow,
+                              thumbColor: Colors.lightGreenAccent,
+                              inactiveColor: Colors.black,
                             ),
                             Gap(16),
                             Row(
