@@ -157,17 +157,37 @@ class _PosMarketingToolsScreenState extends State<PosMarketingToolsScreen> {
                                   padding: EdgeInsets.all(3),
                                   child: Stack(
                                     children: [
-                                      AnimatedPositioned(
-                                        top: 0,
+                                      ValueListenableBuilder(
+                                        valueListenable: enableEmail,
+                                        builder: (context, value, child) {
+                                          return AnimatedPositioned(
+                                            top: value ? null : 0,
+                                            bottom: value ? 0 : null,
+                                            left: 0,
+                                            right: 0,
+                                            duration: Duration(milliseconds: 250),
+                                            child: CircleAvatar(
+                                              radius: 24,
+                                              backgroundColor: Colors.white
+                                                  .withValues(alpha: .3),
+                                              foregroundColor: Colors.white,
+                                              child: Icon(Icons.email_outlined),
+                                            ),
+                                          );
+                                        }
+                                      ),
+                                      Positioned(
+                                        bottom: 8,
                                         left: 0,
                                         right: 0,
-                                        duration: Duration(milliseconds: 250),
-                                        child: CircleAvatar(
-                                          radius: 24,
-                                          backgroundColor: Colors.white
-                                              .withValues(alpha: .3),
-                                          foregroundColor: Colors.white,
-                                          child: Icon(Icons.email_outlined),
+                                        child: Center(
+                                          child: Text(
+                                            "Email",
+                                            style: TextStyle(
+                                              fontSize: 12,
+                                              color: Colors.white,
+                                            ),
+                                          ),
                                         ),
                                       ),
                                     ],
