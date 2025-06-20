@@ -53,14 +53,12 @@ class _FmMainPageState extends State<FmMainPage> {
                   ),
                 ),
                 color: Colors.white,
-
               ),
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
                 child: Column(
                   children: [
-                    SizedBox(height: 120,
-                    child: Placeholder(),),
+                    SizedBox(height: 120, child: Placeholder()),
                     Expanded(child: Placeholder()),
                   ],
                 ),
