@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/fm_main_page.dart';
+
 void main() {
     runApp(FlowersMarketplaceApp());
 }
@@ -10,6 +12,8 @@ class FlowersMarketplaceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: FmMainPage(),
+    );
   }
 }
