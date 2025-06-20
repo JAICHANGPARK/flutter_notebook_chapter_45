@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_45
 
 ## EP2281
-- POS App - UI/UX Design
-- UI Mostofa Ibrahim
+- Flowers Marketplace Mobile App
+- Ronas IT | UI/UX Team
 - https://dribbble.com/shots/26153878-Flowers-Marketplace-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43706514/file/original-9df485c023e0e2124369d7ffae1983fe.png?resize=1504x1128&vertical=center">
