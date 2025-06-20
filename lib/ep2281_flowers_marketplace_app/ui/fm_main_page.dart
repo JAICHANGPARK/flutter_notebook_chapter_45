@@ -15,10 +15,18 @@ class _FmMainPageState extends State<FmMainPage> {
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.fromLTRB(16, 62, 16, 16),
+            padding: const EdgeInsets.fromLTRB(16, 52, 16, 16),
             child: Row(
               children: [
-                Text("MENU"),
+                Text(
+                  "MENU",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    decoration: TextDecoration.underline,
+                    fontSize: 24
+                  ),
+                ),
                 Spacer(),
                 IconButton(onPressed: () {}, icon: Icon(Icons.search)),
                 IconButton(onPressed: () {}, icon: Icon(Icons.person_2)),
