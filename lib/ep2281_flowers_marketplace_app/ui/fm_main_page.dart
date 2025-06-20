@@ -11,15 +11,20 @@ class _FmMainPageState extends State<FmMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffff1f6d),
+      backgroundColor: Color.fromRGBO(234, 125, 151, 1),
       body: Column(
         children: [
-          Row(children: [
-            Text("MENU",),
-            Spacer(),
-            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
-            IconButton(onPressed: (){}, icon: Icon(Icons.person_2),),
-          ]),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 62, 16, 16),
+            child: Row(
+              children: [
+                Text("MENU"),
+                Spacer(),
+                IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+                IconButton(onPressed: () {}, icon: Icon(Icons.person_2)),
+              ],
+            ),
+          ),
           Expanded(
             child: Container(
               decoration: BoxDecoration(
