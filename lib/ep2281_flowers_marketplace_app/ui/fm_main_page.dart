@@ -62,6 +62,8 @@ class _FmMainPageState extends State<FmMainPage> {
                     Expanded(
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisSpacing: 12,
+                          mainAxisSpacing: 12,
                           crossAxisCount: 2,
                           childAspectRatio: 0.8
                         ),
