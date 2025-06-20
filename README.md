@@ -1,5 +1,12 @@
 # flutter_notebook_chapter_45
 
+## EP2281
+- POS App - UI/UX Design
+- UI Mostofa Ibrahim
+- https://dribbble.com/shots/26150107-POS-App-UI-UX-Design
+
+<img src="https://cdn.dribbble.com/userupload/43706514/file/original-9df485c023e0e2124369d7ffae1983fe.png?resize=1504x1128&vertical=center">
+
 ## EP2278-2280
 - POS App - UI/UX Design
 - UI Mostofa Ibrahim
