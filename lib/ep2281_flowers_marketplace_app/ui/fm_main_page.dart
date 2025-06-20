@@ -26,13 +26,18 @@ class _FmMainPageState extends State<FmMainPage> {
                     decoration: TextDecoration.underline,
                     decorationColor: Colors.white,
                     decorationThickness: 1.5,
-                    fontSize: 24
+                    fontSize: 24,
                   ),
                 ),
                 Spacer(),
-                IconButton(onPressed: () {}, icon: Icon(Icons.search),
-                color: Colors.white,),
-                IconButton(onPressed: () {}, icon: Icon(Icons.person_2),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.search),
+                  color: Colors.white,
+                ),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.person_2),
                   color: Colors.white,
                 ),
               ],
@@ -45,6 +50,16 @@ class _FmMainPageState extends State<FmMainPage> {
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(16),
                   topLeft: Radius.circular(16),
+                ),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  children: [
+                    SizedBox(height: 120,
+                    child: Placeholder(),),
+                    Expanded(child: Placeholder()),
+                  ],
                 ),
               ),
             ),
