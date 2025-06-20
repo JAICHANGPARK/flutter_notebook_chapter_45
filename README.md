@@ -5,7 +5,7 @@
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/26153878-Flowers-Marketplace-Mobile-App
 
-<img src="https://cdn.dribbble.com/userupload/43706514/file/original-9df485c023e0e2124369d7ffae1983fe.png?resize=1504x1128&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43717943/file/original-b01c13173d76714a1e4651efa4ecdc16.png?resize=1905x1429&vertical=center">
 
 ## EP2278-2280
 - POS App - UI/UX Design
