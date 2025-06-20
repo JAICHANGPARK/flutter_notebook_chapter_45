@@ -14,7 +14,12 @@ class _FmMainPageState extends State<FmMainPage> {
       backgroundColor: Color(0xffff1f6d),
       body: Column(
         children: [
-          Row(children: []),
+          Row(children: [
+            Text("MENU",),
+            Spacer(),
+            IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+            IconButton(onPressed: (){}, icon: Icon(Icons.person_2),),
+          ]),
           Expanded(
             child: Container(
               decoration: BoxDecoration(
