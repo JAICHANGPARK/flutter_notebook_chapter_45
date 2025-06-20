@@ -45,12 +45,15 @@ class _FmMainPageState extends State<FmMainPage> {
           ),
           Expanded(
             child: Container(
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.only(
-                  topRight: Radius.circular(16),
-                  topLeft: Radius.circular(16),
+              decoration: ShapeDecoration(
+                shape: RoundedSuperellipseBorder(
+                  borderRadius: BorderRadius.only(
+                    topRight: Radius.circular(24),
+                    topLeft: Radius.circular(24),
+                  ),
                 ),
+                color: Colors.white,
+
               ),
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
