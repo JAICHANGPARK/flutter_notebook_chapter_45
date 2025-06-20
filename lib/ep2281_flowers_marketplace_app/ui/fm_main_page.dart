@@ -59,7 +59,17 @@ class _FmMainPageState extends State<FmMainPage> {
                 child: Column(
                   children: [
                     SizedBox(height: 120, child: Placeholder()),
-                    Expanded(child: Placeholder()),
+                    Expanded(
+                      child: GridView.builder(
+                        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 2,
+                          childAspectRatio: 0.8
+                        ),
+                        itemBuilder: (context, index) {
+                          return Placeholder();
+                        },
+                      ),
+                    ),
                   ],
                 ),
               ),
