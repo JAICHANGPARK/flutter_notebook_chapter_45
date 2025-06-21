@@ -229,7 +229,9 @@ class _FmMainPageState extends State<FmMainPage> {
                                         child: CircleAvatar(
                                           backgroundColor: Colors.white,
                                           foregroundColor: Colors.black,
+                                          child: Icon(Icons.shopping_bag_outlined),
                                         ),
+
                                       ),
                                     ],
                                   ),
@@ -244,7 +246,11 @@ class _FmMainPageState extends State<FmMainPage> {
                               ),
                               Text(
                                 "\$12.50",
-                                style: TextStyle(color: Color(0xffff1f6d)),
+                                style: TextStyle(
+                                  color: Color(0xffff1f6d),
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 15,
+                                ),
                               ),
                             ],
                           );
