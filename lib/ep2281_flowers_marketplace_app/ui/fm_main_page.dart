@@ -71,7 +71,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                     decoration: BoxDecoration(
                                       shape: BoxShape.circle,
                                       border: Border.all(
-                                        color: Color(0xff1f6d)
+                                        color: Color(0xffff1f6d)
                                       ),
                                     ),
                                   ),
