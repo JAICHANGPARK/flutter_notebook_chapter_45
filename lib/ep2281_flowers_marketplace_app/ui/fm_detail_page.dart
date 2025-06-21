@@ -13,15 +13,29 @@ class _FmDetailPageState extends State<FmDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Container(
-            decoration: BoxDecoration(
-
-              image: DecorationImage(
-                image: NetworkImage(
-                  "https://cdn.pixabay.com/photo/2016/11/23/15/42/bouquet-1853622_1280.jpg",
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: NetworkImage(
+                    "https://cdn.pixabay.com/photo/2016/11/23/15/42/bouquet-1853622_1280.jpg",
+                  ),
+                  fit: BoxFit.cover,
                 ),
-                fit: BoxFit.cover,
               ),
+            ),
+          ),
+          Positioned.fill(
+            child: Column(
+              children: [
+                Row(
+                  children: [
+                    IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+                    Expanded(child: Center()),
+                    
+                  ],
+                ),
+              ],
             ),
           ),
         ],
