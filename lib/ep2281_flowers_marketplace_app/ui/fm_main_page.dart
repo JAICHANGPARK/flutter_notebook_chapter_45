@@ -138,7 +138,12 @@ class _FmMainPageState extends State<FmMainPage> {
                                       border: Border.all(
                                         color: Color(0x00ff1f6d),
                                         width: 3,
+                                      ),image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2022/04/15/07/44/purple-roses-7133816_1280.jpg",
                                       ),
+                                      fit: BoxFit.cover,
+                                    ),
                                     ),
                                   ),
                                 ),
@@ -164,7 +169,12 @@ class _FmMainPageState extends State<FmMainPage> {
                                       border: Border.all(
                                         color: Color(0x00ff1f6d),
                                         width: 3,
+                                      ),image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2022/04/15/07/44/purple-roses-7133816_1280.jpg",
                                       ),
+                                      fit: BoxFit.cover,
+                                    ),
                                     ),
                                   ),
                                 ),
