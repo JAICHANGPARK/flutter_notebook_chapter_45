@@ -75,16 +75,101 @@ class _FmMainPageState extends State<FmMainPage> {
                                         color: Color(0xffff1f6d),
                                         width: 3,
                                       ),
+                                      image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2020/05/06/13/55/mothers-day-5137688_1280.jpg",),
+                                      fit: BoxFit.cover,)
                                     ),
                                   ),
                                 ),
                                 Text(
                                   "Bouquets",
-                                  style: TextStyle(fontSize: 16),
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromRGBO(234, 125, 151, 1),
+                                  ),
                                 ),
                               ],
                             ),
                           ),
+                          Expanded(
+                            child: Column(
+                              spacing: 8,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: Color(0x00ff1f6d),
+                                        width: 3,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                Text(
+                                  "Roses",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    // color: Color.fromRGBO(234, 125, 151, 1),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Column(
+                              spacing: 8,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: Color(0x00ff1f6d),
+                                        width: 3,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                Text(
+                                  "Roses",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    // color: Color.fromRGBO(234, 125, 151, 1),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Column(
+                              spacing: 8,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      border: Border.all(
+                                        color: Color(0x00ff1f6d),
+                                        width: 3,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                Text(
+                                  "Roses",
+                                  style: TextStyle(
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.bold,
+                                    // color: Color.fromRGBO(234, 125, 151, 1),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+
                         ],
                       ),
                     ),
