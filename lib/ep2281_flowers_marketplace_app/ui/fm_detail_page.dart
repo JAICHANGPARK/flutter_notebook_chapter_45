@@ -37,7 +37,9 @@ class _FmDetailPageState extends State<FmDetailPage> {
                   Row(
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).pop();
+                        },
                         icon: Icon(Icons.arrow_back),
                         color: Colors.white,
                       ),
@@ -100,7 +102,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                     ],
                   ),
                   Container(
-                    height: 420,
+                    height: 360,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(24),
