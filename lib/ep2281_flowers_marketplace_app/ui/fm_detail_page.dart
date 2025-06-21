@@ -11,6 +11,12 @@ class FmDetailPage extends StatefulWidget {
 class _FmDetailPageState extends State<FmDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
