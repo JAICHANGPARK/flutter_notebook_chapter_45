@@ -65,7 +65,7 @@ class _FmMainPageState extends State<FmMainPage> {
                         children: [
                           Expanded(
                             child: Column(
-                              spacing: 12,
+                              spacing: 8,
                               children: [
                                 Expanded(
                                   child: Container(
@@ -78,7 +78,10 @@ class _FmMainPageState extends State<FmMainPage> {
                                     ),
                                   ),
                                 ),
-                                Text("Bouquets"),
+                                Text(
+                                  "Bouquets",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
                               ],
                             ),
                           ),
