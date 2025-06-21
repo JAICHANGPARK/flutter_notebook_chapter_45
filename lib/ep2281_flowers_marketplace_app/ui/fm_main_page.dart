@@ -203,56 +203,59 @@ class _FmMainPageState extends State<FmMainPage> {
                           childAspectRatio: 0.7,
                         ),
                         itemBuilder: (context, index) {
-                          return Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            spacing: 6,
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(
-                                      borderRadius: BorderRadius.circular(36),
-                                    ),
-                                    color: Colors.pink,
-                                    image: DecorationImage(
-                                      image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2015/07/22/13/22/wedding-855424_1280.jpg",
+                          return GestureDetector(
+                            
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              spacing: 6,
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: BorderRadius.circular(36),
                                       ),
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                  child: Stack(
-                                    children: [
-                                      Positioned(
-                                        left: 12,
-                                        bottom: 12,
-                                        child: CircleAvatar(
-                                          backgroundColor: Colors.white,
-                                          foregroundColor: Colors.black,
-                                          child: Icon(Icons.shopping_bag_outlined),
+                                      color: Colors.pink,
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2015/07/22/13/22/wedding-855424_1280.jpg",
                                         ),
-
+                                        fit: BoxFit.cover,
                                       ),
-                                    ],
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 12,
+                                          bottom: 12,
+                                          child: CircleAvatar(
+                                            backgroundColor: Colors.white,
+                                            foregroundColor: Colors.black,
+                                            child: Icon(Icons.shopping_bag_outlined),
+                                          ),
+
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Text(
-                                "A GREEN BOUQUET OF ROSES",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18,
+                                Text(
+                                  "A GREEN BOUQUET OF ROSES",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                "\$12.50",
-                                style: TextStyle(
-                                  color: Color(0xffff1f6d),
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 15,
+                                Text(
+                                  "\$12.50",
+                                  style: TextStyle(
+                                    color: Color(0xffff1f6d),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15,
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           );
                         },
                       ),
