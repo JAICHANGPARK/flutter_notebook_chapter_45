@@ -58,20 +58,35 @@ class _FmMainPageState extends State<FmMainPage> {
                 padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
                 child: Column(
                   children: [
-                    SizedBox(height: 120, child: Row(
-                      children: [
-                        Expanded(child: Column(children: [
-                          
-                        ],))
-                      ],
-                    )),
+                    SizedBox(
+                      height: 120,
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Column(
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      border: Border.all(),
+                                    ),
+                                  ),
+                                ),
+                                Text("Bouquets"),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                     Expanded(
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
                           crossAxisCount: 2,
-                          childAspectRatio: 0.8
+                          childAspectRatio: 0.8,
                         ),
                         itemBuilder: (context, index) {
                           return Placeholder();
