@@ -201,7 +201,13 @@ class _FmMainPageState extends State<FmMainPage> {
                           childAspectRatio: 0.8,
                         ),
                         itemBuilder: (context, index) {
-                          return Placeholder();
+                          return Column(
+                            children: [
+                              Expanded(child: Placeholder()),
+                              Text("A GREEN BOUQUET OF ROSES"),
+                              Text("\$12.50")
+                            ],
+                          );
                         },
                       ),
                     ),
