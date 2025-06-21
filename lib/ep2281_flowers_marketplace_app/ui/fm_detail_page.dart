@@ -14,11 +14,8 @@ class _FmDetailPageState extends State<FmDetailPage> {
       body: Stack(
         children: [
           Container(
-            decoration: ShapeDecoration(
-              shape: RoundedSuperellipseBorder(
-                borderRadius: BorderRadius.circular(36),
-              ),
-              color: Colors.pink,
+            decoration: BoxDecoration(
+
               image: DecorationImage(
                 image: NetworkImage(
                   "https://cdn.pixabay.com/photo/2016/11/23/15/42/bouquet-1853622_1280.jpg",
