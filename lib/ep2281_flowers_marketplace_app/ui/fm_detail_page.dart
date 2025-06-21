@@ -78,6 +78,14 @@ class _FmDetailPageState extends State<FmDetailPage> {
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(6),
                         ),
+                        child: Row(
+                          children: [
+                            Text("4.9"),
+                            Icon(Icons.star),
+                            VerticalDivider(),
+                            Text("135 reviews"),
+                          ],
+                        ),
                       ),
                     ],
                   ),
