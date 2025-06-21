@@ -86,19 +86,24 @@ class _FmDetailPageState extends State<FmDetailPage> {
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(6),
                         ),
-                        child: Row(
-                          spacing: 4,
-                          children: [
-                            Text("4.9", style: TextStyle(color: Colors.white,
-                            fontSize: 16)),
-                            Icon(Icons.star, color: Colors.white, size: 16),
-                            VerticalDivider(),
-                            Text(
-                              "135 reviews",
-                              style: TextStyle(color: Colors.white,
-                                  fontSize: 16),
-                            ),
-                          ],
+                        child: IntrinsicHeight(
+                          child: Row(
+                            spacing: 4,
+                            children: [
+                              Text("4.9", style: TextStyle(color: Colors.white,
+                              fontSize: 16)),
+                              Icon(Icons.star, color: Colors.white, size: 16),
+                              VerticalDivider(
+                                indent: 4,
+                                endIndent: 4,
+                              ),
+                              Text(
+                                "135 reviews",
+                                style: TextStyle(color: Colors.white,
+                                    fontSize: 16),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ],
