@@ -138,12 +138,13 @@ class _FmMainPageState extends State<FmMainPage> {
                                       border: Border.all(
                                         color: Color(0x00ff1f6d),
                                         width: 3,
-                                      ),image: DecorationImage(
-                                      image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2022/01/20/19/32/flowers-6953228_1280.jpg",
                                       ),
-                                      fit: BoxFit.cover,
-                                    ),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2022/01/20/19/32/flowers-6953228_1280.jpg",
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -169,12 +170,13 @@ class _FmMainPageState extends State<FmMainPage> {
                                       border: Border.all(
                                         color: Color(0x00ff1f6d),
                                         width: 3,
-                                      ),image: DecorationImage(
-                                      image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2023/05/11/06/12/flowers-7985587_1280.jpg",
                                       ),
-                                      fit: BoxFit.cover,
-                                    ),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2023/05/11/06/12/flowers-7985587_1280.jpg",
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -206,8 +208,16 @@ class _FmMainPageState extends State<FmMainPage> {
                             spacing: 4,
                             children: [
                               Expanded(child: Placeholder()),
-                              Text("A GREEN BOUQUET OF ROSES"),
-                              Text("\$12.50")
+                              Text(
+                                "A GREEN BOUQUET OF ROSES",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),
+                              ),
+                              Text("\$12.50",style: TextStyle(
+                                color: Color(0xffff1f6d),
+                              ),),
                             ],
                           );
                         },
