@@ -48,6 +48,9 @@ class _FmDetailPageState extends State<FmDetailPage> {
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
                               decoration: TextDecoration.underline,
+                              decorationThickness: 2,
+                              decorationColor: Colors.white,
+                              color: Colors.white,
                             ),
                           ),
                         ),
@@ -56,6 +59,15 @@ class _FmDetailPageState extends State<FmDetailPage> {
                         onPressed: () {},
                         icon: Icon(Icons.favorite),
                         color: Colors.white,
+                      ),
+                    ],
+                  ),
+                  Spacer(),
+                  Row(
+                    children: [
+                      Text(
+                        "\$14.90",
+                        style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
