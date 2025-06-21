@@ -80,7 +80,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                 ),
                                 Text(
                                   "Bouquets",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                  style: TextStyle(fontSize: 16),
                                 ),
                               ],
                             ),
