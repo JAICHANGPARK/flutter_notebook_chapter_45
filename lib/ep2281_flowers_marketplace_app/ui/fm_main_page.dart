@@ -200,14 +200,22 @@ class _FmMainPageState extends State<FmMainPage> {
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
                           crossAxisCount: 2,
-                          childAspectRatio: 0.68,
+                          childAspectRatio: 0.7,
                         ),
                         itemBuilder: (context, index) {
                           return Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             spacing: 6,
                             children: [
-                              Expanded(child: Placeholder()),
+                              Expanded(
+                                child: Container(
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: BorderRadius.circular(24),
+                                    ),
+                                  ),
+                                ),
+                              ),
                               Text(
                                 "A GREEN BOUQUET OF ROSES",
                                 style: TextStyle(
@@ -215,9 +223,10 @@ class _FmMainPageState extends State<FmMainPage> {
                                   fontSize: 18,
                                 ),
                               ),
-                              Text("\$12.50",style: TextStyle(
-                                color: Color(0xffff1f6d),
-                              ),),
+                              Text(
+                                "\$12.50",
+                                style: TextStyle(color: Color(0xffff1f6d)),
+                              ),
                             ],
                           );
                         },
