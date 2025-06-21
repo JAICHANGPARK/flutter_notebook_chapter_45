@@ -26,16 +26,23 @@ class _FmDetailPageState extends State<FmDetailPage> {
             ),
           ),
           Positioned.fill(
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
-                    Expanded(child: Center()),
-                    
-                  ],
-                ),
-              ],
+            left: 16,
+            right: 16,
+            bottom: 32,
+            
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+                      Expanded(child: Center()),
+                      IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
+
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ],
