@@ -29,13 +29,14 @@ class _FmDetailPageState extends State<FmDetailPage> {
             left: 16,
             right: 16,
             bottom: 32,
-            
+            top: 16,
             child: SafeArea(
               child: Column(
                 children: [
                   Row(
                     children: [
-                      IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+                      IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back),
+                      color: Colors.white,),
                       Expanded(child: Center()),
                       IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
 
