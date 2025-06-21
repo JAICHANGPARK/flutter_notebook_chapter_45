@@ -75,8 +75,12 @@ class _FmMainPageState extends State<FmMainPage> {
                                         color: Color(0xffff1f6d),
                                         width: 3,
                                       ),
-                                      image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2020/05/06/13/55/mothers-day-5137688_1280.jpg",),
-                                      fit: BoxFit.cover,)
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2020/05/06/13/55/mothers-day-5137688_1280.jpg",
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -169,7 +173,6 @@ class _FmMainPageState extends State<FmMainPage> {
                               ],
                             ),
                           ),
-
                         ],
                       ),
                     ),
