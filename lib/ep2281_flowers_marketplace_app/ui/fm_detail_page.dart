@@ -47,6 +47,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                             style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
+                              decoration: TextDecoration.underline,
                             ),
                           ),
                         ),
