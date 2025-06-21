@@ -140,7 +140,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                         width: 3,
                                       ),image: DecorationImage(
                                       image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2022/04/15/07/44/purple-roses-7133816_1280.jpg",
+                                        "https://cdn.pixabay.com/photo/2022/01/20/19/32/flowers-6953228_1280.jpg",
                                       ),
                                       fit: BoxFit.cover,
                                     ),
@@ -148,7 +148,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                   ),
                                 ),
                                 Text(
-                                  "Roses",
+                                  "Tulips",
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
@@ -171,7 +171,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                         width: 3,
                                       ),image: DecorationImage(
                                       image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2022/04/15/07/44/purple-roses-7133816_1280.jpg",
+                                        "https://cdn.pixabay.com/photo/2023/05/11/06/12/flowers-7985587_1280.jpg",
                                       ),
                                       fit: BoxFit.cover,
                                     ),
@@ -179,7 +179,7 @@ class _FmMainPageState extends State<FmMainPage> {
                                   ),
                                 ),
                                 Text(
-                                  "Roses",
+                                  "Orchids",
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
