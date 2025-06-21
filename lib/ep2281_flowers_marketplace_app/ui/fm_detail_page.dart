@@ -67,7 +67,17 @@ class _FmDetailPageState extends State<FmDetailPage> {
                     children: [
                       Text(
                         "\$14.90",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          fontSize: 24,
+                        ),
+                      ),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                          borderRadius: BorderRadius.circular(6),
+                        ),
                       ),
                     ],
                   ),
