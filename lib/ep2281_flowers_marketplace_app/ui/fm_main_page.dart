@@ -216,6 +216,12 @@ class _FmMainPageState extends State<FmMainPage> {
                                     ),
                                     color: Colors.pink
                                   ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(child: CircleAvatar(backgroundColor: Colors.white,
+                                      foregroundColor: Colors.black,),)
+                                    ],
+                                  ),
                                 ),
                               ),
                               Text(
