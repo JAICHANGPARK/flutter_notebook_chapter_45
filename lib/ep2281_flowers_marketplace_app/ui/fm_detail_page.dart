@@ -14,7 +14,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          
+
         ],
       ),
     );
