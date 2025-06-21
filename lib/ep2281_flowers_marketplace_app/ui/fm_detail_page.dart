@@ -75,17 +75,24 @@ class _FmDetailPageState extends State<FmDetailPage> {
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
+                        padding: EdgeInsets.symmetric(
+                          horizontal: 8,
+                          vertical: 5,
+                        ),
                         decoration: BoxDecoration(
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(6),
                         ),
                         child: Row(
+                          spacing: 4,
                           children: [
-                            Text("4.9"),
-                            Icon(Icons.star),
+                            Text("4.9", style: TextStyle(color: Colors.white)),
+                            Icon(Icons.star, color: Colors.white, size: 16),
                             VerticalDivider(),
-                            Text("135 reviews"),
+                            Text(
+                              "135 reviews",
+                              style: TextStyle(color: Colors.white),
+                            ),
                           ],
                         ),
                       ),
