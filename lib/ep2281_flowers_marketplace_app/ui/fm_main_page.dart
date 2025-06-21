@@ -58,7 +58,13 @@ class _FmMainPageState extends State<FmMainPage> {
                 padding: const EdgeInsets.fromLTRB(16, 24, 16, 0),
                 child: Column(
                   children: [
-                    SizedBox(height: 120, child: Placeholder()),
+                    SizedBox(height: 120, child: Row(
+                      children: [
+                        Expanded(child: Column(children: [
+                          
+                        ],))
+                      ],
+                    )),
                     Expanded(
                       child: GridView.builder(
                         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
