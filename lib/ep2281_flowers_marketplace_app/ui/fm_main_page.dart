@@ -214,11 +214,16 @@ class _FmMainPageState extends State<FmMainPage> {
                                       borderRadius: BorderRadius.circular(36),
 
                                     ),
-                                    color: Colors.pink
+                                    color: Colors.pink,
+                                    image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2015/07/22/13/22/wedding-855424_1280.jpg",),
+                                    fit: BoxFit.cover,)
                                   ),
                                   child: Stack(
                                     children: [
-                                      Positioned(child: CircleAvatar(backgroundColor: Colors.white,
+                                      Positioned(
+                                        left: 12,
+                                        bottom: 12,
+                                        child: CircleAvatar(backgroundColor: Colors.white,
                                       foregroundColor: Colors.black,),)
                                     ],
                                   ),
