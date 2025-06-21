@@ -35,11 +35,27 @@ class _FmDetailPageState extends State<FmDetailPage> {
                 children: [
                   Row(
                     children: [
-                      IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back),
-                      color: Colors.white,),
-                      Expanded(child: Center()),
-                      IconButton(onPressed: () {}, icon: Icon(Icons.favorite)),
-
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.arrow_back),
+                        color: Colors.white,
+                      ),
+                      Expanded(
+                        child: Center(
+                          child: Text(
+                            "BOUQUETS",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.favorite),
+                        color: Colors.white,
+                      ),
                     ],
                   ),
                 ],
