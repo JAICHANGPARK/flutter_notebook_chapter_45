@@ -202,6 +202,8 @@ class _FmMainPageState extends State<FmMainPage> {
                         ),
                         itemBuilder: (context, index) {
                           return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 4,
                             children: [
                               Expanded(child: Placeholder()),
                               Text("A GREEN BOUQUET OF ROSES"),
