@@ -200,12 +200,12 @@ class _FmMainPageState extends State<FmMainPage> {
                           crossAxisSpacing: 12,
                           mainAxisSpacing: 12,
                           crossAxisCount: 2,
-                          childAspectRatio: 0.7,
+                          childAspectRatio: 0.68,
                         ),
                         itemBuilder: (context, index) {
                           return Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            spacing: 4,
+                            spacing: 6,
                             children: [
                               Expanded(child: Placeholder()),
                               Text(
