@@ -61,6 +61,7 @@ class _FmMainPageState extends State<FmMainPage> {
                     SizedBox(
                       height: 120,
                       child: Row(
+                        spacing: 12,
                         children: [
                           Expanded(
                             child: Column(
@@ -69,7 +70,9 @@ class _FmMainPageState extends State<FmMainPage> {
                                   child: Container(
                                     decoration: BoxDecoration(
                                       shape: BoxShape.circle,
-                                      border: Border.all(),
+                                      border: Border.all(
+                                        color: Color(0xff1f6d)
+                                      ),
                                     ),
                                   ),
                                 ),
