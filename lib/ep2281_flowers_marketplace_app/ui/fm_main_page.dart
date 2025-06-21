@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2281_flowers_marketplace_app/ui/fm_detail_page.dart';
 
 class FmMainPage extends StatefulWidget {
   const FmMainPage({super.key});
@@ -204,7 +205,13 @@ class _FmMainPageState extends State<FmMainPage> {
                         ),
                         itemBuilder: (context, index) {
                           return GestureDetector(
-                            
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) => FmDetailPage(),
+                                ),
+                              );
+                            },
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               spacing: 6,
@@ -231,9 +238,10 @@ class _FmMainPageState extends State<FmMainPage> {
                                           child: CircleAvatar(
                                             backgroundColor: Colors.white,
                                             foregroundColor: Colors.black,
-                                            child: Icon(Icons.shopping_bag_outlined),
+                                            child: Icon(
+                                              Icons.shopping_bag_outlined,
+                                            ),
                                           ),
-
                                         ),
                                       ],
                                     ),
