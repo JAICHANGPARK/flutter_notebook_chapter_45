@@ -32,6 +32,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
             top: 16,
             child: SafeArea(
               child: Column(
+                spacing: 24,
                 children: [
                   Row(
                     children: [
