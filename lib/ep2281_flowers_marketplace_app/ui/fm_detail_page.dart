@@ -64,6 +64,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                   ),
                   Spacer(),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         "\$14.90",
@@ -74,6 +75,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                         ),
                       ),
                       Container(
+                        padding: EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                         decoration: BoxDecoration(
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(6),
