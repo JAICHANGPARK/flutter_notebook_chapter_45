@@ -65,13 +65,15 @@ class _FmMainPageState extends State<FmMainPage> {
                         children: [
                           Expanded(
                             child: Column(
+                              spacing: 12,
                               children: [
                                 Expanded(
                                   child: Container(
                                     decoration: BoxDecoration(
                                       shape: BoxShape.circle,
                                       border: Border.all(
-                                        color: Color(0xffff1f6d)
+                                        color: Color(0xffff1f6d),
+                                        width: 3,
                                       ),
                                     ),
                                   ),
