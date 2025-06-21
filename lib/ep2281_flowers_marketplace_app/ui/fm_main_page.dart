@@ -211,8 +211,10 @@ class _FmMainPageState extends State<FmMainPage> {
                                 child: Container(
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
-                                      borderRadius: BorderRadius.circular(24),
+                                      borderRadius: BorderRadius.circular(36),
+
                                     ),
+                                    color: Colors.pink
                                   ),
                                 ),
                               ),
