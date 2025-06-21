@@ -99,8 +99,14 @@ class _FmDetailPageState extends State<FmDetailPage> {
                     ],
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder()),
-                  )
+                    height: 420,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: BorderRadius.circular(24),
+                      ),
+                      color: Colors.white,
+                    ),
+                  ),
                 ],
               ),
             ),
