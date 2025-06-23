@@ -75,16 +75,16 @@ class _FmDetailPageState extends State<FmDetailPage> {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           color: Colors.white,
-                          fontSize: 24,
+                          fontSize: 28,
                         ),
                       ),
                       Container(
                         padding: EdgeInsets.symmetric(
-                          horizontal: 8,
+                          horizontal: 12,
                           vertical: 5,
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.green,
+                          color: Color.fromRGBO(65, 190, 38, 1),
                           borderRadius: BorderRadius.circular(6),
                         ),
                         child: IntrinsicHeight(
