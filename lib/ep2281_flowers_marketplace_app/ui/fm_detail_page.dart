@@ -135,7 +135,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                 "A BOUQUET OF",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 20,
+                                  fontSize: 32,
                                 ),
                               ),
                               Text("DELICATE PEONIES"),
