@@ -114,7 +114,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                     ],
                   ),
                   Container(
-                    height: 360,
+                    height: 340,
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(24),
@@ -180,6 +180,15 @@ class _FmDetailPageState extends State<FmDetailPage> {
                           right: 12,
                           child: Icon(
                             Icons.star,
+                            color: Color.fromRGBO(255, 11, 109, 1),
+                          ),
+                        ),
+                        Positioned(
+                          top: 24,
+                          right: 24,
+                          child: Icon(
+                            Icons.star,
+                            size: 52,
                             color: Color.fromRGBO(255, 11, 109, 1),
                           ),
                         ),
