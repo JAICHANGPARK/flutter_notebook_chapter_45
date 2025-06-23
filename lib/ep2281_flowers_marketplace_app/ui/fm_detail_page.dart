@@ -120,6 +120,14 @@ class _FmDetailPageState extends State<FmDetailPage> {
                       ),
                       color: Colors.white,
                     ),
+
+                    child: Stack(
+                      children: [
+                        Positioned(child: Column(children: [
+                          Text("")
+                        ],))
+                      ],
+                    ),
                   ),
                 ],
               ),
