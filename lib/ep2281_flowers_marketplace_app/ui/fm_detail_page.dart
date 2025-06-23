@@ -177,7 +177,11 @@ class _FmDetailPageState extends State<FmDetailPage> {
                             ],
                           ),
                         ),
-                        Positioned(child: Icon(Icons.star,),)
+                        Positioned(
+                          top: 8,
+                          right: 8,
+                          child: Icon(Icons.star,
+                            color: Color.fromRGBO(255, 11, 109, 1),),)
                       ],
                     ),
                   ),
