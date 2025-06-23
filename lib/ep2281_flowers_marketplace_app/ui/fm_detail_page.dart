@@ -139,11 +139,13 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                   fontSize: 32,
                                 ),
                               ),
-                              Text("DELICATE PEONIES",
+                              Text(
+                                "DELICATE PEONIES",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 32,
-                                ),),
+                                ),
+                              ),
                               Gap(12),
                               Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -151,6 +153,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                               ),
                               Gap(12),
                               Container(
+                                padding: EdgeInsets.symmetric(vertical: 16),
                                 decoration: ShapeDecoration(
                                   shape: RoundedSuperellipseBorder(
                                     borderRadius: BorderRadius.circular(16),
