@@ -150,6 +150,9 @@ class _FmDetailPageState extends State<FmDetailPage> {
                               Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                                 maxLines: 4,
+                                style: TextStyle(
+                                  height: 2
+                                ),
                               ),
                               Gap(12),
                               Container(
@@ -174,6 +177,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                             ],
                           ),
                         ),
+                        Positioned(child: Icon(Icons.star,),)
                       ],
                     ),
                   ),
