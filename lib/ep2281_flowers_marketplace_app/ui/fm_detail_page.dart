@@ -163,7 +163,11 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                 child: Center(
                                   child: Text(
                                     "ADD TO CART",
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 20
+                                    ),
                                   ),
                                 ),
                               ),
