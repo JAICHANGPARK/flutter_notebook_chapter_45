@@ -150,9 +150,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                               Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                                 maxLines: 4,
-                                style: TextStyle(
-                                  height: 2
-                                ),
+                                style: TextStyle(height: 2),
                               ),
                               Gap(12),
                               Container(
@@ -169,7 +167,7 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 20
+                                      fontSize: 20,
                                     ),
                                   ),
                                 ),
@@ -178,10 +176,13 @@ class _FmDetailPageState extends State<FmDetailPage> {
                           ),
                         ),
                         Positioned(
-                          top: 8,
-                          right: 8,
-                          child: Icon(Icons.star,
-                            color: Color.fromRGBO(255, 11, 109, 1),),)
+                          top: 12,
+                          right: 12,
+                          child: Icon(
+                            Icons.star,
+                            color: Color.fromRGBO(255, 11, 109, 1),
+                          ),
+                        ),
                       ],
                     ),
                   ),
