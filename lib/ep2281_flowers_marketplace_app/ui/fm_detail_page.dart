@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FmDetailPage extends StatefulWidget {
   const FmDetailPage({super.key});
@@ -143,10 +144,12 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                   fontWeight: FontWeight.bold,
                                   fontSize: 32,
                                 ),),
+                              Gap(12),
                               Text(
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                                 maxLines: 4,
                               ),
+                              Gap(12),
                               Container(
                                 decoration: ShapeDecoration(
                                   shape: RoundedSuperellipseBorder(
