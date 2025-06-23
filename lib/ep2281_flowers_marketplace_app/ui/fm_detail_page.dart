@@ -124,7 +124,12 @@ class _FmDetailPageState extends State<FmDetailPage> {
                     child: Stack(
                       children: [
                         Positioned(
+                          left: 16,
+                          top: 16,
+                          right: 16,
+                          bottom: 16,
                           child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text("A BOUQUET OF"),
                               Text("DELICATE PEONIES"),
@@ -132,9 +137,20 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                                 maxLines: 4,
                               ),
-                              Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(16),
-                              )),)
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: RoundedSuperellipseBorder(
+                                    borderRadius: BorderRadius.circular(16),
+                                  ),
+                                  color: Color.fromRGBO(255, 11, 109, 1),
+                                ),
+                                child: Center(
+                                  child: Text(
+                                    "ADD TO CART",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),
