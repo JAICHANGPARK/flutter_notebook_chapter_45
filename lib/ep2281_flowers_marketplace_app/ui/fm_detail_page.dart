@@ -99,7 +99,11 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                 ),
                               ),
                               Icon(Icons.star, color: Colors.white, size: 16),
-                              VerticalDivider(indent: 4, endIndent: 4),
+                              VerticalDivider(
+                                indent: 4,
+                                endIndent: 4,
+                                color: Colors.white,
+                              ),
                               Text(
                                 "135 reviews",
                                 style: TextStyle(
