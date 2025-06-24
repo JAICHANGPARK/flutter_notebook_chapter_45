@@ -57,6 +57,7 @@ class _FmCartPageState extends State<FmCartPage> {
                 decoration: BoxDecoration(color: Colors.grey[200]!),
 
                 child: Row(
+                  spacing: 12,
                   children: [
                     Icon(Icons.home_filled),
                     Expanded(child: Text("17 Via Garibaldi, Milano")),
