@@ -17,7 +17,9 @@ class _FmCartPageState extends State<FmCartPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Stack(children: [
-              Positioned(child: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back)))
+              Positioned(child: IconButton(onPressed: (){
+                Navigator.pop(context);
+              }, icon: Icon(Icons.arrow_back))),
               Positioned(child: Center(child: Text("CART")))]),
           ],
         ),
