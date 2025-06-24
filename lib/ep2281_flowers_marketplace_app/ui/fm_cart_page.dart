@@ -48,7 +48,16 @@ class _FmCartPageState extends State<FmCartPage> {
                 ],
               ),
             ),
-            Container(decoration: BoxDecoration(color: Colors.grey[200]!)),
+            Container(
+              decoration: BoxDecoration(color: Colors.grey[200]!),
+              child: Row(
+                children: [
+                  Icon(Icons.home_filled),
+                  Expanded(child: Text("17 Via Garibaldi, Milano")),
+                  Icon(Icons.chevron_right),
+                ],
+              ),
+            ),
           ],
         ),
       ),
