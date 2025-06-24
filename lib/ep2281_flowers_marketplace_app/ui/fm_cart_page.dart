@@ -16,6 +16,7 @@ class _FmCartPageState extends State<FmCartPage> {
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
           child: Column(
+            spacing: 24,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
