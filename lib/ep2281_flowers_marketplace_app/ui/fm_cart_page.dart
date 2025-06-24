@@ -53,6 +53,7 @@ class _FmCartPageState extends State<FmCartPage> {
                 ),
               ),
               Container(
+                padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                 decoration: BoxDecoration(color: Colors.grey[200]!),
 
                 child: Row(
