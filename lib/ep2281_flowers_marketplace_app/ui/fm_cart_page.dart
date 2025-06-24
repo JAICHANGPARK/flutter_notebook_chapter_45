@@ -12,11 +12,15 @@ class _FmCartPageState extends State<FmCartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Stack(children: [Positioned(child: Center(child: Text("CART")))]),
-        ],
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Stack(children: [
+              Positioned(child: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back)))
+              Positioned(child: Center(child: Text("CART")))]),
+          ],
+        ),
       ),
     );
   }
