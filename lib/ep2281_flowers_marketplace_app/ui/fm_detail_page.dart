@@ -157,21 +157,26 @@ class _FmDetailPageState extends State<FmDetailPage> {
                                 style: TextStyle(height: 2),
                               ),
                               Gap(12),
-                              Container(
-                                padding: EdgeInsets.symmetric(vertical: 16),
-                                decoration: ShapeDecoration(
-                                  shape: RoundedSuperellipseBorder(
-                                    borderRadius: BorderRadius.circular(16),
+                              GestureDetector(
+                                onTap: (){
+                                  
+                                },
+                                child: Container(
+                                  padding: EdgeInsets.symmetric(vertical: 16),
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: BorderRadius.circular(16),
+                                    ),
+                                    color: Color.fromRGBO(255, 11, 109, 1),
                                   ),
-                                  color: Color.fromRGBO(255, 11, 109, 1),
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    "ADD TO CART",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 20,
+                                  child: Center(
+                                    child: Text(
+                                      "ADD TO CART",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 20,
+                                      ),
                                     ),
                                   ),
                                 ),
