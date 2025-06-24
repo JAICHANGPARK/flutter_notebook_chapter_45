@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FmCartPage extends StatefulWidget {
   const FmCartPage({super.key});
 
@@ -16,7 +15,7 @@ class _FmCartPageState extends State<FmCartPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-
+          Stack(children: [Positioned(child: Center(child: Text("CART")))]),
         ],
       ),
     );
