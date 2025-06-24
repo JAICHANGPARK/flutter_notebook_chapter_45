@@ -22,7 +22,7 @@ class _FmCartPageState extends State<FmCartPage> {
               child: Stack(
                 children: [
                   Positioned(
-                    top: 16,
+                    top: 24,
                     child: IconButton(
                       onPressed: () {
                         Navigator.pop(context);
@@ -40,6 +40,8 @@ class _FmCartPageState extends State<FmCartPage> {
                         style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
+                          decoration: TextDecoration.underline,
+
                         ),
                       ),
                     ),
