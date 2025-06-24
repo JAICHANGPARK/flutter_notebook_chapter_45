@@ -68,7 +68,14 @@ class _FmCartPageState extends State<FmCartPage> {
                   ],
                 ),
               ),
-              Expanded(child: Placeholder()),
+              Expanded(child: Column(
+                children: [
+                  Container(
+                    height: 200,
+                    child: Placeholder(),
+                  )
+                ],
+              )),
               Container(
                 padding: EdgeInsets.symmetric(vertical: 12),
                 decoration: ShapeDecoration(
