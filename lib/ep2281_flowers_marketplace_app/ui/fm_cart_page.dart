@@ -25,6 +25,7 @@ class _FmCartPageState extends State<FmCartPage> {
                   children: [
                     Positioned(
                       top: 24,
+                      left: -16,
                       child: IconButton(
                         onPressed: () {
                           Navigator.pop(context);
