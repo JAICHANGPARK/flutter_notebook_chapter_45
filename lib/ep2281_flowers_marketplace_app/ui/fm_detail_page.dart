@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2281_flowers_marketplace_app/ui/fm_cart_page.dart';
 import 'package:gap/gap.dart';
 
 class FmDetailPage extends StatefulWidget {
@@ -158,8 +159,12 @@ class _FmDetailPageState extends State<FmDetailPage> {
                               ),
                               Gap(12),
                               GestureDetector(
-                                onTap: (){
-                                  
+                                onTap: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) => FmCartPage(),
+                                    ),
+                                  );
                                 },
                                 child: Container(
                                   padding: EdgeInsets.symmetric(vertical: 16),
