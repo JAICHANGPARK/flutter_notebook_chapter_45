@@ -68,6 +68,26 @@ class _FmCartPageState extends State<FmCartPage> {
                   ],
                 ),
               ),
+              Expanded(child: Placeholder()),
+              Container(
+                padding: EdgeInsets.symmetric(vertical: 12),
+                decoration: ShapeDecoration(
+                  shape: RoundedSuperellipseBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  color: Color.fromRGBO(255, 11, 109, 1),
+                ),
+                child: Center(
+                  child: Text(
+                    "CHECKOUT",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
