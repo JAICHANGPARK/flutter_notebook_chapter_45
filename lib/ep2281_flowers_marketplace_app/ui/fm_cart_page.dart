@@ -13,52 +13,56 @@ class _FmCartPageState extends State<FmCartPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            SizedBox(
-              height: 72,
-              width: double.infinity,
-              child: Stack(
-                children: [
-                  Positioned(
-                    top: 24,
-                    child: IconButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      icon: Icon(Icons.arrow_back),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(
+                height: 72,
+                width: double.infinity,
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 24,
+                      child: IconButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                        icon: Icon(Icons.arrow_back),
+                      ),
                     ),
-                  ),
-                  Positioned(
-                    top: 32,
-                    left: 0,
-                    right: 0,
-                    child: Center(
-                      child: Text(
-                        "CART",
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
-                          decoration: TextDecoration.underline,
+                    Positioned(
+                      top: 32,
+                      left: 0,
+                      right: 0,
+                      child: Center(
+                        child: Text(
+                          "CART",
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            decoration: TextDecoration.underline,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            Container(
-              decoration: BoxDecoration(color: Colors.grey[200]!),
-              child: Row(
-                children: [
-                  Icon(Icons.home_filled),
-                  Expanded(child: Text("17 Via Garibaldi, Milano")),
-                  Icon(Icons.chevron_right),
-                ],
+              Container(
+                decoration: BoxDecoration(color: Colors.grey[200]!),
+
+                child: Row(
+                  children: [
+                    Icon(Icons.home_filled),
+                    Expanded(child: Text("17 Via Garibaldi, Milano")),
+                    Icon(Icons.chevron_right),
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
