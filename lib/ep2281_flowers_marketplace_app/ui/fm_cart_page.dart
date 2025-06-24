@@ -41,7 +41,6 @@ class _FmCartPageState extends State<FmCartPage> {
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                           decoration: TextDecoration.underline,
-
                         ),
                       ),
                     ),
@@ -49,6 +48,7 @@ class _FmCartPageState extends State<FmCartPage> {
                 ],
               ),
             ),
+            Container(decoration: BoxDecoration(color: Colors.grey[200]!)),
           ],
         ),
       ),
