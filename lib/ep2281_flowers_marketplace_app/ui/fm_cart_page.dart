@@ -16,11 +16,28 @@ class _FmCartPageState extends State<FmCartPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Stack(children: [
-              Positioned(child: IconButton(onPressed: (){
-                Navigator.pop(context);
-              }, icon: Icon(Icons.arrow_back))),
-              Positioned(child: Center(child: Text("CART")))]),
+            SizedBox(
+              height: 72,
+              width: double.infinity,
+              child: Stack(
+                children: [
+                  Positioned(
+                    top:16,
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      icon: Icon(Icons.arrow_back),
+                    ),
+                  ),
+                  Positioned(
+                    top: 32,
+                      left: 0,
+                      right: 0,
+                      child: Center(child: Text("CART"))),
+                ],
+              ),
+            ),
           ],
         ),
       ),
