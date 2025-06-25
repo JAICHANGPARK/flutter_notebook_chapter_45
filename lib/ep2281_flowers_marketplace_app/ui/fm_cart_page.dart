@@ -77,7 +77,7 @@ class _FmCartPageState extends State<FmCartPage> {
               Expanded(
                 child: Column(
                   children: [
-                    Container(
+                    SizedBox(
                       height: 160,
                       child: Row(
                         spacing: 16,
@@ -155,7 +155,81 @@ class _FmCartPageState extends State<FmCartPage> {
                     Divider(
                       height: 62,
                     ),
-                    Container(height: 200, child: Placeholder()),
+                    SizedBox(
+                      height: 160,
+                      child: Row(
+                        spacing: 16,
+                        children: [
+                          Container(
+                            width: 160,
+                            height: 160,
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(32),
+                              ),
+                              color: Colors.pink,
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2019/03/27/07/59/ranunculus-4084497_1280.jpg",
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 8),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+
+                                children: [
+                                  Text(
+                                    "A BOUQUET OF DELICATE PEONIES",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 22,
+                                      height: 1,
+                                    ),
+                                  ),
+                                  Gap(8),
+                                  Text(
+                                    "\$14.90",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.pink,
+                                    ),
+                                  ),
+                                  Gap(16),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(6),
+                                      color: Colors.grey[100],
+                                    ),
+                                    padding: EdgeInsets.all(8),
+                                    child: Row(
+                                      spacing: 8,
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Icon(Icons.remove),
+                                        Text(
+                                          "1",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 18,
+                                          ),
+                                        ),
+                                        Icon(Icons.add),
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                     Divider(),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
