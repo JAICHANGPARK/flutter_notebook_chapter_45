@@ -123,11 +123,16 @@ class _FmCartPageState extends State<FmCartPage> {
                                     ),
                                     padding: EdgeInsets.all(8),
                                     child: Row(
-                                      spacing: 4,
+                                      spacing: 8,
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Icon(Icons.remove),
-                                        Text("1"),
+                                        Text(
+                                          "1",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                         Icon(Icons.add),
                                       ],
                                     ),
