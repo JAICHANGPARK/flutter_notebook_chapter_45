@@ -237,6 +237,7 @@ class _FmCartPageState extends State<FmCartPage> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text("Shipping"), Text("Free")],
                     ),
+                    Gap(16),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text("Shipping"), Text("Free")],
