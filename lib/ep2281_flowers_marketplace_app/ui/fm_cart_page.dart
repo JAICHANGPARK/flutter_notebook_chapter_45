@@ -89,9 +89,7 @@ class _FmCartPageState extends State<FmCartPage> {
                               color: Colors.pink,
                             ),
                           ),
-                          Expanded(child: Column(children: [
-                            
-                          ],))
+                          Expanded(child: Column(children: [])),
                         ],
                       ),
                     ),
