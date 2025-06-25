@@ -102,6 +102,8 @@ class _FmCartPageState extends State<FmCartPage> {
                                     "A BOUQUET OF DELICATE PEONIES",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
+                                      fontSize: 24,
+                                      height: 1
                                     ),
                                   ),
                                   Gap(8),
