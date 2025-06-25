@@ -89,7 +89,27 @@ class _FmCartPageState extends State<FmCartPage> {
                               color: Colors.pink,
                             ),
                           ),
-                          Expanded(child: Column(children: [])),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+
+                              children: [
+                                Text("A BOUQUET OF DELICATE PEONIES"),
+                                Text("\$14.90"),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(6),
+                                    color: Colors.grey[100],
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
