@@ -121,7 +121,9 @@ class _FmCartPageState extends State<FmCartPage> {
                                       borderRadius: BorderRadius.circular(6),
                                       color: Colors.grey[100],
                                     ),
+                                    padding: EdgeInsets.all(8),
                                     child: Row(
+                                      spacing: 4,
                                       mainAxisSize: MainAxisSize.min,
                                       children: [
                                         Icon(Icons.remove),
