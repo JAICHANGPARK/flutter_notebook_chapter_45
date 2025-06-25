@@ -84,19 +84,20 @@ class _FmCartPageState extends State<FmCartPage> {
                         children: [
                           Container(
                             width: 160,
+                            height: 160,
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: BorderRadius.circular(32),
                               ),
                               color: Colors.pink,
-                            ),
-                            child: ClipRSuperellipse(
-                              borderRadius: BorderRadius.circular(32),
-                              child: Image.network(
-                                "https://cdn.pixabay.com/photo/2013/10/10/06/31/wedding-193519_1280.jpg",
-                                fit: BoxFit.cover,
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2013/10/10/06/31/wedding-193519_1280.jpg",
+                                ),
+
                               ),
                             ),
+
                           ),
                           Expanded(
                             child: Padding(
