@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FmCartPage extends StatefulWidget {
   const FmCartPage({super.key});
@@ -99,7 +100,9 @@ class _FmCartPageState extends State<FmCartPage> {
 
                                 children: [
                                   Text("A BOUQUET OF DELICATE PEONIES"),
+                                  Gap(8),
                                   Text("\$14.90"),
+                                  Gap(16),
                                   Container(
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(6),
