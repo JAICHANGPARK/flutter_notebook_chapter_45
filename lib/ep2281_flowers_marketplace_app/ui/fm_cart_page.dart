@@ -152,9 +152,7 @@ class _FmCartPageState extends State<FmCartPage> {
                         ],
                       ),
                     ),
-                    Divider(
-                      height: 62,
-                    ),
+                    Divider(height: 62),
                     SizedBox(
                       height: 160,
                       child: Row(
@@ -230,17 +228,31 @@ class _FmCartPageState extends State<FmCartPage> {
                         ],
                       ),
                     ),
-                    Divider(
-                      height: 62,
-                    ),
+                    Divider(height: 62),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Shipping"), Text("Free")],
+                      children: [
+                        Text("Shipping", style: TextStyle(fontSize: 16)),
+                        Text(
+                          "Free",
+                          style: TextStyle(fontSize: 16, color: Colors.pink),
+                        ),
+                      ],
                     ),
                     Gap(16),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Shipping"), Text("Free")],
+                      children: [
+                        Text("Subtotal", style: TextStyle(fontSize: 16)),
+                        Text(
+                          "\$38.90",
+                          style: TextStyle(
+                            fontSize: 16,
+                            color: Colors.pink,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
