@@ -230,7 +230,9 @@ class _FmCartPageState extends State<FmCartPage> {
                         ],
                       ),
                     ),
-                    Divider(),
+                    Divider(
+                      height: 62,
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text("Shipping"), Text("Free")],
