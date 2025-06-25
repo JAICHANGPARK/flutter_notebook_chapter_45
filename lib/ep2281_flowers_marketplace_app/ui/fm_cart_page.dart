@@ -83,7 +83,9 @@ class _FmCartPageState extends State<FmCartPage> {
                           Container(
                             width: 160,
                             decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder(),
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(32),
+                              ),
                               color: Colors.pink,
                             ),
                           ),
