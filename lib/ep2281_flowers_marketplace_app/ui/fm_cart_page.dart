@@ -152,7 +152,9 @@ class _FmCartPageState extends State<FmCartPage> {
                         ],
                       ),
                     ),
-                    Divider(),
+                    Divider(
+                      height: 62,
+                    ),
                     Container(height: 200, child: Placeholder()),
                     Divider(),
                     Row(
