@@ -102,6 +102,7 @@ class _FmCartPageState extends State<FmCartPage> {
                                     color: Colors.grey[100],
                                   ),
                                   child: Row(
+                                    mainAxisSize: MainAxisSize.min,
                                     children: [
                                       Icon(Icons.remove),
                                       Text("1"),
