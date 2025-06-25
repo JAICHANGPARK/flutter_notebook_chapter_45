@@ -63,7 +63,9 @@ class _FmCartPageState extends State<FmCartPage> {
                   spacing: 12,
                   children: [
                     Icon(Icons.home_filled),
-                    Expanded(child: Text("17 Via Garibaldi, Milano")),
+                    Expanded(child: Text("17 Via Garibaldi, Milano",style: TextStyle(
+                      fontSize: 17
+                    ),)),
                     Icon(Icons.chevron_right),
                   ],
                 ),
