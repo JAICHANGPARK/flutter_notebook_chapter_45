@@ -102,12 +102,18 @@ class _FmCartPageState extends State<FmCartPage> {
                                     "A BOUQUET OF DELICATE PEONIES",
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 24,
-                                      height: 1
+                                      fontSize: 22,
+                                      height: 1,
                                     ),
                                   ),
                                   Gap(8),
-                                  Text("\$14.90"),
+                                  Text(
+                                    "\$14.90",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                   Gap(16),
                                   Container(
                                     decoration: BoxDecoration(
