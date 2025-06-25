@@ -92,27 +92,30 @@ class _FmCartPageState extends State<FmCartPage> {
                             ),
                           ),
                           Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                            child: Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 12),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
 
-                              children: [
-                                Text("A BOUQUET OF DELICATE PEONIES"),
-                                Text("\$14.90"),
-                                Container(
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(6),
-                                    color: Colors.grey[100],
+                                children: [
+                                  Text("A BOUQUET OF DELICATE PEONIES"),
+                                  Text("\$14.90"),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(6),
+                                      color: Colors.grey[100],
+                                    ),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.min,
+                                      children: [
+                                        Icon(Icons.remove),
+                                        Text("1"),
+                                        Icon(Icons.add),
+                                      ],
+                                    ),
                                   ),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.min,
-                                    children: [
-                                      Icon(Icons.remove),
-                                      Text("1"),
-                                      Icon(Icons.add),
-                                    ],
-                                  ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ),
                         ],
