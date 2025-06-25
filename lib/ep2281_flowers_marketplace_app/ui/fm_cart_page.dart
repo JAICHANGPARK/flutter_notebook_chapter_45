@@ -131,6 +131,7 @@ class _FmCartPageState extends State<FmCartPage> {
                                           "1",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
+                                            fontSize: 18,
                                           ),
                                         ),
                                         Icon(Icons.add),
