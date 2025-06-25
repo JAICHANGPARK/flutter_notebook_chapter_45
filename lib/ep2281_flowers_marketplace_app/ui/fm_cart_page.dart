@@ -63,41 +63,34 @@ class _FmCartPageState extends State<FmCartPage> {
                   spacing: 12,
                   children: [
                     Icon(Icons.home_filled),
-                    Expanded(child: Text("17 Via Garibaldi, Milano",style: TextStyle(
-                      fontSize: 17
-                    ),)),
+                    Expanded(
+                      child: Text(
+                        "17 Via Garibaldi, Milano",
+                        style: TextStyle(fontSize: 16),
+                      ),
+                    ),
                     Icon(Icons.chevron_right),
                   ],
                 ),
               ),
-              Expanded(child: Column(
-                children: [
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  ),
-                  Divider(),
-                  Container(
-                    height: 200,
-                    child: Placeholder(),
-                  ),
-                  Divider(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Shipping"),
-                      Text("Free")
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Shipping"),
-                      Text("Free")
-                    ],
-                  )
-                ],
-              )),
+              Expanded(
+                child: Column(
+                  children: [
+                    Container(height: 200, child: Placeholder()),
+                    Divider(),
+                    Container(height: 200, child: Placeholder()),
+                    Divider(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [Text("Shipping"), Text("Free")],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [Text("Shipping"), Text("Free")],
+                    ),
+                  ],
+                ),
+              ),
               Container(
                 padding: EdgeInsets.symmetric(vertical: 12),
                 decoration: ShapeDecoration(
