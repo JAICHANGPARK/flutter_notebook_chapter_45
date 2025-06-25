@@ -77,7 +77,7 @@ class _FmCartPageState extends State<FmCartPage> {
                 child: Column(
                   children: [
                     Container(
-                      height: 200,
+                      height: 160,
                       child: Row(
                         children: [
                           Container(
