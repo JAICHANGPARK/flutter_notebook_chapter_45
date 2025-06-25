@@ -76,7 +76,6 @@ class _FmCartPageState extends State<FmCartPage> {
               ),
               Expanded(
                 child: Column(
-
                   children: [
                     Container(
                       height: 160,
@@ -99,7 +98,12 @@ class _FmCartPageState extends State<FmCartPage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
 
                                 children: [
-                                  Text("A BOUQUET OF DELICATE PEONIES"),
+                                  Text(
+                                    "A BOUQUET OF DELICATE PEONIES",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                   Gap(8),
                                   Text("\$14.90"),
                                   Gap(16),
