@@ -103,7 +103,9 @@ class _FmCartPageState extends State<FmCartPage> {
                                   ),
                                   child: Row(
                                     children: [
-                                      
+                                      Icon(Icons.remove),
+                                      Text("1"),
+                                      Icon(Icons.add),
                                     ],
                                   ),
                                 ),
