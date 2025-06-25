@@ -89,6 +89,12 @@ class _FmCartPageState extends State<FmCartPage> {
                                 borderRadius: BorderRadius.circular(32),
                               ),
                               color: Colors.pink,
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2013/10/10/06/31/wedding-193519_1280.jpg",
+                                ),
+                                fit: BoxFit.cover,
+                              ),
                             ),
                           ),
                           Expanded(
