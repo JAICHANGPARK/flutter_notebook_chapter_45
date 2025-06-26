@@ -15,6 +15,8 @@ class _TravelStartPageState extends State<TravelStartPage> {
         child: Padding(
           padding: const EdgeInsets.all(24.0),
           child: Column(
+            spacing: 24,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
                 child: Container(
@@ -26,18 +28,12 @@ class _TravelStartPageState extends State<TravelStartPage> {
                   ),
                 ),
               ),
-              Text("FLY COMFORTABLY,"),
-              Text.rich(
-                TextSpan(
-                  children: [
-                    TextSpan(text: "LAND"),
-                    TextSpan(text: "REFRESHED"),
-                  ],
-                ),
+              Column(
+                children: [
+
+                ],
               ),
-              Text(
-                "personalized advice, simple steps, and smart routines - right when you need them",
-              ),
+
               Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
