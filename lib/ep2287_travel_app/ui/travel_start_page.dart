@@ -12,15 +12,31 @@ class _TravelStartPageState extends State<TravelStartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: [
-            Expanded(
-              child: Container(
-                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),
-                color: Colors.blue),
+        child: Padding(
+          padding: const EdgeInsets.all(24.0),
+          child: Column(
+            children: [
+              Expanded(
+                child: Container(
+                  decoration: ShapeDecoration(
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(42),
+                    ),
+                    color: Colors.blue,
+                  ),
+                ),
               ),
-            ),
-          ],
+              Text("FLY COMFORTABLY,"),
+              Text.rich(TextSpan(children: [
+                TextSpan(text: "LAND"),
+                TextSpan(text: "REFRESHED"),
+
+
+              ])),
+              Text("personalized advice, simple steps, and smart routines - right when you need them"),
+              Container(decoration: ShapeDecoration(shape: StadiumBorder()),)
+            ],
+          ),
         ),
       ),
     );
