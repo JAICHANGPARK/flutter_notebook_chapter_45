@@ -2,7 +2,7 @@
 
 ## EP2287
 - Travel Mobile iOS App Design
-- Ronas IT | UI/UX Team
+- Purrweb UI/UX Agency
 - https://dribbble.com/shots/26153878-Flowers-Marketplace-Mobile-App
 
 <img src="https://cdn.dribbble.com/userupload/43717943/file/original-b01c13173d76714a1e4651efa4ecdc16.png?resize=1905x1429&vertical=center">
