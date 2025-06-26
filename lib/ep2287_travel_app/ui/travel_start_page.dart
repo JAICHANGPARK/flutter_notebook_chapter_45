@@ -43,6 +43,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                   shape: StadiumBorder(),
                   color: Colors.white,
                 ),
+                padding: EdgeInsets.all(4),
                 child: Row(
                   children: [
                     CircleAvatar(radius: 32,),
