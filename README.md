@@ -5,7 +5,7 @@
 - Purrweb UI/UX Agency
 - https://dribbble.com/shots/26195604-Travel-Mobile-iOS-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/43717943/file/original-b01c13173d76714a1e4651efa4ecdc16.png?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43846890/file/original-85f2b39b4d3ff4fee34805c41f2b0ad9.png?resize=1905x1429&vertical=center">
 
 
 ## EP2281-2286
