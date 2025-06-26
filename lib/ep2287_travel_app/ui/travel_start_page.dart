@@ -27,14 +27,29 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 ),
               ),
               Text("FLY COMFORTABLY,"),
-              Text.rich(TextSpan(children: [
-                TextSpan(text: "LAND"),
-                TextSpan(text: "REFRESHED"),
-
-
-              ])),
-              Text("personalized advice, simple steps, and smart routines - right when you need them"),
-              Container(decoration: ShapeDecoration(shape: StadiumBorder()),)
+              Text.rich(
+                TextSpan(
+                  children: [
+                    TextSpan(text: "LAND"),
+                    TextSpan(text: "REFRESHED"),
+                  ],
+                ),
+              ),
+              Text(
+                "personalized advice, simple steps, and smart routines - right when you need them",
+              ),
+              Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white,
+                ),
+                child: Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(child: Center())
+                  ],
+                ),
+              ),
             ],
           ),
         ),
