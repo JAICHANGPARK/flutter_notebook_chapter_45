@@ -11,7 +11,18 @@ class _TravelStartPageState extends State<TravelStartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [],),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: Container(
+                decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(),
+                color: Colors.blue),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
