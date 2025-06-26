@@ -29,8 +29,20 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 ),
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-
+                  Text("FLY COMFORTABLY,"),
+                  Text.rich(
+                    TextSpan(
+                      children: [
+                        TextSpan(text: "LAND"),
+                        TextSpan(text: "REFRESHED"),
+                      ],
+                    ),
+                  ),
+                  Text(
+                    "personalized advice, simple steps, and smart routines - right when you need them",
+                  ),
                 ],
               ),
 
@@ -45,7 +57,6 @@ class _TravelStartPageState extends State<TravelStartPage> {
                     CircleAvatar(radius: 32,),
                     Expanded(child: Center(child: Text("Get Started"),)),
                     Icon(Icons.chevron_right),
-
                     Icon(Icons.chevron_right),
                     Icon(Icons.chevron_right),
                   ],
