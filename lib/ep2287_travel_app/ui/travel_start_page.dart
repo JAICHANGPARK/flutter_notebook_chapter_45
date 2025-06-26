@@ -45,8 +45,12 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 ),
                 child: Row(
                   children: [
-                    CircleAvatar(),
-                    Expanded(child: Center())
+                    CircleAvatar(radius: 32,),
+                    Expanded(child: Center(child: Text("Get Started"),)),
+                    Icon(Icons.chevron_right),
+
+                    Icon(Icons.chevron_right),
+                    Icon(Icons.chevron_right),
                   ],
                 ),
               ),
