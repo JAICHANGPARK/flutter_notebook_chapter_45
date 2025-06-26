@@ -1,7 +1,7 @@
 # flutter_notebook_chapter_45
 
-## EP2281-2286
-- Flowers Marketplace Mobile App
+## EP2287
+- Travel Mobile iOS App Design
 - Ronas IT | UI/UX Team
 - https://dribbble.com/shots/26153878-Flowers-Marketplace-Mobile-App
 
