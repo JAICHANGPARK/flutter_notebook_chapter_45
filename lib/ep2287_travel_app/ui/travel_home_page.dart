@@ -90,18 +90,29 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 120, child: Row(
-                    children: [
-                      Expanded(child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("ORY"),
-                          Text("from Paris"),
-                          Divider(),
+                  Container(
+                    height: 120,
 
-                      ],))
-                    ],
-                  )),
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: BorderRadius.circular(24),
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("ORY"),
+                              Text("from Paris"),
+                              Divider(),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Text("YOUR TRAVELS"),
                   SizedBox(height: 180, child: Placeholder()),
                   Container(
