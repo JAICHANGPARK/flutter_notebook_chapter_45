@@ -45,7 +45,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
 
             child: Center(
               child: Container(
-                padding: ,
+                padding: EdgeInsets.all(6),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.grey[200]!,
