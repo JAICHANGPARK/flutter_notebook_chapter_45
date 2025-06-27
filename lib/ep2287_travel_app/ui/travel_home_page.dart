@@ -45,12 +45,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
 
             child: Center(
               child: Container(
+                padding: ,
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
                   color: Colors.grey[200]!,
                 ),
                 child: Row(
-
+spacing: 4,
                   mainAxisSize: MainAxisSize.min,
                   children: [CircleAvatar(
                     radius: 26,
