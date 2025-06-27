@@ -151,13 +151,22 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     "YOUR TRAVELS",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(height: 180, child: Row(
-                    children: [
-                      Flexible(child: Container(decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                        borderRadius: BorderRadius.circular(24),
-                      )),))
-                    ],
-                  )),
+                  SizedBox(
+                    height: 180,
+                    child: Row(
+                      children: [
+                        Flexible(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Container(
                     height: 62,
                     color: Colors.black,
