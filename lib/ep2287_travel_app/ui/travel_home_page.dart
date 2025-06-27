@@ -188,7 +188,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(12),
                               ),
                               color: Colors.white,
                             ),
@@ -219,7 +219,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(12),
                               ),
                               color: Colors.white,
                             ),
@@ -246,7 +246,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         Container(
                           decoration: ShapeDecoration(
                             shape: RoundedSuperellipseBorder(
-                              borderRadius: BorderRadius.circular(24),
+                              borderRadius: BorderRadius.circular(12),
                             ),
                             color: Colors.white,
                           ),
