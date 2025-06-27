@@ -90,7 +90,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 120, child: Placeholder()),
+                  Container(height: 120, child: Row(
+                    children: [
+                      Expanded(child: Column(children: [
+                        
+                      ],))
+                    ],
+                  )),
                   Text("YOUR TRAVELS"),
                   SizedBox(height: 180, child: Placeholder()),
                   Container(
