@@ -161,6 +161,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               shape: RoundedSuperellipseBorder(
                                 borderRadius: BorderRadius.circular(24),
                               ),
+                              color: Colors.white,
                             ),
                             child: Column(
                               children: [Text("Total"), Text("43",style: TextStyle(
