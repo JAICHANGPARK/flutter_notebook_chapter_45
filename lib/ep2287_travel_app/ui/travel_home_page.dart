@@ -160,7 +160,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(24),
+                                borderRadius: BorderRadius.circular(12),
                               ),
                               color: Colors.white,
                             ),
@@ -243,33 +243,30 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                           ),
                         ),
-                        Flexible(
-
-                          child: Container(
-                            decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(24),
-                              ),
-                              color: Colors.white,
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: BorderRadius.circular(24),
                             ),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 16,
-                              vertical: 16,
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text("Time", style: TextStyle(fontSize: 12)),
-                                Text(
-                                  "45H",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 32,
-                                  ),
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 16,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Time", style: TextStyle(fontSize: 12)),
+                              Text(
+                                "45H",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 32,
                                 ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
                         ),
                       ],
