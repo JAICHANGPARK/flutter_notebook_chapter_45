@@ -51,11 +51,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   color: Colors.grey[200]!,
                 ),
                 child: Row(
-spacing: 4,
+                  spacing: 4,
                   mainAxisSize: MainAxisSize.min,
-                  children: [CircleAvatar(
-                    radius: 26,
-                  ), CircleAvatar(radius: 26,), CircleAvatar(radius: 26,)],
+                  children: [
+                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26),
+                  ],
                 ),
               ),
             ),
