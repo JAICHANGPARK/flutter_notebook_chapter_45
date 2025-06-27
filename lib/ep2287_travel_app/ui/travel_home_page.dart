@@ -43,18 +43,16 @@ class _TravelHomePageState extends State<TravelHomePage> {
             left: 0,
             right: 0,
             child: Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.grey[200]!,
+              ),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
-                children: [
-                  CircleAvatar(),
-                  CircleAvatar(),
-                  CircleAvatar(),
-
-                ],
+                children: [CircleAvatar(), CircleAvatar(), CircleAvatar()],
               ),
             ),
-          )
-
+          ),
         ],
       ),
     );
