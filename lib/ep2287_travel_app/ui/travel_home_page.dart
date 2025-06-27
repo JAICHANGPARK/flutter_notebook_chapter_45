@@ -172,9 +172,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Total",style: TextStyle(
-                                  fontSize: 12,
-                                ),),
+                                Text("Total", style: TextStyle(fontSize: 12)),
                                 Text(
                                   "43",
                                   style: TextStyle(
@@ -202,9 +200,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Countries",style: TextStyle(
-                                  fontSize: 12,
-                                ),),
+                                Text(
+                                  "Countries",
+                                  style: TextStyle(fontSize: 12),
+                                ),
                                 Text(
                                   "19",
                                   style: TextStyle(
@@ -232,9 +231,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Cities",style: TextStyle(
-                                  fontSize: 12,
-                                ),),
+                                Text("Cities", style: TextStyle(fontSize: 12)),
                                 Text(
                                   "24",
                                   style: TextStyle(
@@ -254,16 +251,23 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               ),
                               color: Colors.white,
                             ),
-                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 16,
+                            ),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [Text("Time",style: TextStyle(
-                                fontSize: 12,
-                              ),), Text("45H",style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                fontSize: 36,
-                              ),)],
+                              children: [
+                                Text("Time", style: TextStyle(fontSize: 12)),
+                                Text(
+                                  "45H",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 36,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
