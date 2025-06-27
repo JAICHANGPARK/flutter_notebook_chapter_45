@@ -172,7 +172,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Total"),
+                                Text("Total",style: TextStyle(
+                                  fontSize: 12,
+                                ),),
                                 Text(
                                   "43",
                                   style: TextStyle(
@@ -200,12 +202,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Countries"),
+                                Text("Countries",style: TextStyle(
+                                  fontSize: 12,
+                                ),),
                                 Text(
                                   "19",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 40,
+                                    fontSize: 36,
                                   ),
                                 ),
                               ],
@@ -228,12 +232,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Cities"),
+                                Text("Cities",style: TextStyle(
+                                  fontSize: 12,
+                                ),),
                                 Text(
                                   "24",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 40,
+                                    fontSize: 36,
                                   ),
                                 ),
                               ],
@@ -256,7 +262,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 fontSize: 12,
                               ),), Text("45H",style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 40
+                                fontSize: 36,
                               ),)],
                             ),
                           ),
