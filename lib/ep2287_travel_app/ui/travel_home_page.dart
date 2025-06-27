@@ -152,7 +152,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
-                    height: 160,
+                    height: 140,
                     child: Row(
                       children: [
                         Flexible(
@@ -165,6 +165,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [Text("Total"), Text("43",style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontSize: 32
