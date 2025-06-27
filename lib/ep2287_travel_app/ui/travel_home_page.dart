@@ -128,14 +128,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "ORY",
+                                "LAX",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 32,
                                 ),
                               ),
                               Text(
-                                "from Paris",
+                                "to Los Angeles",
                                 style: TextStyle(color: Colors.grey),
                               ),
                               Divider(),
