@@ -92,7 +92,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   ),
                   Container(
                     height: 120,
-
+                    padding: EdgeInsets.all(16),
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(24),
