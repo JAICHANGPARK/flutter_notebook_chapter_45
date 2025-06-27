@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class TravelStartPage extends StatefulWidget {
   const TravelStartPage({super.key});
@@ -36,6 +37,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 ),
               ),
               Column(
+
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
@@ -68,6 +70,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       ],
                     ),
                   ),
+  
                   Text(
                     "personalized advice, simple steps, and smart routines - right when you need them",
                     style: TextStyle(color: Colors.grey),
