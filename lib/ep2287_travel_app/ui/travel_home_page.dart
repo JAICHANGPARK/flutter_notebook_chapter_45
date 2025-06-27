@@ -154,6 +154,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   SizedBox(
                     height: 140,
                     child: Row(
+                      spacing: 8,
                       children: [
                         Flexible(
                           child: Container(
