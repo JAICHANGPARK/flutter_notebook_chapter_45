@@ -254,9 +254,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            
+
                             children: [
                               Text("Time", style: TextStyle(fontSize: 12)),
+                              Spacer(),
                               Text(
                                 "45H",
                                 style: TextStyle(
