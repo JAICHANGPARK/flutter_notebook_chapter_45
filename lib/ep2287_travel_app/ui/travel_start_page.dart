@@ -38,7 +38,10 @@ class _TravelStartPageState extends State<TravelStartPage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("FLY COMFORTABLY,"),
+                  Text(
+                    "FLY COMFORTABLY,",
+                    style: TextStyle(color: Colors.grey),
+                  ),
                   Text.rich(
                     TextSpan(
                       children: [
