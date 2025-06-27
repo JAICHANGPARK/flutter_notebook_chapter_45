@@ -49,23 +49,28 @@ class _TravelStartPageState extends State<TravelStartPage> {
                   Text.rich(
                     TextSpan(
                       children: [
-                        TextSpan(text: "LAND",
+                        TextSpan(
+                          text: "LAND",
                           style: TextStyle(
                             color: Colors.grey,
                             fontWeight: FontWeight.bold,
                             fontSize: 24,
-                          ),),
-                        TextSpan(text: " REFRESHED",
+                          ),
+                        ),
+                        TextSpan(
+                          text: " REFRESHED",
                           style: TextStyle(
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                             fontSize: 24,
-                          ),),
+                          ),
+                        ),
                       ],
                     ),
                   ),
                   Text(
                     "personalized advice, simple steps, and smart routines - right when you need them",
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ],
               ),
