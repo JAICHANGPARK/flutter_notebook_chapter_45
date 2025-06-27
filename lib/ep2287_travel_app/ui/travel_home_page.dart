@@ -225,7 +225,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               color: Colors.white,
                             ),
                             padding: EdgeInsets.symmetric(
-                              horizontal: 20,
+                              horizontal: 16,
                               vertical: 16,
                             ),
                             child: Column(
