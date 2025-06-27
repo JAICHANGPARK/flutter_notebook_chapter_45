@@ -39,8 +39,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               children: [
                                 CircleAvatar(),
                                 Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text("Hi, Dream"),
+                                    Text("Profile settings"),
                                   ],
                                 )
                               ],
