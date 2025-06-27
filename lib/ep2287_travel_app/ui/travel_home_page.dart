@@ -162,6 +162,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 borderRadius: BorderRadius.circular(24),
                               ),
                             ),
+                            child: Column(
+                              children: [Text("Total"), Text("43",style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 32
+                              ),)],
+                            ),
                           ),
                         ),
                       ],
