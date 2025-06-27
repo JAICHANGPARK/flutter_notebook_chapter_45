@@ -40,7 +40,11 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 children: [
                   Text(
                     "FLY COMFORTABLY,",
-                    style: TextStyle(color: Colors.grey),
+                    style: TextStyle(
+                      color: Colors.grey,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
                   ),
                   Text.rich(
                     TextSpan(
