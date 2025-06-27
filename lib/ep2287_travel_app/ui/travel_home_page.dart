@@ -18,7 +18,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
             left: 16,
             right: 16,
             bottom: 0,
-            top: 32,
+            top: 12,
             child: SafeArea(
               child: Column(
                 spacing: 8,
