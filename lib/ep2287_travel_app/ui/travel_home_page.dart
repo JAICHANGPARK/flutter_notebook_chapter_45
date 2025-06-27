@@ -38,7 +38,22 @@ class _TravelHomePageState extends State<TravelHomePage> {
               ),
             ),
           ),
-          
+          Positioned(
+            bottom: 32,
+            left: 0,
+            right: 0,
+            child: Container(
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  CircleAvatar(),
+                  CircleAvatar(),
+                  CircleAvatar(),
+
+                ],
+              ),
+            ),
+          )
 
         ],
       ),
