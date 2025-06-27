@@ -58,6 +58,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       radius: 32,
                       child: Icon(Icons.flight_outlined),
                       backgroundColor: Colors.black,
+                      foregroundColor: Colors.white,
                     ),
                     Expanded(child: Center(child: Text("Get Started"))),
                     Icon(Icons.chevron_right),
