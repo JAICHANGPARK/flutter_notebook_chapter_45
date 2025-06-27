@@ -177,7 +177,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   "43",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 40,
+                                    fontSize: 36,
                                   ),
                                 ),
                               ],
