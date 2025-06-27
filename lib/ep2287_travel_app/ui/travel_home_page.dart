@@ -37,20 +37,23 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             padding: EdgeInsets.all(4),
                             child: Row(
-                              spacing: 12,
+                              spacing: 6,
                               children: [
-                                CircleAvatar(
-                                  radius: 26,
-                                ),
+                                CircleAvatar(radius: 26),
                                 Column(
                                   spacing: 2,
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
-                                    Text("Hi, Dream"),
+                                    Text(
+                                      "Hi, Dream",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     Text("Profile settings"),
                                   ],
-                                )
+                                ),
                               ],
                             ),
                           ),
