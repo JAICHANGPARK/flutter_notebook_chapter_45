@@ -27,6 +27,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   Container(height: 120, child: Placeholder()),
                   Text("YOUR TRAVELS"),
                   SizedBox(height: 180, child: Placeholder()),
+                  Container(
+                    height: 62,
+                    color: Colors.black,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
