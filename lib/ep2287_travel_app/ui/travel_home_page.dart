@@ -12,6 +12,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
       body: Stack(
         children: [
           Positioned.fill(
