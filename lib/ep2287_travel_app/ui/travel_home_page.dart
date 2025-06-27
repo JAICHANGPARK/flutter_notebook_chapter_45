@@ -269,7 +269,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   ),
                   Container(
                     height: 54,
-                    color: Colors.black,
+
+                    decoration: BoxDecoration(color: Colors.black,
+
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Center(
                       child: Text(
                         "MORE INFORMATION",
