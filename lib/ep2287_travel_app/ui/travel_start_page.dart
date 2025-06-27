@@ -25,6 +25,11 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       borderRadius: BorderRadius.circular(42),
                     ),
                     color: Colors.blue,
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        "https://cdn.pixabay.com/photo/2021/12/13/07/06/airplane-6867678_1280.jpg",
+                      ),
+                    ),
                   ),
                 ),
               ),
