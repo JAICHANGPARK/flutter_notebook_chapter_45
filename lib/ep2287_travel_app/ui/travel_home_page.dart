@@ -75,12 +75,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "Hi, Dream",
+                                      "Paris",
                                       style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
-                                    Text("Profile settings"),
+                                    Text("Location now"),
                                   ],
                                 ),
                               ],
