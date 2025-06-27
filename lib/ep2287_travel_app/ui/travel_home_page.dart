@@ -37,7 +37,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             child: Row(
                               children: [
-                                CircleAvatar(),
+                                CircleAvatar(
+                                  radius: 26,
+                                ),
                                 Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
