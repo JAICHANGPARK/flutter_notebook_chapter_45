@@ -31,7 +31,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     height: 62,
                     color: Colors.black,
                     child: Placeholder(),
-                  )
+                  ),
+                  Text("TICKETS"),
+                  Expanded(child: Placeholder()),
                 ],
               ),
             ),
