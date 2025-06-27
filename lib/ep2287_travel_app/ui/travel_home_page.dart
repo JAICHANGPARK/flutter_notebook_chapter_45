@@ -64,6 +64,27 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               shape: StadiumBorder(),
                               color: Colors.white,
                             ),
+                            padding: EdgeInsets.all(4),
+                            child: Row(
+                              spacing: 6,
+                              children: [
+                                CircleAvatar(radius: 26),
+                                Column(
+                                  spacing: 2,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Text(
+                                      "Hi, Dream",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    Text("Profile settings"),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
