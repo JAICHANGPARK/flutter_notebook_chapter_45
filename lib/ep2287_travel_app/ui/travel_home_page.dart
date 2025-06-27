@@ -21,18 +21,29 @@ class _TravelHomePageState extends State<TravelHomePage> {
             top: 12,
             child: SafeArea(
               child: Column(
-                spacing: 8,
+                spacing: 12,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   SizedBox(
                     height: 62,
                     child: Row(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.white,
+                            ),
+                            child: Row(
+                              children: [
+                                CircleAvatar(),
+                                Column(
+                                  children: [
+                                    Text("Hi, Dream"),
+                                  ],
+                                )
+                              ],
                             ),
                           ),
                         ),
