@@ -283,6 +283,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ),
                     ),
                   ),
+                  Gap(12),
                   Text("TICKETS"),
                   Expanded(child: Placeholder()),
                 ],
