@@ -13,7 +13,21 @@ class _TravelHomePageState extends State<TravelHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        children: [],
+        children: [
+          Positioned.fill(
+            left: 16,
+            right: 16,
+            bottom: 0,
+            top: 32,
+            child: SafeArea(
+              child: Column(
+                children: [
+              
+                ],
+              ),
+            ),
+          )
+        ],
       ),
     );
   }
