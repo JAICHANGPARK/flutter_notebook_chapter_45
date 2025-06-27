@@ -170,9 +170,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
                               children: [
                                 Text("Total", style: TextStyle(fontSize: 12)),
+                                Spacer(),
                                 Text(
                                   "43",
                                   style: TextStyle(
