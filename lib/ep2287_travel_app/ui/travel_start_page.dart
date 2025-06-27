@@ -11,6 +11,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(24.0),
@@ -29,6 +30,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       image: NetworkImage(
                         "https://cdn.pixabay.com/photo/2021/12/13/07/06/airplane-6867678_1280.jpg",
                       ),
+                      fit: BoxFit.cover,
                     ),
                   ),
                 ),
