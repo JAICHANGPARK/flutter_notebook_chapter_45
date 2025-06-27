@@ -100,6 +100,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       color: Colors.white,
                     ),
                     child: Row(
+                      spacing: 16,
                       children: [
                         Expanded(
                           child: Column(
@@ -109,10 +110,32 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 "ORY",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 25,
+                                  fontSize: 32,
                                 ),
                               ),
-                              Text("from Paris"),
+                              Text(
+                                "from Paris",
+                                style: TextStyle(color: Colors.grey),
+                              ),
+                              Divider(),
+                            ],
+                          ),
+                        ),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "ORY",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 32,
+                                ),
+                              ),
+                              Text(
+                                "from Paris",
+                                style: TextStyle(color: Colors.grey),
+                              ),
                               Divider(),
                             ],
                           ),
