@@ -54,7 +54,11 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 padding: EdgeInsets.all(4),
                 child: Row(
                   children: [
-                    CircleAvatar(radius: 32,child: Icon(Icons.flight_outlined),),
+                    CircleAvatar(
+                      radius: 32,
+                      child: Icon(Icons.flight_outlined),
+                      backgroundColor: Colors.black,
+                    ),
                     Expanded(child: Center(child: Text("Get Started"))),
                     Icon(Icons.chevron_right),
                     Icon(Icons.chevron_right),
