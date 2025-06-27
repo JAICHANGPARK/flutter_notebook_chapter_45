@@ -104,6 +104,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       children: [
                         Expanded(
                           child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
