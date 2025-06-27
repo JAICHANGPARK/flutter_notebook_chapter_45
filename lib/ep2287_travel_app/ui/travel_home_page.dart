@@ -105,7 +105,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("ORY"),
+                              Text(
+                                "ORY",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 25,
+                                ),
+                              ),
                               Text("from Paris"),
                               Divider(),
                             ],
