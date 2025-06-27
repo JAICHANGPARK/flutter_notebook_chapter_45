@@ -154,7 +154,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   SizedBox(
                     height: 140,
                     child: Row(
-                      spacing: 8,
+                      spacing: 4,
                       children: [
                         Flexible(
                           child: Container(
@@ -237,6 +237,27 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   ),
                                 ),
                               ],
+                            ),
+                          ),
+                        ),
+                        Flexible(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                              color: Colors.white,
+                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [Text("Time",style: TextStyle(
+                                fontSize: 12,
+                              ),), Text("45H",style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 40
+                              ),)],
                             ),
                           ),
                         ),
