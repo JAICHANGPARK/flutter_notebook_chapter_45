@@ -92,8 +92,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   ),
                   Container(height: 120, child: Row(
                     children: [
-                      Expanded(child: Column(children: [
-                        
+                      Expanded(child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("ORY"),
+                          Text("from Paris"),
+                          Divider(),
+
                       ],))
                     ],
                   )),
