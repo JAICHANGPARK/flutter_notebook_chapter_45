@@ -37,7 +37,6 @@ class _TravelStartPageState extends State<TravelStartPage> {
                 ),
               ),
               Column(
-
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
@@ -92,7 +91,17 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       foregroundColor: Colors.white,
                       child: Icon(Icons.flight_outlined),
                     ),
-                    Expanded(child: Center(child: Text("Get Started"))),
+                    Expanded(
+                      child: Center(
+                        child: Text(
+                          "Get Started",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
                     Icon(Icons.chevron_right),
                     Icon(Icons.chevron_right),
                     Icon(Icons.chevron_right),
