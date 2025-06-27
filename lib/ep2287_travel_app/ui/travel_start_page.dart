@@ -43,7 +43,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                     style: TextStyle(
                       color: Colors.grey,
                       fontWeight: FontWeight.bold,
-                      fontSize: 18,
+                      fontSize: 24,
                     ),
                   ),
                   Text.rich(
