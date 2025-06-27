@@ -156,33 +156,31 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     child: Row(
                       spacing: 4,
                       children: [
-                        Flexible(
-                          child: Container(
-                            decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              color: Colors.white,
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: BorderRadius.circular(12),
                             ),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 20,
-                              vertical: 16,
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 16,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
 
-                              children: [
-                                Text("Total", style: TextStyle(fontSize: 12)),
-                                Spacer(),
-                                Text(
-                                  "43",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 32,
-                                  ),
+                            children: [
+                              Text("Total", style: TextStyle(fontSize: 12)),
+                              Spacer(),
+                              Text(
+                                "43",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 32,
                                 ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
                         ),
                         Container(
@@ -252,7 +250,6 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-
                             children: [
                               Text("Time", style: TextStyle(fontSize: 12)),
                               Spacer(),
