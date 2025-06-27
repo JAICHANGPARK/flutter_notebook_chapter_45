@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class TravelHomePage extends StatefulWidget {
   const TravelHomePage({super.key});
@@ -145,9 +146,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ],
                     ),
                   ),
+                  Gap(12),
                   Text(
                     "YOUR TRAVELS",
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   SizedBox(height: 180, child: Placeholder()),
                   Container(
