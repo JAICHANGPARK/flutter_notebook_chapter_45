@@ -145,7 +145,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ],
                     ),
                   ),
-                  Text("YOUR TRAVELS"),
+                  Text(
+                    "YOUR TRAVELS",
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  ),
                   SizedBox(height: 180, child: Placeholder()),
                   Container(
                     height: 62,
