@@ -208,7 +208,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   "19",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 36,
+                                    fontSize: 32,
                                   ),
                                 ),
                               ],
@@ -236,7 +236,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   "24",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 36,
+                                    fontSize: 32,
                                   ),
                                 ),
                               ],
@@ -244,6 +244,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ),
                         ),
                         Flexible(
+                          fit: FlexFit.loose,
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
@@ -252,7 +253,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               color: Colors.white,
                             ),
                             padding: EdgeInsets.symmetric(
-                              horizontal: 20,
+                              horizontal: 16,
                               vertical: 16,
                             ),
                             child: Column(
@@ -264,7 +265,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   "45H",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 36,
+                                    fontSize: 32,
                                   ),
                                 ),
                               ],
