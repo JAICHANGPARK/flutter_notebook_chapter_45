@@ -184,35 +184,30 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                           ),
                         ),
-                        Flexible(
-                          child: Container(
-                            decoration: ShapeDecoration(
-                              shape: RoundedSuperellipseBorder(
-                                borderRadius: BorderRadius.circular(12),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: RoundedSuperellipseBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            color: Colors.white,
+                          ),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 20,
+                            vertical: 16,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Countries", style: TextStyle(fontSize: 12)),
+                              Text(
+                                "19",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 32,
+                                ),
                               ),
-                              color: Colors.white,
-                            ),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 20,
-                              vertical: 16,
-                            ),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  "Countries",
-                                  style: TextStyle(fontSize: 12),
-                                ),
-                                Text(
-                                  "19",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 32,
-                                  ),
-                                ),
-                              ],
-                            ),
+                            ],
                           ),
                         ),
                         Flexible(
@@ -275,7 +270,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   Container(
                     height: 62,
                     color: Colors.black,
-                    child: Placeholder(),
+                    child: Center(
+                      child: Text(
+                        "MORE INFORMATION",
+                        style: TextStyle(color: Colors.white, fontSize: 16),
+                      ),
+                    ),
                   ),
                   Text("TICKETS"),
                   Expanded(child: Placeholder()),
