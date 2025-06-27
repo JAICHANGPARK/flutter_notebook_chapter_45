@@ -97,6 +97,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(24),
                       ),
+                      color: Colors.white,
                     ),
                     child: Row(
                       children: [
