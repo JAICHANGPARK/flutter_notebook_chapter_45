@@ -268,7 +268,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     ),
                   ),
                   Container(
-                    height: 62,
+                    height: 54,
                     color: Colors.black,
                     child: Center(
                       child: Text(
