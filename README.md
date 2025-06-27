@@ -1,6 +1,6 @@
 # flutter_notebook_chapter_45
 
-## EP2287
+## EP2287-
 - Travel Mobile iOS App Design
 - Purrweb UI/UX Agency
 - https://dribbble.com/shots/26195604-Travel-Mobile-iOS-App-Design
