@@ -70,7 +70,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
                       ],
                     ),
                   ),
-  
+                  Gap(4),
                   Text(
                     "personalized advice, simple steps, and smart routines - right when you need them",
                     style: TextStyle(color: Colors.grey),
