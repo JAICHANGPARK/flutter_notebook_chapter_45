@@ -15,7 +15,7 @@ class _TravelStartPageState extends State<TravelStartPage> {
       backgroundColor: Colors.grey[100],
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(24.0),
+          padding: const EdgeInsets.fromLTRB(24.0, 32, 24, 24),
           child: Column(
             spacing: 24,
             crossAxisAlignment: CrossAxisAlignment.start,
