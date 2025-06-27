@@ -175,6 +175,25 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                           ),
                         ),
+                        Flexible(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                              color: Colors.white,
+                            ),
+                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [Text("Countries"), Text("19",style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 40
+                              ),)],
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
