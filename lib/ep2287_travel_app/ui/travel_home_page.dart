@@ -164,14 +164,23 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               ),
                               color: Colors.white,
                             ),
-                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 16,
+                            ),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [Text("Total"), Text("43",style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 40
-                              ),)],
+                              children: [
+                                Text("Total"),
+                                Text(
+                                  "43",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 40,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -183,14 +192,51 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               ),
                               color: Colors.white,
                             ),
-                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 16,
+                            ),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [Text("Countries"), Text("19",style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 40
-                              ),)],
+                              children: [
+                                Text("Countries"),
+                                Text(
+                                  "19",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 40,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Flexible(
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: RoundedSuperellipseBorder(
+                                borderRadius: BorderRadius.circular(24),
+                              ),
+                              color: Colors.white,
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 20,
+                              vertical: 16,
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Cities"),
+                                Text(
+                                  "24",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 40,
+                                  ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
