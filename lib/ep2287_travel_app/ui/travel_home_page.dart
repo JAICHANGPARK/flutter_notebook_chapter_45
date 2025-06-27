@@ -52,7 +52,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 child: Row(
 
                   mainAxisSize: MainAxisSize.min,
-                  children: [CircleAvatar(), CircleAvatar(), CircleAvatar()],
+                  children: [CircleAvatar(
+                    radius: 26,
+                  ), CircleAvatar(radius: 26,), CircleAvatar(radius: 26,)],
                 ),
               ),
             ),
