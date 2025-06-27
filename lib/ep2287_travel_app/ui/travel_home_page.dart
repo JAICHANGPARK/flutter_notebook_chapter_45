@@ -163,13 +163,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               ),
                               color: Colors.white,
                             ),
-                            padding: EdgeInsets.all(16),
+                            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [Text("Total"), Text("43",style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 32
+                                fontSize: 40
                               ),)],
                             ),
                           ),
