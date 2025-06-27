@@ -244,7 +244,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ),
                         ),
                         Flexible(
-                          fit: FlexFit.loose,
+                          flex: 2,
                           child: Container(
                             decoration: ShapeDecoration(
                               shape: RoundedSuperellipseBorder(
