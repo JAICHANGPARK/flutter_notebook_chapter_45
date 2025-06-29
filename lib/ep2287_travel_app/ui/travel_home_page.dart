@@ -300,7 +300,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             child: Column(
                               children: [
-                                Row(children: []),
+                                Row(
+                                  children: [
+                                    Expanded(child: Column(children: [])),
+                                  ],
+                                ),
                                 Container(
                                   decoration: BoxDecoration(
                                     color: Colors.grey[100],
