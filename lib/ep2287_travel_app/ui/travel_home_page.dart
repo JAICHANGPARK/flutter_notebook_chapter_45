@@ -299,7 +299,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 padding: EdgeInsets.all(6),
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.grey[200]!,
+                  color: Colors.grey[300]!,
                 ),
                 child: Row(
                   spacing: 4,
