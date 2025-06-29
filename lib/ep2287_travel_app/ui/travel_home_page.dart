@@ -309,6 +309,15 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   children: [
                     Container(
                       decoration: ShapeDecoration(shape: StadiumBorder()),
+                      child: Row(
+                        children: [
+                          Icon(Icons.flight),
+                          Text(
+                            "Travels",
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ],
+                      ),
                     ),
                     CircleAvatar(radius: 26, backgroundColor: Colors.white),
                     CircleAvatar(radius: 26, backgroundColor: Colors.white),
