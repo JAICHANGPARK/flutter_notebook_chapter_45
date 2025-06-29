@@ -319,23 +319,27 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                       child: Column(
                                         crossAxisAlignment:
                                         CrossAxisAlignment.start,
+
                                         children: [
                                           Text("11:00AM"),
-                                          Text("Paris"),
-                                          Text("ORY"),
+                                          SizedBox(
+                                              height: 42,
+                                              child: Icon(Icons.flight)),
                                         ],
                                       ),
                                     ),
                                     Expanded(
                                       child: Column(
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.start,
+                                        CrossAxisAlignment.end,
                                         children: [
-                                          Text("11:00AM"),
-                                         Icon(Icons.flight),
+                                          Text("\$12"),
+                                          Text("Marseille"),
+                                          Text("MRS"),
                                         ],
                                       ),
                                     ),
+
                                   ],
                                 ),
                                 Container(
