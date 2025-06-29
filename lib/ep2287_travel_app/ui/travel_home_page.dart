@@ -269,7 +269,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   Container(
                     height: 54,
 
-                    decoration: BoxDecoration(color: Colors.black,
+                    decoration: BoxDecoration(
+                      color: Colors.black,
 
                       borderRadius: BorderRadius.circular(5),
                     ),
@@ -281,7 +282,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     ),
                   ),
                   Gap(12),
-                  Text("TICKETS",
+                  Text(
+                    "TICKETS",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   Expanded(child: Placeholder()),
@@ -305,10 +307,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   spacing: 4,
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    CircleAvatar(radius: 26),
-                    CircleAvatar(radius: 26,
-                    backgroundColor: Colors.white,),
-                    CircleAvatar(radius: 26,backgroundColor: Colors.white),
+                    Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                    ),
+                    CircleAvatar(radius: 26, backgroundColor: Colors.white),
+                    CircleAvatar(radius: 26, backgroundColor: Colors.white),
                   ],
                 ),
               ),
