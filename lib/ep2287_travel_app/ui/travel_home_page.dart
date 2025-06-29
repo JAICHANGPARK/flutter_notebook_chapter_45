@@ -315,16 +315,20 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                               color: Colors.white,
                                             ),
                                           ),
+                                          Gap(12),
                                           Text(
                                             "Paris",
                                             style: TextStyle(
                                               color: Colors.white24,
                                             ),
                                           ),
-                                          Text("ORY",
+                                          Text(
+                                            "ORY",
                                             style: TextStyle(
-                                              color: Colors.white24,
-                                            ),),
+                                              color: Colors.white54,
+                                              fontSize: 16,
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ),
