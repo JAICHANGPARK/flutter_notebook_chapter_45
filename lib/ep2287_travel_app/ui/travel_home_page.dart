@@ -317,6 +317,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         vertical: 16,
                       ),
                       child: Row(
+                        spacing: 4,
                         children: [
                           Icon(Icons.flight, color: Colors.white),
                           Text(
