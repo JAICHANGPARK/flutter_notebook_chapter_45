@@ -391,6 +391,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 Container(
                                   decoration: BoxDecoration(
                                     color: Colors.white38,
+                                    borderRadius: BorderRadius.circular(5),
                                   ),
                                   padding: EdgeInsets.symmetric(
                                     horizontal: 12,
