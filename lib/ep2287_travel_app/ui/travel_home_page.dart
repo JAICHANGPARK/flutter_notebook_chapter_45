@@ -292,6 +292,136 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         Positioned(
                           left: 0,
                           right: 0,
+                          top: 126,
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Color.fromRGBO(39, 72, 90, .4),
+                            ),
+                            padding: EdgeInsets.all(16),
+                            child: Column(
+                              spacing: 6,
+                              children: [
+                                Row(
+                                  children: [
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            "11:00AM",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                          Gap(12),
+                                          Text(
+                                            "Paris",
+                                            style: TextStyle(
+                                              color: Colors.white24,
+                                            ),
+                                          ),
+                                          Text(
+                                            "ORY",
+                                            style: TextStyle(
+                                              color: Colors.white54,
+                                              fontSize: 16,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+
+                                        children: [
+                                          Text(
+                                            "June 26, 2025",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                          SizedBox(
+                                            height: 58,
+                                            child: RotatedBox(
+                                              quarterTurns: 1,
+                                              child: Icon(
+                                                Icons.flight,
+                                                color: Colors.white38,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.end,
+                                        children: [
+                                          Text(
+                                            "\$12",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                          Gap(12),
+                                          Text(
+                                            "Marseille",
+                                            style: TextStyle(
+                                              color: Colors.white24,
+                                            ),
+                                          ),
+                                          Text(
+                                            "MRS",
+                                            style: TextStyle(
+                                              color: Colors.white54,
+                                              fontSize: 16,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Gap(4),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white38,
+                                    borderRadius: BorderRadius.circular(5),
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 4,
+                                  ),
+                                  child: Row(
+                                    spacing: 6,
+
+                                    children: [
+                                      Icon(
+                                        Icons.lightbulb_outline,
+                                        color: Colors.white,
+                                      ),
+                                      Expanded(
+                                        child: Text(
+                                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                                          maxLines: 2,
+                                          style: TextStyle(color: Colors.white),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          left: 0,
+                          right: 0,
                           top: 84,
                           child: Container(
                             decoration: BoxDecoration(
