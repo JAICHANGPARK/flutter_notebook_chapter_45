@@ -333,11 +333,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     CircleAvatar(
                       radius: 26,
                       backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
                       child: Icon(Icons.star_border),
+
                     ),
                     CircleAvatar(
                       radius: 26,
                       backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
                       child: Icon(Icons.account_circle_outlined),
                     ),
                   ],
