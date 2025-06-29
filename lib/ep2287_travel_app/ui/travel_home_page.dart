@@ -338,10 +338,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                             CrossAxisAlignment.center,
 
                                         children: [
-                                          Text("11:00AM"),
+                                          Text("June 26, 2025",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),),
                                           SizedBox(
-                                            height: 42,
-                                            child: Icon(Icons.flight),
+                                            height: 58,
+                                            child: RotatedBox(
+                                                child: Icon(Icons.flight)),
                                           ),
                                         ],
                                       ),
@@ -376,7 +380,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                     ),
                                   ],
                                 ),
-                                Gap(8),
+                                Gap(4),
                                 Container(
                                   decoration: BoxDecoration(
                                     color: Colors.white38,
