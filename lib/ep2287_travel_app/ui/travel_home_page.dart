@@ -309,9 +309,22 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          Text("11:00AM"),
-                                          Text("Paris"),
-                                          Text("ORY"),
+                                          Text(
+                                            "11:00AM",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                          Text(
+                                            "Paris",
+                                            style: TextStyle(
+                                              color: Colors.white24,
+                                            ),
+                                          ),
+                                          Text("ORY",
+                                            style: TextStyle(
+                                              color: Colors.white24,
+                                            ),),
                                         ],
                                       ),
                                     ),
