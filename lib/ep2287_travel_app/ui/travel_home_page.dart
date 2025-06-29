@@ -300,6 +300,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                             ),
                             padding: EdgeInsets.all(16),
                             child: Column(
+                              spacing: 6,
                               children: [
                                 Row(
                                   children: [
