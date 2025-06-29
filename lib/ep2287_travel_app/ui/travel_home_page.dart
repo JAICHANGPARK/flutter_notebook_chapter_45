@@ -308,7 +308,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     CircleAvatar(radius: 26),
                     CircleAvatar(radius: 26,
                     backgroundColor: Colors.white,),
-                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26,backgroundColor: Colors.white),
                   ],
                 ),
               ),
