@@ -286,7 +286,20 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     "TICKETS",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
-                  Expanded(child: Placeholder()),
+                  Expanded(
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Color.fromRGBO(39, 72, 90, 1),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -335,7 +348,6 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       backgroundColor: Colors.white,
                       foregroundColor: Colors.black,
                       child: Icon(Icons.star_border),
-
                     ),
                     CircleAvatar(
                       radius: 26,
