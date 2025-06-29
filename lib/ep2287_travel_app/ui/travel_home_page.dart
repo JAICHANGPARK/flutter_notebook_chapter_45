@@ -290,6 +290,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     child: Stack(
                       children: [
                         Positioned(
+                          left: 0,
+                          right: 0,
+                          top: 0,
                           child: Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
