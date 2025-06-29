@@ -298,6 +298,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Color.fromRGBO(39, 72, 90, 1),
                             ),
+                            child: Column(
+                              children: [
+                                
+                              ],
+                            ),
                           ),
                         ),
                       ],
