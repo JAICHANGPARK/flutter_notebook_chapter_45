@@ -315,6 +315,27 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         ],
                                       ),
                                     ),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                        children: [
+                                          Text("11:00AM"),
+                                          Text("Paris"),
+                                          Text("ORY"),
+                                        ],
+                                      ),
+                                    ),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                        children: [
+                                          Text("11:00AM"),
+                                         Icon(Icons.flight),
+                                        ],
+                                      ),
+                                    ),
                                   ],
                                 ),
                                 Container(
