@@ -308,7 +308,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   child: Row(
                                     children: [
                                       Icon(Icons.lightbulb_outline),
-                                      Expanded(child: Text(""))
+                                      Expanded(
+                                        child: Text(
+                                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
+                                          maxLines: 2,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
