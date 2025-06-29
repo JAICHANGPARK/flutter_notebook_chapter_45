@@ -351,7 +351,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.end,
                                         children: [
-                                          Text("\$12"),
+                                          Text("\$12",
+                                            style: TextStyle(
+                                              color: Colors.white,
+                                            ),),
                                           Gap(12),
                                           Text("Marseille"),
                                           Text("MRS"),
