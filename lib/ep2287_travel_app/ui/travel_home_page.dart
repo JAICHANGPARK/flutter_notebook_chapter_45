@@ -308,7 +308,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.black,
+                      ),
                       child: Row(
                         children: [
                           Icon(Icons.flight),
