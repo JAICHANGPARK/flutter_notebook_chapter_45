@@ -372,7 +372,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.grey[100],
+                                    color: Colors.white54
                                   ),
                                   child: Row(
                                     children: [
