@@ -312,9 +312,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         shape: StadiumBorder(),
                         color: Colors.black,
                       ),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 16,
+                      ),
                       child: Row(
                         children: [
-                          Icon(Icons.flight),
+                          Icon(Icons.flight, color: Colors.white),
                           Text(
                             "Travels",
                             style: TextStyle(color: Colors.white),
