@@ -305,6 +305,12 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   decoration: BoxDecoration(
                                     color: Colors.grey[100],
                                   ),
+                                  child: Row(
+                                    children: [
+                                      Icon(Icons.lightbulb_outline),
+                                      Expanded(child: Text(""))
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
