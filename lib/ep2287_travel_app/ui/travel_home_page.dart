@@ -281,7 +281,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ),
                     ),
                   ),
-                  Gap(12),
+                  Gap(6),
                   Text(
                     "TICKETS",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
