@@ -321,7 +321,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           Icon(Icons.flight, color: Colors.white),
                           Text(
                             "Travels",
-                            style: TextStyle(color: Colors.white),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ],
                       ),
