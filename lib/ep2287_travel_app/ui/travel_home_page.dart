@@ -351,20 +351,26 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                         crossAxisAlignment:
                                             CrossAxisAlignment.end,
                                         children: [
-                                          Text("\$12",
+                                          Text(
+                                            "\$12",
                                             style: TextStyle(
                                               color: Colors.white,
-                                            ),),
+                                            ),
+                                          ),
                                           Gap(12),
-                                          Text("Marseille",
+                                          Text(
+                                            "Marseille",
                                             style: TextStyle(
                                               color: Colors.white24,
-                                            ),),
-                                          Text("MRS",
+                                            ),
+                                          ),
+                                          Text(
+                                            "MRS",
                                             style: TextStyle(
                                               color: Colors.white54,
                                               fontSize: 16,
-                                            ),),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ),
@@ -372,9 +378,15 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                 ),
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.white54
+                                    color: Colors.white54,
+                                  ),
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 4,
                                   ),
                                   child: Row(
+                                    spacing: 6,
+
                                     children: [
                                       Icon(Icons.lightbulb_outline),
                                       Expanded(
