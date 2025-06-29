@@ -360,7 +360,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                             style: TextStyle(
                                               color: Colors.white24,
                                             ),),
-                                          Text("MRS"),
+                                          Text("MRS",
+                                            style: TextStyle(
+                                              color: Colors.white54,
+                                              fontSize: 16,
+                                            ),),
                                         ],
                                       ),
                                     ),
