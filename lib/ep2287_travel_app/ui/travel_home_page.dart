@@ -298,11 +298,16 @@ class _TravelHomePageState extends State<TravelHomePage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Color.fromRGBO(39, 72, 90, 1),
                             ),
+                            padding: EdgeInsets.all(16),
                             child: Column(
                               children: [
                                 Row(
                                   children: [
-                                    Expanded(child: Column(children: [])),
+                                    Expanded(
+                                      child: Column(
+                                        children: [Text("11:00AM")],
+                                      ),
+                                    ),
                                   ],
                                 ),
                                 Container(
