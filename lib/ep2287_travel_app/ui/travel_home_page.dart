@@ -305,6 +305,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                   children: [
                                     Expanded(
                                       child: Column(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [Text("11:00AM")],
                                       ),
                                     ),
