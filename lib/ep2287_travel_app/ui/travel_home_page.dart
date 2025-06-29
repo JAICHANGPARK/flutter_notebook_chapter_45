@@ -306,7 +306,8 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     CircleAvatar(radius: 26),
-                    CircleAvatar(radius: 26),
+                    CircleAvatar(radius: 26,
+                    backgroundColor: Colors.white,),
                     CircleAvatar(radius: 26),
                   ],
                 ),
