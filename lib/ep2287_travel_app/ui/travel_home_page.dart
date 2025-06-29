@@ -388,11 +388,15 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                     spacing: 6,
 
                                     children: [
-                                      Icon(Icons.lightbulb_outline),
+                                      Icon(
+                                        Icons.lightbulb_outline,
+                                        color: Colors.white,
+                                      ),
                                       Expanded(
                                         child: Text(
                                           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ",
                                           maxLines: 2,
+                                          style: TextStyle(color: Colors.white),
                                         ),
                                       ),
                                     ],
