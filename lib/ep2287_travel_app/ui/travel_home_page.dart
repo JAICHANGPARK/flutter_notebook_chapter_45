@@ -376,9 +376,10 @@ class _TravelHomePageState extends State<TravelHomePage> {
                                     ),
                                   ],
                                 ),
+                                Gap(8),
                                 Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.white54,
+                                    color: Colors.white38,
                                   ),
                                   padding: EdgeInsets.symmetric(
                                     horizontal: 12,
