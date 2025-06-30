@@ -6,7 +6,7 @@
 - Tino
 - https://dribbble.com/shots/26208267-Meal-Management-App
 
-<img src="https://cdn.dribbble.com/userupload/43846890/file/original-85f2b39b4d3ff4fee34805c41f2b0ad9.png?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/43886190/file/original-3f2ebe42c89f569916a80c59f9246530.png?resize=1905x1429&vertical=center">
 
 ## EP2287-2290
 
