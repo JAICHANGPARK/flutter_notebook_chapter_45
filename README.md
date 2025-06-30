@@ -3,7 +3,7 @@
 ## EP2291
 
 - Meal Management App
-- Purrweb UI/UX Agency
+- Tino
 - https://dribbble.com/shots/26195604-Travel-Mobile-iOS-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/43846890/file/original-85f2b39b4d3ff4fee34805c41f2b0ad9.png?resize=1905x1429&vertical=center">
