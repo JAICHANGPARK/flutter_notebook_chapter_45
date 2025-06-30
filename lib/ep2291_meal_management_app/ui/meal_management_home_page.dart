@@ -45,7 +45,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  Icon(Icons.bakery_dining, size: 28),
+                  Icon(Icons.room_service_outlined, size: 28),
                   Text("Menu"),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
