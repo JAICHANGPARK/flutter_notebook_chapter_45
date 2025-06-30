@@ -9,6 +9,8 @@ class MealManagementApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return WidgetsApp(color: Colors.white);
+    return WidgetsApp(color: Colors.white,
+    home: ,
+    );
   }
 }
