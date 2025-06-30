@@ -16,7 +16,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         color: Colors.white,
         height: 72,
         surfaceTintColor: Colors.white,
-        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+        padding: EdgeInsets.fromLTRB(0,0,0,0),
         shape: CircularNotchedRectangle(),
         notchMargin: 20,
         child: Row(
@@ -34,7 +34,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  Icon(Icons.bakery_dining, size: 28),
+                  Icon(Icons.inventory_2_outlined, size: 28),
                   Text("Inventory"),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
