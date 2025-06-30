@@ -22,27 +22,45 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         child: Row(
           children: [
             Expanded(
-              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
-              Gap(4),
-              CircleAvatar(radius: 4,)]),
+              child: Column(
+                children: [
+                  Icon(Icons.bakery_dining, size: 28),
+                  Text("Home"),
+                  Gap(4),
+                  CircleAvatar(radius: 4),
+                ],
+              ),
             ),
             Expanded(
-              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
-                Gap(4),
-                CircleAvatar(radius: 4,)]),
+              child: Column(
+                children: [
+                  Icon(Icons.bakery_dining, size: 28),
+                  Text("Home"),
+                  Gap(4),
+                  CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
+                ],
+              ),
+            ),
+            Expanded(child: Column(children: [])),
+            Expanded(
+              child: Column(
+                children: [
+                  Icon(Icons.bakery_dining, size: 28),
+                  Text("Home"),
+                  Gap(4),
+                  CircleAvatar(radius: 4),
+                ],
+              ),
             ),
             Expanded(
-              child: Column(children: []),
-            ),
-            Expanded(
-              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
-                Gap(4),
-                CircleAvatar(radius: 4,)]),
-            ),
-            Expanded(
-              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
-                Gap(4),
-                CircleAvatar(radius: 4,)]),
+              child: Column(
+                children: [
+                  Icon(Icons.bakery_dining, size: 28),
+                  Text("Home"),
+                  Gap(4),
+                  CircleAvatar(radius: 4),
+                ],
+              ),
             ),
           ],
         ),
