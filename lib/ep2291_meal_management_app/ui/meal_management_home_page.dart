@@ -22,6 +22,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         shape: CircularNotchedRectangle(),
         notchMargin: 20,
         child: Row(
+          spacing: 12,
           children: [
             Expanded(
               child: Column(
@@ -41,13 +42,17 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     size: 28,
                     color: Colors.grey,
                   ),
-                  Text("Inventory"),
+                  Text("Inventory",style: TextStyle(
+                    color: Colors.grey,
+                  ),),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
                 ],
               ),
             ),
-            Expanded(child: Column(children: [])),
+            Expanded(
+              
+                child: Column(children: [])),
             Expanded(
               child: Column(
                 children: [
