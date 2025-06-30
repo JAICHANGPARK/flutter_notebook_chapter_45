@@ -11,8 +11,8 @@ class MealManagementApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return WidgetsApp(color: Colors.white,
-    home: MealManagementHomePage(),
-    );
+    return MaterialApp(
+        
+        home: MealManagementHomePage());
   }
 }
