@@ -51,7 +51,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               ),
             ),
             Expanded(
-              
+
                 child: Column(children: [])),
             Expanded(
               child: Column(
