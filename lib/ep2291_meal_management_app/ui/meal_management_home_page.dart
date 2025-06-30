@@ -14,14 +14,36 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
     return Scaffold(
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
+        height: 72,
         surfaceTintColor: Colors.white,
+        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         shape: CircularNotchedRectangle(),
         notchMargin: 20,
         child: Row(
           children: [
-            Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
-            Gap(4),
-            CircleAvatar(radius: 4,)]),
+            Expanded(
+              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
+              Gap(4),
+              CircleAvatar(radius: 4,)]),
+            ),
+            Expanded(
+              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
+                Gap(4),
+                CircleAvatar(radius: 4,)]),
+            ),
+            Expanded(
+              child: Column(children: []),
+            ),
+            Expanded(
+              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
+                Gap(4),
+                CircleAvatar(radius: 4,)]),
+            ),
+            Expanded(
+              child: Column(children: [Icon(Icons.bakery_dining, size: 28,), Text("Home"),
+                Gap(4),
+                CircleAvatar(radius: 4,)]),
+            ),
           ],
         ),
       ),
