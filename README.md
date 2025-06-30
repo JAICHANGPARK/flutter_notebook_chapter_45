@@ -2,7 +2,7 @@
 
 ## EP2291
 
-- Travel Mobile iOS App Design
+- Meal Management App
 - Purrweb UI/UX Agency
 - https://dribbble.com/shots/26195604-Travel-Mobile-iOS-App-Design
 
