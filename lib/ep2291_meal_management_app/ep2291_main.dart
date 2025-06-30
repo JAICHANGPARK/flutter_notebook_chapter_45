@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-void main() {}
+void main() {
+  runApp(MealManagementApp());
+}
 
 class MealManagementApp extends StatelessWidget {
   const MealManagementApp({super.key});
