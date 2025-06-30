@@ -11,7 +11,7 @@ class MealManagementHomePage extends StatefulWidget {
 class _MealManagementHomePageState extends State<MealManagementHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Stack(
+    return Scaffold(
 
     );
   }
