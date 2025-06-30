@@ -16,7 +16,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         color: Colors.white,
         height: 72,
         surfaceTintColor: Colors.white,
-        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 6),
         shape: CircularNotchedRectangle(),
         notchMargin: 20,
         child: Row(
