@@ -12,11 +12,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(254, 254, 254, 1),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
         height: 72,
         surfaceTintColor: Colors.white,
-        padding: EdgeInsets.fromLTRB(0,0,0,0),
+        padding: EdgeInsets.fromLTRB(0, 12, 0, 0),
         shape: CircularNotchedRectangle(),
         notchMargin: 20,
         child: Row(
@@ -55,9 +56,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  CircleAvatar(
-                    radius: 14,
-                  ),
+                  CircleAvatar(radius: 14),
                   Text("Profile"),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
