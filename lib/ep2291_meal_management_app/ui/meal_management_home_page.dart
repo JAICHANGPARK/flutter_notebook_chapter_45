@@ -15,6 +15,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
       backgroundColor: Color.fromRGBO(252, 252, 252, 1),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
+        elevation: 9,
         height: 72,
         surfaceTintColor: Colors.white,
         padding: EdgeInsets.fromLTRB(0, 12, 0, 0),
