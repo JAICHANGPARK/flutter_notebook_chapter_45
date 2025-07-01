@@ -14,7 +14,18 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(252, 252, 252, 1),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          Row(
+            children: [
+              CircleAvatar(
+                radius: 26,
+              ),
+              Expanded(child: Column(children: [
+                Text("Dream's Kitchen")
+              ],))
+            ],
+          )
 
         ],
       ),
