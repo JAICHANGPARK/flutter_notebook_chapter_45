@@ -16,6 +16,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          spacing: 16,
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
@@ -79,10 +80,20 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     "Orders",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
-                  TextButton(onPressed: () {}, child: Text("Go to Orders")),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("Go to Orders"),
+                    style: TextButton.styleFrom(
+                      textStyle: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
+            Container(height: 180, child: Placeholder()),
           ],
         ),
       ),
