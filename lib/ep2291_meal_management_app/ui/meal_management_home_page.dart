@@ -16,7 +16,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
       body: SafeArea(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          spacing: 16,
+          spacing: 8,
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
