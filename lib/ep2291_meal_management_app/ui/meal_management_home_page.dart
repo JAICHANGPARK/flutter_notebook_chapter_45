@@ -17,10 +17,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
+            spacing: 16,
             children: [
               CircleAvatar(radius: 26),
               Expanded(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("Dream's Kitchen"),
                     Container(
@@ -33,6 +35,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   ],
                 ),
               ),
+              Container(decoration: BoxDecoration(),)
             ],
           ),
         ],
