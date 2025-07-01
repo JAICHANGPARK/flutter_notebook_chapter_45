@@ -59,12 +59,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black12,
-                          blurRadius: 3,
-                          spreadRadius: 2,
+                          blurRadius: 12,
+                          spreadRadius: 3,
                         ),
                       ],
                     ),
-                    child: Badge(child: Icon(Icons.notifications)),
+                    padding: EdgeInsets.all(6),
+                    child: Badge(child: Icon(Icons.notifications),),
                   ),
                 ],
               ),
