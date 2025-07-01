@@ -35,7 +35,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   ],
                 ),
               ),
-              Container(decoration: BoxDecoration(),)
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(5),
+                ),
+              ),
             ],
           ),
         ],
