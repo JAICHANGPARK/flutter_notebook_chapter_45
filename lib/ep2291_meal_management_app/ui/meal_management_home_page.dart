@@ -25,6 +25,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   CircleAvatar(radius: 26),
                   Expanded(
                     child: Column(
+                      spacing: 3,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -45,7 +46,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           ),
                           child: Text(
                             "Cookstro",
-                            style: TextStyle(fontSize: 12),
+                            style: TextStyle(fontSize: 13),
                           ),
                         ),
                       ],
