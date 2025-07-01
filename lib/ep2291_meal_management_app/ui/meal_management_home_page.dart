@@ -27,13 +27,26 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Dream's Kitchen"),
+                        Text(
+                          "Dream's Kitchen",
+                          style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Colors.grey[200]!,
                           ),
-                          child: Text("Cookstro"),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 3,
+                          ),
+                          child: Text(
+                            "Cookstro",
+                            style: TextStyle(fontSize: 12),
+                          ),
                         ),
                       ],
                     ),
@@ -43,10 +56,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(5),
                     ),
-                    child: Badge(
-                      child: Icon(Icons.notifications),
-        
-                    ),
+                    child: Badge(child: Icon(Icons.notifications)),
                   ),
                 ],
               ),
