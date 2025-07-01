@@ -13,41 +13,46 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(252, 252, 252, 1),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            spacing: 16,
-            children: [
-              CircleAvatar(radius: 26),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text("Dream's Kitchen"),
-                    Container(
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Colors.grey[200]!,
-                      ),
-                      child: Text("Cookstro"),
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Row(
+                spacing: 16,
+                children: [
+                  CircleAvatar(radius: 26),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Dream's Kitchen"),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.grey[200]!,
+                          ),
+                          child: Text("Cookstro"),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(5),
+                    ),
+                    child: Badge(
+                      child: Icon(Icons.notifications),
+        
+                    ),
+                  ),
+                ],
               ),
-              Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(5),
-                ),
-                child: Badge(
-                  child: Icon(Icons.notifications),
-
-                ),
-              ),
-            ],
-          ),
-        ],
+            ),
+          ],
+        ),
       ),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
