@@ -65,8 +65,21 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       ],
                     ),
                     padding: EdgeInsets.all(6),
-                    child: Badge(child: Icon(Icons.notifications),),
+                    child: Badge(child: Icon(Icons.notifications)),
                   ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Orders",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  TextButton(onPressed: () {}, child: Text("Go to Orders")),
                 ],
               ),
             ),
