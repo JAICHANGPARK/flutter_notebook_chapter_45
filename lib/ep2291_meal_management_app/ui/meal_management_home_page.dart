@@ -42,26 +42,22 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     size: 28,
                     color: Colors.grey,
                   ),
-                  Text("Inventory",style: TextStyle(
-                    color: Colors.grey,
-                  ),),
+                  Text("Inventory", style: TextStyle(color: Colors.grey)),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
                 ],
               ),
             ),
-            Expanded(
-
-                child: Column(children: [])),
+            Expanded(child: Column(children: [])),
             Expanded(
               child: Column(
                 children: [
-                  Icon(Icons.room_service_outlined, size: 28,
+                  Icon(
+                    Icons.room_service_outlined,
+                    size: 28,
                     color: Colors.grey,
                   ),
-                  Text("Menu",style: TextStyle(
-                    color: Colors.grey,
-                  ),),
+                  Text("Menu", style: TextStyle(color: Colors.grey)),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
                 ],
@@ -70,10 +66,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  CircleAvatar(radius: 14, ),
-                  Text("Profile",style: TextStyle(
-                    color: Colors.grey,
-                  ),),
+                  CircleAvatar(radius: 14),
+                  Text("Profile", style: TextStyle(color: Colors.grey)),
                   Gap(4),
                   CircleAvatar(radius: 4, backgroundColor: Colors.transparent),
                 ],
