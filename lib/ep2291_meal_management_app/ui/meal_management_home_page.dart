@@ -56,6 +56,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(5),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black12,
+                          blurRadius: 3,
+                          spreadRadius: 2,
+                        ),
+                      ],
                     ),
                     child: Badge(child: Icon(Icons.notifications)),
                   ),
