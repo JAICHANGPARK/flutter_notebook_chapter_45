@@ -13,6 +13,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(252, 252, 252, 1),
+      body: Column(
+        children: [
+
+        ],
+      ),
       bottomNavigationBar: BottomAppBar(
         color: Colors.white,
         elevation: 9,
