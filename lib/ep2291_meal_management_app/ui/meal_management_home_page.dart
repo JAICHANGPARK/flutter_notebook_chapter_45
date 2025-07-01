@@ -40,6 +40,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(5),
                 ),
+                child: Badge(
+                  child: Icon(Icons.notifications),
+
+                ),
               ),
             ],
           ),
