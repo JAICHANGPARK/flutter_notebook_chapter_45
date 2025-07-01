@@ -18,15 +18,23 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
         children: [
           Row(
             children: [
-              CircleAvatar(
-                radius: 26,
+              CircleAvatar(radius: 26),
+              Expanded(
+                child: Column(
+                  children: [
+                    Text("Dream's Kitchen"),
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.grey[200]!,
+                      ),
+                      child: Text("Cookstro"),
+                    ),
+                  ],
+                ),
               ),
-              Expanded(child: Column(children: [
-                Text("Dream's Kitchen")
-              ],))
             ],
-          )
-
+          ),
         ],
       ),
       bottomNavigationBar: BottomAppBar(
