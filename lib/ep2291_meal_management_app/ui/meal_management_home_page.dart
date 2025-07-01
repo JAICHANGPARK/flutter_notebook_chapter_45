@@ -100,12 +100,34 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Orders",
+                    "Inventory",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                   TextButton(
                     onPressed: () {},
-                    child: Text("Go to Orders"),
+                    child: Text("Go to Inventory"),
+                    style: TextButton.styleFrom(
+                      textStyle: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "Menu",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("Go to Menu"),
                     style: TextButton.styleFrom(
                       textStyle: TextStyle(
                         fontSize: 18,
