@@ -116,6 +116,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 ],
               ),
             ),
+            Container(
+              height: 320,
+              child: Placeholder(),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
