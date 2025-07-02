@@ -135,7 +135,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                             CircleAvatar(radius: 13),
                           ],
                         ),
-                        Text("Mon 11:00 am - 11:15 am"),
+                        Text("Mon 11:00 am - 11:15 am",style: TextStyle(
+                          fontSize: 13,
+                        ),),
                         Row(
                           children: [
                             Container(
