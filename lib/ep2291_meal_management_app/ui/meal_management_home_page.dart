@@ -125,9 +125,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text("No 34621"),
-                            CircleAvatar(radius: 16),
+                            CircleAvatar(radius: 13),
                           ],
                         ),
                         Text("Mon 11:00 am - 11:15 am"),
