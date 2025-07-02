@@ -127,7 +127,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("No 34621"),
+                            Text(
+                              "No 34621",
+                              style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 16,),
+                            ),
                             CircleAvatar(radius: 13),
                           ],
                         ),
