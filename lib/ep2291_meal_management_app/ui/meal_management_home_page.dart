@@ -201,9 +201,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             ),
             Container(
               height: 320,
-              child: ListView.builder(itemBuilder: (context, index) {
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) {
                 return Container(
+                  width: 180,
                   decoration: BoxDecoration(
+                    color: Colors.grey,
                     borderRadius: BorderRadius.circular(6),
                   ),
                 );
