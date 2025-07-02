@@ -101,8 +101,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 itemBuilder: (context, index) {
                   return Container(
                     width: 180,
+                    margin: EdgeInsets.only(
+                      right: 16
+                    ),
                     decoration: BoxDecoration(color: Colors.white,
-                    borderRadius: BorderRadius.circular(radius),
+                    borderRadius: BorderRadius.circular(12),
+
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black12,
