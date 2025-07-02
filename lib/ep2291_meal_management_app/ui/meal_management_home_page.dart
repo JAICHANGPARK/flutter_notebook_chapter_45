@@ -96,7 +96,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Container(
               height: 180,
               padding: EdgeInsets.only(
-                left: 16
+                left: 0
               ),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -105,10 +105,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   return Container(
                     width: 180,
                     margin: EdgeInsets.only(
-                      right: 8,
+                      right: 0,
                       top: 16,
                       bottom: 16,
-                      left: 8
+                      left: 16
                     ),
                     decoration: BoxDecoration(color: Colors.white,
                     borderRadius: BorderRadius.circular(12),
