@@ -82,13 +82,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   ),
                   TextButton(
                     onPressed: () {},
-                    child: Text("Go to Orders"),
                     style: TextButton.styleFrom(
                       textStyle: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
+                    child: Text("Go to Orders"),
                   ),
                 ],
               ),
