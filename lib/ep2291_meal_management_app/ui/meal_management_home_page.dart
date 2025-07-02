@@ -94,7 +94,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               ),
             ),
             Container(
-              height: 170,
+              height: 160,
               padding: EdgeInsets.only(left: 0),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
@@ -123,6 +123,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     padding: EdgeInsets.all(12),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 6,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -139,12 +140,23 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           fontSize: 13,
                         ),),
                         Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               height: 42,
                               width: 42,
                               decoration: BoxDecoration(color: Colors.orange),
                             ),
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(color: Colors.orange),
+                            ), Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(color: Colors.orange),
+                            ),
+
                           ],
                         ),
                       ],
