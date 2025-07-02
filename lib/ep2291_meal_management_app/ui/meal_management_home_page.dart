@@ -94,7 +94,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               ),
             ),
             Container(
-              height: 180,
+              height: 170,
               padding: EdgeInsets.only(
                 left: 0
               ),
@@ -115,7 +115,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
 
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.black12,
+                        color: Colors.black.withValues(alpha: .1),
                         blurRadius: 16,
                         spreadRadius: 5,
                       ),
