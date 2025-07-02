@@ -130,38 +130,45 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           children: [
                             Text(
                               "No 34621",
-                              style: TextStyle(fontWeight: FontWeight.bold,
-                              fontSize: 16,),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                              ),
                             ),
                             CircleAvatar(radius: 13),
                           ],
                         ),
-                        Text("Mon 11:00 am - 11:15 am",style: TextStyle(
-                          fontSize: 13,
-                        ),),
+                        Text(
+                          "Mon 11:00 am - 11:15 am",
+                          style: TextStyle(fontSize: 13),
+                        ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Container(
                               height: 42,
                               width: 42,
-                              decoration: BoxDecoration(color: Colors.orange,
-                              borderRadius: BorderRadius.circular(8)),
+                              decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(8),
+                              ),
                             ),
                             Container(
                               height: 42,
                               width: 42,
-                              decoration: BoxDecoration(color: Colors.orange,
-                                  borderRadius: BorderRadius.circular(8)
-                              ),
-                            ), Container(
-                              height: 42,
-                              width: 42,
-                              decoration: BoxDecoration(color: Colors.orange,
-                                  borderRadius: BorderRadius.circular(8)
+                              decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(8),
                               ),
                             ),
-
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(
+                                color: Colors.orange,
+                                borderRadius: BorderRadius.circular(8),
+                              ),
+                            ),
                           ],
                         ),
                       ],
@@ -192,7 +199,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 ],
               ),
             ),
-            Container(height: 320, child: Placeholder()),
+            Container(
+              height: 320,
+              child: ListView.builder(itemBuilder: (context, index) {}),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
