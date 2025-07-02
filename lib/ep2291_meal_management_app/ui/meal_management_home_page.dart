@@ -199,13 +199,19 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 ],
               ),
             ),
-            SizedBox(
+            Container(
               height: 320,
+              padding: EdgeInsets.only(
+                left: 16
+              ),
               child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
                 return Container(
                   width: 180,
+                  margin: EdgeInsets.only(
+                    right: 16
+                  ),
                   decoration: BoxDecoration(
                     color: Colors.grey,
                     borderRadius: BorderRadius.circular(6),
