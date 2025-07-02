@@ -111,13 +111,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       left: 16
                     ),
                     decoration: BoxDecoration(color: Colors.white,
-                    borderRadius: BorderRadius.circular(12),
+                    borderRadius: BorderRadius.circular(16),
 
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black12,
-                        blurRadius: 24,
-                        spreadRadius: 2,
+                        blurRadius: 16,
+                        spreadRadius: 5,
                       ),
                       
                     ],),
