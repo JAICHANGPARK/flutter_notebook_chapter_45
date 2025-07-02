@@ -93,7 +93,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 ],
               ),
             ),
-            Container(height: 180, child: Placeholder()),
+            Container(
+              height: 180,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 5,
+                itemBuilder: (context, index) {},
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
@@ -116,10 +123,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 ],
               ),
             ),
-            Container(
-              height: 320,
-              child: Placeholder(),
-            ),
+            Container(height: 320, child: Placeholder()),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
               child: Row(
