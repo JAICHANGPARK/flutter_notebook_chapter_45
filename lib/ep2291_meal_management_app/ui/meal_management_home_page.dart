@@ -95,9 +95,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             ),
             Container(
               height: 170,
-              padding: EdgeInsets.only(
-                left: 0
-              ),
+              padding: EdgeInsets.only(left: 0),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemCount: 5,
@@ -108,20 +106,40 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       right: 0,
                       top: 16,
                       bottom: 16,
-                      left: 16
+                      left: 16,
                     ),
-                    decoration: BoxDecoration(color: Colors.white,
-                    borderRadius: BorderRadius.circular(16),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(16),
 
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: .1),
-                        blurRadius: 16,
-                        spreadRadius: 5,
-                      ),
-                      
-                    ],),
-                    child: Column(children: []),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .05),
+                          blurRadius: 16,
+                          spreadRadius: 5,
+                        ),
+                      ],
+                    ),
+                    child: Column(
+                      children: [
+                        Row(
+                          children: [
+                            Text("No 34621"),
+                            CircleAvatar(radius: 16),
+                          ],
+                        ),
+                        Text("Mon 11:00 am - 11:15 am"),
+                        Row(
+                          children: [
+                            Container(
+                              height: 42,
+                              width: 42,
+                              decoration: BoxDecoration(color: Colors.orange),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
