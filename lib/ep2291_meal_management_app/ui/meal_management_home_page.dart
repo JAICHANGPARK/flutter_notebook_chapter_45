@@ -116,8 +116,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black12,
-                        blurRadius: 8,
-                        spreadRadius: 5,
+                        blurRadius: 24,
+                        spreadRadius: 2,
                       ),
                       
                     ],),
