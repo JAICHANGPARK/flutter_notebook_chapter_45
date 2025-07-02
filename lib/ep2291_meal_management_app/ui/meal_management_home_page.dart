@@ -121,6 +121,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       ],
                     ),
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           children: [
