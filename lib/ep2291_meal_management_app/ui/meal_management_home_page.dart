@@ -231,7 +231,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("Classic Burger"),
+                              Text(
+                                "Classic Burger",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
                               Row(
                                 children: [
                                   Icon(Icons.local_fire_department),
@@ -239,6 +245,15 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 ],
                               ),
                               Text("Homemade beef culet with signature.."),
+                              Row(
+                                children: [
+                                  Text("\$14"),
+                                  Text("🌶️"),
+                                  Text("🌶️"),
+                                  Text("🌶️"),
+
+                                ],
+                              )
                             ],
                           ),
                         ),
