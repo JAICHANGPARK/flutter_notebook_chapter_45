@@ -140,7 +140,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 fontSize: 16,
                               ),
                             ),
-                            CircleAvatar(radius: 13),
+                            CircleAvatar(
+                              radius: 13,
+                              backgroundColor: Color.fromRGBO(205, 217, 171, 1),
+                            ),
                           ],
                         ),
                         Text(
