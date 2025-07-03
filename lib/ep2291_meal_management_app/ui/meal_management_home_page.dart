@@ -87,6 +87,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
+
                     ),
                     child: Text("Go to Orders"),
                   ),
