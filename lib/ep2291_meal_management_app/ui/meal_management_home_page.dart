@@ -224,9 +224,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     child: Column(
                       children: [
                         Container(
-                          height: 200,
+                          height: 160,
                           decoration: BoxDecoration(color: Colors.green),
                         ),
+                        Expanded(child: Column(children: [
+
+                        ],))
                       ],
                     ),
                   );
