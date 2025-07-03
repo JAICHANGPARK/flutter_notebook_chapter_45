@@ -1,0 +1,4 @@
+
+class MealAppColor{
+  static
+}
