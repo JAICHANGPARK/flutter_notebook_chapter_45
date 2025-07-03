@@ -218,7 +218,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     width: 180,
                     margin: EdgeInsets.only(right: 16),
                     decoration: BoxDecoration(
-                      color: Colors.grey,
+                      color: Colors.white,
                       borderRadius: BorderRadius.circular(6),
                     ),
                     child: Column(
