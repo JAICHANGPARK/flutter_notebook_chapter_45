@@ -259,7 +259,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 ),
                                 Row(
                                   children: [
-                                    Text("\$14"),
+                                    Text("\$14",
+                                      style: TextStyle(fontWeight: FontWeight.bold,
+                                      fontSize: 16),),
                                     Spacer(),
                                     Text("🌶️"),
                                     Text("🌶️"),
