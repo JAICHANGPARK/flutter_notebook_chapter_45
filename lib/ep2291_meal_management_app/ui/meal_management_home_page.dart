@@ -195,6 +195,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
+                      foregroundColor: MealAppColor.accentColor,
                     ),
                     child: Text("Go to Inventory"),
                   ),
