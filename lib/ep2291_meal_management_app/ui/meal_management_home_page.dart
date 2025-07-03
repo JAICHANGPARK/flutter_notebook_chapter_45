@@ -24,7 +24,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               child: Row(
                 spacing: 16,
                 children: [
-                  CircleAvatar(radius: 26,backgroundColor: MealAppColor.accentColor,),
+                  CircleAvatar(
+                    radius: 26,
+                    backgroundColor: MealAppColor.accentColor,
+                  ),
                   Expanded(
                     child: Column(
                       spacing: 3,
@@ -204,23 +207,20 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             ),
             Container(
               height: 320,
-              padding: EdgeInsets.only(
-                left: 16
-              ),
+              padding: EdgeInsets.only(left: 16),
               child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) {
-                return Container(
-                  width: 180,
-                  margin: EdgeInsets.only(
-                    right: 16
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.grey,
-                    borderRadius: BorderRadius.circular(6),
-                  ),
-                );
-              }),
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    width: 180,
+                    margin: EdgeInsets.only(right: 16),
+                    decoration: BoxDecoration(
+                      color: Colors.grey,
+                      borderRadius: BorderRadius.circular(6),
+                    ),
+                  );
+                },
+              ),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 16),
