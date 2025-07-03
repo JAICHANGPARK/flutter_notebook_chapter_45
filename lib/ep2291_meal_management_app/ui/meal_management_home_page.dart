@@ -225,7 +225,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       children: [
                         Container(
                           height: 160,
-                          decoration: BoxDecoration(color: Colors.green),
+                          decoration: BoxDecoration(color: Colors.green,
+                          borderRadius: BorderRadius.circular(16)),
                         ),
 
                         Expanded(
@@ -240,7 +241,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black,
-                                    
+                                    fontSize: 18,
                                   ),
                                 ),
                                 Row(
