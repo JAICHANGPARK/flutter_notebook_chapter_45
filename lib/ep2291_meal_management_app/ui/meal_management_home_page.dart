@@ -267,7 +267,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   color:  MealAppColor.accentColor,
                   ),),
                   Gap(4),
-                  CircleAvatar(radius: 4),
+                  CircleAvatar(radius: 4,backgroundColor:  MealAppColor.accentColor,),
                 ],
               ),
             ),
