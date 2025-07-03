@@ -238,6 +238,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
                       ),
+                      foregroundColor: MealAppColor.accentColor,
                     ),
                     child: Text("Go to Menu"),
                   ),
@@ -261,7 +262,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  Icon(Icons.bakery_dining, size: 28),
+                  Icon(Icons.bakery_dining, size: 28,color:  MealAppColor.accentColor,),
                   Text("Home"),
                   Gap(4),
                   CircleAvatar(radius: 4),
