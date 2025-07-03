@@ -230,7 +230,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
 
                         Expanded(
                           child: Padding(
-                            padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                            padding: const EdgeInsets.fromLTRB(12, 16, 12, 12),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -240,6 +240,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black,
+                                    
                                   ),
                                 ),
                                 Row(
