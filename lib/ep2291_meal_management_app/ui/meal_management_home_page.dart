@@ -227,36 +227,41 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           height: 160,
                           decoration: BoxDecoration(color: Colors.green),
                         ),
+
                         Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                "Classic Burger",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                          child: Padding(
+                            padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              children: [
+                                Text(
+                                  "Classic Burger",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
                                 ),
-                              ),
-                              Row(
-                                children: [
-                                  Icon(Icons.local_fire_department),
-                                  Text("450 cal"),
-                                ],
-                              ),
-                              Text("Homemade beef culet with signature.."),
-                              Row(
+                                Row(
+                                  children: [
+                                    Icon(Icons.local_fire_department),
+                                    Text("450 cal"),
+                                  ],
+                                ),
+                                Text("Homemade beef culet with signature.."),
+                                Row(
 
-                                children: [
-                                  Text("\$14"),
-                                  Spacer(),
-                                  Text("🌶️"),
-                                  Text("🌶️"),
-                                  Text("🌶️"),
+                                  children: [
+                                    Text("\$14"),
+                                    Spacer(),
+                                    Text("🌶️"),
+                                    Text("🌶️"),
+                                    Text("🌶️"),
 
-                                ],
-                              )
-                            ],
+                                  ],
+                                )
+                              ],
+                            ),
                           ),
                         ),
                       ],
