@@ -251,9 +251,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   Text("\$14"),
                                   Spacer(),
                                   Text("🌶️"),
-                                  Text("🌶️",style: TextStyle(
-                                    color: Colors.grey,
-                                  ),),
+                                  Text("🌶️"),
                                   Text("🌶️"),
 
                                 ],
