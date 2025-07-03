@@ -233,13 +233,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                             padding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
                                   "Classic Burger",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.white,
+                                    color: Colors.black,
                                   ),
                                 ),
                                 Row(
