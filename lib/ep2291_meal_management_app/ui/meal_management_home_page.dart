@@ -246,10 +246,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                               ),
                               Text("Homemade beef culet with signature.."),
                               Row(
+
                                 children: [
                                   Text("\$14"),
+                                  Spacer(),
                                   Text("🌶️"),
-                                  Text("🌶️"),
+                                  Text("🌶️",style: TextStyle(
+                                    color: Colors.grey,
+                                  ),),
                                   Text("🌶️"),
 
                                 ],
