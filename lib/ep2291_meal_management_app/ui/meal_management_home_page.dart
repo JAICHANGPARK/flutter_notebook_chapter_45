@@ -269,7 +269,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                   ),
                   Text(
                     "Home",
-                    style: TextStyle(color: MealAppColor.accentColor),
+                    style: TextStyle(
+                      color: MealAppColor.accentColor,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   Gap(4),
                   CircleAvatar(
