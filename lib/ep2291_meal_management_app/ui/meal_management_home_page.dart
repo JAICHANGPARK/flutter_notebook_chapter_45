@@ -221,6 +221,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       color: Colors.grey,
                       borderRadius: BorderRadius.circular(6),
                     ),
+                    child: Column(
+                      children: [
+                        Container(
+                          height: 200,
+                          decoration: BoxDecoration(color: Colors.green),
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
