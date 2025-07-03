@@ -262,12 +262,20 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
             Expanded(
               child: Column(
                 children: [
-                  Icon(Icons.bakery_dining, size: 28,color:  MealAppColor.accentColor,),
-                  Text("Home",style: TextStyle(
-                  color:  MealAppColor.accentColor,
-                  ),),
+                  Icon(
+                    Icons.bakery_dining,
+                    size: 28,
+                    color: MealAppColor.accentColor,
+                  ),
+                  Text(
+                    "Home",
+                    style: TextStyle(color: MealAppColor.accentColor),
+                  ),
                   Gap(4),
-                  CircleAvatar(radius: 4,backgroundColor:  MealAppColor.accentColor,),
+                  CircleAvatar(
+                    radius: 4,
+                    backgroundColor: MealAppColor.accentColor,
+                  ),
                 ],
               ),
             ),
