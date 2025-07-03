@@ -24,7 +24,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               child: Row(
                 spacing: 16,
                 children: [
-                  CircleAvatar(radius: 26),
+                  CircleAvatar(radius: 26,backgroundColor: MealAppColor.accentColor,),
                   Expanded(
                     child: Column(
                       spacing: 3,
