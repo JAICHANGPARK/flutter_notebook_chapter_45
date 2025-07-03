@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_45/ep2291_meal_management_app/theme.dart';
 import 'package:gap/gap.dart';
 
 class MealManagementHomePage extends StatefulWidget {
@@ -313,6 +314,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
           borderRadius: BorderRadiusGeometry.circular(32),
         ),
         onPressed: () {},
+        backgroundColor: MealAppColor.accentColor,
+        foregroundColor: Colors.white,
         child: Icon(Icons.list_alt),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
