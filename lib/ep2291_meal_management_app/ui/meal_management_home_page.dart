@@ -225,8 +225,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       children: [
                         Container(
                           height: 160,
-                          decoration: BoxDecoration(color: Colors.green,
-                          borderRadius: BorderRadius.circular(16)),
+                          decoration: BoxDecoration(
+                            color: Colors.green,
+                            borderRadius: BorderRadius.circular(16),
+                          ),
                         ),
 
                         Expanded(
@@ -245,23 +247,25 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   ),
                                 ),
                                 Row(
+                                  spacing: 6,
                                   children: [
-                                    Icon(Icons.local_fire_department),
+                                    Icon(Icons.local_fire_department, size: 16),
                                     Text("450 cal"),
                                   ],
                                 ),
-                                Text("Homemade beef culet with signature.."),
+                                Text(
+                                  "Homemade beef culet with signature..",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
                                 Row(
-
                                   children: [
                                     Text("\$14"),
                                     Spacer(),
                                     Text("🌶️"),
                                     Text("🌶️"),
                                     Text("🌶️"),
-
                                   ],
-                                )
+                                ),
                               ],
                             ),
                           ),
