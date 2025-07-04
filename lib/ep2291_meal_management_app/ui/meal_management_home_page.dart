@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_45/ep2291_meal_management_app/theme.dart';
 import 'package:gap/gap.dart';
 
+import 'meal_management_detail_page.dart';
+
 class MealManagementHomePage extends StatefulWidget {
   const MealManagementHomePage({super.key});
 
