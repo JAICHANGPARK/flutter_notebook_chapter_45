@@ -238,14 +238,24 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           child: Stack(
                             children: [
                               Positioned(
-                                  right: 12,
-                                  top: 12,
+                                right: 12,
+                                top: 12,
 
-                                  child: Row(children: [
-                                Text("150"),
-                                CircleAvatar(backgroundColor: Colors.white,),
-
-                              ],))
+                                child: Row(
+                                  spacing: 8,
+                                  children: [
+                                    Text("150"),
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      radius: 18,
+                                      child: Icon(
+                                        Icons.favorite,
+                                        color: Colors.red,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         ),
