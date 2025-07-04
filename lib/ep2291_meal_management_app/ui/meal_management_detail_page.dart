@@ -34,8 +34,9 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(Icons.arrow_back),
+                  Icon(Icons.arrow_back,color: Colors.white,),
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                     decoration: BoxDecoration(color: Colors.white),
                     child: Icon(Icons.edit),
                   ),
