@@ -271,6 +271,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     shape: StadiumBorder(),
                                     color: Colors.white,
                                   ),
+                                  padding: EdgeInsets.symmetric(horizontal: 12),
+                                  child: Text("23/25"),
                                 ),
                               ),
                             ],
