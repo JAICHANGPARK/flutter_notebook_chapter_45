@@ -34,11 +34,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(Icons.arrow_back,color: Colors.white,),
+                  Icon(Icons.arrow_back, color: Colors.white),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
-                    decoration: BoxDecoration(color: Colors.white,
-                    borderRadius: BorderRadius.circular(4)),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(4),
+                    ),
                     child: Icon(Icons.edit),
                   ),
                 ],
@@ -51,7 +53,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
             bottom: 0,
             child: Container(
               height: MediaQuery.sizeOf(context).height - 320,
-
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
@@ -59,7 +60,28 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   topRight: Radius.circular(32),
                 ),
               ),
-              child: Column(children: []),
+              child: Column(children: [
+                Row(
+                  children: [
+                    Text("Beef burger"),
+                    CircleAvatar()
+                  ],
+                ),
+                Row(
+                  children: [
+                    Icon(
+                      Icons.local_fire_department,
+                      size: 16,
+                      color: Colors.red,
+                    ),
+                    Text("450 cal"),
+                    Spacer(),
+                    Text("🌶️"),
+                    Text("🌶️"),
+                    Text("🌶️"),
+                  ],
+                )
+              ]),
             ),
           ),
         ],
