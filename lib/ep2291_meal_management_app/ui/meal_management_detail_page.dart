@@ -13,7 +13,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          
+
         ],
       ),
     );
