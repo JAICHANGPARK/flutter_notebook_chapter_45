@@ -27,6 +27,17 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               ],
             ),
           ),
+          Positioned(
+              left: 0,
+              right: 0,
+              bottom: 0,
+              child: Container(
+                child: Column(
+                  children: [
+                    
+                  ],
+                ),
+              ))
         ],
       ),
     );
