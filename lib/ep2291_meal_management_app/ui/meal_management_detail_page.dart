@@ -60,28 +60,25 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   topRight: Radius.circular(32),
                 ),
               ),
-              child: Column(children: [
-                Row(
-                  children: [
-                    Text("Beef burger"),
-                    CircleAvatar()
-                  ],
-                ),
-                Row(
-                  children: [
-                    Icon(
-                      Icons.local_fire_department,
-                      size: 16,
-                      color: Colors.red,
-                    ),
-                    Text("450 cal"),
-                    Spacer(),
-                    Text("🌶️"),
-                    Text("🌶️"),
-                    Text("🌶️"),
-                  ],
-                )
-              ]),
+              child: Column(
+                children: [
+                  Row(children: [Text("Beef burger"), CircleAvatar()]),
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.local_fire_department,
+                        size: 16,
+                        color: Colors.red,
+                      ),
+                      Text("450 cal"),
+                      Spacer(),
+                      Text("🌶️"),
+                      Text("🌶️"),
+                      Text("🌶️"),
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
         ],
