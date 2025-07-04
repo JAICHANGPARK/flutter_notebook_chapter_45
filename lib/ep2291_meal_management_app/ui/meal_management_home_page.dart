@@ -273,7 +273,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   ),
                                   padding: EdgeInsets.symmetric(
                                     horizontal: 12,
-                                    vertical: 8,
+                                    vertical: 4,
                                   ),
                                   child: Text(
                                     "23/25",
@@ -306,7 +306,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 Row(
                                   spacing: 6,
                                   children: [
-                                    Icon(Icons.local_fire_department, size: 16),
+                                    Icon(
+                                      Icons.local_fire_department,
+                                      size: 16,
+                                      color: Colors.red,
+                                    ),
                                     Text("450 cal"),
                                   ],
                                 ),
