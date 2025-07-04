@@ -109,7 +109,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
-                      
+
                     },
                     child: Container(
                       width: 180,
@@ -226,137 +226,146 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
-                  return Container(
-                    width: 180,
-                    margin: EdgeInsets.only(right: 16, bottom: 16),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(6),
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withValues(alpha: .1),
-                          blurRadius: 12,
-                          spreadRadius: 6,
+                  return InkWell(
+                    onTap: (){
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => MealManagementDetailPage(),
                         ),
-                      ],
-                    ),
-                    child: Column(
-                      children: [
-                        Container(
-                          height: 160,
-                          decoration: BoxDecoration(
-                            color: Colors.green,
-                            borderRadius: BorderRadius.circular(16),
-                            image: DecorationImage(
-                              image: NetworkImage(
-                                "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                      );
+                    },
+                    child: Container(
+                      width: 180,
+                      margin: EdgeInsets.only(right: 16, bottom: 16),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(6),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .1),
+                            blurRadius: 12,
+                            spreadRadius: 6,
+                          ),
+                        ],
+                      ),
+                      child: Column(
+                        children: [
+                          Container(
+                            height: 160,
+                            decoration: BoxDecoration(
+                              color: Colors.green,
+                              borderRadius: BorderRadius.circular(16),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                ),
+                                fit: BoxFit.cover,
                               ),
-                              fit: BoxFit.cover,
                             ),
-                          ),
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                right: 12,
-                                top: 12,
-
-                                child: Row(
-                                  spacing: 8,
-                                  children: [
-                                    Text(
-                                      "150",
-                                      style: TextStyle(
-                                        color: Colors.white,
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 16,
-                                      ),
-                                    ),
-                                    CircleAvatar(
-                                      backgroundColor: Colors.white,
-                                      radius: 18,
-                                      child: Icon(
-                                        Icons.favorite,
-                                        color: Colors.red,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                              Positioned(
-                                bottom: 12,
-                                right: 12,
-                                child: Container(
-                                  decoration: ShapeDecoration(
-                                    shape: StadiumBorder(),
-                                    color: Colors.white,
-                                  ),
-                                  padding: EdgeInsets.symmetric(
-                                    horizontal: 12,
-                                    vertical: 4,
-                                  ),
-                                  child: Text(
-                                    "23/25",
-                                    style: TextStyle(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-
-                        Expanded(
-                          child: Padding(
-                            padding: const EdgeInsets.fromLTRB(12, 16, 12, 12),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            child: Stack(
                               children: [
-                                Text(
-                                  "Classic Burger",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black,
-                                    fontSize: 18,
+                                Positioned(
+                                  right: 12,
+                                  top: 12,
+
+                                  child: Row(
+                                    spacing: 8,
+                                    children: [
+                                      Text(
+                                        "150",
+                                        style: TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                      CircleAvatar(
+                                        backgroundColor: Colors.white,
+                                        radius: 18,
+                                        child: Icon(
+                                          Icons.favorite,
+                                          color: Colors.red,
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
-                                Row(
-                                  spacing: 6,
-                                  children: [
-                                    Icon(
-                                      Icons.local_fire_department,
-                                      size: 16,
-                                      color: Colors.red,
+                                Positioned(
+                                  bottom: 12,
+                                  right: 12,
+                                  child: Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.white,
                                     ),
-                                    Text("450 cal"),
-                                  ],
-                                ),
-                                Text(
-                                  "Homemade beef culet with signature..",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
-                                ),
-                                Row(
-                                  children: [
-                                    Text(
-                                      "\$14",
+                                    padding: EdgeInsets.symmetric(
+                                      horizontal: 12,
+                                      vertical: 4,
+                                    ),
+                                    child: Text(
+                                      "23/25",
                                       style: TextStyle(
-                                        fontWeight: FontWeight.bold,
                                         fontSize: 16,
+                                        fontWeight: FontWeight.bold,
                                       ),
                                     ),
-                                    Spacer(),
-                                    Text("🌶️"),
-                                    Text("🌶️"),
-                                    Text("🌶️"),
-                                  ],
+                                  ),
                                 ),
                               ],
                             ),
                           ),
-                        ),
-                      ],
+
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.fromLTRB(12, 16, 12, 12),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    "Classic Burger",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.black,
+                                      fontSize: 18,
+                                    ),
+                                  ),
+                                  Row(
+                                    spacing: 6,
+                                    children: [
+                                      Icon(
+                                        Icons.local_fire_department,
+                                        size: 16,
+                                        color: Colors.red,
+                                      ),
+                                      Text("450 cal"),
+                                    ],
+                                  ),
+                                  Text(
+                                    "Homemade beef culet with signature..",
+                                    style: TextStyle(fontWeight: FontWeight.bold),
+                                  ),
+                                  Row(
+                                    children: [
+                                      Text(
+                                        "\$14",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                      Spacer(),
+                                      Text("🌶️"),
+                                      Text("🌶️"),
+                                      Text("🌶️"),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   );
                 },
