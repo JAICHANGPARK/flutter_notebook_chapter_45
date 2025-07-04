@@ -192,7 +192,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 children: [
                   Text(
                     "Inventory",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   TextButton(
                     onPressed: () {},
@@ -223,7 +223,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                       boxShadow: [
                         BoxShadow(
                           color: Colors.black.withValues(alpha: .1),
-                          blurRadius: 3,
+                          blurRadius: 12,
                           spreadRadius: 6,
                         )
                       ],
