@@ -249,6 +249,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
+                                        fontSize: 16,
                                       ),
                                     ),
                                     CircleAvatar(
