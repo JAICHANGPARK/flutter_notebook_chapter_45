@@ -228,8 +228,12 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.green,
                             borderRadius: BorderRadius.circular(16),
-                            image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg"),
-                            fit: BoxFit.cover,)
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
                           ),
                         ),
 
@@ -261,9 +265,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 ),
                                 Row(
                                   children: [
-                                    Text("\$14",
-                                      style: TextStyle(fontWeight: FontWeight.bold,
-                                      fontSize: 16),),
+                                    Text(
+                                      "\$14",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      ),
+                                    ),
                                     Spacer(),
                                     Text("🌶️"),
                                     Text("🌶️"),
