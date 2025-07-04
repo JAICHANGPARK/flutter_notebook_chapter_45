@@ -18,11 +18,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
 
             child: Column(
               children: [
-                Expanded(
-                  child: Image.network(
-                    "https://cdn.pixabay.com/photo/2023/01/20/19/41/burger-7732455_1280.jpg",
-                    fit: BoxFit.cover,
-                  ),
+                Image.network(
+                  "https://cdn.pixabay.com/photo/2023/01/20/19/41/burger-7732455_1280.jpg",
+                  fit: BoxFit.cover,
+                  height: 360,
                 ),
                 Expanded(child: Placeholder()),
               ],
