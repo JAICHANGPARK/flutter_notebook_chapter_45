@@ -244,7 +244,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 child: Row(
                                   spacing: 8,
                                   children: [
-                                    Text("150"),
+                                    Text(
+                                      "150",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     CircleAvatar(
                                       backgroundColor: Colors.white,
                                       radius: 18,
