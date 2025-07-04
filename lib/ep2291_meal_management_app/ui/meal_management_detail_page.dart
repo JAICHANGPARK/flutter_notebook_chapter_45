@@ -32,6 +32,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
             right: 16,
             child: SafeArea(
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Icon(Icons.arrow_back),
                   Container(
