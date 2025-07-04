@@ -15,7 +15,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
       body: Stack(
         children: [
           Positioned.fill(
-
             child: Column(
               children: [
                 Image.network(
@@ -28,23 +27,22 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
             ),
           ),
           Positioned(
-              left: 0,
-              right: 0,
-              bottom: 0,
-              child: Container(
-                height: MediaQuery.sizeOf(context).height - 320,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              height: MediaQuery.sizeOf(context).height - 320,
 
-                decoration: BoxDecoration(color: Colors.white,
+              decoration: BoxDecoration(
+                color: Colors.white,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(32),
-                  topRight:  Radius.circular(32),
-                )),
-                child: Column(
-                  children: [
-
-                  ],
+                  topRight: Radius.circular(32),
                 ),
-              ))
+              ),
+              child: Column(children: []),
+            ),
+          ),
         ],
       ),
     );
