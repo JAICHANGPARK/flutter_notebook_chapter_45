@@ -82,7 +82,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 children: [
                   Text(
                     "Orders",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                   TextButton(
                     onPressed: () {},
@@ -109,7 +109,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                     width: 180,
                     margin: EdgeInsets.only(
                       right: 0,
-                      top: 16,
+                      top: 12,
                       bottom: 16,
                       left: 16,
                     ),
