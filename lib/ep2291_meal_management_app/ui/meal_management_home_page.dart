@@ -235,6 +235,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                               fit: BoxFit.cover,
                             ),
                           ),
+                          child: Stack(
+                            children: [
+                              
+                            ],
+                          ),
                         ),
 
                         Expanded(
