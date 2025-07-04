@@ -109,11 +109,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute(
-                          builder: (context) => MealManagementDetailPage(),
-                        ),
-                      );
+                      
                     },
                     child: Container(
                       width: 180,
