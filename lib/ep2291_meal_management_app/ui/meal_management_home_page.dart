@@ -209,17 +209,24 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
               ),
             ),
             Container(
-              height: 320,
+              height: 340,
               padding: EdgeInsets.only(left: 16),
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
                     width: 180,
-                    margin: EdgeInsets.only(right: 16),
+                    margin: EdgeInsets.only(right: 16, bottom: 16),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(6),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withValues(alpha: .1),
+                          blurRadius: 3,
+                          spreadRadius: 6,
+                        )
+                      ],
                     ),
                     child: Column(
                       children: [
