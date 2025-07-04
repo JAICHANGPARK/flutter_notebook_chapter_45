@@ -105,81 +105,95 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 scrollDirection: Axis.horizontal,
                 itemCount: 5,
                 itemBuilder: (context, index) {
-                  return Container(
-                    width: 180,
-                    margin: EdgeInsets.only(
-                      right: 0,
-                      top: 12,
-                      bottom: 16,
-                      left: 16,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(16),
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => MealManagementDetailPage(),
+                        ),
+                      );
+                    },
+                    child: Container(
+                      width: 180,
+                      margin: EdgeInsets.only(
+                        right: 0,
+                        top: 12,
+                        bottom: 16,
+                        left: 16,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
 
-                      boxShadow: [
-                        BoxShadow(
-                          color: Colors.black.withValues(alpha: .05),
-                          blurRadius: 16,
-                          spreadRadius: 5,
-                        ),
-                      ],
-                    ),
-                    padding: EdgeInsets.all(12),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 6,
-                      children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text(
-                              "No 34621",
-                              style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withValues(alpha: .05),
+                            blurRadius: 16,
+                            spreadRadius: 5,
+                          ),
+                        ],
+                      ),
+                      padding: EdgeInsets.all(12),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 6,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "No 34621",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
                               ),
-                            ),
-                            CircleAvatar(
-                              radius: 13,
-                              backgroundColor: Color.fromRGBO(205, 217, 171, 1),
-                            ),
-                          ],
-                        ),
-                        Text(
-                          "Mon 11:00 am - 11:15 am",
-                          style: TextStyle(fontSize: 13),
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Container(
-                              height: 42,
-                              width: 42,
-                              decoration: BoxDecoration(
-                                color: Colors.orange,
-                                borderRadius: BorderRadius.circular(8),
+                              CircleAvatar(
+                                radius: 13,
+                                backgroundColor: Color.fromRGBO(
+                                  205,
+                                  217,
+                                  171,
+                                  1,
+                                ),
                               ),
-                            ),
-                            Container(
-                              height: 42,
-                              width: 42,
-                              decoration: BoxDecoration(
-                                color: Colors.orange,
-                                borderRadius: BorderRadius.circular(8),
+                            ],
+                          ),
+                          Text(
+                            "Mon 11:00 am - 11:15 am",
+                            style: TextStyle(fontSize: 13),
+                          ),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Container(
+                                height: 42,
+                                width: 42,
+                                decoration: BoxDecoration(
+                                  color: Colors.orange,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
                               ),
-                            ),
-                            Container(
-                              height: 42,
-                              width: 42,
-                              decoration: BoxDecoration(
-                                color: Colors.orange,
-                                borderRadius: BorderRadius.circular(8),
+                              Container(
+                                height: 42,
+                                width: 42,
+                                decoration: BoxDecoration(
+                                  color: Colors.orange,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
                               ),
-                            ),
-                          ],
-                        ),
-                      ],
+                              Container(
+                                height: 42,
+                                width: 42,
+                                decoration: BoxDecoration(
+                                  color: Colors.orange,
+                                  borderRadius: BorderRadius.circular(8),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ),
                   );
                 },
@@ -225,7 +239,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           color: Colors.black.withValues(alpha: .1),
                           blurRadius: 12,
                           spreadRadius: 6,
-                        )
+                        ),
                       ],
                     ),
                     child: Column(
