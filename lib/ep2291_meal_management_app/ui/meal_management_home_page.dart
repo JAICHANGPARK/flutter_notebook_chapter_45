@@ -228,7 +228,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                           decoration: BoxDecoration(
                             color: Colors.green,
                             borderRadius: BorderRadius.circular(16),
-                            image: DecorationImage(image: NetworkImage("url"))
+                            image: DecorationImage(image: NetworkImage("https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg"),
+                            fit: BoxFit.cover,)
                           ),
                         ),
 
