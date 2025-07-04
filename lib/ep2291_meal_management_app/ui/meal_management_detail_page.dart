@@ -32,7 +32,8 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               right: 0,
               bottom: 0,
               child: Container(
-                color: Colors.white,
+                height: MediaQuery.sizeOf(context).height - 320,
+
                 decoration: BoxDecoration(color: Colors.white,),
                 child: Column(
                   children: [
