@@ -37,6 +37,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                 decoration: BoxDecoration(color: Colors.white,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(32),
+                  topRight:  Radius.circular(32),
                 )),
                 child: Column(
                   children: [
