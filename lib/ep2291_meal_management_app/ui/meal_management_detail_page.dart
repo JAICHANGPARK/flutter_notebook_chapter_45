@@ -4,7 +4,8 @@ class MealManagementDetailPage extends StatefulWidget {
   const MealManagementDetailPage({super.key});
 
   @override
-  State<MealManagementDetailPage> createState() => _MealManagementDetailPageState();
+  State<MealManagementDetailPage> createState() =>
+      _MealManagementDetailPageState();
 }
 
 class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
@@ -13,11 +14,17 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
     return Scaffold(
       body: Stack(
         children: [
-          
-          Positioned(child: Column(children: [
-            Image.network("src")
-          ],))
+          Positioned.fill(
 
+            child: Column(
+              children: [
+                Image.network(
+                  "https://cdn.pixabay.com/photo/2023/01/20/19/41/burger-7732455_1280.jpg",
+                  fit: BoxFit.cover,
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
