@@ -10,6 +10,12 @@ class MealManagementDetailPage extends StatefulWidget {
 class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
