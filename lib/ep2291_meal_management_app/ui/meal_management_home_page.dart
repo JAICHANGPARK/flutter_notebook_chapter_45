@@ -264,6 +264,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 ),
                               ),
                               Positioned(
+                                bottom: 12,
+                                right: 12,
                                 child: Container(
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
