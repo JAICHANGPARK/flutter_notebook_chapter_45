@@ -27,7 +27,9 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
             ),
           ),
           Positioned(
-            
+            top: 24,
+            left: 16,
+            right: 16,
             child: Row(
               children: [
                 Icon(Icons.arrow_back),
