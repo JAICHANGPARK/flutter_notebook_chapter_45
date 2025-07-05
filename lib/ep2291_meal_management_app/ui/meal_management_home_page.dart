@@ -109,7 +109,69 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 itemBuilder: (context, index) {
                   return GestureDetector(
                     onTap: () {
+                      showModalBottomSheet(
+                        enableDrag: true,
+                        isScrollControlled: true,
 
+                        context: context,
+                        backgroundColor: Colors.white,
+
+                        builder: (context) {
+                          return Container(
+                            height: MediaQuery.sizeOf(context).height * .85,
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Column(
+                                children: [
+                                  Text("Item Settings"),
+                                  Container(
+                                    height: 160,
+                                    decoration: BoxDecoration(color: Colors.grey),
+                                  ),
+                                  Text("Order by date"),
+                                  SizedBox(
+                                    height: 72,
+                                    child: Row(
+                                      children: [
+                                        Placeholder()
+                                      ],
+                                    ),
+                                  ),
+                                  Column(
+                                    children: [
+                                      Container(
+                                        height: 82,
+                                        child: Placeholder(),
+                                      ),
+                                      Container(
+                                        height: 82,
+                                        child: Placeholder(),
+                                      ),
+                                      Container(
+                                        height: 82,
+                                        child: Placeholder(),
+                                      ),
+                                      Container(
+                                        height: 82,
+                                        child: Placeholder(),
+                                      ),
+                                    ],
+                                  )
+
+                                  SizedBox(
+                                    height: 72,
+                                    child: Row(
+                                      children: [
+                                        Placeholder()
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          );
+                        },
+                      );
                     },
                     child: Container(
                       width: 180,
@@ -227,7 +289,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return InkWell(
-                    onTap: (){
+                    onTap: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => MealManagementDetailPage(),
@@ -317,10 +379,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
 
                           Expanded(
                             child: Padding(
-                              padding: const EdgeInsets.fromLTRB(12, 16, 12, 12),
+                              padding: const EdgeInsets.fromLTRB(
+                                12,
+                                16,
+                                12,
+                                12,
+                              ),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
                                     "Classic Burger",
@@ -343,7 +411,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                   ),
                                   Text(
                                     "Homemade beef culet with signature..",
-                                    style: TextStyle(fontWeight: FontWeight.bold),
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                   Row(
                                     children: [
