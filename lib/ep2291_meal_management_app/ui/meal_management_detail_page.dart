@@ -106,12 +106,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         Text(
                           loremIpsum(paragraphs: 1, words: 30),
                           maxLines: 4,
-                          style: TextStyle(height: 1.5),
+                          style: TextStyle(height: 1.6,
+                          fontSize: 15),
                         ),
                         Text(
                           "\$14",
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -284,7 +285,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                     width: 72,
                                     decoration: BoxDecoration(
                                       color: Colors.grey[200]!,
-                                      borderRadius:BorderRadius.circular(12),
+                                      borderRadius: BorderRadius.circular(12),
                                     ),
                                   ),
                                   Text("Beef"),
