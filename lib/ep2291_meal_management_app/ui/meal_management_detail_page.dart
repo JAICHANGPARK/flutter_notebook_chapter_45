@@ -62,8 +62,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                 ),
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(children: [Text("Beef burger"), CircleAvatar()]),
                       Row(
@@ -87,6 +89,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   ),
 
                   Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
                         children: [
