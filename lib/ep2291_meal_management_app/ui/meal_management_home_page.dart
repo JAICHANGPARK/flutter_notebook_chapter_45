@@ -338,7 +338,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         size: 16,
                                         color: Colors.red,
                                       ),
-                                      Text("450 cal"),
+                                      Text("450 kcal"),
                                     ],
                                   ),
                                   Text(
