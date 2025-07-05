@@ -277,6 +277,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             return Padding(
                               padding: const EdgeInsets.only(right: 16),
                               child: Column(
+                                spacing: 12,
                                 children: [
                                   Container(
                                     height: 72,
