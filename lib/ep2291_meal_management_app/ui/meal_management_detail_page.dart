@@ -64,28 +64,31 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(children: [Text("Beef burger"), CircleAvatar()]),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.local_fire_department,
-                            size: 16,
-                            color: Colors.red,
-                          ),
-                          Text("450 cal"),
-                          Spacer(),
-                          Text("🌶️"),
-                          Text("🌶️"),
-                          Text("🌶️"),
-                        ],
-                      ),
-                      Text(loremIpsum(paragraphs: 1, words: 40)),
-                      Text("\$14"),
-                      Container(height: 160, child: Placeholder()),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(children: [Text("Beef burger"), CircleAvatar()]),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.local_fire_department,
+                              size: 16,
+                              color: Colors.red,
+                            ),
+                            Text("450 cal"),
+                            Spacer(),
+                            Text("🌶️"),
+                            Text("🌶️"),
+                            Text("🌶️"),
+                          ],
+                        ),
+                        Text(loremIpsum(paragraphs: 1, words: 40)),
+                        Text("\$14"),
+                        Container(height: 160, child: Placeholder()),
+                      ],
+                    ),
                   ),
 
                   Column(
