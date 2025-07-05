@@ -117,7 +117,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         ),
                         Gap(16),
                         Container(
-                          height: 92,
+                          height: 82,
                           child: Row(
                             spacing: 8,
                             children: [
@@ -138,7 +138,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         "749/kcal",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 16,
+                                          
                                         ),
                                       ),
                                     ],
