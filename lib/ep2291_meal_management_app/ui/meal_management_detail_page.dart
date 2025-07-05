@@ -241,7 +241,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             Spacer(),
                             Container(
                               padding: EdgeInsets.all(4),
-                              decoration: BoxDecoration(color: Colors.black87,),
+                              decoration: BoxDecoration(
+                                color: Colors.black87,
+                                borderRadius: BorderRadius.circular(6),
+                              ),
                               child: Icon(Icons.apps, color: Colors.white),
                             ),
                             Gap(12),
@@ -249,6 +252,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                               padding: EdgeInsets.all(4),
                               decoration: BoxDecoration(
                                 color: Colors.grey[100],
+                                borderRadius: BorderRadius.circular(6),
                               ),
                               child: Icon(Icons.list, color: Colors.grey),
                             ),
