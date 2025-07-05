@@ -270,7 +270,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           left: 16,
                         ),
                         height: 120,
-                        child: Placeholder(),
+                        child: ListView.builder(itemBuilder: (context,index){
+                          return Column(
+                            children: [
+                              
+                            ],
+                          );
+                        }),
                       )
                     ],
                   ),
