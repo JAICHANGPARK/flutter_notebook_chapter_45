@@ -156,7 +156,16 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [Text("Carbs"), Text("36/g")],
+                                    children: [
+                                      Text("Carbs"),
+                                      Text(
+                                        "36/g",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
@@ -171,7 +180,16 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [Text("Fats"), Text("44/g")],
+                                    children: [
+                                      Text("Fats"),
+                                      Text(
+                                        "44/g",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
@@ -186,7 +204,16 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [Text("Proteins"), Text("52/g")],
+                                    children: [
+                                      Text("Proteins"),
+                                      Text(
+                                        "52/g",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ],
                                   ),
                                 ),
                               ),
