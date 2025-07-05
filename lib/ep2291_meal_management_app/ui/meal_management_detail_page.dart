@@ -96,7 +96,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                               color: Colors.red,
                             ),
                             Gap(6),
-                            Text("450 cal"),
+                            Text("450 kcal"),
                             Spacer(),
                             Text("🌶️"),
                             Text("🌶️"),
