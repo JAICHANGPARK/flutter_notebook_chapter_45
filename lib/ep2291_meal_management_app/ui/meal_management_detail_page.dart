@@ -71,8 +71,16 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [Text("Beef burger"), CircleAvatar()]),
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Beef burger",
+                              style: TextStyle(fontWeight: FontWeight.bold,
+                              fontSize: 18,),
+                            ),
+                            CircleAvatar(),
+                          ],
+                        ),
                         Row(
                           children: [
                             Icon(
@@ -112,8 +120,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         ],
                       ),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
