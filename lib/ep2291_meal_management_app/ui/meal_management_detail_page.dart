@@ -70,7 +70,9 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                       spacing: 12,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Row(children: [Text("Beef burger"), CircleAvatar()]),
+                        Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [Text("Beef burger"), CircleAvatar()]),
                         Row(
                           children: [
                             Icon(
