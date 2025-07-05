@@ -91,7 +91,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           children: [
                             Icon(
                               Icons.local_fire_department,
-                              size: 16,
+                              size: 18,
                               color: Colors.red,
                             ),
                             Gap(6),
