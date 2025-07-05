@@ -259,6 +259,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           ],
                         ),
                       ),
+                      Container(
+                        height: 120,
+                        child: Placeholder(),
+                      )
                     ],
                   ),
                 ],
