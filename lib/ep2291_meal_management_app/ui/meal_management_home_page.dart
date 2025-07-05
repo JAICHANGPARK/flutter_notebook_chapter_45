@@ -121,53 +121,56 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                             height: MediaQuery.sizeOf(context).height * .85,
                             child: Padding(
                               padding: const EdgeInsets.all(16.0),
-                              child: Column(
-                                children: [
-                                  Text("Item Settings"),
-                                  Container(
-                                    height: 160,
-                                    decoration: BoxDecoration(color: Colors.grey),
-                                  ),
-                                  Text("Order by date"),
-                                  SizedBox(
-                                    height: 72,
-                                    child: Row(
+                              child: SingleChildScrollView(
+                                child: Column(
+                                  spacing: 12,
+                                  children: [
+                                    Text("Item Settings"),
+                                    Container(
+                                      height: 160,
+                                      decoration: BoxDecoration(color: Colors.grey),
+                                    ),
+                                    Text("Order by date"),
+                                    SizedBox(
+                                      height: 72,
+                                      child: Row(
+                                        children: [
+                                          Placeholder()
+                                        ],
+                                      ),
+                                    ),
+                                    Column(
+                                      spacing: 12,
                                       children: [
-                                        Placeholder()
+                                        Container(
+                                          height: 82,
+                                          child: Placeholder(),
+                                        ),
+                                        Container(
+                                          height: 82,
+                                          child: Placeholder(),
+                                        ),
+                                        Container(
+                                          height: 82,
+                                          child: Placeholder(),
+                                        ),
+                                        Container(
+                                          height: 82,
+                                          child: Placeholder(),
+                                        ),
                                       ],
                                     ),
-                                  ),
-                                  Column(
-                                    spacing: 12,
-                                    children: [
-                                      Container(
-                                        height: 82,
-                                        child: Placeholder(),
+                                
+                                    SizedBox(
+                                      height: 72,
+                                      child: Row(
+                                        children: [
+                                          Placeholder()
+                                        ],
                                       ),
-                                      Container(
-                                        height: 82,
-                                        child: Placeholder(),
-                                      ),
-                                      Container(
-                                        height: 82,
-                                        child: Placeholder(),
-                                      ),
-                                      Container(
-                                        height: 82,
-                                        child: Placeholder(),
-                                      ),
-                                    ],
-                                  ),
-
-                                  SizedBox(
-                                    height: 72,
-                                    child: Row(
-                                      children: [
-                                        Placeholder()
-                                      ],
                                     ),
-                                  ),
-                                ],
+                                  ],
+                                ),
                               ),
                             ),
                           );
