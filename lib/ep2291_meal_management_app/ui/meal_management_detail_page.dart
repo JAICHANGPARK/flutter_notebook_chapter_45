@@ -138,7 +138,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         "749/kcal",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          
+
                                         ),
                                       ),
                                     ],
@@ -162,7 +162,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         "36/g",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 16,
                                         ),
                                       ),
                                     ],
@@ -186,7 +185,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         "44/g",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 16,
                                         ),
                                       ),
                                     ],
@@ -210,7 +208,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         "52/g",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-                                          fontSize: 16,
                                         ),
                                       ),
                                     ],
