@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:lorem_ipsum/lorem_ipsum.dart';
 
 class MealManagementDetailPage extends StatefulWidget {
@@ -86,12 +87,14 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           ],
                         ),
                         Row(
+
                           children: [
                             Icon(
                               Icons.local_fire_department,
                               size: 16,
                               color: Colors.red,
                             ),
+                            Gap(6),
                             Text("450 cal"),
                             Spacer(),
                             Text("🌶️"),
