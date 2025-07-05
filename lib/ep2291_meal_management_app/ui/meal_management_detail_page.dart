@@ -115,7 +115,19 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Container(height: 160, child: Placeholder()),
+                        Gap(16),
+                        Container(height: 100, child: Row(
+                          children: [
+                            Expanded(child: Container(
+                              decoration: BoxDecoration(
+                                
+                              ),
+                              child: Column(children: [
+
+                              ],),
+                            ))
+                          ],
+                        )),
                       ],
                     ),
                   ),
