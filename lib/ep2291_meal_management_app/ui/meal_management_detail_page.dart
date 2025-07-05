@@ -117,7 +117,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         ),
                         Gap(16),
                         Container(
-                          height: 100,
+                          height: 92,
                           child: Row(
                             spacing: 8,
                             children: [
@@ -259,6 +259,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           ],
                         ),
                       ),
+                      Gap(12),
                       Container(
                         padding: EdgeInsets.only(
                           left: 16,
