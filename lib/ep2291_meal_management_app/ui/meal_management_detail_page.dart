@@ -279,12 +279,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                               child: Column(
                                 children: [
                                   Container(
-                                    height: 52,
-                                    width: 52,
+                                    height: 72,
+                                    width: 72,
                                     decoration: BoxDecoration(
                                       color: Colors.grey[200]!,
                                     ),
                                   ),
+                                  Text("Beef"),
                                 ],
                               ),
                             );
