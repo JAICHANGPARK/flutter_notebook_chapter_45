@@ -223,7 +223,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                       ],
                     ),
                   ),
-
+                  Gap(16),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
