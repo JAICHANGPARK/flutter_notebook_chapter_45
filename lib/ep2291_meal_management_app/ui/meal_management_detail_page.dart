@@ -125,6 +125,8 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                 borderRadius: BorderRadius.circular(8),
                               ),
                               child: Column(children: [
+                                Text("Energy"),
+                                Text("749/kcal"),
 
                               ],),
                             )),
