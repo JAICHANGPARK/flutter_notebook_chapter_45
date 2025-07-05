@@ -102,7 +102,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             Text("🌶️"),
                           ],
                         ),
-                        Text(loremIpsum(paragraphs: 1, words: 40)),
+                        Text(loremIpsum(paragraphs: 1, words: 30)),
                         Text("\$14"),
                         Container(height: 160, child: Placeholder()),
                       ],
