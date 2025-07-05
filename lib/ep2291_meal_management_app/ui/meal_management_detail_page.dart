@@ -76,8 +76,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           children: [
                             Text(
                               "Beef burger",
-                              style: TextStyle(fontWeight: FontWeight.bold,
-                              fontSize: 18,),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18,
+                              ),
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.red,
@@ -87,7 +89,6 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           ],
                         ),
                         Row(
-
                           children: [
                             Icon(
                               Icons.local_fire_department,
@@ -102,12 +103,18 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             Text("🌶️"),
                           ],
                         ),
-                        Text(loremIpsum(paragraphs: 1, words: 30),
-                        maxLines: 4,
-                        style: TextStyle(
-                          height: 1.5
-                        ),),
-                        Text("\$14"),
+                        Text(
+                          loremIpsum(paragraphs: 1, words: 30),
+                          maxLines: 4,
+                          style: TextStyle(height: 1.5),
+                        ),
+                        Text(
+                          "\$14",
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                         Container(height: 160, child: Placeholder()),
                       ],
                     ),
