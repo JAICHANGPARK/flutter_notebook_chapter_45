@@ -125,6 +125,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                 borderRadius: BorderRadius.circular(8),
                               ),
                               child: Column(
+                                spacing: 8,
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
