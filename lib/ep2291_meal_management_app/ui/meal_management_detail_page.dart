@@ -80,6 +80,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             ),
                             CircleAvatar(
                               backgroundColor: Colors.red,
+                              foregroundColor: Colors.white,
                               child: Icon(Icons.favorite),
                             ),
                           ],
