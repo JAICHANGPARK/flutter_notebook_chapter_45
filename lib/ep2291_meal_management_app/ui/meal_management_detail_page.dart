@@ -116,53 +116,83 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                           ),
                         ),
                         Gap(16),
-                        Container(height: 100, child: Row(
-                          spacing: 8,
-                          children: [
-                            Expanded(child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[200]!,
-                                borderRadius: BorderRadius.circular(8),
+                        Container(
+                          height: 100,
+                          child: Row(
+                            spacing: 8,
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Column(
+                                    spacing: 6,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text("Energy"),
+                                      Text(
+                                        "749/kcal",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 16,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ),
-                              child: Column(
-                                spacing: 6,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                Text("Energy"),
-                                Text("749/kcal"),
-
-                              ],),
-                            )),
-                            Expanded(child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[200]!,
-                                borderRadius: BorderRadius.circular(8),
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Column(
+                                    spacing: 6,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [Text("Carbs"), Text("36/g")],
+                                  ),
+                                ),
                               ),
-                              child: Column(children: [
-
-                              ],),
-                            )),
-                            Expanded(child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[200]!,
-                                borderRadius: BorderRadius.circular(8),
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Column(
+                                    spacing: 6,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [Text("Fats"), Text("44/g")],
+                                  ),
+                                ),
                               ),
-                              child: Column(children: [
-
-                              ],),
-                            )),
-                            Expanded(child: Container(
-                              decoration: BoxDecoration(
-                                color: Colors.grey[200]!,
-                                borderRadius: BorderRadius.circular(8),
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Column(
+                                    spacing: 6,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.center,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [Text("Proteins"), Text("52/g")],
+                                  ),
+                                ),
                               ),
-                              child: Column(children: [
-
-                              ],),
-                            ))
-                          ],
-                        )),
+                            ],
+                          ),
+                        ),
                       ],
                     ),
                   ),
