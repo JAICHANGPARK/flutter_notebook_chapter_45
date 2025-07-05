@@ -133,14 +133,14 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text("Energy",style: TextStyle(
-                                        fontSize: 12,
-                                      ),),
+                                      Text(
+                                        "Energy",
+                                        style: TextStyle(fontSize: 12),
+                                      ),
                                       Text(
                                         "749/kcal",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
-
                                         ),
                                       ),
                                     ],
@@ -159,9 +159,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text("Carbs",style: TextStyle(
-                                        fontSize: 12,
-                                      ),),
+                                      Text(
+                                        "Carbs",
+                                        style: TextStyle(fontSize: 12),
+                                      ),
                                       Text(
                                         "36/g",
                                         style: TextStyle(
@@ -184,9 +185,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text("Fats",style: TextStyle(
-                                        fontSize: 12,
-                                      ),),
+                                      Text(
+                                        "Fats",
+                                        style: TextStyle(fontSize: 12),
+                                      ),
                                       Text(
                                         "44/g",
                                         style: TextStyle(
@@ -209,9 +211,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                         CrossAxisAlignment.center,
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
-                                      Text("Proteins",style: TextStyle(
-                                        fontSize: 12,
-                                      ),),
+                                      Text(
+                                        "Proteins",
+                                        style: TextStyle(fontSize: 12),
+                                      ),
                                       Text(
                                         "52/g",
                                         style: TextStyle(
@@ -266,18 +269,24 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                       ),
                       Gap(12),
                       Container(
-                        padding: EdgeInsets.only(
-                          left: 16,
-                        ),
+                        padding: EdgeInsets.only(left: 16),
                         height: 120,
-                        child: ListView.builder(itemBuilder: (context,index){
-                          return Column(
-                            children: [
-                              
-                            ],
-                          );
-                        }),
-                      )
+                        child: ListView.builder(
+                          itemBuilder: (context, index) {
+                            return Column(
+                              children: [
+                                Container(
+                                  height: 52,
+                                  width: 52,
+                                  decoration: BoxDecoration(
+                                    color: Colors.grey[200]!,
+                                  ),
+                                ),
+                              ],
+                            );
+                          },
+                        ),
+                      ),
                     ],
                   ),
                 ],
