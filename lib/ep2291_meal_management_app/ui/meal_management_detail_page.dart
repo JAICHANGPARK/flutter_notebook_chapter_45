@@ -231,14 +231,22 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 16),
                         child: Row(
                           children: [
-                            Text("Ingredients"),
+                            Text(
+                              "Ingredients",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Spacer(),
                             Container(
                               decoration: BoxDecoration(color: Colors.black87),
                               child: Icon(Icons.apps, color: Colors.white),
                             ),
                             Container(
-                              decoration: BoxDecoration(color: Colors.grey[100]),
+                              decoration: BoxDecoration(
+                                color: Colors.grey[100],
+                              ),
                               child: Icon(Icons.list, color: Colors.grey),
                             ),
                           ],
