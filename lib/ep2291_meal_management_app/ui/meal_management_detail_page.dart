@@ -115,7 +115,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        Gap(16),
+                        Gap(8),
                         Container(
                           height: 82,
                           child: Row(
