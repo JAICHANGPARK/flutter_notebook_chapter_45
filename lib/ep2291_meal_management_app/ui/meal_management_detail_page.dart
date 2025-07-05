@@ -93,7 +93,11 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                     children: [
                       Text("Ingredients"),
                       Container(
-                        child: Icon(Icons.apps),
+                        decoration: BoxDecoration(
+                          color: Colors.black87,
+
+                        ),
+                        child: Icon(Icons.apps,color: Colors.white,),
                       ),
                       Container(
                         child: Icon(Icons.list),
