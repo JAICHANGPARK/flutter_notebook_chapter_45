@@ -91,7 +91,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   ),
                   Row(
                     children: [
-                      Text("Ingredients")
+                      Text("Ingredients"),
+                      Container(
+                        child: Icon(Icons.apps),
+                      ),
+                      Container(
+                        child: Icon(Icons.list),
+                      ),
                     ],
                   )
                 ],
