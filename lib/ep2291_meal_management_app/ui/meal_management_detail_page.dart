@@ -84,6 +84,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   Row(
                     children: [
                       Text("Ingredients"),
+                      Spacer(),
                       Container(
                         decoration: BoxDecoration(color: Colors.black87),
                         child: Icon(Icons.apps, color: Colors.white),
