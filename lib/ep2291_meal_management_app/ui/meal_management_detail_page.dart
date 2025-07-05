@@ -272,6 +272,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         padding: EdgeInsets.only(left: 16),
                         height: 120,
                         child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             return Column(
                               children: [
