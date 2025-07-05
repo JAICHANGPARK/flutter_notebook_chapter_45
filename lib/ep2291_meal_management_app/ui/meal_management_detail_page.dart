@@ -117,11 +117,12 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         ),
                         Gap(16),
                         Container(height: 100, child: Row(
-                          spacing: 12,
+                          spacing: 8,
                           children: [
                             Expanded(child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.grey[200]!,
+                                borderRadius: BorderRadius.circular(8),
                               ),
                               child: Column(children: [
 
@@ -130,6 +131,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                             Expanded(child: Container(
                               decoration: BoxDecoration(
                                 color: Colors.grey[200]!,
+                                borderRadius: BorderRadius.circular(8),
                               ),
                               child: Column(children: [
 
