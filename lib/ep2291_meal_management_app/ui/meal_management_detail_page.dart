@@ -85,6 +85,15 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
 
                   ),
                   Text("\$14"),
+                  Container(
+                    height: 160,
+                    child: Placeholder(),
+                  ),
+                  Row(
+                    children: [
+                      Text("Ingredients")
+                    ],
+                  )
                 ],
               ),
             ),
