@@ -36,7 +36,13 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(Icons.arrow_back, color: Colors.white),
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.of(context).pop();
+                    },
+                    child: Icon(Icons.arrow_back, color: Colors.white,
+                    ),
+                  ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                     decoration: BoxDecoration(
