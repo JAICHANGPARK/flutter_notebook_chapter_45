@@ -284,6 +284,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                     width: 72,
                                     decoration: BoxDecoration(
                                       color: Colors.grey[200]!,
+                                      borderRadius:BorderRadius.circular(12),
                                     ),
                                   ),
                                   Text("Beef"),
