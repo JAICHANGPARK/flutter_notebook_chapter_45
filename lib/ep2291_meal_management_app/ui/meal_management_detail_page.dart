@@ -227,19 +227,22 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(
-                        children: [
-                          Text("Ingredients"),
-                          Spacer(),
-                          Container(
-                            decoration: BoxDecoration(color: Colors.black87),
-                            child: Icon(Icons.apps, color: Colors.white),
-                          ),
-                          Container(
-                            decoration: BoxDecoration(color: Colors.grey[100]),
-                            child: Icon(Icons.list, color: Colors.grey),
-                          ),
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          children: [
+                            Text("Ingredients"),
+                            Spacer(),
+                            Container(
+                              decoration: BoxDecoration(color: Colors.black87),
+                              child: Icon(Icons.apps, color: Colors.white),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(color: Colors.grey[100]),
+                              child: Icon(Icons.list, color: Colors.grey),
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
