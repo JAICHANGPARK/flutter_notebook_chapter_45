@@ -81,20 +81,25 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                   Text(loremIpsum(paragraphs: 1, words: 40)),
                   Text("\$14"),
                   Container(height: 160, child: Placeholder()),
-                  Row(
+                  Column(
                     children: [
-                      Text("Ingredients"),
-                      Spacer(),
-                      Container(
-                        decoration: BoxDecoration(color: Colors.black87),
-                        child: Icon(Icons.apps, color: Colors.white),
-                      ),
-                      Container(
-                        decoration: BoxDecoration(color: Colors.grey[100]),
-                        child: Icon(Icons.list, color: Colors.grey),
+                      Row(
+                        children: [
+                          Text("Ingredients"),
+                          Spacer(),
+                          Container(
+                            decoration: BoxDecoration(color: Colors.black87),
+                            child: Icon(Icons.apps, color: Colors.white),
+                          ),
+                          Container(
+                            decoration: BoxDecoration(color: Colors.grey[100]),
+                            child: Icon(Icons.list, color: Colors.grey),
+                          ),
+                        ],
                       ),
                     ],
-                  ),
+                  )
+
                 ],
               ),
             ),
