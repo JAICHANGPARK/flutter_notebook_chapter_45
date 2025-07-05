@@ -260,6 +260,9 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         ),
                       ),
                       Container(
+                        padding: EdgeInsets.only(
+                          left: 16,
+                        ),
                         height: 120,
                         child: Placeholder(),
                       )
