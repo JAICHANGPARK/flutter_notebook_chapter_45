@@ -13,7 +13,7 @@ dependencies:
   percent_indicator: ^4.2.5
   smooth_page_indicator: ^1.2.1
   gap: ^3.0.1
-  lorem_ipsum: 
+  lorem_ipsum:
 
 dev_dependencies:
   flutter_test:
