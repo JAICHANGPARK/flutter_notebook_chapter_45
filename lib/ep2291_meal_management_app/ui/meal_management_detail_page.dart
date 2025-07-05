@@ -124,7 +124,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                                 color: Colors.grey[200]!,
                                 borderRadius: BorderRadius.circular(8),
                               ),
-                              child: Column(children: [
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
                                 Text("Energy"),
                                 Text("749/kcal"),
 
