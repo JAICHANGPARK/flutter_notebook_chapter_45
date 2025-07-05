@@ -138,6 +138,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     ),
                                   ),
                                   Column(
+                                    spacing: 12,
                                     children: [
                                       Container(
                                         height: 82,
