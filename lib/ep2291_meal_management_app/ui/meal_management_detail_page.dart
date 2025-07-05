@@ -78,7 +78,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                               style: TextStyle(fontWeight: FontWeight.bold,
                               fontSize: 18,),
                             ),
-                            CircleAvatar(),
+                            CircleAvatar(
+                              backgroundColor: Colors.red,
+                              child: Icon(Icons.favorite),
+                            ),
                           ],
                         ),
                         Row(
