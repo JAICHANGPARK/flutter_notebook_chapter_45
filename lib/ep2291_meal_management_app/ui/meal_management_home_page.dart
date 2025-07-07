@@ -147,6 +147,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         borderRadius: BorderRadius.circular(16),
                                       ),
                                       child: Row(
+
                                         children: [
                                           Container(
                                             width: 160,
@@ -159,57 +160,63 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                 fit: BoxFit.cover,)
                                             ),
                                           ),
-                                          Expanded(child: Column(
-                                            spacing: 6,
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [
-                                              Text(
-                                                "Classic Burger",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  color: Colors.black,
-                                                  fontSize: 18,
-                                                ),
-                                              ),
-                                              Row(
-                                                spacing: 6,
-                                                children: [
-                                                  Icon(
-                                                    Icons.local_fire_department,
-                                                    size: 16,
-                                                    color: Colors.red,
+                                          Expanded(child: Padding(
+                                            padding: const EdgeInsets.all(12.0),
+                                            child: Column(
+                                              spacing: 6,
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  "Classic Burger",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.black,
+                                                    fontSize: 18,
                                                   ),
-                                                  Text("450 kcal"),
-                                                ],
-                                              ),
-                                              Text(
-                                                "Homemade beef culet with signature..",
-                                                style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
                                                 ),
-                                              ),
-                                              Row(
-                                                children: [
-                                                  Text(
-                                                    "\$14",
-                                                    style: TextStyle(
-                                                      fontWeight: FontWeight.bold,
-                                                      fontSize: 16,
+                                                Row(
+                                                  spacing: 6,
+                                                  children: [
+                                                    Icon(
+                                                      Icons.local_fire_department,
+                                                      size: 16,
+                                                      color: Colors.red,
                                                     ),
+                                                    Text("450 kcal"),
+                                                  ],
+                                                ),
+                                                Text(
+                                                  "Homemade beef culet with signature..",
+                                                  style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
                                                   ),
-                                                  Spacer(),
-                                                  Text("🌶️"),
-                                                  Text("🌶️"),
-                                                  Text("🌶️"),
-                                                ],
-                                              ),
+                                                ),
+                                                Row(
+                                                  children: [
+                                                    Text(
+                                                      "\$14",
+                                                      style: TextStyle(
+                                                        fontWeight: FontWeight.bold,
+                                                        fontSize: 16,
+                                                      ),
+                                                    ),
+                                                    Spacer(),
+                                                    Text("🌶️"),
+                                                    Text("🌶️"),
+                                                    Text("🌶️"),
+                                                  ],
+                                                ),
 
 
-                                          ],))
+                                            ],),
+                                          ))
                                         ],
                                       ),
                                     ),
-                                    Text("Order by date"),
+                                    Padding(
+                                      padding: const EdgeInsets.all(16.0),
+                                      child: Text("Order by date"),
+                                    ),
                                     SizedBox(
                                       height: 72,
                                       child: Row(children: [Placeholder()]),
