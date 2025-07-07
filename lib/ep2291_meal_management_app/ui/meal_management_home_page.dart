@@ -147,8 +147,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               borderRadius: BorderRadius.circular(16),
                                             ),
                                           ),
-                                          Expanded(child: Column(children: [
-                                            
+                                          Expanded(child: Column(
+                                            spacing: 6,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            children: [
+                                              Text("Classic Burger"),
+
+
                                           ],))
                                         ],
                                       ),
