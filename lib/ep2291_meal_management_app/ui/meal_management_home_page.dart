@@ -149,9 +149,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       child: Row(
                                         children: [
                                           Container(
-                                            width: 82,
+                                            width: 160,
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(16),
+                                              color: Colors.grey,
+                                              image: DecorationImage( image: NetworkImage(
+                                                "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                              ),
+                                                fit: BoxFit.cover,)
                                             ),
                                           ),
                                           Expanded(child: Column(
