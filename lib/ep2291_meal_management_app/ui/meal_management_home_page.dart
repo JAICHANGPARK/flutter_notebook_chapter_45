@@ -146,7 +146,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             decoration: BoxDecoration(
                                               borderRadius: BorderRadius.circular(16),
                                             ),
-                                          )
+                                          ),
+                                          Expanded(child: Column(children: [
+                                            
+                                          ],))
                                         ],
                                       ),
                                     ),
