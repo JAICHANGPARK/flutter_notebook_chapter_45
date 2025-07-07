@@ -125,19 +125,23 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 child: Column(
                                   spacing: 12,
                                   children: [
-                                    Text("Item Settings"),
+                                    Text(
+                                      "Item Settings",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                     Container(
                                       height: 160,
-                                      decoration: BoxDecoration(color: Colors.grey),
+                                      decoration: BoxDecoration(
+                                        color: Colors.grey,
+                                      ),
                                     ),
                                     Text("Order by date"),
                                     SizedBox(
                                       height: 72,
-                                      child: Row(
-                                        children: [
-                                          Placeholder()
-                                        ],
-                                      ),
+                                      child: Row(children: [Placeholder()]),
                                     ),
                                     Column(
                                       spacing: 12,
@@ -160,14 +164,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         ),
                                       ],
                                     ),
-                                
+
                                     SizedBox(
                                       height: 72,
-                                      child: Row(
-                                        children: [
-                                          Placeholder()
-                                        ],
-                                      ),
+                                      child: Row(children: [Placeholder()]),
                                     ),
                                   ],
                                 ),
