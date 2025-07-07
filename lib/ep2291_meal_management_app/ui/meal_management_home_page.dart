@@ -125,11 +125,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                 child: Column(
                                   spacing: 12,
                                   children: [
-                                    Text(
-                                      "Item Settings",
-                                      style: TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.bold,
+                                    Padding(
+                                      padding: const EdgeInsets.all(16.0),
+                                      child: Text(
+                                        "Item Settings",
+                                        style: TextStyle(
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
                                     ),
                                     Container(
