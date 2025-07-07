@@ -130,7 +130,6 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       style: TextStyle(
                                         fontSize: 18,
                                         fontWeight: FontWeight.bold,
-
                                       ),
                                     ),
                                     Container(
@@ -139,87 +138,119 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         color: Colors.white,
                                         boxShadow: [
                                           BoxShadow(
-                                            color: Colors.black.withValues(alpha: .05),
+                                            color: Colors.black.withValues(
+                                              alpha: .05,
+                                            ),
                                             blurRadius: 8,
-                                            spreadRadius: 6
-                                          )
+                                            spreadRadius: 6,
+                                          ),
                                         ],
                                         borderRadius: BorderRadius.circular(16),
                                       ),
                                       child: Row(
-
                                         children: [
                                           Container(
                                             width: 160,
                                             decoration: BoxDecoration(
-                                              borderRadius: BorderRadius.circular(16),
+                                              borderRadius:
+                                                  BorderRadius.circular(16),
                                               color: Colors.grey,
-                                              image: DecorationImage( image: NetworkImage(
-                                                "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                              image: DecorationImage(
+                                                image: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2022/07/15/18/12/cheese-burger-7323674_1280.jpg",
+                                                ),
+                                                fit: BoxFit.cover,
                                               ),
-                                                fit: BoxFit.cover,)
                                             ),
                                           ),
-                                          Expanded(child: Padding(
-                                            padding: const EdgeInsets.all(12.0),
-                                            child: Column(
-                                              spacing: 6,
-                                              crossAxisAlignment: CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  "Classic Burger",
-                                                  style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.black,
-                                                    fontSize: 18,
-                                                  ),
-                                                ),
-                                                Row(
-                                                  spacing: 6,
-                                                  children: [
-                                                    Icon(
-                                                      Icons.local_fire_department,
-                                                      size: 16,
-                                                      color: Colors.red,
+                                          Expanded(
+                                            child: Padding(
+                                              padding: const EdgeInsets.all(
+                                                12.0,
+                                              ),
+                                              child: Column(
+                                                spacing: 6,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Text(
+                                                    "Classic Burger",
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
+                                                      color: Colors.black,
+                                                      fontSize: 18,
                                                     ),
-                                                    Text("450 kcal"),
-                                                  ],
-                                                ),
-                                                Text(
-                                                  "Homemade beef culet with signature..",
-                                                  style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
                                                   ),
-                                                ),
-                                                Row(
-                                                  children: [
-                                                    Text(
-                                                      "\$14",
-                                                      style: TextStyle(
-                                                        fontWeight: FontWeight.bold,
-                                                        fontSize: 16,
+                                                  Row(
+                                                    spacing: 6,
+                                                    children: [
+                                                      Icon(
+                                                        Icons
+                                                            .local_fire_department,
+                                                        size: 16,
+                                                        color: Colors.red,
                                                       ),
+                                                      Text("450 kcal"),
+                                                    ],
+                                                  ),
+                                                  Text(
+                                                    "Homemade beef culet with signature..",
+                                                    style: TextStyle(
+                                                      fontWeight:
+                                                          FontWeight.bold,
                                                     ),
-                                                    Spacer(),
-                                                    Text("🌶️"),
-                                                    Text("🌶️"),
-                                                    Text("🌶️"),
-                                                  ],
-                                                ),
-
-
-                                            ],),
-                                          ))
+                                                  ),
+                                                  Row(
+                                                    children: [
+                                                      Text(
+                                                        "\$14",
+                                                        style: TextStyle(
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: 16,
+                                                        ),
+                                                      ),
+                                                      Spacer(),
+                                                      Text("🌶️"),
+                                                      Text("🌶️"),
+                                                      Text("🌶️"),
+                                                    ],
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
+                                          ),
                                         ],
                                       ),
                                     ),
                                     Padding(
                                       padding: const EdgeInsets.all(16.0),
-                                      child: Text("Order by date"),
+                                      child: Text(
+                                        "Order by date",
+                                        style: TextStyle(
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                     ),
                                     SizedBox(
                                       height: 72,
-                                      child: Row(children: [Placeholder()]),
+                                      child: Row(
+                                        children: [
+                                          Expanded(
+                                            child: Container(
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(8),
+                                                border: Border.all(
+                                                  color: Colors.grey[100]!,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
                                     ),
                                     Column(
                                       spacing: 12,
