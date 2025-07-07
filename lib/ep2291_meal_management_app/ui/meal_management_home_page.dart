@@ -228,7 +228,10 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       ),
                                     ),
                                     Padding(
-                                      padding: const EdgeInsets.all(16.0),
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 0,
+                                        vertical: 12,
+                                      ),
                                       child: Text(
                                         "Order by date",
                                         style: TextStyle(
@@ -238,7 +241,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       ),
                                     ),
                                     SizedBox(
-                                      height: 64,
+                                      // height: 64,
                                       child: Row(
                                         spacing: 12,
                                         children: [
@@ -261,7 +264,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                   ),
                                                   Container(
                                                     decoration: BoxDecoration(
-                                                      color: MealAppColor.accentColor,
+                                                      color:
+                                                          MealAppColor
+                                                              .accentColor,
                                                     ),
                                                     child: Icon(
                                                       Icons.check,
@@ -275,14 +280,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                           Container(
                                             decoration: BoxDecoration(
                                               color: Colors.grey[200]!,
+                                              borderRadius:
+                                                  BorderRadius.circular(8),
                                             ),
                                             padding: EdgeInsets.all(12),
                                             child: Row(
                                               spacing: 8,
                                               children: [
-                                                Icon(Icons.remove),
+                                                Icon(Icons.remove, size: 16),
                                                 Text("25"),
-                                                Icon(Icons.add),
+                                                Icon(Icons.add, size: 16),
                                               ],
                                             ),
                                           ),
