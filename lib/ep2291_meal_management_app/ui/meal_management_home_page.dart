@@ -136,7 +136,14 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     Container(
                                       height: 160,
                                       decoration: BoxDecoration(
-                                        color: Colors.grey,
+                                        color: Colors.white,
+                                        boxShadow: [
+                                          BoxShadow(
+                                            color: Colors.black.withValues(alpha: .05),
+                                            blurRadius: 8,
+                                            spreadRadius: 6
+                                          )
+                                        ],
                                         borderRadius: BorderRadius.circular(16),
                                       ),
                                       child: Row(
@@ -151,7 +158,46 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             spacing: 6,
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
-                                              Text("Classic Burger"),
+                                              Text(
+                                                "Classic Burger",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.black,
+                                                  fontSize: 18,
+                                                ),
+                                              ),
+                                              Row(
+                                                spacing: 6,
+                                                children: [
+                                                  Icon(
+                                                    Icons.local_fire_department,
+                                                    size: 16,
+                                                    color: Colors.red,
+                                                  ),
+                                                  Text("450 kcal"),
+                                                ],
+                                              ),
+                                              Text(
+                                                "Homemade beef culet with signature..",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
+                                              Row(
+                                                children: [
+                                                  Text(
+                                                    "\$14",
+                                                    style: TextStyle(
+                                                      fontWeight: FontWeight.bold,
+                                                      fontSize: 16,
+                                                    ),
+                                                  ),
+                                                  Spacer(),
+                                                  Text("🌶️"),
+                                                  Text("🌶️"),
+                                                  Text("🌶️"),
+                                                ],
+                                              ),
 
 
                                           ],))
