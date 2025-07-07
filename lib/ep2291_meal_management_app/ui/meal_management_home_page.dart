@@ -249,6 +249,20 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               ),
                                             ),
                                           ),
+                                          Container(decoration: BoxDecoration(
+                                            color: Colors.grey[200]!,
+
+                                          ),
+                                          child: Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(Icons.remove),
+                                              Text("25",
+                                              ),
+                                              Icon(Icons.add),
+                                            ],
+                                          ),
+                                          )
                                         ],
                                       ),
                                     ),
