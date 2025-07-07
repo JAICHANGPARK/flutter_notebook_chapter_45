@@ -238,8 +238,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       ),
                                     ),
                                     SizedBox(
-                                      height: 72,
+                                      height: 64,
                                       child: Row(
+                                        spacing: 12,
                                         children: [
                                           Expanded(
                                             child: Container(
@@ -250,22 +251,41 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                   color: Colors.grey[100]!,
                                                 ),
                                               ),
+                                              padding: EdgeInsets.all(12),
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Text(
+                                                      "Monday, Sep 03",
+                                                    ),
+                                                  ),
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      color: MealAppColor.accentColor,
+                                                    ),
+                                                    child: Icon(
+                                                      Icons.check,
+                                                      color: Colors.white,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
                                             ),
                                           ),
-                                          Container(decoration: BoxDecoration(
-                                            color: Colors.grey[200]!,
-
+                                          Container(
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[200]!,
+                                            ),
+                                            padding: EdgeInsets.all(12),
+                                            child: Row(
+                                              spacing: 8,
+                                              children: [
+                                                Icon(Icons.remove),
+                                                Text("25"),
+                                                Icon(Icons.add),
+                                              ],
+                                            ),
                                           ),
-                                          child: Row(
-                                            spacing: 8,
-                                            children: [
-                                              Icon(Icons.remove),
-                                              Text("25",
-                                              ),
-                                              Icon(Icons.add),
-                                            ],
-                                          ),
-                                          )
                                         ],
                                       ),
                                     ),
