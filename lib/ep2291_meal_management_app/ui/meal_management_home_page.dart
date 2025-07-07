@@ -128,14 +128,26 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     Text(
                                       "Item Settings",
                                       style: TextStyle(
-                                        fontSize: 16,
+                                        fontSize: 18,
                                         fontWeight: FontWeight.bold,
+
                                       ),
                                     ),
                                     Container(
                                       height: 160,
                                       decoration: BoxDecoration(
                                         color: Colors.grey,
+                                        borderRadius: BorderRadius.circular(16),
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Container(
+                                            width: 82,
+                                            decoration: BoxDecoration(
+                                              borderRadius: BorderRadius.circular(16),
+                                            ),
+                                          )
+                                        ],
                                       ),
                                     ),
                                     Text("Order by date"),
