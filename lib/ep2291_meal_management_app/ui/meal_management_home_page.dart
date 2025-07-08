@@ -267,10 +267,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                       color:
                                                           MealAppColor
                                                               .accentColor,
-                                                      borderRadius: BorderRadius.circular(4),
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                            4,
+                                                          ),
                                                     ),
                                                     padding: EdgeInsets.all(2),
-                                                    
+
                                                     child: Icon(
                                                       Icons.check,
                                                       color: Colors.white,
@@ -306,14 +309,18 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         Container(
                                           height: 82,
                                           child: Row(
-                                          children: [
-                                            CircleAvatar(),
-                                            Expanded(child: Column(children: [
-
-                                            ],)),
-
-
-                                          ],
+                                            children: [
+                                              CircleAvatar(),
+                                              Expanded(
+                                                child: Column(
+                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  children: [
+                                                    Text("Breakfast"),
+                                                    Text("7 am - 11 pm"),
+                                                  ],
+                                                ),
+                                              ),
+                                            ],
                                           ),
                                         ),
                                         Container(
