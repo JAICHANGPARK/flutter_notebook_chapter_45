@@ -532,7 +532,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                 ),
                                                 padding: EdgeInsets.all(2),
 
-                                               
+                                                child: Icon(
+                                                  Icons.check,
+                                                  color: Colors.white,
+                                                  size: 20,
+                                                ),
                                               ),
                                             ],
                                           ),
