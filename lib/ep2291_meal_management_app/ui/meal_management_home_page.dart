@@ -309,15 +309,22 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         Container(
                                           decoration: BoxDecoration(
                                             color: MealAppColor.secondaryColor,
+                                            borderRadius: BorderRadius.circular(12),
                                           ),
+                                          padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
                                           height: 82,
                                           child: Row(
+                                            spacing: 16,
                                             children: [
-                                              CircleAvatar(),
+                                              CircleAvatar(
+                                                radius: 24,
+                                              ),
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
                                                       CrossAxisAlignment.start,
+                                                  mainAxisAlignment: MainAxisAlignment.center,
+                                                  spacing: 6,
                                                   children: [
                                                     Text("Breakfast"),
                                                     Text("7 am - 11 pm"),
