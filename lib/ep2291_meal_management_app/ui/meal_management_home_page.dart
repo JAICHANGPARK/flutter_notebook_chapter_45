@@ -302,7 +302,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         Container(
                                           height: 82,
                                           child: Row(
-                                            
+
                                           ),
                                         ),
                                         Container(
