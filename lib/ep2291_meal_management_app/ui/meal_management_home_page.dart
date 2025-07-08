@@ -269,9 +269,11 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                               .accentColor,
                                                       borderRadius: BorderRadius.circular(4),
                                                     ),
+                                                    
                                                     child: Icon(
                                                       Icons.check,
                                                       color: Colors.white,
+                                                      size: 20,
                                                     ),
                                                   ),
                                                 ],
