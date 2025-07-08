@@ -307,20 +307,38 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                       spacing: 12,
                                       children: [
                                         Container(
+                                          decoration: BoxDecoration(
+                                            color: MealAppColor.secondaryColor,
+                                          ),
                                           height: 82,
                                           child: Row(
                                             children: [
                                               CircleAvatar(),
                                               Expanded(
                                                 child: Column(
-                                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                                  crossAxisAlignment:
+                                                      CrossAxisAlignment.start,
                                                   children: [
                                                     Text("Breakfast"),
                                                     Text("7 am - 11 pm"),
                                                   ],
                                                 ),
                                               ),
-                                              
+                                              Container(
+                                                decoration: BoxDecoration(
+                                                  color:
+                                                      MealAppColor.accentColor,
+                                                  borderRadius:
+                                                      BorderRadius.circular(4),
+                                                ),
+                                                padding: EdgeInsets.all(2),
+
+                                                child: Icon(
+                                                  Icons.check,
+                                                  color: Colors.white,
+                                                  size: 20,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
