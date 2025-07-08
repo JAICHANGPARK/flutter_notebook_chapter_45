@@ -384,16 +384,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
+                                                      CrossAxisAlignment.start,
                                                   mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                                      MainAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
                                                     Text(
                                                       "Breakfast",
                                                       style: TextStyle(
                                                         fontWeight:
-                                                        FontWeight.bold,
+                                                            FontWeight.bold,
                                                         fontSize: 18,
                                                       ),
                                                     ),
@@ -409,9 +409,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Container(
                                                 decoration: BoxDecoration(
                                                   color:
-                                                  MealAppColor.accentColor,
+                                                      MealAppColor.accentColor,
                                                   borderRadius:
-                                                  BorderRadius.circular(4),
+                                                      BorderRadius.circular(4),
                                                 ),
                                                 padding: EdgeInsets.all(2),
 
@@ -443,16 +443,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
+                                                      CrossAxisAlignment.start,
                                                   mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                                      MainAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
                                                     Text(
                                                       "Breakfast",
                                                       style: TextStyle(
                                                         fontWeight:
-                                                        FontWeight.bold,
+                                                            FontWeight.bold,
                                                         fontSize: 18,
                                                       ),
                                                     ),
@@ -468,9 +468,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Container(
                                                 decoration: BoxDecoration(
                                                   color:
-                                                  MealAppColor.accentColor,
+                                                      MealAppColor.accentColor,
                                                   borderRadius:
-                                                  BorderRadius.circular(4),
+                                                      BorderRadius.circular(4),
                                                 ),
                                                 padding: EdgeInsets.all(2),
 
@@ -502,16 +502,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
+                                                      CrossAxisAlignment.start,
                                                   mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                                      MainAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
                                                     Text(
-                                                      "Breakfast",
+                                                      "Dinner",
                                                       style: TextStyle(
                                                         fontWeight:
-                                                        FontWeight.bold,
+                                                            FontWeight.bold,
                                                         fontSize: 18,
                                                       ),
                                                     ),
@@ -526,18 +526,13 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               ),
                                               Container(
                                                 decoration: BoxDecoration(
-                                                  color:
-                                                  MealAppColor.accentColor,
+                                                  color: Colors.white,
                                                   borderRadius:
-                                                  BorderRadius.circular(4),
+                                                      BorderRadius.circular(4),
                                                 ),
                                                 padding: EdgeInsets.all(2),
 
-                                                child: Icon(
-                                                  Icons.check,
-                                                  color: Colors.white,
-                                                  size: 20,
-                                                ),
+                                               
                                               ),
                                             ],
                                           ),
