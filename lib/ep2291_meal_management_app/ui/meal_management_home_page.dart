@@ -267,6 +267,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                       color:
                                                           MealAppColor
                                                               .accentColor,
+                                                      borderRadius: BorderRadius.circular(4),
                                                     ),
                                                     child: Icon(
                                                       Icons.check,
@@ -307,7 +308,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             Expanded(child: Column(children: [
 
                                             ],)),
-                                            
+
 
                                           ],
                                           ),
