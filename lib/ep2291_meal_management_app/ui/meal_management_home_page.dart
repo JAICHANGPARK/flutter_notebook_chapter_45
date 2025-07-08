@@ -309,25 +309,41 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         Container(
                                           decoration: BoxDecoration(
                                             color: MealAppColor.secondaryColor,
-                                            borderRadius: BorderRadius.circular(12),
+                                            borderRadius: BorderRadius.circular(
+                                              12,
+                                            ),
                                           ),
-                                          padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 16,
+                                            vertical: 12,
+                                          ),
                                           height: 82,
                                           child: Row(
                                             spacing: 16,
                                             children: [
-                                              CircleAvatar(
-                                                radius: 24,
-                                              ),
+                                              CircleAvatar(radius: 24),
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
                                                       CrossAxisAlignment.start,
-                                                  mainAxisAlignment: MainAxisAlignment.center,
+                                                  mainAxisAlignment:
+                                                      MainAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
-                                                    Text("Breakfast"),
-                                                    Text("7 am - 11 pm"),
+                                                    Text(
+                                                      "Breakfast",
+                                                      style: TextStyle(
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 18,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      "7 am - 11 pm",
+                                                      style: TextStyle(
+                                                        fontSize: 12,
+                                                      ),
+                                                    ),
                                                   ],
                                                 ),
                                               ),
