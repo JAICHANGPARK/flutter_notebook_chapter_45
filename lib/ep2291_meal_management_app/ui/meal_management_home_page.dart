@@ -566,6 +566,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     Column(
                                       children: List.generate(4,(index){
                                         return Container(
+                                          margin: EdgeInsets.only(
+                                            bottom: 12
+                                          ),
                                           decoration: BoxDecoration(
                                             color: MealAppColor.secondaryColor,
                                             borderRadius: BorderRadius.circular(
