@@ -561,13 +561,15 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             decoration: BoxDecoration(
                                               color: Colors.grey[100]!,
                                             ),
-                                            padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                                            padding: EdgeInsets.symmetric(horizontal: 12,vertical: 12),
                                             child: Row(
                                               spacing: 12,
 
                                               children: [
                                                 Icon(Icons.remove,size: 16,),
-                                                Text("0"),
+                                                Text("0",style: TextStyle(
+                                                  fontSize: 16,
+                                                ),),
                                                 Icon(Icons.add,size: 16,),
                                               ],
                                             ),
