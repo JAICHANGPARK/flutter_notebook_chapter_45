@@ -561,7 +561,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             decoration: BoxDecoration(
                                               color: Colors.grey[100]!,
                                             ),
+                                            padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
                                             child: Row(
+
                                               children: [
                                                 Icon(Icons.remove),
                                                 Text("0"),
