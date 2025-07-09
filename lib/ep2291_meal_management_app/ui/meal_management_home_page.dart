@@ -563,6 +563,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                         ],
                                       ),
                                     ),
+                                    Column(
+                                      children: List.generate(4, ),
+                                    )
                                   ],
                                 ),
                               ),
