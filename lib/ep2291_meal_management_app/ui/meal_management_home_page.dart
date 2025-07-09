@@ -545,7 +545,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     ),
 
                                     SizedBox(
-                                      height: 62,
+                                      // height: 62,
                                       child: Row(
                                         children: [
                                           Expanded(
@@ -563,6 +563,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             ),
                                             padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
                                             child: Row(
+                                              spacing: 12,
 
                                               children: [
                                                 Icon(Icons.remove),
