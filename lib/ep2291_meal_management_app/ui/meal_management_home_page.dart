@@ -566,9 +566,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               spacing: 12,
 
                                               children: [
-                                                Icon(Icons.remove),
+                                                Icon(Icons.remove,size: 16,),
                                                 Text("0"),
-                                                Icon(Icons.add),
+                                                Icon(Icons.add,size: 16,),
                                               ],
                                             ),
                                           ),
