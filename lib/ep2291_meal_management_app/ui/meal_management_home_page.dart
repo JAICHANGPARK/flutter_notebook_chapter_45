@@ -557,7 +557,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               ),
                                             ),
                                           ),
-                                          Container(),
+                                          Container(
+                                            decoration: BoxDecoration(),
+                                          ),
                                         ],
                                       ),
                                     ),
