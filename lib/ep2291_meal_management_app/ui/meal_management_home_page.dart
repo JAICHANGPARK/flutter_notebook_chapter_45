@@ -545,7 +545,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     ),
 
                                     SizedBox(
-                                      height: 72,
+                                      height: 62,
                                       child: Row(
                                         children: [
                                           Expanded(
