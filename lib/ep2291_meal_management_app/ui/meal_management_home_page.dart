@@ -558,17 +558,24 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             ),
                                           ),
                                           Container(
-                                            decoration: BoxDecoration(),
+                                            decoration: BoxDecoration(
+                                              color: Colors.grey[100]!,
+                                            ),
+                                            child: Row(
+                                              children: [
+                                                Icon(Icons.remove),
+                                                Text("0"),
+                                                Icon(Icons.add),
+                                              ],
+                                            ),
                                           ),
                                         ],
                                       ),
                                     ),
                                     Column(
-                                      children: List.generate(4,(index){
+                                      children: List.generate(4, (index) {
                                         return Container(
-                                          margin: EdgeInsets.only(
-                                            bottom: 12
-                                          ),
+                                          margin: EdgeInsets.only(bottom: 12),
                                           decoration: BoxDecoration(
                                             color: MealAppColor.secondaryColor,
                                             borderRadius: BorderRadius.circular(
@@ -587,16 +594,16 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Expanded(
                                                 child: Column(
                                                   crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
+                                                      CrossAxisAlignment.start,
                                                   mainAxisAlignment:
-                                                  MainAxisAlignment.center,
+                                                      MainAxisAlignment.center,
                                                   spacing: 6,
                                                   children: [
                                                     Text(
                                                       "Breakfast",
                                                       style: TextStyle(
                                                         fontWeight:
-                                                        FontWeight.bold,
+                                                            FontWeight.bold,
                                                         fontSize: 18,
                                                       ),
                                                     ),
@@ -612,9 +619,9 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                               Container(
                                                 decoration: BoxDecoration(
                                                   color:
-                                                  MealAppColor.accentColor,
+                                                      MealAppColor.accentColor,
                                                   borderRadius:
-                                                  BorderRadius.circular(4),
+                                                      BorderRadius.circular(4),
                                                 ),
                                                 padding: EdgeInsets.all(2),
 
@@ -627,8 +634,8 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                             ],
                                           ),
                                         );
-                                      } ),
-                                    )
+                                      }),
+                                    ),
                                   ],
                                 ),
                               ),
