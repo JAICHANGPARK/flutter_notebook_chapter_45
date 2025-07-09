@@ -547,32 +547,67 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                     SizedBox(
                                       // height: 62,
                                       child: Row(
+                                        spacing: 12,
                                         children: [
                                           Expanded(
                                             child: Container(
                                               decoration: BoxDecoration(
+                                                borderRadius:
+                                                    BorderRadius.circular(8),
                                                 border: Border.all(
-                                                  color: Colors.grey[200]!,
+                                                  color: Colors.grey[100]!,
                                                 ),
                                               ),
-                                              child: Text(),
+                                              padding: EdgeInsets.all(12),
+                                              child: Row(
+                                                children: [
+                                                  Expanded(
+                                                    child: Text(
+                                                      "Monday, Sep 03",
+                                                    ),
+                                                  ),
+                                                  Container(
+                                                    decoration: BoxDecoration(
+                                                      color: Colors.grey[100]!,
+                                                      borderRadius:
+                                                          BorderRadius.circular(
+                                                            4,
+                                                          ),
+                                                    ),
+                                                    padding: EdgeInsets.all(2),
+
+                                                    child: Icon(
+                                                      Icons.check,
+                                                      color: Colors.white,
+                                                      size: 20,
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
                                             ),
                                           ),
                                           Container(
                                             decoration: BoxDecoration(
                                               color: Colors.grey[100]!,
-                                              borderRadius: BorderRadius.circular(6),
+                                              borderRadius:
+                                                  BorderRadius.circular(6),
                                             ),
-                                            padding: EdgeInsets.symmetric(horizontal: 12,vertical: 12),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 12,
+                                              vertical: 12,
+                                            ),
                                             child: Row(
                                               spacing: 12,
 
                                               children: [
-                                                Icon(Icons.remove,size: 16,),
-                                                Text("0",style: TextStyle(
-                                                  fontSize: 16,
-                                                ),),
-                                                Icon(Icons.add,size: 16,),
+                                                Icon(Icons.remove, size: 16),
+                                                Text(
+                                                  "0",
+                                                  style: TextStyle(
+                                                    fontSize: 16,
+                                                  ),
+                                                ),
+                                                Icon(Icons.add, size: 16),
                                               ],
                                             ),
                                           ),
