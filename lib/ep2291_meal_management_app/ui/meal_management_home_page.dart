@@ -555,6 +555,7 @@ class _MealManagementHomePageState extends State<MealManagementHomePage> {
                                                   color: Colors.grey[200]!,
                                                 ),
                                               ),
+                                              child: Text(),
                                             ),
                                           ),
                                           Container(
