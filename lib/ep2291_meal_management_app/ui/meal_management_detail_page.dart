@@ -37,11 +37,10 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   GestureDetector(
-                    onTap: (){
+                    onTap: () {
                       Navigator.of(context).pop();
                     },
-                    child: Icon(Icons.arrow_back, color: Colors.white,
-                    ),
+                    child: Icon(Icons.arrow_back, color: Colors.white),
                   ),
                   Container(
                     padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
@@ -112,8 +111,7 @@ class _MealManagementDetailPageState extends State<MealManagementDetailPage> {
                         Text(
                           loremIpsum(paragraphs: 1, words: 30),
                           maxLines: 4,
-                          style: TextStyle(height: 1.6,
-                          fontSize: 15),
+                          style: TextStyle(height: 1.6, fontSize: 15),
                         ),
                         Text(
                           "\$14",
