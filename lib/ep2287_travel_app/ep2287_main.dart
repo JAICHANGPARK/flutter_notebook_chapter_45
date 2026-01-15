@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/travel_start_page.dart';
 
 void main() {
